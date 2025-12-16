@@ -1,0 +1,6 @@
+*.pdf
+applications/
+phd-applications/
+CLAUDE.md
+.docs
+.DS_Store

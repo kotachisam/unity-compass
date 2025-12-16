@@ -1,6 +1,6 @@
 # The Unity Compass
 
-**Post-Ideological Coordination Frameworks for the AI Age**
+**Coordination Across Difference: Post-Ideological Frameworks for Existential Governance**
 
 > *Community nickname: the PISS (Post-Ideological Society System) – because we're done with ideological pissing contests*
 
