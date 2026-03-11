@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Prefer to talk instead?
+    url: mailto:sam@aukus.consulting
+    about: The author is open to email, phone calls, teleconference and in-person meetings. Contributions made through conversation are credited equally.
+  - name: New to GitHub?
+    url: https://github.com/kotachisam/unity-compass/blob/main/.github/CONTRIBUTING.md
+    about: Read the contributing guide first. You don't need to know git to contribute to this project.
+  - name: Start reading the framework
+    url: https://github.com/kotachisam/unity-compass/blob/main/1-theory/01-core/01-manifesto.md
+    about: New here? Start with the Manifesto to understand what this project is about before contributing.
+  - name: Join the community
+    url: https://github.com/kotachisam/unity-compass/blob/main/.github/COMMUNITY.md
+    about: Learn about the community, what we value, and who we're looking for.

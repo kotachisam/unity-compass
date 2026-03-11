@@ -1,0 +1,43 @@
+name: Flag a Missing Perspective
+description: Identify a viewpoint, tradition, discipline or experience the framework should be engaging with.
+title: "[Perspective]: "
+labels: ["missing-perspective"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This framework claims to be about coordination across genuine difference. That claim is hollow if the contributors all share the same background. If you see a perspective, tradition or body of experience that's absent from the current work, flagging it is one of the most important contributions you can make.
+
+  - type: textarea
+    id: perspective
+    attributes:
+      label: What's missing?
+      description: Describe the viewpoint, tradition, discipline or lived experience you think the framework should engage with.
+      placeholder: "e.g. The framework doesn't engage with disability rights as a coordination challenge / There's no representation of African governance traditions / The contemplative dimension ignores somatic practices"
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Where is the gap most visible?
+      description: Which part of the framework would benefit most from this perspective? A link to the specific document is helpful.
+      placeholder: "e.g. The 'current approaches' survey has nothing on... / The 'where it works' analysis would look different if..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: leads
+    attributes:
+      label: Can you point to specific sources, people or communities?
+      description: References, names, organisations, reading recommendations. Anything that would help us engage with this perspective properly rather than superficially.
+    validations:
+      required: false
+
+  - type: textarea
+    id: background
+    attributes:
+      label: Your background (optional)
+      description: Do you represent or belong to the perspective you're flagging? Context helps us engage respectfully and accurately.
+    validations:
+      required: false

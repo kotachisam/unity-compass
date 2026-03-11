@@ -1,0 +1,34 @@
+name: Ask a Question
+description: Something you don't understand, want clarified, or think the framework should address.
+title: "[Question]: "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Questions are welcome at any level — from "what does this word mean?" to "how does this framework handle X?" If the documents don't answer your question clearly, that's useful feedback in itself.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: What's your question?
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: What have you already read?
+      description: This helps avoid pointing you to something you've already seen. A link to the specific document or section is helpful.
+      placeholder: "e.g. I've read the Manifesto and the Design Principles but I still don't understand how..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: background
+    attributes:
+      label: Your background (optional)
+      description: Knowing your perspective helps tailor the answer.
+      placeholder: "e.g. I'm new to philosophy / I work in institutional design / I found this through the metacrisis community"
+    validations:
+      required: false

@@ -20,7 +20,7 @@ A group of people who believe that coordination across genuine difference is bot
 
 **Watch and star the repository** if you want to follow development.
 
-**Open an issue** if you have a question, critique, suggestion or case study to share.
+**Open an issue** — you'll see guided templates for different types of contribution, or a freeform option if you prefer.
 
 **Join a discussion** in the Issues tab — browse existing conversations before starting a new one.
 

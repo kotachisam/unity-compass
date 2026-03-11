@@ -1,0 +1,68 @@
+name: Offer a Case Study
+description: Share a real-world example of coordination across difference — success, failure or both.
+title: "[Case Study]: "
+labels: ["case-study"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Case studies are where this framework meets reality. If you've experienced or studied coordination across genuine difference at any scale — from a family disagreement to an international negotiation — your contribution is valuable.
+
+  - type: input
+    id: title
+    attributes:
+      label: What's the case?
+      description: A short name or description.
+      placeholder: "e.g. Post-apartheid Truth and Reconciliation Commission"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: scale
+    attributes:
+      label: At what scale?
+      options:
+        - Interpersonal
+        - Team / Organisational
+        - Community
+        - National
+        - International
+        - Multiple scales
+    validations:
+      required: true
+
+  - type: dropdown
+    id: verdict
+    attributes:
+      label: Success, failure, or mixed?
+      options:
+        - Success
+        - Failure
+        - Mixed / In progress
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: Describe the case. What was the coordination challenge, who were the actors, and what was the outcome?
+    validations:
+      required: true
+
+  - type: textarea
+    id: patterns
+    attributes:
+      label: What patterns do you see?
+      description: Does this case demonstrate any of the success factors or failure modes identified in the framework? Or does it reveal patterns the framework hasn't captured yet?
+      placeholder: "e.g. This is a clear example of iterative trust-building / This failure mode isn't covered in the current analysis"
+    validations:
+      required: false
+
+  - type: textarea
+    id: connection
+    attributes:
+      label: What's your connection to this case? (optional)
+      description: Were you involved, did you study it, or did you observe it from the outside? First-hand experience is especially valuable.
+    validations:
+      required: false

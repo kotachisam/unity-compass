@@ -1,0 +1,55 @@
+name: Challenge an Argument
+description: Disagree with a claim, identify a weakness, or flag something that doesn't hold up.
+title: "[Critique]: "
+labels: ["critique"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for challenging the framework. Constructive critique is the single most valuable contribution you can make. The design principles commit this project to honesty about its own incompleteness — help us find it.
+
+  - type: dropdown
+    id: document
+    attributes:
+      label: Which document does this relate to?
+      description: Select the closest match. If it's about the framework as a whole, choose "General / Multiple documents."
+      options:
+        - Manifesto
+        - Why Now
+        - Why Not Already
+        - Philosophical Foundation
+        - Design Principles
+        - Top-Down and Bottom-Up
+        - Where It Works
+        - Where It Fails
+        - Current Approaches
+        - A specific case study
+        - General / Multiple documents
+    validations:
+      required: true
+
+  - type: textarea
+    id: claim
+    attributes:
+      label: What specific claim or argument are you challenging?
+      description: Quote or describe the claim as precisely as you can. A link to the relevant section is helpful.
+      placeholder: "e.g. The philosophical foundation argues that coordination theory's limitations are inherited from a narrowed concept of rationality. I think the real issue is..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: argument
+    attributes:
+      label: What's your counter-argument or concern?
+      description: Explain why you think the claim is wrong, incomplete, overstated or unsupported. References welcome but plain language is perfect.
+    validations:
+      required: true
+
+  - type: textarea
+    id: background
+    attributes:
+      label: Your background (optional)
+      description: What perspective are you coming from? This helps contextualise the critique.
+      placeholder: "e.g. I study game theory / I work in public policy / I'm a contemplative practitioner / I just think this is wrong"
+    validations:
+      required: false

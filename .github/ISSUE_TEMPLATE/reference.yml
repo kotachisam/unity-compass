@@ -1,0 +1,61 @@
+name: Share a Reference
+description: Point to a paper, book, practitioner, framework or resource the project should engage with.
+title: "[Reference]: "
+labels: ["reference"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The current approaches document is an honest attempt to map the landscape, but no single person can see all of it. If you've encountered work this project should know about, point us to it.
+
+  - type: input
+    id: source
+    attributes:
+      label: What's the source?
+      description: Title, author, URL or however you'd describe it.
+      placeholder: "e.g. Ostrom's 'Governing the Commons' / a podcast episode / a practitioner's website"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: What kind of source?
+      options:
+        - Book
+        - Academic paper
+        - Article or essay
+        - Podcast or video
+        - Organisation or practitioner
+        - Framework or methodology
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: relevance
+    attributes:
+      label: Why is it relevant?
+      description: How does this connect to the Unity Compass? Does it support, challenge, extend or parallel the framework?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which area of the framework does it connect to?
+      description: Select the closest match.
+      options:
+        - Philosophical foundations
+        - Coordination theory / game theory
+        - Institutional design
+        - Deliberative democracy
+        - Contemplative / experiential traditions
+        - Indigenous or non-Western governance
+        - Systems thinking / complexity science
+        - AI governance
+        - Climate coordination
+        - Defence / security
+        - Other
+    validations:
+      required: false

@@ -12,8 +12,8 @@ The Unity Compass is developing coordination frameworks for a world that can't a
 
 Seriously. If you have relevant expertise, operational experience or a sharp critique and you've never used GitHub before, the simplest path is:
 
-- **Open an issue.** Click the "Issues" tab above and describe what you're thinking. A challenge to an argument, a case study suggestion, a reference we should know about, a perspective we're missing. Plain language is perfect.
-- **Email the author.** sam@aukus.consulting — if you'd rather have a conversation than write a ticket, that works too. Contributions made through conversation will be credited.
+- **Open an issue**. Click the "Issues" tab and you'll be guided through a set of templates: challenge an argument, offer a case study, share a reference, ask a question, or flag a missing perspective. Each one walks you through what's helpful to include. If none of them fit, there's a freeform option too.
+- **Email the author.** sam@aukus.consulting — if you'd rather have a conversation than write a ticket, that works too. The author is open to phone calls and teleconference, and even in-person meetings to those well geographically colocated! Contributions made through conversation will be credited.
 
 ### If you are comfortable with git:
 
