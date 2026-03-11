@@ -67,7 +67,11 @@ Understanding this machinery is the first step toward bypassing it. The principl
 ## References
 
 [^1]: Hood, Christopher. *The Blame Game: Spin, Bureaucracy, and Self-Preservation in Government* (Princeton: Princeton University Press, 2011). Hood argues that blame avoidance, rather than good governance, is the dominant logic shaping public sector institutional behaviour.
+
 [^2]: Haldane, Andrew G. 'The Short Long.' Speech at the 29th Société Universitaire Européene de Recherches Financières Colloquium, Brussels, May 2011. Available at bankofengland.co.uk. See also Haldane, 'Patience and Finance.' Speech at the Oxford China Business Forum, Beijing, September 2010.
+
 [^3]: Stigler, George J. 'The Theory of Economic Regulation.' *Bell Journal of Economics and Management Science*, Vol. 2, No. 1 (Spring 1971).
+
 [^4]: Paul Pierson, *Politics in Time: History, Institutions, and Social Analysis* (Princeton: Princeton University Press, 2004).
+
 [^5]: The concept was developed in the mid-1990s by Joseph P. Overton, Senior Vice President at the Mackinac Center for Public Policy. Overton's original notes were unpublished; the framework was developed posthumously by his colleague Joseph Lehman after Overton's death in 2003. See [https://mackinac.org/OvertonWindow](https://mackinac.org/OvertonWindow).
