@@ -29,8 +29,8 @@ The framework acknowledges what it does not yet know. It is being built in the o
 
 ---
 
-These principles are the compass bearings. Everything in the [frameworks](../03-frameworks/) directory derives from them. Everything in the [case studies](../../2-practice/03-case-studies/) tests them. And everything in the [critiques and responses](../../3-project/critiques-and-responses/) defends or revises them.
+These principles are the compass bearings. Everything in the [frameworks](../03-frameworks/) directory derives from them. Everything in the [case studies](../../2-practice/03-case-studies/) tests them. And everything in the [critiques and responses](../../3-project/critiques-and-responses/) defends or revises them. The frameworks that follow are where these principles meet the reality of what we know and what we don't yet know.
 
-The conviction underneath all of it remains what it was at the start: that the human capacities required for coordination across genuine difference — empathy, humility, the ability to hold tension, the wisdom that lives in bodies and relationships rather than abstractions — are the unavoidable engineering specifications required for a species that wants to survive what's coming.
+The conviction underneath all of it remains what it was at the start: that the human capacities required for coordination across genuine difference — empathy, humility, the ability to hold tension, the wisdom that lives in bodies and relationships rather than abstractions - are the unavoidable engineering specifications required for a species that wants to survive what's coming.
 
-We are all built from the same materials. The same atoms, the same stardust, the same brief tenancy on the same fragile planet. If that shared ground cannot serve as a foundation for coordination, nothing can. And if it can — then the only question is whether we will build on it in time.
+We are all built from the same materials. The same atoms, the same stardust, the same brief tenancy on the same fragile planet. If that shared ground can serve as a foundation for coordination, it would be a waste not to build on it. And the only question is whether we will do so in time.

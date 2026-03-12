@@ -4,7 +4,7 @@ This is the intellectual foundation of the Unity Compass. Four documents that ma
 
 ## [Manifesto](01-manifesto.md)
 
-The stake in the ground. We have accepted the way we cooperate as if it were set in stone. It is not. Current models assume that coordination requires either a shared worldview or an immediate interest. Evidence from families, communities, open-source development and countless other domains shows otherwise. Coordination across genuine difference is possible. What we lack is the theory, the language and the institutional architecture to do it at the scale our challenges now demand.
+The stake in the ground. We have accepted the way we cooperate as if it were set in stone. It is not. Current models assume that coordination requires either a shared worldview or an immediate interest. Evidence from families, communities, open-source development and countless other domains shows otherwise. Coordination across genuine difference is possible, and treating convergence as a prerequisite leaves us stranded when it's unattainable. What we lack is the theory, the language and the institutional architecture to do it at the scale our challenges now demand.
 
 ## [Why Now](02-why-now.md)
 
