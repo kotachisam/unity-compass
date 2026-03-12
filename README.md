@@ -2,7 +2,7 @@
 
 **Coordination frameworks for a world that can't agree but can't afford not to.**
 
-> *Community nickname: the PISS (Post-Ideological Society System) — because we're done with ideological pissing contests.*
+> *Otherwise affectionately known as the PISS (Post-Ideological Society System) — because we're done with ideological pissing contests.*
 
 **Status:** v0.1 Pre-alpha - Core framework under initial development. 
 **Started:** December 16, 2025
