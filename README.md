@@ -27,11 +27,11 @@ The Unity Compass works like its namesake. A compass gives you shared direction 
 
 Rather than proposing yet another ideology, this framework steps back and asks what actually enables cooperation when people hold genuinely different values. The same coordination patterns show up whether the actors are spouses, departments, corporations, governments or civilisations. What differs is the enforcement mechanism, the trust architecture and the iteration speed. The Unity Compass maps these structural patterns and investigates what makes coordination possible across genuine difference at each level.
 
-It draws on philosophy, systems thinking, game theory, institutional design and real-world case studies — from commons governance to reactor safety culture to international treaty regimes — to develop coordination principles that are rigorous enough to survive academic scrutiny, specific enough for institutions to test and clear enough for anyone to engage with.
+It draws on philosophy, systems thinking, game theory, institutional design and real-world case studies - from commons governance to reactor safety culture to international treaty regimes - to develop coordination principles that are rigorous enough to survive academic scrutiny, specific enough for institutions to test and clear enough for anyone to engage with.
 
 Three questions drive the work:
 
-  1. When the stakes are high but people disagree on almost everything else, what makes coordination possible — whether that's a family in crisis, an organisation under pressure or a civilisation facing existential risk?
+  1. When the stakes are high but people disagree on almost everything else, what makes coordination possible - whether that's a family in crisis, an organisation under pressure or a civilisation facing existential risk?
   2. What kinds of institutions and practices can enable cooperation without demanding that everyone think the same way, while still avoiding the usual traps of corruption, short-termism and bureaucratic paralysis?
   3. As AI systems become participants in governance and markets (not just tools), how do we keep meaningful human agency in the loop?
 
