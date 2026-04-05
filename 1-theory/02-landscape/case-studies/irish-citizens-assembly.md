@@ -8,7 +8,7 @@
 
 From 2012 to present, Ireland has held four consecutive randomly selected citizens' assemblies. Two produced recommendations that led to successful constitutional referenda: marriage equality (2015) and abortion access (2018). Both were deeply divisive issues that elected politicians had avoided for decades.
 
-## Why It Matters for the Framework
+## Why It Matters for the Investigation
 
 The clearest modern demonstration of the surgical combination of top-down and bottom-up coordination. Bottom-up citizen intelligence, institutional scaffolding for deliberation, top-down implementation of recommendations. Proves that randomly selected citizens, given time, information and facilitation, can coordinate across genuine difference on issues that paralyse conventional politics.
 
@@ -24,7 +24,7 @@ The clearest modern demonstration of the surgical combination of top-down and bo
 
 - Can this model work across borders, between polities with different political systems?
 - Does it depend on Ireland's relatively small, culturally cohesive population?
-- What happens when government doesn't honour recommendations? (The assembly also recommended citizens' initiative mechanisms — this has been ignored)
+- What happens when government doesn't honour recommendations? (The assembly also recommended citizens' initiative mechanisms: this has been ignored)
 - How does the model handle coordination where the parties aren't citizens of a shared state?
 
 ## Sources to Consult

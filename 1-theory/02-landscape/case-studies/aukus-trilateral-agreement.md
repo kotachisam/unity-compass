@@ -8,9 +8,9 @@
 
 AUKUS is a trilateral security partnership between Australia, the United Kingdom and the United States, announced in September 2021. Pillar I involves Australia acquiring nuclear-powered submarines through an unprecedented technology-sharing arrangement. Pillar II covers advanced capabilities including AI, quantum computing, cyber and undersea technologies.
 
-## Why It Matters for the Framework
+## Why It Matters for the Investigation
 
-Coordination across genuine difference at the highest stakes. Three nations with overlapping but distinct strategic interests, different defence procurement cultures, different parliamentary oversight structures and different relationships to China, coordinating on nuclear submarine technology — one of the most sensitive categories of defence capability in existence.
+Coordination across genuine difference at the highest stakes. Three nations with overlapping but distinct strategic interests, different defence procurement cultures, different parliamentary oversight structures and different relationships to China, coordinating on nuclear submarine technology: one of the most sensitive categories of defence capability in existence.
 
 ## Key Patterns
 

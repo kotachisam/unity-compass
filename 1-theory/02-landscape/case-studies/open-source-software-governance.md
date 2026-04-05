@@ -8,9 +8,9 @@
 
 Open-source software development, particularly the Linux kernel and the GitHub ecosystem, represents one of the most successful large-scale coordination mechanisms in human history. Thousands of contributors with different motivations (ideological, commercial, personal, educational) coordinate through protocol and shared commitment to the artifact without requiring shared ideology, shared employer or shared geography.
 
-## Why It Matters for the Framework
+## Why It Matters for the Investigation
 
-The most accessible modern proof of concept for coordination without convergence. Also a lived example of the top-down/bottom-up surgical combination. And — given that this repository is built on GitHub — the Unity Compass is itself an instance of the pattern it describes.
+The most accessible modern proof of concept for coordination without convergence. Also a lived example of the top-down/bottom-up surgical combination. And given that this repository is built on GitHub, the investigation itself sits inside an instance of the pattern it is studying.
 
 ## Key Patterns
 
@@ -25,7 +25,7 @@ The most accessible modern proof of concept for coordination without convergence
 - What are the limits of this model? Where does open-source governance fail?
 - Can the principles be abstracted beyond software into institutional design?
 - How does the model handle genuine value conflicts (not just technical disagreements)?
-- What role does the shared artifact play — does coordination require a concrete thing being built?
+- What role does the shared artifact play: does coordination require a concrete thing being built?
 
 ## Sources to Consult
 

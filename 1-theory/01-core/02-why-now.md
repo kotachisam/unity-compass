@@ -2,40 +2,22 @@
 
 ## A New Kind of Actor
 
-Every coordination framework in human history shares one assumption: the participants are people. People with values, with bodies, with mortality, with the capacity for empathy and the burden of consequence. Every treaty, every market mechanism, every democratic institution, every negotiation protocol was designed for rooms full of humans.
+Every coordination framework in human history shares one assumption: the participants are people. Every treaty, every market mechanism, every democratic institution, every negotiation protocol was designed for rooms full of humans with values, bodies, mortality and the capacity for empathy.
 
-That assumption just broke.
+That assumption is under pressure. AI systems already shape outcomes in financial markets, content moderation, resource allocation, military targeting and policy recommendation. They operate at speeds that make human deliberation look glacial. They don't hold values in any straightforward sense. They optimise for objectives that may or may not align with the wellbeing of the species that built them. And they are coordinating with humans, and with each other, using protocols we don't yet have a theory for.
 
-AI systems are already participants in financial markets, content moderation, resource allocation, military targeting and policy recommendation. They operate at speeds that make human deliberation look glacial. They don't hold values. They don't feel consequences. They optimise for objectives that may or may not align with the wellbeing of the species that built them. And their capabilities are compounding faster than any regulatory body on earth can track, let alone govern.
+The question of what grounds coordination when agents don't share values used to be treated as an edge case. It is increasingly the default case.
 
-We are already living in a world where non-human actors shape coordination outcomes. And every framework we have for managing collective action assumed this moment would never arrive.
+## Compressed Timescales
 
-## Tipping Points Tipped
+The timescales at which decisions now need to be made have shortened. Financial markets react in microseconds. Platforms reshape public discourse in weeks. AI capabilities move from research to deployment in months. Governance structures still iterate on timescales measured in years or decades.
 
-For decades, the conversation about climate, biodiversity, biosecurity and energy was about prevention. Act now, avoid the worst outcomes, stay below the thresholds.
+This matters for coordination theory because most existing frameworks assume participants have time to deliberate, negotiate, build trust through repeated interaction and revise positions. When decisions have to be made faster than those processes allow, the frameworks don't degrade gracefully. They fail silently, or they produce coordination outcomes nobody actually endorses.
 
-That conversation is over. Several thresholds have been crossed. The IPCC's language has shifted from "we must act" to "some consequences are now locked in." Arctic ice feedback loops are in motion. Biodiversity loss has passed points of easy recovery. Pandemic preparedness was stress-tested in 2020 and the global coordination response was, by most honest accounts, embarrassing.
+## The Shortcuts Are Failing
 
-The question has shifted from whether we can prevent these crises to whether we can coordinate well enough to navigate them in a way that avoids their worst consequences. And that coordination has to happen on compressed timescales, between actors with conflicting interests, under conditions of genuine uncertainty about what will work.
+What looks new is partly a matter of visibility. Families, communities, workplaces and international arrangements have always coordinated across partial commensurability: agents sharing some values, diverging on others, with no clean way to resolve the differences. The conditions haven't changed. What has changed is that the costs of treating partial commensurability as full commensurability, or as full incommensurability, are getting harder to absorb.
 
-Prevention was hard. Adaptation under pressure is harder. And we're attempting it with coordination tools designed for a slower, simpler, exclusively human world.
+This is why the philosophical question matters now. Not because the world has become uniquely broken, but because the shortcuts that used to mask the underlying problem (ideological sorting, deference to established hierarchies, the assumption that the people who mattered would eventually agree) are failing faster than they used to.
 
-## The Felt Experience
-
-People can feel that life is moving faster. The observation that technology follows exponential curves is well established - Moore's law has held for decades in computing. What's less discussed is that the human experience of navigating a world shaped by those curves is similarly exponential. Each decade feels faster than the last because it IS faster. The events are compounding.
-
-Within this millennium alone: the September 11 attacks reshaped global security. The wars in Iraq and Afghanistan consumed two decades of western strategic attention and trillions of dollars, launched on premises that to this day remain fiercely contested. The 2008 financial crisis exposed how fragile interconnected systems actually are. Cryptocurrency emerged and challenged foundational assumptions about money, trust and who gets to control both. Social media rewired how billions of people form beliefs and identities. A pandemic shut down the planet. And AI moved from academic curiosity to the most transformative technology since electricity in the space of about three years.
-
-Each of these would have been a generation-defining event. They're arriving on top of each other.
-
-The gap between the speed of change and the speed of institutional response is a lived, daily reality. Stock markets react in microseconds to developments that governance structures take years to comprehend, let alone regulate. People with conventional expectations about career, stability and progress are being left behind by volatility they didn't create and can't control. The fractures between competing models of governance are deepening at precisely the moment when coordination between them matters most.
-
-The pace of the world is accelerating. The tools we have for navigating it together are not.
-
-## The Absurd Alternative
-
-Consider the alternative to rethinking coordination. We continue as we are.
-
-We continue trusting a global economic model that has left humanity collectively over $330 trillion in debt... To itself. We continue governing transformative AI with frameworks built for regulating industrial pollution. We continue negotiating climate adaptation between nation-states whose incentive structures reward defection. We continue assuming that institutions designed for the steam engine era will somehow prove adequate for the challenges of the next fifty years.
-
-These are the tools we are trusting with civilisational stakes. Rethinking how we coordinate is no small undertaking. But can we afford not to?
+An investigation into what actually grounds coordination when convergence is unavailable has become more urgent, not because the question is new, but because the evasions are running out.

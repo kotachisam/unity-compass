@@ -10,7 +10,7 @@ Coordination theory lives almost exclusively in academic institutions. Have you 
 
 It's discussed in journals that cost hundreds of dollars to access, written in language engineered for peer review rather than comprehension, and evaluated by metrics that reward citation counts over real-world impact. The people developing the frameworks rarely have operational experience of the systems they're theorising about. The people operating those systems rarely encounter the frameworks.
 
-This means the nurse who sees coordination failure in her hospital every single shift, the soldier who watches procurement bureaucracy consume resources meant for operational readiness, the local government worker who knows exactly where the process breaks down — none of them are in the room where coordination theory gets written. Their expertise is lived, not published. And the academy doesn't have a mechanism for incorporating it.
+This means the nurse who sees coordination failure in her hospital every single shift, the soldier who watches procurement bureaucracy consume resources meant for operational readiness, the local government worker who knows exactly where the process breaks down: none of them are in the room where coordination theory gets written. Their expertise is lived, not published. And the academy doesn't have a mechanism for incorporating it.
 
 The result is a body of knowledge that is rigorous but disconnected. Theoretically sophisticated, practically untested. The gap between what we know about coordination and what we actually do about it is not a knowledge problem. It's a distribution problem.
 
@@ -20,9 +20,9 @@ Most institutional dysfunction is driven by people responding rationally to irra
 
 In the public sector, the dominant incentive is risk avoidance[^1]. Careers are ended by visible failures, never by invisible ones. The bureaucrat who blocks an innovative proposal and maintains the status quo faces zero consequences. The bureaucrat who approves it and it goes wrong faces all of them. So the system selects for caution, process and inaction. Good people with genuine commitment to public service spend the majority of their energy navigating approval chains, compliance frameworks and institutional politics rather than doing the work they signed up for.
 
-In the private sector, the dominant incentive is short-term return[^2]. Publicly traded companies answer to quarterly earnings. Executives are compensated on share price performance over 2-3 year horizons. Long-term systemic risks — the kind that coordination theory exists to address — fall outside the timeframe that drives decision-making. Corporate leaders understand existential risk perfectly well. The structures they operate within simply make it rational to defer it.
+In the private sector, the dominant incentive is short-term return[^2]. Publicly traded companies answer to quarterly earnings. Executives are compensated on share price performance over 2-3 year horizons. Long-term systemic risks, the kind that coordination theory exists to address, fall outside the timeframe that drives decision-making. Corporate leaders understand existential risk perfectly well. The structures they operate within simply make it rational to defer it.
 
-In defence and security, the dominant incentive is threat response on known vectors. Career timelines of 2-3 year postings mean nobody takes credit for slow-building threat prevention. Metrics measure readiness for known threats, not resilience against systemic ones. Risk assessment methodologies were built for scenarios with identifiable adversaries, not for diffuse, civilisational-scale coordination failures.
+In defence and security, the dominant incentive is threat response on known vectors. Career timelines of 2-3 year postings mean nobody takes credit for slow-building threat prevention. Metrics measure readiness for known threats, not resilience against systemic ones. Risk assessment methodologies were built for scenarios with identifiable adversaries, not for diffuse, systemic coordination failures.
 
 In each case, the people inside the system can see the problem. Many of them articulate it clearly in private. The system itself prevents them from acting on what they know.
 
@@ -32,7 +32,7 @@ The most critical coordination work needs to happen at the intersection of publi
 
 That intersection is where coordination most consistently fails.
 
-The public sector moves at the speed of policy cycles and democratic accountability[^3]. The private sector moves at the speed of capital and competitive advantage. Their incentive structures, their timescales, their definitions of success and their cultures of accountability are so fundamentally misaligned that cooperation between them defaults to either adversarial regulation or captured cosiness. Genuine coordination — the kind where both sectors contribute their strengths without being consumed by their weaknesses — requires frameworks that neither sector has developed, because neither has an incentive to.
+The public sector moves at the speed of policy cycles and democratic accountability[^3]. The private sector moves at the speed of capital and competitive advantage. Their incentive structures, their timescales, their definitions of success and their cultures of accountability are so fundamentally misaligned that cooperation between them defaults to either adversarial regulation or captured cosiness. Genuine coordination, the kind where both sectors contribute their strengths without being consumed by their weaknesses, requires frameworks that neither sector has developed, because neither has an incentive to.
 
 ## 4 - Path Dependence
 
@@ -42,11 +42,11 @@ Every institution develops internal logic: processes, hierarchies, career tracks
 
 Political scientist Paul Pierson called this "increasing returns"[^4]: the longer an institution operates under a given set of assumptions, the more costly it becomes to switch to different ones, and the more the institution selects for people who see the current assumptions as natural rather than chosen.
 
-This is why good ideas stall. The idea may be better. The transition cost — political, financial, cultural, psychological — is enormous. And the people with the authority to approve the transition are, by definition, the people who succeeded under the current system.
+This is why good ideas stall. The idea may be better. The transition cost (political, financial, cultural, psychological) is enormous. And the people with the authority to approve the transition are, by definition, the people who succeeded under the current system.
 
 ## 5 - The Overton Window
 
-Perhaps the deepest barrier is what's considered thinkable. The Overton window[^5] — the range of ideas considered politically acceptable at any given moment — constrains coordination reform before the conversation even begins.
+Perhaps the deepest barrier is what's considered thinkable. The Overton window[^5] (the range of ideas considered politically acceptable at any given moment) constrains coordination reform before the conversation even begins.
 
 Suggesting that capitalism needs fundamental revision is, in most western policy contexts, outside the window. Suggesting that democratic institutions need structural redesign is heard as an attack on democracy itself. Suggesting that national sovereignty should be partially subordinated to global coordination mechanisms triggers immediate resistance across the political spectrum.
 
@@ -60,7 +60,7 @@ These barriers reinforce each other. Academic gatekeeping means the ideas don't 
 
 Each barrier alone would be surmountable. Together, they form a system of stuckness that is remarkably resilient. And they explain why, despite decades of good thinking by good people, the coordination gap between what we need and what we have continues to widen.
 
-Understanding this machinery is the first step toward bypassing it. The principles that follow are designed with these barriers in mind — built to be academically rigorous enough to survive peer review, practically grounded enough to function inside real institutions, and accessible enough to operate outside the rooms where these conversations have been trapped.
+Understanding this machinery is the first step toward bypassing it. These barriers shape how this investigation is being approached: academically, through doctoral work aimed at surviving peer review; practically, by testing claims against operational experience of the systems being theorised about; and publicly, so the thinking can be engaged with outside the rooms where these conversations have usually been trapped.
 
 ---
 

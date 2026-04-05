@@ -2,7 +2,7 @@
 
 Coordination across genuine difference does happen. It happens more often than the state of our institutions might suggest. Studying where it succeeds reveals recurring patterns that inform what a better coordination framework needs to include.
 
-This document identifies those patterns. Detailed examinations of individual cases live in the [case studies](./04-case-studies/) directory.
+This document identifies those patterns. Detailed examinations of individual cases live in the [case studies](./case-studies/) directory.
 
 ## The Success Factors
 
@@ -19,13 +19,13 @@ The same pattern operates in relationships. The Gottman Institute's four decades
 
 **Transparency of mechanism, not transparency of motive.** Successful coordination doesn't require participants to reveal their true motivations. It requires that the *mechanism* of coordination is legible and predictable. In Axelrod's game theory tournaments, Tit for Tat won partly because it was *clear*: other strategies could understand what it was doing and predict how it would respond.[^3] Opaque strategies, even sophisticated ones, performed poorly because other players couldn't establish trust with something they couldn't read. The same applies at institutional scale: coordination mechanisms need to be transparent in their operation even when the participants' internal motivations remain private.
 
-**Preservation of exit.** Coordination that participants can't leave is coercion, not cooperation. The most durable coordination arrangements preserve each actor's autonomy and right to withdraw. This seems counterintuitive — wouldn't the ability to leave undermine commitment? The evidence suggests the opposite. When actors choose to stay because the arrangement serves them, rather than because they're trapped, the coordination is more resilient and adaptive. The European Union's Article 50 (the mechanism by which the UK left) was designed precisely to ensure that membership remained voluntary. Whatever one thinks of Brexit as policy, the existence of the exit mechanism is what makes continued membership meaningful rather than merely compulsory.
+**Preservation of exit.** Coordination that participants can't leave is coercion, not cooperation. The most durable coordination arrangements preserve each actor's autonomy and right to withdraw. This seems counterintuitive: wouldn't the ability to leave undermine commitment? The evidence suggests the opposite. When actors choose to stay because the arrangement serves them, rather than because they're trapped, the coordination is more resilient and adaptive. The European Union's Article 50 (the mechanism by which the UK left) was designed precisely to ensure that membership remained voluntary. Whatever one thinks of Brexit as policy, the existence of the exit mechanism is what makes continued membership meaningful rather than merely compulsory.
 
 ## What These Patterns Share
 
-Every one of these factors connects back to the [capacities identified in the philosophical foundation](../01-core/04-philosophical-foundation.md). Shared stakes without shared ideology requires the capacity to *see through someone else's eyes* — to understand what's at stake for the other party without needing to share their worldview. Iterative trust-building requires *relational orientation* — trust as something built rather than assumed. Self-correction requires *intellectual humility* — the acknowledgment that current arrangements may be incomplete. Transparency of mechanism maps to *holding the tension* — coordinating across genuine difference without requiring it to be resolved.
+Most of these factors connect back to dimensions the [formal toolkit leaves out](../01-core/04-philosophical-foundation.md). Shared stakes without shared ideology leans on something like perspective-taking: the actors need to understand what's at stake for each other without sharing worldviews. Iterative trust-building leans on a relational substrate, with trust being built rather than assumed. Self-correction leans on intellectual humility, treating arrangements as incomplete and revisable. Transparency of mechanism is a partial exception: it sits mostly inside what formal theory can handle, which is part of why it is the most formalisable element in this set.
 
-The success factors are hiding in plain sight. Observable, repeatable and well-documented. The question is why they appear so rarely in the institutions that matter most. That question is addressed in the [next document](03-where-it-fails.md).
+The success factors are hiding in plain sight. Observable, repeatable and well-documented. The question is why they appear so rarely in the institutions that matter most. That question is addressed in the [next document](03-why-it-fails.md).
 
 ---
 

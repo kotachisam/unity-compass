@@ -2,15 +2,15 @@
 
 **Scale:** International
 **Verdict:** Failure (coordination), mixed (national responses)
-**Referenced in:** [Where It Fails](../03-where-it-fails.md), [Why Now](../../01-core/02-why-now.md)
+**Referenced in:** [Why It Fails](../03-why-it-fails.md), [Why Now](../../01-core/02-why-now.md)
 
 ## Summary
 
 The 2020 COVID-19 pandemic was the most significant global coordination test since the 2008 financial crisis. It demanded rapid, coordinated response across every level: individual behaviour, community compliance, national policy, international information sharing, supply chain coordination and vaccine distribution.
 
-## Why It Matters for the Framework
+## Why It Matters for the Investigation
 
-A real-time stress test of every coordination mechanism at every scale simultaneously. The global response was, by most honest assessments, inadequate — particularly in the early stages where speed mattered most. The WHO's institutional processes were designed for timescales the virus didn't respect. National responses varied wildly, demonstrating that institutional design matters more than national character or wealth.
+A real-time stress test of every coordination mechanism at every scale simultaneously. The global response was, by most honest assessments, inadequate, particularly in the early stages where speed mattered most. The WHO's institutional processes were designed for timescales the virus didn't respect. National responses varied wildly, demonstrating that institutional design matters more than national character or wealth.
 
 ## Key Patterns
 

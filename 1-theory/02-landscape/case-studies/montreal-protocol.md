@@ -8,7 +8,7 @@
 
 The 1987 Montreal Protocol coordinated 197 nations to phase out ozone-depleting substances. Widely regarded as the most successful international environmental agreement in history.
 
-## Why It Matters for the Framework
+## Why It Matters for the Investigation
 
 The strongest available evidence that coordination across genuine difference at planetary scale is possible. Nations with radically different economic systems, political ideologies and development priorities coordinated on a shared existential threat without requiring ideological convergence.
 

@@ -6,14 +6,14 @@ body:
   - type: markdown
     attributes:
       value: |
-        This framework claims to be about coordination across genuine difference. That claim is hollow if the contributors all share the same background. If you see a perspective, tradition or body of experience that's absent from the current work, flagging it is one of the most important contributions you can make.
+        This investigation claims to be about coordination across genuine difference. That claim is hollow if the only perspective shaping it is the author's. If you see a viewpoint, tradition or body of experience that's absent from the current work, flagging it is one of the most important contributions you can make.
 
   - type: textarea
     id: perspective
     attributes:
       label: What's missing?
       description: Describe the viewpoint, tradition, discipline or lived experience you think the framework should engage with.
-      placeholder: "e.g. The framework doesn't engage with disability rights as a coordination challenge / There's no representation of African governance traditions / The contemplative dimension ignores somatic practices"
+      placeholder: "e.g. The investigation doesn't engage with disability rights as a coordination challenge / There's no engagement with African governance traditions / A body of formal work on X is being missed"
     validations:
       required: true
 
@@ -21,7 +21,7 @@ body:
     id: impact
     attributes:
       label: Where is the gap most visible?
-      description: Which part of the framework would benefit most from this perspective? A link to the specific document is helpful.
+      description: Which part of the current work would benefit most from this perspective? A link to the specific document is helpful.
       placeholder: "e.g. The 'current approaches' survey has nothing on... / The 'where it works' analysis would look different if..."
     validations:
       required: false
