@@ -50,7 +50,7 @@ Perhaps the deepest barrier is what's considered thinkable. The Overton window[^
 
 Suggesting that capitalism needs fundamental revision is, in most western policy contexts, outside the window. Suggesting that democratic institutions need structural redesign is heard as an attack on democracy itself. Suggesting that national sovereignty should be partially subordinated to global coordination mechanisms triggers immediate resistance across the political spectrum.
 
-These are not fringe ideas. They are logical consequences of taking existential coordination challenges seriously. But the window hasn't moved far enough to allow them to be discussed without the speaker being dismissed as radical, naive or dangerous.
+These are not fringe ideas. They are logical consequences of taking high-stakes coordination challenges seriously. But the window hasn't moved far enough to allow them to be discussed without the speaker being dismissed as radical, naive or dangerous.
 
 The window moves. It has moved before: universal suffrage, the abolition of slavery, the establishment of international law all required expanding what was considered thinkable. But it moves slowly, and the challenges documented in [Why Now](02-why-now.md) are moving fast.
 

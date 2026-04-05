@@ -1,10 +1,10 @@
 # The Unity Compass
 
-**Coordination frameworks for a world that can't agree but can't afford not to.**
+**A public research log on coordination across genuine difference.**
 
 > *Otherwise affectionately known as the PISS (Post-Ideological Society System) — because we're done with ideological pissing contests.*
 
-**Status:** v0.1 Pre-alpha - Core framework under initial development. 
+**Status:** v0.1 Pre-alpha
 **Started:** December 16, 2025
 
 ---
@@ -15,111 +15,75 @@ Coordination across difference is something humans already do. Families navigate
 
 The problem is that our formal frameworks for coordination assume this can't be done. They assume cooperation requires either shared beliefs or aligned self-interest. Where those conditions hold, the frameworks work. Where they don't, they offer nothing. No playbook, no fallback. Just gridlock dressed up as prudence, or imposed solutions that lack the buy-in to survive contact with reality.
 
-This gap shows up at every scale. A leadership team where three people with incompatible visions need to make a decision. A hospital system where administrators, clinicians and patients hold genuinely different values about resource allocation. Left vs right, capitalism vs socialism, national sovereignty vs global governance. Climate, AI, pandemics, economic fragility: none of these respect borders, party lines or election cycles. The same structural pattern recurs from the interpersonal to the civilisational: actors who need to coordinate but cannot converge. What changes across scales is the mechanism, not the problem.
+This gap shows up at every scale. A leadership team where three people with incompatible visions need to make a decision. A hospital system where administrators, clinicians and patients hold genuinely different values about resource allocation. The UK, USA and Australia coordinating on catastrophic security risks through arrangements like AUKUS without sharing strategic doctrines, democratic constraints or even the same definition of what regional security requires. The same structural pattern recurs across scales: actors who need to coordinate but cannot converge.
 
-The frameworks that got us here were built for industrial-age conditions. They're not wrong, but they're not enough. Shared beliefs and aligned interests do make coordination easier. Nobody disputes that. The problem is treating them as prerequisites, because for the challenges that matter most right now, convergence is precisely what we cannot achieve in time.
+The frameworks that got us here were built for industrial-age conditions. They're not wrong, but they're not enough. Shared beliefs and aligned interests do make coordination easier. Nobody disputes that. The problem is treating them as prerequisites, because convergence is often precisely what cannot be achieved.
 
-So the question becomes: can we coordinate without requiring everyone to agree?
+So the central question becomes: if value convergence is neither sufficient nor necessary for coordination, what actually grounds it?
 
-## The Approach
+## The Investigation
 
-The Unity Compass works like its namesake. A compass gives you shared direction without dictating your route. Everyone can use the same compass while travelling different paths. It's a tool, not a destination.
+The Unity Compass is a public research log on that question. It is currently grounded in doctoral-track philosophical work on whether structural features of interdependence (shared risk topology, shared constraints, network entanglement, procedural commitments) can ground coordination among agents with incommensurable values, and under what formal conditions.
 
-Rather than proposing yet another ideology, this framework steps back and asks what actually enables cooperation when people hold genuinely different values. The same coordination patterns show up whether the actors are spouses, departments, corporations, governments or civilisations. What differs is the enforcement mechanism, the trust architecture and the iteration speed. The Unity Compass maps these structural patterns and investigates what makes coordination possible across genuine difference at each level.
+Like its namesake, the compass metaphor describes shared orientation without dictating routes. Different actors with different values navigating by the same reference points toward outcomes none of them could achieve alone. Whether a defensible compass of this kind can actually be built is what this work is trying to establish.
 
-It draws on philosophy, systems thinking, game theory, institutional design and real-world case studies - from commons governance to reactor safety culture to international treaty regimes - to develop coordination principles that are rigorous enough to survive academic scrutiny, specific enough for institutions to test and clear enough for anyone to engage with.
-
-Three questions drive the work:
-
-  1. When the stakes are high but people disagree on almost everything else, what makes coordination possible - whether that's a family in crisis, an organisation under pressure or a civilisation facing existential risk?
-  2. What kinds of institutions and practices can enable cooperation without demanding that everyone think the same way, while still avoiding the usual traps of corruption, short-termism and bureaucratic paralysis?
-  3. As AI systems become participants in governance and markets (not just tools), how do we keep meaningful human agency in the loop?
+The investigation draws on philosophy, game theory, decision theory under severe uncertainty, institutional design and real-world case studies, from commons governance to reactor safety culture to trilateral defence coordination, to develop coordination theory that is rigorous enough to survive academic scrutiny, specific enough to be testable, and clear enough to be engaged with outside the rooms where these conversations usually happen.
 
 ## Navigate This Repository
 
-This repository has two content spines and a project infrastructure layer.
+The substance lives in **1-theory**. Everything else is infrastructure.
 
-**Theory** is the philosophical argument: what the framework claims and why. Start here if you want the intellectual foundations.
+**[Manifesto](1-theory/01-core/01-MANIFESTO.md)** is the shortest route into the investigation's framing.
 
-**Practice** is the experiential dimension: different perspectives, exercises and real-world examples of coordination across difference in action. Start here if you want to see what this looks like on the ground.
+**[Theory](1-theory/)** is the intellectual argument, in three directories:
 
-**Project** is everything that serves the whole: community, audience-specific entry points, responses to critiques and resources.
+- **[01-core](1-theory/01-core/)**: foundational thesis, philosophical grounding, design principles
+- **[02-landscape](1-theory/02-landscape/)**: what coordination looks like in the wild, with worked case studies
+- **[03-frameworks](1-theory/03-frameworks/)**: the analytical core (taxonomy, what works, where models fail)
 
-### Quick Start by Role
-
-- **Policy professionals** — [Policy Brief](3-project/for-different-audiences/policy-brief.md)
-- **Academics** — [Academic Abstract](3-project/for-different-audiences/academic-abstract.md)
-- **Defence/Security** — [Defence Briefing](3-project/for-different-audiences/defence-briefing.md)
-- **Systems thinkers** — [Frameworks](1-theory/03-frameworks/)
-- **Contemplative practitioners** — [Perspectives](2-practice/01-perspectives/)
-- **Pragmatists** — [Implementation](1-theory/04-implementation/)
-- **Everyone else** — Start with the [Manifesto](1-theory/01-core/MANIFESTO.md)
-
-### Full Path
-
-[Manifesto](1-theory/01-core/MANIFESTO.md) → [Why Now](1-theory/01-core/why-now.md) → [Principles](1-theory/01-core/principles.md) → [Frameworks](1-theory/03-frameworks/) → [Case Studies](2-practice/03-case-studies/)
+**[Working papers](3-project/working-papers/)** contain the doctoral research proposal and development notes.
 
 ## Repository Structure
 
-```
+```text
 unity-compass/
-├── 1-theory/                         # What the framework argues
-│   ├── 01-core/                      #   Foundational thesis and principles
-│   │   └── MANIFESTO.md              #   Start here
-│   ├── 02-foundation/                #   What's broken and why
-│   ├── 03-frameworks/                #   Specific coordination mechanisms
-│   └── 04-implementation/            #   Barriers, strategies, phased deployment
+├── 1-theory/                     # The investigation
+│   ├── 01-core/                  #   Thesis, foundations, principles
+│   ├── 02-landscape/             #   How coordination works in the wild
+│   │   └── case-studies/
+│   └── 03-frameworks/            #   Analytical core
 │
-├── 2-practice/                       # How coordination is experienced
-│   ├── 01-perspectives/              #   Multiple lenses (systems, contemplative, pragmatic)
-│   ├── 02-exercises/                 #   Practices for thinking across difference
-│   └── 03-case-studies/              #   Real-world examples, analysed and lived
+├── 2-practice/                   # Experiential dimension (aspirational)
+├── 3-project/
+│   └── working-papers/           #   Research proposals, development notes
 │
-├── 3-project/                        # Infrastructure serving the whole
-│   ├── community/                    #   Discussion, contributors, events
-│   ├── critiques-and-responses/      #   Addressing objections head-on
-│   ├── for-different-audiences/      #   Tailored entry points by role
-│   ├── meta/                         #   Design principles, style guide
-│   └── resources/                    #   Bibliography, related work, tools
-│
-├── working-papers/                   # Work in progress
-├── .github/                          # Contributing guidelines, templates
-├── CLAUDE.md                         # Context for Claude Code
-└── README.md                         # You are here
+├── .github/                      # Contributing guidelines, templates
+├── CLAUDE.md                     # Context for Claude Code
+└── README.md                     # You are here
 ```
-
-## Why Two Spines?
-
-Most frameworks just give you the argument. Here's the theory, here are the conclusions, off you go. The Unity Compass does that too. But every tradition that has actually succeeded at enabling cooperation between people who disagree, from commons governance to open-source software to contemplative practice, shares a common insight: understanding the idea isn't enough. You have to *practise* it.
-
-The theory spine makes the case. The practice spine makes it real. The case studies are where the two meet: rigorous analysis alongside the lived experience of what coordination across genuine difference actually feels like from the inside.
 
 ## Current Focus
 
-Core framework under active development. Theory spine being populated first, with practice content to follow as the philosophical architecture stabilises.
+Core theory being developed. Parallel doctoral research application in Philosophy at LSE (coordination theory, decision theory under uncertainty, evolutionary game theory of norms).
 
-Parallel work: doctoral research application in Philosophy (coordination theory, practical reason, institutional design).
+Practice content may follow as the philosophical architecture stabilises. Right now the priority is the investigation's central question.
 
 ## Contributing
 
-Early-stage work. Watching, starring and constructive issues welcome.
-
-Pull requests accepted once v1.0 is stable. See [CONTRIBUTING.md](.github/CONTRIBUTING.md) for details.
+Early-stage work being done in public. Constructive critique is the most valuable contribution at this stage. See [CONTRIBUTING.md](.github/CONTRIBUTING.md).
 
 ## Author
 
 **Samuel Norton**
 
-Former Royal Navy submarine officer (nuclear reactor operations) turned systems thinker. Engineering physics background, defence sector experience including trilateral coordination on AUKUS. Now building at the intersection of practical philosophy, institutional design and AI governance.
-
-The same coordination patterns show up at every scale: individuals, teams, organisations, nations. This framework maps those patterns and turns them into something usable.
+Former Royal Navy submarine officer (nuclear reactor operations) turned systems thinker. Engineering physics background, defence sector experience including trilateral coordination on AUKUS. Now working at the intersection of practical philosophy, institutional design and decision theory under severe uncertainty.
 
 **Contact:** [sam@aukus.consulting](mailto:sam@aukus.consulting)
 
 ---
 
-*This work tests a conviction: that humanity can become the kind of species capable of coordinating across genuine difference. Not despite our plurality, but through it.*
+*If value convergence is neither sufficient nor necessary for coordination, what else might do the work?*
 
 ---
 
-**Licence:** [CC BY-SA 4.0](LICENSE) — Share, adapt, improve. Credit the framework, share improvements.
+**Licence:** [CC BY-SA 4.0](LICENSE). Share, adapt, improve. Credit the source, share improvements.

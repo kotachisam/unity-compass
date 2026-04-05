@@ -2,7 +2,7 @@
 
 Analytical examinations of real-world coordination across difference: what happened, what mechanisms were at play, what patterns recur, and what open questions remain.
 
-These case studies provide the evidence base for the claims made in the [landscape analysis](../). Each one is referenced by at least one analytical document in the parent directory.
+These case studies provide the evidence base for the claims made in the [landscape analysis](../). Each one is referenced by at least one analytical document in the parent directory, which is noted in the case study's own header.
 
 ## Cases
 
@@ -22,6 +22,10 @@ These case studies provide the evidence base for the claims made in the [landsca
 ## Structure
 
 Each case study follows a common format: summary, why it matters for the investigation, key patterns observed, open questions, and sources to consult. They are reference material rather than a reading sequence. Arrive from whichever analytical document pointed you here.
+
+## Relationship to the Landscape Analysis
+
+These cases are cited throughout [02-landscape/](../): [Where It Works](../02-where-it-works.md), [Why It Fails](../03-why-it-fails.md) and [Current Approaches](../04-current-approaches.md) each draw on subsets of them. Individual case files list which analytical documents reference them in their headers.
 
 ## Contributing
 

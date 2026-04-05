@@ -133,7 +133,7 @@ These are real insights, and they generalise beyond the formal setting. The reas
 
 But the conditions matter.
 
-Axelrod's results depend on four assumptions that break under precisely the conditions existential coordination faces:
+Axelrod's results depend on four assumptions that break under precisely the conditions high-stakes coordination faces:
 
 **Indefinite iteration.** Tit-for-tat works because both players know the game continues. If both know which round is last, the logic unravels: defect in the final round (no retaliation possible), therefore defect in the penultimate round (the final round's outcome is fixed), and so on back to the first move. Climate coordination, pandemic response and AI governance all involve interactions that may not repeat, or where "the last round" is a systemic tipping point after which the game structure changes irrevocably.
 
@@ -143,7 +143,7 @@ Axelrod's results depend on four assumptions that break under precisely the cond
 
 **Commensurable payoffs.** Axelrod's players agree on the value of outcomes. They just face a dilemma about strategy. When parties disagree about what "cooperate" even means, because their values produce different rankings of the available outcomes, the iterated prisoner's dilemma framework doesn't apply. It's not that tit-for-tat fails. It's that you're not in the game tit-for-tat was designed for.
 
-This is not a criticism of Axelrod. It is a demonstration of the formalism boundary that [Document 03](03-where-models-fail.md) examines in depth. Axelrod's tournaments showed what formal modelling can reveal when its assumptions hold. The coordination challenges this framework addresses are precisely the ones where they don't.
+Axelrod's tournaments showed what formal modelling can reveal when its assumptions hold. [Document 03](03-where-models-fail.md) examines that formalism boundary in depth. The coordination challenges this investigation addresses are precisely the ones where the assumptions don't hold.
 
 ## Diagnosis Before Treatment
 

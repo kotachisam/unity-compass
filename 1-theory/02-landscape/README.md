@@ -14,6 +14,8 @@ The [core documents](../01-core/) established *what* is broken and *why*. This d
 
 **[Case Studies](case-studies/)**. Analytical examinations of specific coordination successes, failures and works-in-progress. These are the evidence base that the analytical documents above draw on.
 
-## Relationship to the Rest of the Repository
+## Relationship to the Rest of the Theory
 
 This directory provides the empirical grounding. The [core](../01-core/) makes the philosophical argument. The landscape shows what the world actually looks like. The [frameworks](../03-frameworks/) work through what might be built differently.
+
+See the [theory spine overview](../) for the full reading order.

@@ -11,3 +11,9 @@ Three documents, read in order:
 **[Where Models Fail](03-where-models-fail.md)** maps the boundary of formal modelling across five traditions: game theory, social choice theory, computational modelling, decision theory under uncertainty, and mechanism design. Formal models work well under specific conditions, work partially across much of the real world, and mislead when those conditions break down in ways that matter most for the hardest coordination challenges.
 
 These three documents establish the question. They do not yet answer it. A fourth document, on the structural hypothesis at the centre of this investigation, will be added once the reading it depends on has been done.
+
+## Relationship to the Rest of the Theory
+
+This directory is the analytical core. The [core](../01-core/) makes the philosophical argument that gets sharpened here. The [landscape](../02-landscape/) provides the empirical evidence these documents analyse and extend. The formal answer to the question posed here lives in parallel doctoral research tracked in [3-project/working-papers/](../../3-project/working-papers/).
+
+See the [theory spine overview](../) for the full reading order.
