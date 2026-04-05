@@ -1,8 +1,8 @@
 # Frameworks
 
-This directory contains the analytical core of the investigation: the vocabulary, the empirical substrate, and the formalism-boundary mapping that the rest of the work builds on.
+This directory contains the analytical core of the investigation: the vocabulary, the empirical substrate, the formalism-boundary mapping, and the current working hypothesis the rest of the work builds on.
 
-Three documents, read in order:
+Four documents, read in order:
 
 **[Coordination Taxonomy](01-coordination-taxonomy.md)** maps five recurring strategic structures that appear across coordination problems at every scale: pure coordination, social dilemmas, assurance games, chicken and coordination under value incommensurability. The last of these is the archetype existing theory handles worst and the one this investigation cares about most.
 
@@ -10,7 +10,7 @@ Three documents, read in order:
 
 **[Where Models Fail](03-where-models-fail.md)** maps the boundary of formal modelling across five traditions: game theory, social choice theory, computational modelling, decision theory under uncertainty, and mechanism design. Formal models work well under specific conditions, work partially across much of the real world, and mislead when those conditions break down in ways that matter most for the hardest coordination challenges.
 
-These three documents establish the question. They do not yet answer it. A fourth document, on the structural hypothesis at the centre of this investigation, will be added once the reading it depends on has been done.
+**[The Structural Hypothesis (Draft)](04-the-structural-hypothesis.md)** is the current working answer to the question the first three documents pose. Proposes that structural features of interdependence (shared risk topology, shared constraints, network entanglement, procedural commitments) can ground coordination among agents with incommensurable values. Written before the primary-source reading it depends on, and explicitly marked as rough. Will be substantially revised once Alexander and Bradley have been engaged with properly.
 
 ## Relationship to the Rest of the Theory
 

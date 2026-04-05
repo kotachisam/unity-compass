@@ -14,13 +14,13 @@ The central question: if value convergence is neither sufficient nor necessary f
 
 **[02-landscape/](02-landscape/)** ([README](02-landscape/README.md)): what coordination looks like in the wild. Top-down and bottom-up patterns, six recurring success factors from cases that worked, seven recurring failure modes from cases that didn't, an honest survey of existing approaches at every scale. Includes seven worked case studies including AUKUS trilateral defence coordination, the Montreal Protocol, the Irish Citizens' Assembly, the 2008 financial crisis, Fukushima Daiichi, the COVID-19 response and open-source software governance.
 
-**[03-frameworks/](03-frameworks/)** ([README](03-frameworks/README.md)): the analytical core. A coordination taxonomy (five strategic archetypes including value incommensurability), transfer analysis of Ostrom's commons-governance findings plus six worked cases of coordination without convergence, and a formalism-boundary mapping across five formal traditions. These three documents establish the investigation's central question cleanly. They do not yet answer it.
+**[03-frameworks/](03-frameworks/)** ([README](03-frameworks/README.md)): the analytical core. A coordination taxonomy (five strategic archetypes including value incommensurability), transfer analysis of Ostrom's commons-governance findings plus six worked cases of coordination without convergence, a formalism-boundary mapping across five formal traditions, and a rough-draft structural hypothesis that articulates the investigation's current working answer. These four documents establish the question and propose the current best attempt at an answer, explicitly pre-reading and subject to revision.
 
 ## Reading Order
 
 The default progression is 01 → 02 → 03. Core sets up the philosophical claim. Landscape grounds it empirically. Frameworks sharpens it analytically into the specific question the doctoral work addresses.
 
-The shortest honest path for first-time readers: [Manifesto](01-core/01-MANIFESTO.md) → [Coordination Taxonomy](03-frameworks/01-coordination-taxonomy.md) → [Where Models Fail](03-frameworks/03-where-models-fail.md). Three documents, roughly 10,000 words, enough to see whether the argument is worth your engagement.
+The shortest honest path for first-time readers: [Manifesto](01-core/01-MANIFESTO.md) → [Coordination Taxonomy](03-frameworks/01-coordination-taxonomy.md) → [Where Models Fail](03-frameworks/03-where-models-fail.md) → [The Structural Hypothesis (Draft)](03-frameworks/04-the-structural-hypothesis.md). Four documents: the opening claim, the vocabulary for the central problem, where existing tools stop working, and the current working answer. Enough to see whether the argument is worth engaging with.
 
 ## Relationship to the Rest of the Repository
 
