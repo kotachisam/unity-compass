@@ -1,6 +1,8 @@
-# The Structural Hypothesis (Draft)
+# The Coordination Space (Draft)
 
-**Status: pre-reading.** This document articulates current best thinking on what might ground coordination when value convergence is unavailable. It has been written before the primary-source engagement with J. McKenzie Alexander's work on evolutionary game theory and Richard Bradley's work on decision theory under ambiguity that the investigation depends on. It will need substantial revision once that reading is done. It is included here, in rough form, because the thinking is load-bearing enough that it should be visible in the repository before it is formally defensible.
+**Status: post-first-reading, pre-formal-writing.** Originally scaffolded as "The Structural Hypothesis." Retitled after the first reading (Alexander, "Evolutionary Game Theory," SEP 2021), which sharpened the concept from a hypothesis about structural features into a proposal for a formal object: a coordination space where value-alignment and structural-interdependence are axes in the same space, with stability defined by structural position rather than payoff.
+
+The pre-reading content below remains as foundation. Sections marked *[POST-READING]* are placeholders for insights from the Alexander reading that need to be written up properly. See source notes at `wiki/sources/LSE/alexander/alexander-2021-evolutionary-game-theory-sep.md` for the raw material.
 
 ---
 
@@ -103,3 +105,45 @@ This document is deliberately rough. It is written before the primary-source rea
 The next substantive revision will happen after engagement with Alexander's *Evolutionary Game Theory* (2023) and *The Open Society as an Enemy* (2024), Bradley's *Decision Theory with a Human Face*, and "Social Ethics under Ambiguity" (2022). That reading is expected to sharpen the hypothesis, identify specific formal tools the investigation can use or must extend, and potentially reveal that one or more of the four candidate structural features requires reformulation.
 
 What remains stable across any foreseeable revision: the central philosophical claim that value convergence is neither sufficient nor necessary for coordination, and the hypothesis that structural features of interdependence can ground coordination without it. What might change: the specific taxonomy of candidate features, the formal apparatus used to characterise them, and the boundary conditions identified.
+
+---
+
+## *[POST-READING]* The Coordination Space as Formal Object
+
+Values and structural features are not separate formal spaces. They are axes in the SAME space. Some coordination problems are mostly value-aligned (classical game theory handles them). Some are mostly structural-interdependence (the hard cases). Most are a combination, plus variables not yet identified.
+
+*To write: formal definition of the coordination space. What the axes are. How positions in the space are specified. What "distance" means.*
+
+## *[POST-READING]* Structural Fitness
+
+Alexander (2021, section 6.1) identifies the need for "an alternate theory of utility/fitness, one compatible with the bounded rationality of individuals." The investigation proposes structural position as that measure: how well-positioned an agent is relative to the coordination arrangement, measured by risk exposure, network robustness, constraint burden and procedural standing.
+
+*To write: formal definition of structural fitness. How it's measured. Why it doesn't require commensurable values.*
+
+## *[POST-READING]* Structural Equilibrium
+
+Equilibrium in the coordination space = consensus on continuing to coordinate, not consensus on values. Temporally bounded: holds while the structural configuration holds, dissolves when it shifts.
+
+Working concept: a configuration where no agent can improve their structural position by defecting from the coordination arrangement.
+
+*To write: formal definition. Relationship to Nash equilibrium (different formal object, not a refinement). Existence and uniqueness conditions.*
+
+## *[POST-READING]* The Nowak-May Anchor
+
+Nowak and May (1992) demonstrated that spatial structure alone produces three qualitatively different coordination outcomes (all-defect, stable coexistence, deterministic chaos) in the prisoner's dilemma without altering the game. This is the strongest existing evidence that structural topology does coordination work independent of strategic content.
+
+Thesis framing: "Nowak and May demonstrated that structure matters even when the game is fixed. This investigation asks what happens when structure is all you have."
+
+*To write: how the Nowak-May result connects to the coordination space. What the lattice topology IS in structural-interdependence terms.*
+
+## *[POST-READING]* Computational Tractability
+
+The extensive-form game becomes unmanageable because strategy-profile space grows combinatorially with decision points. Structural variables don't multiply the same way: they describe relationships between agents, not per-decision assignments. The state space may be dramatically smaller.
+
+*To write: dimensionality argument. Why 4-5 structural axes for AUKUS is computable where the equivalent extensive-form game is not. Monte Carlo and agent-based methods as tools.*
+
+## *[POST-READING]* Etiological Application
+
+Model structural-interdependence axes against degree of value commensurability for any social phenomenon. The trajectory through the space constrains how the phenomenon could have emerged. This answers the "explanatory irrelevance" critique of EGT (Alexander 2021, section 6.2): not "how possibly" but "what trajectory through the structural space, and what trajectories were accessible."
+
+*To write: AUKUS as worked example. Track the trajectory from pre-2021 structural configuration to current.*
