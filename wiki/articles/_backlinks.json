@@ -1,0 +1,154 @@
+{
+  "coordination-without-convergence": [
+    "path-dependence",
+    "mancur-olson",
+    "michael-bratman",
+    "ietf-rough-consensus",
+    "evolutionary-game-theory",
+    "ruth-chang",
+    "aukus",
+    "restorative-justice",
+    "logos",
+    "decision-theory-under-severe-uncertainty",
+    "j-mckenzie-alexander",
+    "thomas-schelling",
+    "value-incommensurability",
+    "irish-citizens-assembly",
+    "heraclitus",
+    "fukushima-daiichi",
+    "robert-axelrod",
+    "montreal-protocol",
+    "structural-interdependence",
+    "elinor-ostrom"
+  ],
+  "value-incommensurability": [
+    "michael-bratman",
+    "ietf-rough-consensus",
+    "ruth-chang",
+    "aukus",
+    "restorative-justice",
+    "richard-bradley",
+    "coordination-without-convergence",
+    "logos",
+    "decision-theory-under-severe-uncertainty",
+    "mechanism-design",
+    "irish-citizens-assembly",
+    "heraclitus",
+    "robert-axelrod",
+    "social-choice-theory",
+    "montreal-protocol",
+    "game-theory",
+    "structural-interdependence"
+  ],
+  "structural-interdependence": [
+    "michael-bratman",
+    "ietf-rough-consensus",
+    "evolutionary-game-theory",
+    "aukus",
+    "richard-bradley",
+    "coordination-without-convergence",
+    "decision-theory-under-severe-uncertainty",
+    "j-mckenzie-alexander",
+    "thomas-schelling",
+    "value-incommensurability",
+    "mechanism-design",
+    "irish-citizens-assembly",
+    "robert-axelrod",
+    "social-choice-theory",
+    "montreal-protocol",
+    "elinor-ostrom"
+  ],
+  "evolutionary-game-theory": [
+    "coordination-without-convergence",
+    "decision-theory-under-severe-uncertainty",
+    "j-mckenzie-alexander",
+    "value-incommensurability",
+    "robert-axelrod",
+    "game-theory",
+    "structural-interdependence"
+  ],
+  "richard-bradley": [
+    "ruth-chang",
+    "decision-theory-under-severe-uncertainty",
+    "j-mckenzie-alexander",
+    "social-choice-theory",
+    "structural-interdependence"
+  ],
+  "aukus": [
+    "coordination-without-convergence",
+    "fukushima-daiichi",
+    "montreal-protocol",
+    "structural-interdependence",
+    "elinor-ostrom"
+  ],
+  "thomas-schelling": [
+    "mancur-olson",
+    "coordination-without-convergence",
+    "robert-axelrod",
+    "game-theory"
+  ],
+  "j-mckenzie-alexander": [
+    "evolutionary-game-theory",
+    "ruth-chang",
+    "richard-bradley",
+    "structural-interdependence"
+  ],
+  "decision-theory-under-severe-uncertainty": [
+    "evolutionary-game-theory",
+    "richard-bradley",
+    "coordination-without-convergence",
+    "structural-interdependence"
+  ],
+  "elinor-ostrom": [
+    "mancur-olson",
+    "coordination-without-convergence",
+    "thomas-schelling"
+  ],
+  "game-theory": [
+    "logos",
+    "mechanism-design",
+    "social-choice-theory"
+  ],
+  "mechanism-design": [
+    "logos",
+    "social-choice-theory",
+    "game-theory"
+  ],
+  "social-choice-theory": [
+    "logos",
+    "mechanism-design",
+    "game-theory"
+  ],
+  "mancur-olson": [
+    "coordination-without-convergence",
+    "thomas-schelling"
+  ],
+  "robert-axelrod": [
+    "thomas-schelling",
+    "game-theory"
+  ],
+  "paul-pierson": [
+    "path-dependence"
+  ],
+  "fukushima-daiichi": [
+    "path-dependence"
+  ],
+  "game-theory-formal-coordination-theory": [
+    "restorative-justice"
+  ],
+  "irish-citizens-assembly": [
+    "restorative-justice"
+  ],
+  "heraclitus": [
+    "logos"
+  ],
+  "ruth-chang": [
+    "value-incommensurability"
+  ],
+  "logos": [
+    "heraclitus"
+  ],
+  "value-incommensurability-coordination-under-value-incommensurability": [
+    "game-theory"
+  ]
+}
