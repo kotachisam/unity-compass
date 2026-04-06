@@ -49,7 +49,7 @@ Supervisor target 1. Research focuses: evolutionary game theory, evolution of mo
 
 ### Reference
 
-- "Evolutionary Game Theory", *Stanford Encyclopedia of Philosophy*, 2002 (revised 2021). Orientation/overview.
+- "Evolutionary Game Theory", *Stanford Encyclopedia of Philosophy*, 2002 (revised 2021). Orientation/overview. **Status: read (2026-04-06).** [Source notes](../../../wiki/sources/LSE/alexander/alexander-2021-evolutionary-game-theory-sep.md)
 
 ---
 
@@ -145,12 +145,33 @@ Relevant to sub-question 3 of v2 (rationality). Connects to Bradley's primary wo
 
 ---
 
+## Leads from EGT reading (2026-04-06)
+
+Surfaced from Alexander's SEP bibliography. Prioritised by relevance to the structural-interdependence hypothesis.
+
+| Priority | Author | Work | Status | Notes |
+|----------|--------|------|--------|-------|
+| **P2** | Skyrms, B. | *The Stag Hunt and the Evolution of Social Structure* (Cambridge UP, 2004) | not started | Coordination where structure determines equilibrium selection |
+| **P2** | Skyrms, B. | *Signals: Evolution, Learning, & Information* (Oxford UP, 2010) | not started | Signalling without shared prior meaning = coordination without shared values |
+| **P2** | Skyrms, B. | *Evolution of the Social Contract* (Cambridge UP, 1996) | not started | ε correlation parameter as structural variable, Monte Carlo methods |
+| **P2** | Lewis, D. | *Convention* (Blackwell, 1969) | not started | Foundational: coordination equilibrium without shared values |
+| **P2** | Bicchieri, C. | *The Grammar of Society* (Cambridge UP, 2006) | not started | Norms as structural expectations, not value agreement |
+| **P2** | Sandholm, W. | *Population Games and Evolutionary Dynamics* (MIT Press, 2010) | not started | Comprehensive dynamical systems toolkit for the formal model |
+| **P2** | Hauert, C. | "Spatial Effects in Social Dilemmas" *J Theoretical Biology* 240, 2006 | not started | Mathematical tools: lattice dynamics, Monte Carlo simulation |
+| **P2** | Ostrom, E. | "Collective Action and the Evolution of Social Norms" *JEP* 14(3), 2000 | not started | Procedural commitments axis |
+| **P2** | Harms, W. | "The Evolution of Cooperation in Hostile Environments" *JCS* 7(1-2), 2000 | not started | Shared risk promoting cooperation |
+| **P3** | Gintis, H. | *Game Theory Evolving* (Princeton UP, 2009) | not started | Textbook bridging classical/evolutionary, bounded rationality |
+| **P3** | Samuelson, L. | *Evolutionary Games and Equilibrium Selection* (MIT Press, 1997) | not started | Stability as structural |
+| **P3** | Hargreaves Heap & Varoufakis | *Game Theory: A Critical Text* (Routledge, 2004) | not started | Strongest internal critique of rationality assumptions |
+
+---
+
 ## Secondary / Background
 
 Relevant context for specific questions. Low priority unless a specific thread requires them.
 
 - Colman, A.M. — "Cooperation, Psychological Game Theory, and Limitations of Rationality" *BBS* 26(2), 2003
-- Bicchieri, C. — *The Grammar of Society* (Cambridge UP, 2006)
+- Bicchieri, C. — *The Grammar of Society* (Cambridge UP, 2006) — **promoted to P2 above**
 - Raz, J. — work on incommensurability and value pluralism
 - Anderson, E. — work on value pluralism
 - McGilchrist, I. — *The Master and His Emissary* (2009) — hemispheric attention

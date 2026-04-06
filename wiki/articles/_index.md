@@ -21,9 +21,10 @@ Master catalog of all wiki articles.
 
 ## People
 
+- **[Daniel Schmachtenberger](daniel-schmachtenberger.md)** (person) also: metacrisis, coordination, systems-thinking, diagnostics
 - **[Elinor Ostrom](elinor-ostrom.md)** (person) also: commons, governance, institutional-design, political-economy
 - **[Heraclitus](heraclitus.md)** (person) also: philosophy, pre-socratic, logos, unity-in-opposition
-- **[J. McKenzie Alexander](j-mckenzie-alexander.md)** (person) also: lse, supervisor-target, game-theory, philosophy
+- **[J. McKenzie Alexander](j-mckenzie-alexander.md)** (person) also: lse, supervisor-target, game-theory, philosophy, evolutionary-game-theory
 - **[Mancur Olson](mancur-olson.md)** (person) also: collective-action, free-riding, political-economy
 - **[Michael Bratman](michael-bratman.md)** (person) also: philosophy, shared-intention, collective-agency, planning-theory
 - **[Richard Bradley](richard-bradley.md)** (person) also: lse, supervisor-target, decision-theory, philosophy
@@ -38,11 +39,15 @@ Master catalog of all wiki articles.
 - **[Irish Citizens' Assembly](irish-citizens-assembly.md)** (case-study) also: coordination-success, democracy, sortition, deliberation
 - **[Montreal Protocol](montreal-protocol.md)** (case-study) also: coordination-success, international, ozone, assurance-game
 
+## Sources
+
+- **[Nowak and May (1992)](nowak-and-may-1992.md)** (source) also: spatial-dynamics, chaos, cooperation, lattice, structure
+
 ## Institutions
 
 - **[IETF and Rough Consensus](ietf-rough-consensus.md)** (institution) also: coordination, consensus, internet, protocol
 
 ---
 
-**Statistics:** 25 articles across 5 categories
+**Statistics:** 27 articles across 6 categories
 **Last rebuilt:** 2026-04-06

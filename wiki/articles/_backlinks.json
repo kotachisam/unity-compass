@@ -17,6 +17,7 @@
     "heraclitus",
     "fukushima-daiichi",
     "robert-axelrod",
+    "daniel-schmachtenberger",
     "montreal-protocol",
     "structural-interdependence",
     "elinor-ostrom"
@@ -24,13 +25,16 @@
   "value-incommensurability": [
     "michael-bratman",
     "ietf-rough-consensus",
+    "evolutionary-game-theory",
     "ruth-chang",
+    "nowak-and-may-1992",
     "aukus",
     "restorative-justice",
     "richard-bradley",
     "coordination-without-convergence",
     "logos",
     "decision-theory-under-severe-uncertainty",
+    "j-mckenzie-alexander",
     "mechanism-design",
     "irish-citizens-assembly",
     "heraclitus",
@@ -44,6 +48,7 @@
     "michael-bratman",
     "ietf-rough-consensus",
     "evolutionary-game-theory",
+    "nowak-and-may-1992",
     "aukus",
     "richard-bradley",
     "coordination-without-convergence",
@@ -55,10 +60,12 @@
     "irish-citizens-assembly",
     "robert-axelrod",
     "social-choice-theory",
+    "daniel-schmachtenberger",
     "montreal-protocol",
     "elinor-ostrom"
   ],
   "evolutionary-game-theory": [
+    "nowak-and-may-1992",
     "coordination-without-convergence",
     "decision-theory-under-severe-uncertainty",
     "j-mckenzie-alexander",
@@ -67,19 +74,29 @@
     "game-theory",
     "structural-interdependence"
   ],
+  "aukus": [
+    "evolutionary-game-theory",
+    "coordination-without-convergence",
+    "j-mckenzie-alexander",
+    "fukushima-daiichi",
+    "montreal-protocol",
+    "structural-interdependence",
+    "elinor-ostrom"
+  ],
+  "game-theory": [
+    "evolutionary-game-theory",
+    "nowak-and-may-1992",
+    "logos",
+    "j-mckenzie-alexander",
+    "mechanism-design",
+    "social-choice-theory"
+  ],
   "richard-bradley": [
     "ruth-chang",
     "decision-theory-under-severe-uncertainty",
     "j-mckenzie-alexander",
     "social-choice-theory",
     "structural-interdependence"
-  ],
-  "aukus": [
-    "coordination-without-convergence",
-    "fukushima-daiichi",
-    "montreal-protocol",
-    "structural-interdependence",
-    "elinor-ostrom"
   ],
   "thomas-schelling": [
     "mancur-olson",
@@ -93,6 +110,12 @@
     "richard-bradley",
     "structural-interdependence"
   ],
+  "robert-axelrod": [
+    "evolutionary-game-theory",
+    "nowak-and-may-1992",
+    "thomas-schelling",
+    "game-theory"
+  ],
   "decision-theory-under-severe-uncertainty": [
     "evolutionary-game-theory",
     "richard-bradley",
@@ -104,10 +127,10 @@
     "coordination-without-convergence",
     "thomas-schelling"
   ],
-  "game-theory": [
-    "logos",
-    "mechanism-design",
-    "social-choice-theory"
+  "ruth-chang": [
+    "evolutionary-game-theory",
+    "j-mckenzie-alexander",
+    "value-incommensurability"
   ],
   "mechanism-design": [
     "logos",
@@ -119,13 +142,17 @@
     "mechanism-design",
     "game-theory"
   ],
+  "nowak-and-may-1992": [
+    "evolutionary-game-theory",
+    "j-mckenzie-alexander"
+  ],
   "mancur-olson": [
     "coordination-without-convergence",
     "thomas-schelling"
   ],
-  "robert-axelrod": [
-    "thomas-schelling",
-    "game-theory"
+  "logos": [
+    "heraclitus",
+    "daniel-schmachtenberger"
   ],
   "paul-pierson": [
     "path-dependence"
@@ -141,12 +168,6 @@
   ],
   "heraclitus": [
     "logos"
-  ],
-  "ruth-chang": [
-    "value-incommensurability"
-  ],
-  "logos": [
-    "heraclitus"
   ],
   "value-incommensurability-coordination-under-value-incommensurability": [
     "game-theory"
