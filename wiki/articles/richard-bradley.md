@@ -25,12 +25,16 @@ The investigation's key question for Bradley's framework: his "Social Ethics und
 
 ## Selected publications
 
-- *Decision Theory with a Human Face* (Cambridge UP)
-- "Social Ethics under Ambiguity" (*Ethics* 132(3), 2022)
-- "Million Dollar Questions: Why Deliberation Is More Than Information Pooling" (with Hoek, *Social Choice and Welfare*, 2022)
-- "Reaching a Consensus" (*Social Choice and Welfare* 29, 2007)
-- "Following the Science: Pandemic Policy and Reasonable Worst-case Scenarios" (with Roussos, *LSE Public Policy Review*, 2021)
-- "What is Risk Aversion?" (with Stefánsson, *BJPS* 70(1), 2019)
+- *Decision Theory with a Human Face* ([Cambridge UP](https://www.cambridge.org/core/books/decision-theory-with-a-human-face/D3670FE43E561F415EB416675E1D5272)) ([Author PDF](http://personal.lse.ac.uk/bradleyR/pdf/Decision%20Theory%20with%20a%20Human%20Face%20(indexed%203).pdf), 2017)
+- "Impartial Evaluation under Ambiguity," *Ethics* 132(3), 2022 ([doi:10.1086/718081](https://doi.org/10.1086/718081)) ([Author PDF](https://personal.lse.ac.uk/bradleyr/pdf/Social%20ethics%20final%20version%20(Ethics).pdf))
+- "Million Dollar Questions: Why Deliberation Is More Than Information Pooling" (with Hoek), *Social Choice and Welfare* 63(3--4), 2022, pp. 581--600 ([Springer](https://link.springer.com/article/10.1007/s00355-022-01392-9)) ([LSE eprints](http://eprints.lse.ac.uk/113882/))
+- "Reaching a Consensus," *Social Choice and Welfare* 29, 2007, pp. 609--632 ([Springer](https://link.springer.com/article/10.1007/s00355-007-0247-y)) ([Author PDF](http://personal.lse.ac.uk/bradleyR/pdf/consensus(SCW).pdf))
+- "Following the Science: Pandemic Policy and Reasonable Worst-case Scenarios" (with Roussos), *LSE Public Policy Review* 1(4), 2021 ([open access](https://ppr.lse.ac.uk/articles/10.31389/lseppr.23)) ([Author PDF](https://personal.lse.ac.uk/bradleyr/pdf/Bradley-Roussos-%20Following%20the%20Science%20PPR.pdf))
+- "What is Risk Aversion?" (with Stefánsson), *BJPS* 70(1), 2019, pp. 77--102 ([doi:10.1093/bjps/axx035](https://doi.org/10.1093/bjps/axx035)) ([Author PDF](https://eprints.lse.ac.uk/81364/1/Bradley_What%20is%20risk%20aversion_author_2017_final.pdf))
+
+## All publications
+
+For a full list of publications, see Bradley's [publications page](https://personal.lse.ac.uk/bradleyr/pubs.html).
 
 ## See also
 

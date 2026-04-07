@@ -71,28 +71,32 @@ Alexander's work inherits the Nowak and May (1992) result that spatial structure
 
 ### Books
 
-- *The Structural Evolution of Morality* (Cambridge UP, 2007)[^sem-2007]
-- *Evolutionary Game Theory*, Elements in Decision Theory and Philosophy (Cambridge UP, 2023)[^egt-2023]
-- *The Open Society as an Enemy: A Critique of How Free Societies Turned Against Themselves* (LSE Press, 2024)[^ose-2024]
+- *The Structural Evolution of Morality* ([Cambridge UP](https://www.cambridge.org/core/books/structural-evolution-of-morality/8649C631E79FBDD08FF0C5DA93ABF371), 2007)[^sem-2007]
+- *Evolutionary Game Theory*, Elements in Decision Theory and Philosophy ([Cambridge UP](https://www.cambridge.org/core/books/evolutionary-game-theory/C5A666508CF7FB18633A5296ECA8C74A), 2023)[^egt-2023]
+- *The Open Society as an Enemy: A Critique of How Free Societies Turned Against Themselves* ([LSE Press, open access](https://doi.org/10.31389/lsepress.ose), 2024)[^ose-2024]
 
 ### Journal articles and chapters
 
-- "Bargaining with Neighbors: Is Justice Contagious?" (with Brian Skyrms), *The Journal of Philosophy* 96(11), 1999, pp. 588--598[^skyrms-1999]
-- "Evolutionary Explanations of Distributive Justice," *Philosophy of Science* 67(3), 2000, pp. 490--516[^dist-justice]
-- "Random Boolean Networks and Evolutionary Game Theory," *Philosophy of Science* 70(5), 2003, pp. 1289--1304[^rbn]
-- "Follow the Leader: Local Interactions with Influence Neighborhoods" (with Peter Vanderschraaf), *Philosophy of Science* 72(1), 2005, pp. 86--113[^follow]
-- "Social Deliberation: Nash, Bayes, and the Partial Vindication of Gabriele Tarde," *Episteme* 6(2), 2009, p. 164[^tarde]
-- "Inventing New Signals" (with Brian Skyrms and Sandy L. Zabell), *Dynamic Games and Applications* 2(1), 2012, pp. 129--145[^inventing]
-- "Preferential Attachment and the Search for Successful Theories," *Philosophy of Science* 80(5), 2013, pp. 769--782[^pref-attach]
-- "Learning to Signal in a Dynamic World," *British Journal for the Philosophy of Science* 65(4), 2014, pp. 797--820[^signal-2014]
-- "Cheap Talk, Reinforcement Learning, and the Emergence of Cooperation," *Philosophy of Science* 82(5), 2015, pp. 969--982[^cheap-talk]
-- "Epistemic Landscapes, Optimal Search and the Division of Cognitive Labor" (with Johannes Himmelreich and Christopher Thompson), *Philosophy of Science* 82(3), 2015, pp. 424--453[^epistemic]
+- "Bargaining with Neighbors: Is Justice Contagious?" (with Brian Skyrms), *The Journal of Philosophy* 96(11), 1999, pp. 588--598 ([LSE eprints](https://eprints.lse.ac.uk/4862/))[^skyrms-1999]
+- "Evolutionary Explanations of Distributive Justice," *Philosophy of Science* 67(3), 2000, pp. 490--516 ([LSE eprints](https://eprints.lse.ac.uk/4858/))[^dist-justice]
+- "Random Boolean Networks and Evolutionary Game Theory," *Philosophy of Science* 70(5), 2003, pp. 1289--1304 ([LSE eprints](https://researchonline.lse.ac.uk/id/eprint/2627/)) ([Author PDF](https://philsci-archive.pitt.edu/1049/1/Alexander.pdf))[^rbn]
+- "Follow the Leader: Local Interactions with Influence Neighborhoods" (with Peter Vanderschraaf), *Philosophy of Science* 72(1), 2005, pp. 86--113 ([Cambridge Core](https://www.cambridge.org/core/journals/philosophy-of-science/article/abs/follow-the-leader-local-interactions-with-influence-neighborhoods/B193D927097C94FDE51E898FB30F50A1))[^follow]
+- "Social Deliberation: Nash, Bayes, and the Partial Vindication of Gabriele Tarde," *Episteme* 6(2), 2009, p. 164 ([Author PDF](https://jmckalex.org/files/publications/social-deliberation.pdf))[^tarde]
+- "Inventing New Signals" (with Brian Skyrms and Sandy L. Zabell), *Dynamic Games and Applications* 2(1), 2012, pp. 129--145 ([Springer](https://link.springer.com/article/10.1007/s13235-011-0027-2)) ([LSE eprints](https://researchonline.lse.ac.uk/id/eprint/45284/))[^inventing]
+- "Preferential Attachment and the Search for Successful Theories," *Philosophy of Science* 80(5), 2013, pp. 769--782 ([LSE eprints](https://eprints.lse.ac.uk/45283/))[^pref-attach]
+- "Learning to Signal in a Dynamic World," *British Journal for the Philosophy of Science* 65(4), 2014, pp. 797--820 ([Author PDF](https://jmckalex.org/files/publications/learning-to-signal.pdf))[^signal-2014]
+- "Cheap Talk, Reinforcement Learning, and the Emergence of Cooperation," *Philosophy of Science* 82(5), 2015, pp. 969--982 ([LSE eprints](https://eprints.lse.ac.uk/57315/)) ([Author PDF](http://eprints.lse.ac.uk/57315/1/Alexander_Cheap-talk-reinforcement-learning_2014.pdf))[^cheap-talk]
+- "Epistemic Landscapes, Optimal Search and the Division of Cognitive Labor" (with Johannes Himmelreich and Christopher Thompson), *Philosophy of Science* 82(3), 2015, pp. 424--453 ([LSE eprints](https://eprints.lse.ac.uk/60256/))[^epistemic]
 - "Accounting for Groups: The Dynamics of Intragroup Deliberation" (with Julia Morley), *Synthese* (forthcoming)[^groups]
 - "On the Incompleteness of Classical Mechanics," *British Journal for the Philosophy of Science* (forthcoming)[^mechanics]
 
 ### Encyclopedia entries
 
-- "Evolutionary Game Theory," *Stanford Encyclopedia of Philosophy*, first published 2002, substantially revised 2009 and 2021[^sep-2021]
+- "Evolutionary Game Theory," *Stanford Encyclopedia of Philosophy*, first published 2002, substantially revised 2009 and 2021 ([SEP](https://plato.stanford.edu/entries/game-evolutionary/))[^sep-2021]
+
+## All publications
+
+For a full list of publications, see Alexander's [publications page](https://jmckalex.org/home/Publications.php).
 
 ## See also
 

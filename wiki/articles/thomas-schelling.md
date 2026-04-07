@@ -9,7 +9,7 @@ tags: [person, game-theory, focal-points, coordination, salience]
 description: Economist and Nobel laureate whose work on focal points demonstrated that coordination can emerge through structural salience without shared values or communication.
 ---
 
-**Thomas Schelling** (1921-2016) was an American economist and Nobel laureate whose *The Strategy of Conflict* (1960) introduced the concept of focal points to coordination theory.
+**Thomas Schelling** (1921-2016) was an American economist and Nobel laureate whose [*The Strategy of Conflict*](https://www.hup.harvard.edu/books/9780674840317) (1960) introduced the concept of focal points to coordination theory.
 
 ## Focal points
 
@@ -27,7 +27,11 @@ In the investigation's coordination taxonomy, Schelling's focal-point concept ma
 
 ## Key work
 
-- *The Strategy of Conflict* (Harvard UP, 1960)
+- [*The Strategy of Conflict*](https://www.hup.harvard.edu/books/9780674840317) (Harvard UP, 1960)
+
+## All publications
+
+[Nobel Prize biographical page](https://www.nobelprize.org/prizes/economic-sciences/2005/schelling/biographical/) with career overview and key works. See also the [University of Maryland faculty page](https://www.econ.umd.edu/facultyprofile/schelling/thomas-c) and [Harvard Kennedy School memorial](https://www.hks.harvard.edu/publications/thomas-crombie-schelling-1921-2016-pioneering-game-theorist-who-made-world-safer-place).
 
 ## See also
 

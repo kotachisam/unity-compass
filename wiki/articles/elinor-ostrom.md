@@ -13,7 +13,7 @@ description: Nobel Prize-winning political economist. Her work on commons govern
 
 ## Key contribution
 
-Ostrom's *Governing the Commons* (1990) analysed hundreds of cases spanning fisheries, irrigation systems, forests and grazing lands. She identified eight design principles that characterised successful self-governance of shared resources: clearly defined boundaries, rules adapted to local conditions, collective choice arrangements, monitoring, graduated sanctions, conflict resolution mechanisms, recognition of the right to self-organise, and nested governance for larger systems.
+Ostrom's [*Governing the Commons*](https://doi.org/10.1017/CBO9780511807763) (1990) analysed hundreds of cases spanning fisheries, irrigation systems, forests and grazing lands. She identified eight design principles that characterised successful self-governance of shared resources: clearly defined boundaries, rules adapted to local conditions, collective choice arrangements, monitoring, graduated sanctions, conflict resolution mechanisms, recognition of the right to self-organise, and nested governance for larger systems.
 
 These findings are empirical, not theoretical. They were extracted from communities that successfully managed shared resources over decades and sometimes centuries.
 
@@ -26,6 +26,10 @@ The investigation's transfer analysis identifies what generalises from Ostrom's 
 ## Limitations for the investigation
 
 Ostrom's conditions are demanding. Her cases involve bounded communities where participants know each other, interact repeatedly, can observe each other's behaviour, share a resource whose dynamics are relatively stable, and can learn iteratively from failure. High-stakes coordination at scale lacks nearly all of these conditions.
+
+## All publications
+
+[Elinor Ostrom's publications bibliography](https://ostromworkshop.indiana.edu/library/bibliographies/ostrom-elinor.html) maintained by the Ostrom Workshop at Indiana University. See also the [Nobel Prize page](https://www.nobelprize.org/prizes/economic-sciences/2009/ostrom/facts/).
 
 ## See also
 

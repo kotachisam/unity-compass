@@ -40,7 +40,11 @@ The coordination taxonomy identifies four assumptions in Axelrod's framework tha
 
 ## Key work
 
-- *The Evolution of Cooperation* (Basic Books, 1984)
+- [*The Evolution of Cooperation*](https://archive.org/details/evolutionofcoope1984axel) (Basic Books, 1984)
+
+## All publications
+
+[Research papers and publications](https://public.websites.umich.edu/~axe/research_papers.html) hosted at the University of Michigan. See also the [Gerald R. Ford School of Public Policy faculty page](https://fordschool.umich.edu/faculty/robert-axelrod).
 
 ## See also
 

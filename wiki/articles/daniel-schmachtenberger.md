@@ -25,7 +25,14 @@ The investigation distinguishes itself from Schmachtenberger on two points. Firs
 
 ## Key source
 
-Schmachtenberger's work is primarily available through the Consilience Project (consilience-project.org) and extensive podcast appearances.
+Schmachtenberger's work is primarily available through the [Consilience Project](https://consilienceproject.org/) and extensive podcast appearances.
+
+## All publications
+
+- [Personal website](https://civilizationemerging.com/)
+- [Podcast appearances](https://civilizationemerging.com/resources/podcasts/)
+- [Media and essays](https://civilizationemerging.com/media/)
+- [The Consilience Project](https://consilienceproject.org/)
 
 ## See also
 

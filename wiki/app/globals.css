@@ -25,26 +25,26 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --wiki-bg: #101418;
-    --wiki-text: #c8ccd1;
-    --wiki-link: #6b9eff;
-    --wiki-link-visited: #a48bdb;
-    --wiki-link-missing: #e06060;
-    --wiki-border: #3a3f47;
-    --wiki-border-light: #2a2f35;
-    --wiki-sidebar-bg: #181c20;
-    --wiki-header-bg: #181c20;
-    --wiki-tab-bg: #101418;
-    --wiki-tab-inactive: #1e2228;
-    --wiki-toc-bg: #181c20;
-    --wiki-category-bg: #181c20;
-    --wiki-infobox-bg: #181c20;
-    --wiki-code-bg: #181c20;
-    --wiki-box-header: #2a4060;
-    --wiki-box-header-text: #c8ccd1;
-    --wiki-featured-border: #2a5040;
-    --wiki-featured-bg: #162018;
-    --wiki-tools-bg: #181c20;
+    --wiki-bg: #1a1e24;
+    --wiki-text: #eef0f3;
+    --wiki-link: #7aabff;
+    --wiki-link-visited: #b49de0;
+    --wiki-link-missing: #e87070;
+    --wiki-border: #bfc4cc;
+    --wiki-border-light: #3d4550;
+    --wiki-sidebar-bg: #22272e;
+    --wiki-header-bg: #22272e;
+    --wiki-tab-bg: #1a1e24;
+    --wiki-tab-inactive: #282e36;
+    --wiki-toc-bg: #22272e;
+    --wiki-category-bg: #22272e;
+    --wiki-infobox-bg: #22272e;
+    --wiki-code-bg: #22272e;
+    --wiki-box-header: #344868;
+    --wiki-box-header-text: #d4d8dd;
+    --wiki-featured-border: #306848;
+    --wiki-featured-bg: #1e2820;
+    --wiki-tools-bg: #22272e;
   }
 }
 

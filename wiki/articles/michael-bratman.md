@@ -27,8 +27,14 @@ If Bratman is right that shared intention is constitutive of coordination, then 
 
 ## Key works
 
-- "Shared Cooperative Activity" (*Philosophical Review* 101(2), 1992)
-- *Shared Agency: A Planning Theory of Acting Together* (Oxford UP, 2014)
+- "Shared Cooperative Activity" (*Philosophical Review* 101(2), 1992) — [PDF](https://web.media.mit.edu/~cynthiab/Readings/bratman-PhilRev-92.pdf) | [PhilPapers](https://philpapers.org/rec/BRASCA)
+- *Shared Agency: A Planning Theory of Acting Together* (Oxford UP, 2014) — [Oxford Academic](https://academic.oup.com/book/11830) | [PhilPapers](https://philpapers.org/rec/BRASAA-5)
+
+## All publications
+
+- [Stanford faculty page](https://philosophy.stanford.edu/people/michael-e-bratman)
+- [Google Scholar profile](https://scholar.google.com/citations?user=VvSOXCAAAAAJ&hl=en)
+- [PhilPeople bibliography](https://philpeople.org/profiles/michael-bratman/publications)
 
 ## See also
 

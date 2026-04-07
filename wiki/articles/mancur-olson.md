@@ -28,7 +28,12 @@ Olson's result is critical because it prevents the investigation from being dism
 
 ## Key work
 
-- *The Logic of Collective Action: Public Goods and the Theory of Groups* (Harvard UP, 1965)
+- *The Logic of Collective Action: Public Goods and the Theory of Groups* (Harvard UP, 1965) — [Harvard UP](https://www.hup.harvard.edu/books/9780674537514) | [Internet Archive](https://archive.org/details/logicofcollectiv00olso)
+
+## All publications
+
+- [Wikipedia bibliography](https://en.wikipedia.org/wiki/Mancur_Olson#Bibliography)
+- [Google Scholar results](https://scholar.google.com/scholar?q=author%3A%22Mancur+Olson%22)
 
 ## See also
 
