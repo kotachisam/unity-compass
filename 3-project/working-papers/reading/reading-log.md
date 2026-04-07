@@ -16,8 +16,8 @@ The minimum-viable reading before writing the LSE proposal revision. Four texts 
 | Priority | Author | Title | Status | Notes |
 |----------|--------|-------|--------|-------|
 | **P1** | Alexander, J.M. | *The Open Society as an Enemy* (LSE Press, 2024) | not started | — |
-| **P1** | Alexander, J.M. | *Evolutionary Game Theory* (Cambridge UP, 2023) | not started | — |
-| **P1** | Bradley, R. | "Social Ethics under Ambiguity" *Ethics* 132(3), 2022 | not started | — |
+| **P1** | Alexander, J.M. | *Evolutionary Game Theory* (Cambridge UP, 2023) | not started | Note: SEP entry (2021) read as orientation. CUP book is the deeper engagement. |
+| **P1** | Bradley, R. | "Social Ethics under Ambiguity" *Ethics* 132(3), 2022 | **read (2026-04-07)** | [Source notes](../../../wiki/sources/LSE/bradley/bradley-2022-social-ethics-under-ambiguity.md) |
 | **P1** | Bradley, R. | *Decision Theory with a Human Face* (Cambridge UP) | not started | Selected chapters on ambiguity, social choice |
 
 ---
@@ -67,7 +67,7 @@ Supervisor target 2. Research focuses: decision theory, formal epistemology, soc
 
 | Priority | Title | Citation | Status | Notes |
 |----------|-------|----------|--------|-------|
-| **P1** | Social Ethics under Ambiguity | *Ethics* 132(3), 2022 | not started | Most directly relevant single paper. |
+| **P1** | Social Ethics under Ambiguity | *Ethics* 132(3), 2022 | **read (2026-04-07)** | Most directly relevant single paper. [Source notes](../../../wiki/sources/LSE/bradley/bradley-2022-social-ethics-under-ambiguity.md) |
 | **P2** | Million Dollar Questions: Why Deliberation Is More Than Information Pooling (w/ Hoek) | *Social Choice and Welfare*, 2022 | not started | Deliberation beyond preference aggregation. |
 | **P2** | Reaching a Consensus | *Social Choice and Welfare* 29, 2007 | not started | Consensus formation. |
 | **P2** | Following the Science: Pandemic Policy and Reasonable Worst-case Scenarios (w/ Roussos) | *LSE Public Policy Review* 1(4), 2021 | not started | Decision theory applied to high-stakes coordination under severe uncertainty. |
@@ -160,6 +160,9 @@ Surfaced from Alexander's SEP bibliography. Prioritised by relevance to the stru
 | **P2** | Hauert, C. | "Spatial Effects in Social Dilemmas" *J Theoretical Biology* 240, 2006 | not started | Mathematical tools: lattice dynamics, Monte Carlo simulation |
 | **P2** | Ostrom, E. | "Collective Action and the Evolution of Social Norms" *JEP* 14(3), 2000 | not started | Procedural commitments axis |
 | **P2** | Harms, W. | "The Evolution of Cooperation in Hostile Environments" *JCS* 7(1-2), 2000 | not started | Shared risk promoting cooperation |
+| **P2** | Danan, E. et al. | "Robust Social Decisions" *American Economic Review* 106, 2016 | not started | Incomplete betterness rankings. The formal territory where partial orderings over structural position-vectors live. Bradley's "door he didn't walk through." Surfaced from Bradley S.VI. |
+| **P2** | Levi, I. | "Pareto Unanimity and Consensus" *Journal of Philosophy* 87, 1990 | not started | Early work on incomplete social betterness within Sen's framework. Surfaced from Bradley S.VI. |
+| **P2** | Bergemann, D. and Morris, S. | "Robust Mechanism Design" *Econometrica* 73(6), 2005 | not started | Mechanisms that work regardless of agent beliefs. Formal version of Layer 1 (objective structure independent of subjective perception). Surfaced from Tension 6. |
 | **P3** | Gintis, H. | *Game Theory Evolving* (Princeton UP, 2009) | not started | Textbook bridging classical/evolutionary, bounded rationality |
 | **P3** | Samuelson, L. | *Evolutionary Games and Equilibrium Selection* (MIT Press, 1997) | not started | Stability as structural |
 | **P3** | Hargreaves Heap & Varoufakis | *Game Theory: A Critical Text* (Routledge, 2004) | not started | Strongest internal critique of rationality assumptions |

@@ -88,6 +88,39 @@ The analogy: non-Euclidean geometry didn't abandon rigour. It abandoned an axiom
 
 ---
 
+## Tension 6: Objective Structure vs. Subjective Experience of Structure
+
+**Where it appears:** Surfaced during reading of Bradley (2022) "Social Ethics under Ambiguity," but applies across the entire formal programme. Bradley's framework collapses what is good for an individual and what the evaluator judges to be good into a single well-being measure (requiring "well-informed and of clear mind" epistemic conditions). The coordination space proposal separates these.
+
+**The distinction:** Structural features of interdependence (shared risk, entanglement, constraints, procedural commitments) are objective properties of a configuration. They are facts about the world: how connected agents are, what risks they share, what constraints bind them. These do not change depending on who is looking.
+
+What changes is how agents perceive and weight those features from their position. Australia and the UK face the same objective risk topology in AUKUS, but their proximity, history and strategic doctrine make the same objective risk feel different. The structure is the same. The experience of the structure is perspective-dependent.
+
+**Why it matters:** This is a formal architecture question. The coordination space has two layers:
+
+- **Layer 1 (objective):** The structural configuration. Measurable, perspective-independent. This is where stability is defined.
+- **Layer 2 (subjective):** How each agent reads the configuration from their position. Perspective-dependent. This is where coordination behaviour (whether agents actually coordinate) comes from.
+
+Most existing frameworks (Bradley's social evaluation, game theory's utility functions) collapse these layers into one. The thesis keeps them separate. The objective structure grounds the stability analysis. The subjective perception explains why agents do or don't coordinate in practice. They can diverge, and the divergence is itself informative.
+
+**The strong claim:** Under what objective structural configurations is coordination stable regardless of how agents subjectively weight the features? If such configurations exist, the coordination space provides a stability result that doesn't require knowing what agents think, only what's true about their interdependence. This is a radically lower epistemic bar than any existing framework.
+
+**The risk:** If subjective perception of structure always mediates whether coordination actually occurs, then the objective layer alone is insufficient for practical coordination (even if formally stable). The thesis would need to account for perception as well, re-introducing something like the agent capacities from Tension 1.
+
+**Candidate resolution:** The two layers are complementary. Layer 1 tells you where coordination CAN be stable (structural possibility). Layer 2 tells you where it WILL be stable (behavioural realisation). The thesis contribution is Layer 1. The practice spine and operational insights contribute to Layer 2. Both are needed, but they're different research questions.
+
+**Grounding references:**
+- Nagel, T. *The View from Nowhere* (Oxford UP, 1986). The foundational critique of collapsing objective and subjective perspectives. The two-layer architecture is a formal implementation of Nagel's insight.
+- Rowe and Voorhoeve, "Egalitarianism under Severe Uncertainty" *Philosophy and Public Affairs* 46 (2018). Engages with impartial vs situated evaluation under ambiguity. Voorhoeve is at LSE.
+- Nowak and May (1992). Lattice topology determines outcomes regardless of agent beliefs. Layer 1 doing work without Layer 2.
+- Schelling, *The Strategy of Conflict* (1960). Focal points as objective structural features that coordinate without explicit reasoning.
+- Sen, *Development as Freedom* (Oxford UP, 1999). Objective capabilities replacing subjective utility. Structural parallel to structural position variables.
+- Bergemann and Morris, "Robust Mechanism Design" *Econometrica* 73(6), 2005. Mechanisms that work regardless of agents' beliefs. The mechanism-design version of the Layer 1 question.
+
+**Semantic Scholar search (2026-04-07):** Searches for the specific intersection (objective structural properties vs subjective perception in coordination theory) returned zero results across 200M+ papers. The component literatures exist separately. The synthesis is unoccupied.
+
+---
+
 ## Notes on Resolution Strategy
 
 These tensions share a common structure: the Unity Compass repository makes broad philosophical claims; the V2 research proposal investigates a specific formal question. The tensions arise because the broad claims sometimes presuppose answers to the specific question.

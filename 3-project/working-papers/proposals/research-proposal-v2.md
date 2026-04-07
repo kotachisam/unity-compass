@@ -1,4 +1,4 @@
-# Research Proposal: Co-ordination Without Convergence: Navigating Incommensurability In Collective Interdependence
+# Research Proposal: Co-ordination Without Convergence: Navigating Partial Commensurability in Collective Interdependence
 
 **Applicant:** Samuel Norton
 **Degree:** MPhil/PhD in Philosophy, London School of Economics
