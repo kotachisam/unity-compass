@@ -18,6 +18,8 @@ Provides the formal apparatus the thesis extends: evolutionary dynamics, spatial
 
 **Status after reading Alexander SEP (2026-04-06):** alignment confirmed. Complementary not competing. Need to articulate what "structural interdependence" captures that his "population structure" doesn't. Differentiator: procedural commitments and shared risk as formal variables, plus the acute-case framing.
 
+**Status during Alexander OSE reading (2026-04-09):** three developments. (1) The complementarity framing may need revision. Alexander doesn't deploy EGT in this book at all. The thesis may be the BRIDGE between his two disconnected bodies of work (formal EGT and diagnostic Open Society) rather than complementary to one of them. (2) Alexander's Open Society concept lacks an account of its own implementation conditions. The coordination space provides what his concept is missing: a formal specification of what structural configurations make a given arrangement sustainable. This is a stronger positioning than "complementary to his EGT work." (3) Gaus (2021) formalised fitness landscapes for open societies using complex systems theory. Alexander explicitly distances himself from Gaus. The thesis must articulate how it differs from Gaus's formalism. Added as P1 reading.
+
 ### Richard Bradley (critical pressure)
 
 Maps the constraints the thesis escapes. His paper proves that even weak assumptions (Outcome Anonymity, State Dominance, Pareto for Equivalent Outcomes) force homogeneity, ambiguity-neutrality, and strong separability. The thesis preserves State Dominance and Pareto while replacing impartial evaluation with situated structural assessment, escaping the homogeneity and ambiguity-neutrality results.
