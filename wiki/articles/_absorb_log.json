@@ -1,9 +1,47 @@
 {
-  "absorbed": [],
-  "last_run": null,
+  "absorbed": [
+    {
+      "run": "2026-04-11T00:30+10:00",
+      "command": "/wiki absorb last 5",
+      "scope": "source files modified between 2026-04-05 and 2026-04-11",
+      "exclusions": [
+        "wiki/sources/P2/gaus/gaus-2021-open-society-complexities.md (Claude-assisted scan only, user reading pending)"
+      ],
+      "sources_processed": [
+        "wiki/sources/P1/alexander/alexander-2024-open-society-as-enemy.md",
+        "wiki/sources/P1/bradley/bradley-2022-social-ethics-under-ambiguity.md",
+        "3-project/working-papers/writing/methodological-evolution.md",
+        "wiki/app/source/open-questions.md",
+        "3-project/working-papers/reading/reading-log.md",
+        "3-project/working-papers/proposals/research-proposal-v3.md",
+        "1-theory/03-frameworks/04-the-coordination-space.md",
+        "1-theory/03-frameworks/05-the-formal-programme.md"
+      ],
+      "articles_created": [
+        "rorschach-concepts.md",
+        "multifaceted-social-engineering.md",
+        "parity.md",
+        "incomplete-preferences.md",
+        "alexander-2024-open-society-as-enemy.md",
+        "bradley-2022-social-ethics-under-ambiguity.md"
+      ],
+      "articles_updated": [
+        "j-mckenzie-alexander.md",
+        "richard-bradley.md",
+        "coordination-without-convergence.md",
+        "structural-interdependence.md"
+      ],
+      "indices_rebuilt": [
+        "_index.md",
+        "_backlinks.json",
+        "_catalog.json"
+      ]
+    }
+  ],
+  "last_run": "2026-04-11T00:30+10:00",
   "stats": {
-    "total_absorbed": 0,
-    "articles_created": 10,
-    "articles_updated": 0
+    "total_absorbed": 8,
+    "articles_created": 16,
+    "articles_updated": 4
   }
 }

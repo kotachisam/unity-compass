@@ -2,9 +2,9 @@
 title: J. McKenzie Alexander
 type: person
 created: 2026-04-06
-last_updated: 2026-04-06
-related: ["Evolutionary Game Theory", "Structural Interdependence", "Richard Bradley", "Game Theory", "Value Incommensurability", "Nowak and May 1992"]
-sources: ["Alexander 2007", "Alexander 2023", "Alexander 2024", "Alexander and Skyrms 1999", "Alexander 2000", "Alexander 2021 SEP"]
+last_updated: 2026-04-10
+related: ["Evolutionary Game Theory", "Structural Interdependence", "Richard Bradley", "Game Theory", "Value Incommensurability", "Nowak and May 1992", "[[Rorschach Concepts]]", "[[Multifaceted Social Engineering]]"]
+sources: ["Alexander 2007", "Alexander 2023", "Alexander 2024", "Alexander and Skyrms 1999", "Alexander 2000", "Alexander 2021 SEP", "wiki/sources/P1/alexander/alexander-2024-open-society-as-enemy.md"]
 tags: [person, lse, supervisor-target, game-theory, philosophy, evolutionary-game-theory]
 description: Professor of Philosophy at LSE. Target supervisor for the doctoral research. Specialist in evolutionary game theory, the evolution of morality and social norms, and the philosophy of society.
 ---
@@ -45,27 +45,31 @@ A recurring thread in Alexander's journal articles examines how cooperation and 
 
 ### Open society and political philosophy
 
-His most recent book, *The Open Society as an Enemy: A Critique of How Free Societies Turned Against Themselves* (LSE Press, 2024, ISBN 978-1-911712-26-8), argues that populist agendas on both left and right have eroded the values underpinning liberal democracies and that a new defence of the open society is required.[^ose-2024] The book is published open-access.[^ose-2024]
+His most recent book, *The Open Society as an Enemy: A Critique of How Free Societies Turned Against Themselves* (LSE Press, 2024, ISBN 978-1-911712-26-8), is a 346-page diagnosis of how the Open Society underwent value-inversion after the Cold War.[^ose-2024] Alexander distinguishes four conceptions of the Open Society and argues that each has come to be perceived as an enemy rather than a virtue: the cosmopolitan (borders and migration), the transparent (privacy and surveillance), the Enlightenment (free exchange of ideas) and the communitarian (polarisation and tribalism).[^ose-2024] The book is published open-access.[^ose-2024]
+
+The central diagnostic device is what Alexander calls [[Rorschach Concepts]]: political concepts whose common meaning is heavily dependent on individual projection, so that a crowd can endorse a slogan such as "Make America Great Again" or "Brexit" without any single policy commanding a majority (pp. 9-11).[^ose-2024] Alexander develops the notion from Charles Taylor's distinction between intersubjective meaning and common meaning, and treats Rorschach concepts as the semantic infrastructure of contemporary populism.[^ose-2024]
+
+The prescriptive chapter proposes [[Multifaceted Social Engineering]] as a third way between Popper's piecemeal social engineering and the utopian variety Popper attacked (Ch. 29).[^ose-2024] Alexander argues that Popper's rejection of utopian engineering rests on contingent rather than modal claims, and that piecemeal approaches converge on local optima far below the global optimum on a Wright-style fitness landscape (p. 307).[^ose-2024] The landscape is used as metaphor: axes, fitness function and navigation method are left undefined. The book never deploys Alexander's own formal apparatus from evolutionary game theory: no replicator dynamics, no spatial interaction models, no equilibrium concepts. The 346 pages are diagnostic philosophy, not formal modelling.[^ose-2024]
 
 ## Relevance to the investigation
 
 Alexander is one of two target supervisors for the LSE MPhil/PhD application (alongside [[Richard Bradley]]). His work is directly relevant to sub-question 2 of the research proposal: under what conditions do coordination equilibria grounded in [[Structural Interdependence]] resist defection, capture and decay?
 
-### Complementary not competing
+### Bridging the formal and the diagnostic
 
-The source-note analysis of Alexander's SEP entry identifies a productive framing for the relationship between his evolutionary game-theoretic programme and the investigation's structural hypothesis.[^source-notes] Alexander's models explain how cooperative norms emerge and stabilise across populations over evolutionary time. The investigation asks a different question: what grounds coordination in the specific case, before the evolutionary dynamics have had time to operate.[^source-notes]
+Alexander's output divides into two bodies of work that his own publications do not obviously join. On one side sits the formal programme in evolutionary game theory, the 2007 *Structural Evolution of Morality* and the SEP survey, which supplies a mathematical tradition for studying how cooperative norms emerge and stabilise on structured populations. On the other sits the 2024 *Open Society as an Enemy*, a diagnostic synthesis that identifies a coordination failure the formal apparatus is not brought to bear on. The investigation proposes to bridge the two rather than sit alongside either in isolation.
 
-The two accounts are complementary rather than competing. Alexander explains the long run (population-level norm evolution through differential replication); the investigation explains the acute case (a small number of specific actors making situated judgements under uncertainty, with genuinely incommensurable values, right now, once).[^source-notes] A nation deciding whether to cooperate on [[AUKUS]] Pillar II is not replicating differentially across a population. It is a specific set of actors facing a specific structural configuration.
+The pitch hook is in Alexander's own introduction. He writes that rehabilitating the Open Society "involves global comparisons and trade-offs along dimensions not obviously comparable" (p. 16).[^ose-2024] This is close to a specification for a formal object the book does not provide: a representation in which structural positions can be compared along multiple axes without being forced onto a common scale. The investigation's structural hypothesis proposes that partial orderings over structural position-vectors are candidates for exactly that object, and that [[Coordination Without Convergence]] can be grounded in shared risk ordering, constraint hardness and entanglement density rather than in a shared payoff matrix.
+
+The philosophical warrant for the connection is stated in Chapter 4 of the 2024 book, where Alexander cites his own 2007 work for the view that morality is best understood "as a social technology for solving the interdependent decision problems which arise from people's social existence" (p. 52).[^ose-2024] If morality is a social technology for interdependent decision problems within communities, the coordination space is the representation of the same problem space across communities whose moral vocabularies do not align. Structural features replace shared utility precisely because shared utility presupposes the commensurability that moral pluralism denies.
 
 ### The payoff-structure boundary
 
-Alexander's entire formal apparatus, from the static ESS concepts of Maynard Smith through replicator dynamics to local interaction models, requires a constructible payoff structure: a shared matrix V that all agents recognise.[^source-notes] When agents hold values that are genuinely incomparable in [[Ruth Chang]]'s sense, the starting conditions for any game-theoretic model are absent. This is not a limitation that can be patched; it is a boundary condition of the framework itself.[^source-notes]
-
-The investigation's key question for Alexander's framework: can his evolutionary stability analysis be extended to agents whose payoffs are genuinely incomparable? If [[Coordination Without Convergence]] can be grounded in structural features (shared risk ordering, constraint hardness, entanglement density), what does evolutionary stability look like in that regime?[^source-notes]
+Alexander's formal apparatus, from the static ESS concepts of Maynard Smith through replicator dynamics to local interaction models, requires a constructible payoff structure: a shared matrix V that all agents recognise.[^source-notes] When agents hold values that are genuinely incomparable in [[Ruth Chang]]'s sense, the starting conditions for any game-theoretic model are absent. This is not a limitation that can be patched; it is a boundary condition of the framework. The investigation's question for Alexander is whether evolutionary stability analysis can be extended to agents whose payoffs are incomparable, and what stability looks like when structural features alone carry the work.
 
 ### The Nowak and May bridge
 
-Alexander's work inherits the Nowak and May (1992) result that spatial structure alone produces qualitatively different cooperation outcomes even when the underlying game is fixed.[^source-notes] The investigation's thesis framing pushes this further: "Nowak and May demonstrated that structure matters even when the game is fixed. The investigation asks what happens when structure is all you have."[^source-notes]
+Alexander's work inherits the Nowak and May (1992) result that spatial structure alone produces qualitatively different cooperation outcomes even when the underlying game is fixed.[^source-notes] The investigation pushes this further: Nowak and May showed that structure matters even when the game is fixed; the investigation asks what happens when structure is all that is shared.
 
 ## Selected publications
 
@@ -129,4 +133,4 @@ For a full list of publications, see Alexander's [publications page](https://jmc
 [^epistemic]: J. McKenzie Alexander, Johannes Himmelreich and Christopher Thompson, "Epistemic Landscapes, Optimal Search and the Division of Cognitive Labor," *Philosophy of Science* 82(3), 2015, pp. 424--453. <https://eprints.lse.ac.uk/60256/>.
 [^groups]: J. McKenzie Alexander and Julia Morley, "Accounting for Groups: The Dynamics of Intragroup Deliberation," *Synthese* (forthcoming).
 [^mechanics]: J. McKenzie Alexander, "On the Incompleteness of Classical Mechanics," *British Journal for the Philosophy of Science* (forthcoming).
-[^source-notes]: Analysis from investigation source notes: "Evolutionary Game Theory (SEP)," `/wiki/sources/LSE/alexander/alexander-2021-evolutionary-game-theory-sep.md`.
+[^source-notes]: Analysis from investigation source notes: "Evolutionary Game Theory (SEP)," `/wiki/sources/P1/alexander/alexander-2021-evolutionary-game-theory-sep.md`.
