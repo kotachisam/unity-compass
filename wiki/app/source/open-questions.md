@@ -238,3 +238,15 @@ Rough split: definitions, existence theorems, characterisation results and limit
 ### Does the configuration manifold picture handle collective agents coherently?
 
 A stronger critique the thesis makes against Gaus's own formalism is that Gaus's completeness assumption becomes a fiction for collective agents (nations, treaty parties, corporations), whose "preferences" are themselves an aggregation problem rather than a primitive. The partial-ordering move is then not just a technical weakening for edge cases but an object more faithful to how real coordination happens at the collective scale. But the cone bundle picture has its own collective-agent problem: whose cone is the cone of a nation? Is it the cone of the principal who makes the decision, or a composite cone derived from internal factions, or something else? The thesis needs a coherent answer to "what is an agent" in the geometric picture before it can claim to handle collective agents better than Gaus does.
+
+### How should predictive models be constructed formally? (surfaced 2026-04-11 from user reading of Gaus §15.1)
+
+Gaus's six-element perspective model in §15.1 includes element V: a set of predictive models that take the agent's set of options and predict, for each, the social worlds that would be produced. The thesis's current formal sketch (configuration manifold with metric and cone bundle) has no element V analogue. Agents in the manifold need some way to predict where moves lead, but the metric tensor only tells the agent the cost or distance of a move; it does not model the agent's prediction of what configuration the move arrives at, what consequences follow, how the system responds. Different agents may have different predictive models of the same arrangement, and those predictive models are themselves a source of diversity that is neither metric (structural) nor cone (evaluative) in the current sketch.
+
+The user has confirmed that element V is going to be a key part of the thesis but the construction is not yet worked out. Three candidate formal moves are flagged in the methodological evolution document under "Predictive models as a missing element":
+
+1. Per-agent dynamical systems (each agent carries a vector field on the manifold representing their model of how configurations evolve)
+2. Causal model bundles (a bundle structure where each fibre at point x is the set of plausible next-positions according to that agent's causal model)
+3. Learned predictive models with shared updating (agents update based on observed outcomes, possibly converging on shared models)
+
+None is committed yet. The thesis's current two-layer (structural / evaluative) split needs to expand to a three-component framing (structural coordinates with metric, evaluative cones, predictive models) to be honest about what is being claimed. Substantial development of this component is reserved for the MPhil year, possibly drawing on dynamical systems theory and the cognitive theory of categorisation (Hayek 1952, Page 2007, North 2005).

@@ -64,6 +64,42 @@ A reviewer's natural counter-punch: "every formal model is an idealisation. Gaus
 
 **Relationship to Alexander (2024):** Alexander explicitly distances himself from Gaus's complex adaptive systems framing in his introduction (approx. p. 13). The targeted reading does not resolve whether this distancing is philosophical or formal. Alexander may simply dislike the Hayekian lineage of Gaus's work on political grounds; he may consider the tools inadequate to the scale of the diagnostic problem; or he may not have engaged closely enough with Gaus's §20 to see the specific formal commitments. None of these fully explain his rejection. For the supervision pitch, the safer claim is that the thesis addresses what both Alexander and Gaus leave untouched: the intrapersonal incompleteness case, the geometric state space with variable metric, and structural features as a class of variable distinct from preferences.
 
+**Update after user's own reading of Gaus §§15.1-15.2 (2026-04-11):** Gaus's perspective model in §15.1 is materially more permissive than his §20 formal model. He defines an agent's perspective with six elements:
+
+- **I.** Goals, evaluative standards, values, normative principles
+- **II.** Method for modifying these standards
+- **III.** Categorisations of the natural and social world (which determine what counts as a relevant feature in any judgment-action context)
+- **IV.** Set of options in any given judgment-action context
+- **V.** Predictive models that map options to social worlds
+- **VI.** A ranking function applying I, III, IV and V to the resulting social worlds
+
+The critical sentence is in element VI (p. 104): "A perspective may generate multiple non-aggregated rankings based on different evaluative standards (I), e.g., an interest-satisfaction ranking, a justice ranking, and so on." This is structurally a partial-ordering claim in Gaus's own conceptual framework. His §20 Self-Organization Model collapses this conceptual richness to a single cardinal utility function U_A(R) ∈ [0, 10] per agent for tractability.
+
+**The friendly differentiation against Gaus, sharpened**: Gaus's perspective model in §15.1 already acknowledges that agents may generate multiple non-aggregated rankings of social worlds based on different evaluative standards. His §20 Self-Organization Model collapses this conceptual richness to a single cardinal utility function per agent for tractability. The thesis proposes the formal machinery (partial orderings over position-vectors via dominance cones in a configuration manifold, vector-valued game theory for the equilibrium concept) that lets §15's conceptual permissiveness be captured formally without the §20 collapse. This is friendlier and more precise than "Gaus is wrong about cardinal utilities". It positions the thesis as completing what Gaus's own conceptual model promises but his formalisation simplifies away.
+
+**The six elements as a more granular taxonomy than the thesis's two-layer split**:
+
+| Gaus element | Thesis correspondence |
+|---|---|
+| I. Goals, evaluative standards, values, principles | Evaluative coordinates on the configuration manifold |
+| II. Method for modifying standards | Meta-evaluative; lives near Chang's voluntarism and the collective-agency question |
+| III. Categorisations of natural and social world | The shared-vocabulary precondition for the conditional retreat; where Sen's positional objectivity sits |
+| IV. Set of options in a context | The reachable set on the manifold, determined by feasibility constraints and coalition structure |
+| V. Predictive models mapping options to worlds | Currently absent from the thesis's framing; flagged as a real gap needing future refinement |
+| VI. Ranking function | Where partial orderings live; the dominance cone at each point on the manifold |
+
+This six-element taxonomy is more granular than the current two-layer (structural / evaluative) split and is worth adopting as the thesis's working vocabulary for thinking about where diversity sits. The mapping is not yet a formal claim but it clarifies what each component of the thesis's formal object is doing and where the gaps are. The most important gap is element V: see the new "Predictive models as a missing element" subsection below.
+
+**Revision via lineage grep over §20 (2026-04-11, pending user verification):** A systematic cross-reference search over the full Gaus PDF corrected the §15-vs-§20 framing above. §20 does NOT formally build on §15.1's perspective model. The actual formal lineage is §9.3 (Bicchieri's sensitivity variable k_n as the origin of reconciliation weighting) → §10.3 (where μ_A(R_i) is first introduced as cardinal, interpersonally noncomparable inherent utility, with a footnote 13 forward reference to §20: "This idea is further explained in section 20") → §19.3 (the Deliberative Model from Gaus's earlier *The Order of Public Reason*, an ordinal model with a quasi-transitive "Pareto or Indifference" rule) → §20 (which cardinalises §19.3's model so it can multiply inherent utility by a reconciliation weighting function). §15.1's six-element perspective model is a conceptual orphan in Gaus's own book: introduced on p. 104, never referenced again in §20, never formally integrated with the self-organization model. The thesis's move to connect §15.1 to the formal object is creative work Gaus himself does not do.
+
+**The smoking gun** is §20.1 footnote 3 (verbatim): "Thus far, this is simply a cardinalization of the original ordinal model." Footnote 3: "And so it requires completeness of orderings, something I did not assume in the ordinal model." Gaus himself flags the cardinalization as a new assumption and explicitly says the earlier ordinal model (§19.3) did not require completeness. The tension is in his own text and can be cited directly.
+
+**Why Gaus cardinalises**: to multiply inherent utility by the reconciliation weighting function U_A(R) = μ_A(R) × w_A(n)(R) on p. 149. Multiplication requires cardinal numbers. The cardinalization is driven by this product form. If a different formal machinery can combine "inherent endorsement" with "reconciliation weighting" without requiring scalar multiplication, the cardinalization becomes unnecessary.
+
+**Sharper differentiation move**: the thesis returns to Gaus's own §19.3 ordinal model and provides the geometric machinery (partial orderings via dominance cones, vector-valued game theory for the equilibrium concept) that preserves the reconciliation dynamic without requiring cardinalization. This is friendlier and sharper than "Gaus uses cardinal utilities" because it is grounded in Gaus's own footnote. The §15.1 perspective model remains relevant as evidence that Gaus's conceptual framework is richer than his §20 formalisation captures, but is no longer the primary pivot.
+
+All of the above is based on a Claude-assisted grep pass and needs verification against the text when the user reads §§9.3, §10.3 and §19.3 directly. The framing may need further adjustment.
+
 ## Formal object evolution
 
 ### Configuration manifold and cone bundles (surfaced 2026-04-10)
@@ -150,6 +186,20 @@ The Methodology section can introduce the four candidate structural features wit
 1. The Tier 1 success at the catastrophic tier should not tempt overclaiming at Tier 2. AUKUS does not run on existential risk; it runs on serious-but-not-extinction-level regional security risks. The conditional retreat is the right form for the case study domain even after the Tier 1 strengthening.
 
 2. The thesis should cite the academic existential risk literature without engaging the broader Effective Altruism or longtermism political debates. The academic work is solid; the surrounding movement is contested. The proposal stays in academic territory.
+
+### Predictive models as a missing element (surfaced 2026-04-11)
+
+Surfaced from the user's reading of Gaus §15.1. Gaus's six-element perspective model includes element V, predictive models that map options to social worlds. The thesis's current formal sketch (configuration manifold with metric and cone bundle) has no element V analogue. Agents in the manifold need some way to predict where moves lead, but the metric tensor only tells the agent the cost or distance of a move; it does not model the agent's prediction of what configuration the move arrives at, what consequences follow, how the system responds. Different agents may have different predictive models of the same arrangement, and those predictive models are themselves a source of diversity that is neither metric (structural) nor cone (evaluative) in the current sketch.
+
+The user (2026-04-11) has confirmed that element V is going to be a key part of the thesis but the construction is not yet worked out. Open question for future development: how should predictive models be represented formally in the configuration manifold framework? Candidate moves include:
+
+1. **Per-agent dynamical systems**: each agent carries a vector field on the manifold representing their model of how configurations evolve. Agents can have different vector fields over the same manifold.
+2. **Causal model bundles**: a bundle structure where each fibre at point x is the set of plausible next-positions according to that agent's causal model. This is structurally similar to the cone bundle but encodes "what I expect to happen" rather than "what I would prefer".
+3. **Learned predictive models with shared updating**: agents update their predictive models based on observed outcomes, possibly converging on shared models in the limit but starting with substantial divergence. Connects to Bayesian belief revision and to evolutionary dynamics on prediction.
+
+None of these is committed yet. The honest current state is that element V is a flagged refinement, not a worked formal object. It will need substantial development during the MPhil year, possibly drawing on dynamical systems theory (Strogatz, already in the reading log) and on the cognitive theory of categorisation (Hayek 1952, Page 2007, North 2005, recently added).
+
+The most important consequence for the proposal: the Methodology section should acknowledge that the formal object under development has at least three component types (structural coordinates with metric, evaluative cones, predictive models), not the current two (structural and evaluative). This is a more honest description of the formal programme and avoids the trap of overclaiming completeness for the current sketch.
 
 ## Key formal claims (current state)
 
