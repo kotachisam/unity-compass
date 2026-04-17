@@ -5,7 +5,7 @@ created: 2026-04-06
 last_updated: 2026-04-10
 related: ["Value Incommensurability", "Structural Interdependence", "Rorschach Concepts", "Multifaceted Social Engineering", "Parity", "Incomplete Preferences", "J. McKenzie Alexander", "Richard Bradley", "Elinor Ostrom", "Thomas Schelling"]
 sources: ["Olson 1965", "Ostrom 1990", "Schelling 1960", "Alexander 2024", "Bradley 2022"]
-source_notes: ["wiki/sources/P1/alexander/alexander-2024-open-society-as-enemy.md", "wiki/sources/P1/bradley/bradley-2022-social-ethics-under-ambiguity.md", "wiki/sources/P1/alexander/alexander-2021-evolutionary-game-theory-sep.md"]
+source_notes: ["wiki/sources/P1/alexander/alexander-2024-open-society-as-enemy.md", "wiki/sources/P1/bradley/bradley-2022-impartial-evaluation-under-ambiguity.md", "wiki/sources/P1/alexander/alexander-2021-evolutionary-game-theory-sep.md"]
 tags: [coordination, convergence, collective-action, core-concept]
 description: The central concept of the Unity Compass investigation. Coordination can be grounded in structural features of interdependence assessed from situated perspectives, without requiring shared values or impartial evaluation.
 ---

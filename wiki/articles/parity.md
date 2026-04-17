@@ -4,7 +4,7 @@ type: concept
 created: 2026-04-10
 last_updated: 2026-04-10
 related: ["[[Ruth Chang]]", "[[Value Incommensurability]]", "[[Incomplete Preferences]]", "[[Richard Bradley]]", "[[Coordination Without Convergence]]", "[[Structural Interdependence]]"]
-sources: ["wiki/sources/P1/bradley/bradley-2022-social-ethics-under-ambiguity.md"]
+sources: ["wiki/sources/P1/bradley/bradley-2022-impartial-evaluation-under-ambiguity.md"]
 tags: [concept, philosophy, chang, value-theory, incommensurability, formal]
 description: Ruth Chang's fourth value relation. Two items are on a par when they are comparable without being better, worse or equal. Central to the investigation's formal treatment of coordination across incommensurable values.
 ---
@@ -33,7 +33,7 @@ Whether this geometric picture is adequate to Chang's own definition of parity i
 
 ## Parity and Bradley's incomplete betterness
 
-Bradley (2022), "Social Ethics under Ambiguity", flags incomplete betterness relations as unexplored territory in Section VI, noting that "the rational response to lack of evidence or to disagreement among experts is partial suspension of judgment." The investigation proposes that parity (a relation that is neither better, worse, nor equal) and incomplete betterness (a formal preference relation that is not complete) are closely related, and that partial orderings over position-vectors are a natural formal home for both. This connection is a working research claim, not a proven identity. Parity is philosophically motivated; incomplete betterness is formally characterised; aligning them is part of the investigation's programme rather than one of its premises.
+Bradley (2022), "Impartial Evaluation under Ambiguity", flags incomplete betterness relations as unexplored territory in Section VI, noting that "the rational response to lack of evidence or to disagreement among experts is partial suspension of judgment." The investigation proposes that parity (a relation that is neither better, worse, nor equal) and incomplete betterness (a formal preference relation that is not complete) are closely related, and that partial orderings over position-vectors are a natural formal home for both. This connection is a working research claim, not a proven identity. Parity is philosophically motivated; incomplete betterness is formally characterised; aligning them is part of the investigation's programme rather than one of its premises.
 
 ## See also
 

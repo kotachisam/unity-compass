@@ -102,7 +102,7 @@ Establishing where the hypothesis fails is as important as establishing where it
 
 This document is deliberately rough. It is written before the primary-source reading that would let it be defended in formal terms. It is included here because the hypothesis is load-bearing for the rest of the investigation and needs to be visible in the public repository, not buried in the doctoral proposal.
 
-The next substantive revision will happen after engagement with Alexander's *Evolutionary Game Theory* (2023) and *The Open Society as an Enemy* (2024), Bradley's *Decision Theory with a Human Face*, and "Social Ethics under Ambiguity" (2022). That reading is expected to sharpen the hypothesis, identify specific formal tools the investigation can use or must extend, and potentially reveal that one or more of the four candidate structural features requires reformulation.
+The next substantive revision will happen after engagement with Alexander's *Evolutionary Game Theory* (2023) and *The Open Society as an Enemy* (2024), Bradley's *Decision Theory with a Human Face*, and "Impartial Evaluation under Ambiguity" (2022). That reading is expected to sharpen the hypothesis, identify specific formal tools the investigation can use or must extend, and potentially reveal that one or more of the four candidate structural features requires reformulation.
 
 What remains stable across any foreseeable revision: the central philosophical claim that value convergence is neither sufficient nor necessary for coordination, and the hypothesis that structural features of interdependence can ground coordination without it. What might change: the specific taxonomy of candidate features, the formal apparatus used to characterise them, and the boundary conditions identified.
 

@@ -55,7 +55,7 @@ Alexander's *Structural Evolution of Morality* already argues that population st
 - Whether the open-society concept connects to coordination under value pluralism
 - How to position the thesis alongside his most recent work
 
-### Bradley, "Social Ethics under Ambiguity" (2022)
+### Bradley, "Impartial Evaluation under Ambiguity" (2022)
 - Whether Bradley's impartial-evaluation framework can be extended to situated coordination
 - What "ambiguity" means formally and how it relates to value incommensurability
 - The gap between impartial standpoint and first-person structural position

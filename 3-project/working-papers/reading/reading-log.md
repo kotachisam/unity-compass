@@ -17,7 +17,7 @@ The minimum-viable reading before writing the LSE proposal revision. Four texts 
 |----------|--------|-------|--------|-------|
 | **P1** | Alexander, J.M. | *The Open Society as an Enemy* (LSE Press, 2024) | **read (2026-04-10, targeted)** | [Source notes](../../../wiki/sources/LSE/alexander/alexander-2024-open-society-as-enemy.md). Targeted reading: full introduction, Ch. 4, Ch. 7 conclusion, Ch. 28 opening, Ch. 29 in full. Parts II and III skipped as not thesis-relevant. Chapters 21-27 skipped aside from general awareness. |
 | **P1** | Alexander, J.M. | *Evolutionary Game Theory* (Cambridge UP, 2023) | not started | Note: SEP entry (2021) read as orientation. CUP book is the deeper engagement. |
-| **P1** | Bradley, R. | "Social Ethics under Ambiguity" *Ethics* 132(3), 2022 | **read (2026-04-07)** | [Source notes](../../../wiki/sources/LSE/bradley/bradley-2022-social-ethics-under-ambiguity.md) |
+| **P1** | Bradley, R. | "Impartial Evaluation under Ambiguity" *Ethics* 132(3), 2022 | **read (2026-04-07)** | [Source notes](../../../wiki/sources/P1/bradley/bradley-2022-impartial-evaluation-under-ambiguity.md) |
 | **P1** | Bradley, R. | *Decision Theory with a Human Face* (Cambridge UP) | not started | Selected chapters on ambiguity, social choice |
 
 ---
@@ -67,7 +67,7 @@ Supervisor target 2. Research focuses: decision theory, formal epistemology, soc
 
 | Priority | Title | Citation | Status | Notes |
 |----------|-------|----------|--------|-------|
-| **P1** | Social Ethics under Ambiguity | *Ethics* 132(3), 2022 | **read (2026-04-07)** | Most directly relevant single paper. [Source notes](../../../wiki/sources/LSE/bradley/bradley-2022-social-ethics-under-ambiguity.md) |
+| **P1** | Impartial Evaluation under Ambiguity | *Ethics* 132(3), 2022 | **read (2026-04-07)** | Most directly relevant single paper. [Source notes](../../../wiki/sources/P1/bradley/bradley-2022-impartial-evaluation-under-ambiguity.md) |
 | **P2** | Million Dollar Questions: Why Deliberation Is More Than Information Pooling (w/ Hoek) | *Social Choice and Welfare*, 2022 | not started | Deliberation beyond preference aggregation. |
 | **P2** | Reaching a Consensus | *Social Choice and Welfare* 29, 2007 | not started | Consensus formation. |
 | **P2** | Following the Science: Pandemic Policy and Reasonable Worst-case Scenarios (w/ Roussos) | *LSE Public Policy Review* 1(4), 2021 | not started | Decision theory applied to high-stakes coordination under severe uncertainty. |

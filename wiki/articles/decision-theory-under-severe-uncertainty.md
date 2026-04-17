@@ -19,7 +19,7 @@ The coordination challenges the investigation addresses operate in the deep unce
 
 ## [[Richard Bradley]]'s framework
 
-Bradley's *Decision Theory with a Human Face* brings together work on decision under ambiguity, belief revision and social choice. His paper "Social Ethics under Ambiguity" (2022) evaluates social prospects from an impartial standpoint when ambiguity prevents standard expected utility calculation.
+Bradley's *Decision Theory with a Human Face* brings together work on decision under ambiguity, belief revision and social choice. His paper "Impartial Evaluation under Ambiguity" (2022) evaluates social prospects from an impartial standpoint when ambiguity prevents standard expected utility calculation.
 
 The gap the investigation identifies: Bradley's framework evaluates from an external, impartial standpoint. Coordination requires agents to act from within their own partial perspectives. The distance between impartial evaluation and situated coordination is where the thesis operates.
 

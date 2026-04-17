@@ -90,7 +90,7 @@ The analogy: non-Euclidean geometry didn't abandon rigour. It abandoned an axiom
 
 ## Tension 6: Objective Structure vs. Subjective Experience of Structure
 
-**Where it appears:** Surfaced during reading of Bradley (2022) "Social Ethics under Ambiguity," but applies across the entire formal programme. Bradley's framework collapses what is good for an individual and what the evaluator judges to be good into a single well-being measure (requiring "well-informed and of clear mind" epistemic conditions). The coordination space proposal separates these.
+**Where it appears:** Surfaced during reading of Bradley (2022) "Impartial Evaluation under Ambiguity," but applies across the entire formal programme. Bradley's framework collapses what is good for an individual and what the evaluator judges to be good into a single well-being measure (requiring "well-informed and of clear mind" epistemic conditions). The coordination space proposal separates these.
 
 **The distinction:** Structural features of interdependence (shared risk, entanglement, constraints, procedural commitments) are objective properties of a configuration. They are facts about the world: how connected agents are, what risks they share, what constraints bind them. These do not change depending on who is looking.
 

@@ -74,7 +74,7 @@
   ],
   "value-incommensurability": [
     "aukus",
-    "bradley-2022-social-ethics-under-ambiguity",
+    "bradley-2022-impartial-evaluation-under-ambiguity",
     "coordination-without-convergence",
     "decision-theory-under-severe-uncertainty",
     "evolutionary-game-theory",
@@ -99,28 +99,28 @@
     "structural-interdependence"
   ],
   "incomplete-preferences": [
-    "bradley-2022-social-ethics-under-ambiguity",
+    "bradley-2022-impartial-evaluation-under-ambiguity",
     "coordination-without-convergence",
     "parity",
     "richard-bradley",
     "structural-interdependence"
   ],
   "parity": [
-    "bradley-2022-social-ethics-under-ambiguity",
+    "bradley-2022-impartial-evaluation-under-ambiguity",
     "coordination-without-convergence",
     "incomplete-preferences",
     "richard-bradley",
     "structural-interdependence"
   ],
   "decision-theory-under-severe-uncertainty": [
-    "bradley-2022-social-ethics-under-ambiguity",
+    "bradley-2022-impartial-evaluation-under-ambiguity",
     "coordination-without-convergence",
     "evolutionary-game-theory",
     "incomplete-preferences",
     "richard-bradley"
   ],
   "richard-bradley": [
-    "bradley-2022-social-ethics-under-ambiguity",
+    "bradley-2022-impartial-evaluation-under-ambiguity",
     "decision-theory-under-severe-uncertainty",
     "incomplete-preferences",
     "j-mckenzie-alexander",

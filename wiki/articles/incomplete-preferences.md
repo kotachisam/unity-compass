@@ -4,7 +4,7 @@ type: concept
 created: 2026-04-10
 last_updated: 2026-04-10
 related: ["[[Parity]]", "[[Richard Bradley]]", "[[Decision Theory Under Severe Uncertainty]]", "[[Value Incommensurability]]", "[[Structural Interdependence]]"]
-sources: ["wiki/sources/P1/bradley/bradley-2022-social-ethics-under-ambiguity.md"]
+sources: ["wiki/sources/P1/bradley/bradley-2022-impartial-evaluation-under-ambiguity.md"]
 tags: [concept, decision-theory, preferences, formal, aumann, partial-orderings]
 description: Decision-theoretic territory where the completeness axiom of classical preference theory is relaxed. Agents with incomplete preferences cannot rank all options against all others even within their own perspective. The technical foundation for the thesis's partial-ordering move.
 ---
@@ -29,7 +29,7 @@ Eliaz and Ok, "Indifference or Indecisiveness? Choice-theoretic Foundations of I
 
 ## Connection to Bradley 2022
 
-Richard Bradley's "Social Ethics under Ambiguity" (2022, Section VI) flags incomplete betterness relations as unexplored territory for social ethics. Bradley describes "the rational response to lack of evidence or to disagreement among experts" as "partial suspension of judgment" and identifies this as a door his paper does not walk through. The literature he cites on the social-ethics side of the door includes Levi 1990, "Pareto Unanimity and Consensus" (*Journal of Philosophy* 87: 481-92), and Danan et al. 2016, "Robust Social Decisions" (*American Economic Review* 106: 2407-25). Both treat incomplete betterness rankings in the context of social choice.
+Richard Bradley's "Impartial Evaluation under Ambiguity" (2022, Section VI) flags incomplete betterness relations as unexplored territory for social ethics. Bradley describes "the rational response to lack of evidence or to disagreement among experts" as "partial suspension of judgment" and identifies this as a door his paper does not walk through. The literature he cites on the social-ethics side of the door includes Levi 1990, "Pareto Unanimity and Consensus" (*Journal of Philosophy* 87: 481-92), and Danan et al. 2016, "Robust Social Decisions" (*American Economic Review* 106: 2407-25). Both treat incomplete betterness rankings in the context of social choice.
 
 The investigation proposes that the thesis's partial orderings over structural position-vectors are the formal analogue of Bradley's incomplete betterness relations, translated from well-being prospects to situated structural assessment. This is a working direction rather than a proven identification.
 

@@ -46,7 +46,7 @@ Master catalog of all wiki articles.
 ## Sources
 
 - **[Alexander 2024 (The Open Society as an Enemy)](alexander-2024-open-society-as-enemy.md)** (source) also: Alexander 2024, OSE, LSE Press, open-society, multifaceted-social-engineering, rorschach-concepts
-- **[Bradley 2022 (Social Ethics under Ambiguity)](bradley-2022-social-ethics-under-ambiguity.md)** (source) also: Bradley 2022, social-ethics, ambiguity, impossibility-result, incomplete-betterness
+- **[Bradley 2022 (Impartial Evaluation under Ambiguity)](bradley-2022-impartial-evaluation-under-ambiguity.md)** (source) also: Bradley 2022, impartial-evaluation, ambiguity, impossibility-result, incomplete-betterness
 - **[Nowak and May (1992)](nowak-and-may-1992.md)** (source) also: spatial-dynamics, lattice, prisoners-dilemma, structure
 
 ## Institutions

@@ -1,5 +1,5 @@
 ---
-title: "Social Ethics under Ambiguity"
+title: "Impartial Evaluation under Ambiguity"
 authors: Richard Bradley
 year: 2022
 type: paper
@@ -17,7 +17,7 @@ access: author-hosted PDF (LSE personal page)
 related_articles: ["richard-bradley", "decision-theory-under-severe-uncertainty", "value-incommensurability", "structural-interdependence"]
 ---
 
-# Social Ethics under Ambiguity
+# Impartial Evaluation under Ambiguity
 
 Bradley's most directly relevant single paper for the investigation. Evaluates social prospects from an impartial standpoint when standard expected utility calculation breaks down due to ambiguity.
 
@@ -116,7 +116,7 @@ Section VI trilemma: reject (1) ambiguity/risk sensitivity, (2) State Dominance,
 
 Door 1 isn't adjacent to the thesis. It IS the thesis, translated from well-being evaluation to structural assessment. The thesis answers a structural analogue of Bradley's open question: incomplete orderings where the rational response to incommensurability is acknowledged non-dominance across structural position-vectors rather than forced ranking of well-being prospects. The novelty is in the structural character of the ordering (position-vectors rather than well-being), not in the incompleteness itself. Doors 2-4 remain within Bradley's evaluation-of-prospects framework; the thesis extends door 1 into a coordination space.
 
-### Reading complete: Bradley "Social Ethics under Ambiguity" (2022)
+### Reading complete: Bradley "Impartial Evaluation under Ambiguity" (2022)
 
 **Status:** read. All 6 sections (29 pages). Started and completed 2026-04-07.
 

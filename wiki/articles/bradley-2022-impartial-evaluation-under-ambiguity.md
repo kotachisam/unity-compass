@@ -1,21 +1,19 @@
 ---
-title: Bradley 2022 (Social Ethics under Ambiguity)
+title: Bradley 2022 (Impartial Evaluation under Ambiguity)
 type: source
 created: 2026-04-10
 last_updated: 2026-04-10
 related: ["[[Richard Bradley]]", "[[Value Incommensurability]]", "[[Decision Theory Under Severe Uncertainty]]", "[[Incomplete Preferences]]", "[[Parity]]"]
-sources: ["wiki/sources/P1/bradley/bradley-2022-social-ethics-under-ambiguity.md"]
+sources: ["wiki/sources/P1/bradley/bradley-2022-impartial-evaluation-under-ambiguity.md"]
 tags: [source, paper, bradley-2022, decision-theory, ambiguity, p1-reading, impossibility-result]
 description: Bradley's 2022 paper proving that three weak conditions on impartial social evaluation force restrictive impossibility results. Central to the investigation's Bradley-facing claims and the thesis's proposal to walk through Bradley's open door on incomplete betterness relations.
 ---
 
-# Bradley 2022 (Social Ethics under Ambiguity)
+# Bradley 2022 (Impartial Evaluation under Ambiguity)
 
 ## Bibliographic information
 
-Richard Bradley, "Social Ethics under Ambiguity", *Ethics* 132(3), 2022. DOI: [10.1086/718081](https://doi.org/10.1086/718081). An author-hosted PDF is available at Bradley's LSE personal page. The paper was selected as one of the ten best philosophy articles of 2022 by the Philosopher's Annual.
-
-Note that the paper is sometimes mis-cited as "Impartial Evaluation under Ambiguity". The correct title is "Social Ethics under Ambiguity".
+Richard Bradley, "Impartial Evaluation under Ambiguity", *Ethics* 132(3), 2022. DOI: [10.1086/718081](https://doi.org/10.1086/718081). An author-hosted PDF is available at Bradley's LSE personal page. The paper was selected as one of the ten best philosophy articles of 2022 by the Philosopher's Annual.
 
 ## Core argument
 

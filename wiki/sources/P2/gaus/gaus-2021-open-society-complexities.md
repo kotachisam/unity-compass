@@ -96,7 +96,7 @@ Replace with a text-grounded paragraph that:
 
 ### 2. Complete this source note
 
-Fill in the sections below (currently empty) as reading progresses. Follow the format of `wiki/sources/LSE/alexander/alexander-2024-open-society-as-enemy.md` and `wiki/sources/LSE/bradley/bradley-2022-social-ethics-under-ambiguity.md`.
+Fill in the sections below (currently empty) as reading progresses. Follow the format of `wiki/sources/P1/alexander/alexander-2024-open-society-as-enemy.md` and `wiki/sources/P1/bradley/bradley-2022-impartial-evaluation-under-ambiguity.md`.
 
 ### 3. Update the reading log
 

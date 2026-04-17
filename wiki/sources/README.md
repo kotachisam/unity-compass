@@ -26,7 +26,7 @@ Within an author directory, one file per work:
 ```
 sources/P1/bradley/
 ├── bradley-2017-decision-theory-human-face.md
-└── bradley-2022-social-ethics-under-ambiguity.md
+└── bradley-2022-impartial-evaluation-under-ambiguity.md
 ```
 
 Filename convention: `{surname}-{year}-{short-title-slug}.md`. British English, no Oxford commas, no em dashes in content.
