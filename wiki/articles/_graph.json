@@ -1,0 +1,1210 @@
+{
+  "generated": "2026-04-17T16:56:48.365Z",
+  "stats": {
+    "nodes": 33,
+    "edges": 150,
+    "stubs": 21,
+    "orphans": 2
+  },
+  "nodes": [
+    {
+      "slug": "path-dependence",
+      "title": "Path Dependence",
+      "type": "concept",
+      "word_count": 315,
+      "is_stub": true,
+      "in_degree": 0,
+      "out_degree": 3
+    },
+    {
+      "slug": "mancur-olson",
+      "title": "Mancur Olson",
+      "type": "person",
+      "word_count": 286,
+      "is_stub": true,
+      "in_degree": 2,
+      "out_degree": 3
+    },
+    {
+      "slug": "michael-bratman",
+      "title": "Michael Bratman",
+      "type": "person",
+      "word_count": 316,
+      "is_stub": true,
+      "in_degree": 0,
+      "out_degree": 3
+    },
+    {
+      "slug": "ietf-rough-consensus",
+      "title": "IETF and Rough Consensus",
+      "type": "institution",
+      "word_count": 342,
+      "is_stub": true,
+      "in_degree": 0,
+      "out_degree": 3
+    },
+    {
+      "slug": "evolutionary-game-theory",
+      "title": "Evolutionary Game Theory",
+      "type": "theory",
+      "word_count": 2045,
+      "is_stub": false,
+      "in_degree": 8,
+      "out_degree": 10
+    },
+    {
+      "slug": "ruth-chang",
+      "title": "Ruth Chang",
+      "type": "person",
+      "word_count": 345,
+      "is_stub": true,
+      "in_degree": 4,
+      "out_degree": 4
+    },
+    {
+      "slug": "nowak-and-may-1992",
+      "title": "Nowak and May (1992)",
+      "type": "source",
+      "word_count": 1179,
+      "is_stub": false,
+      "in_degree": 2,
+      "out_degree": 5
+    },
+    {
+      "slug": "incomplete-preferences",
+      "title": "Incomplete Preferences",
+      "type": "concept",
+      "word_count": 931,
+      "is_stub": false,
+      "in_degree": 3,
+      "out_degree": 5
+    },
+    {
+      "slug": "aukus",
+      "title": "AUKUS",
+      "type": "case-study",
+      "word_count": 303,
+      "is_stub": true,
+      "in_degree": 6,
+      "out_degree": 3
+    },
+    {
+      "slug": "restorative-justice",
+      "title": "Restorative Justice",
+      "type": "concept",
+      "word_count": 382,
+      "is_stub": true,
+      "in_degree": 0,
+      "out_degree": 4
+    },
+    {
+      "slug": "richard-bradley",
+      "title": "Richard Bradley",
+      "type": "person",
+      "word_count": 691,
+      "is_stub": false,
+      "in_degree": 7,
+      "out_degree": 7
+    },
+    {
+      "slug": "coordination-without-convergence",
+      "title": "Coordination Without Convergence",
+      "type": "concept",
+      "word_count": 884,
+      "is_stub": false,
+      "in_degree": 24,
+      "out_degree": 12
+    },
+    {
+      "slug": "logos",
+      "title": "Logos",
+      "type": "concept",
+      "word_count": 421,
+      "is_stub": true,
+      "in_degree": 2,
+      "out_degree": 6
+    },
+    {
+      "slug": "decision-theory-under-severe-uncertainty",
+      "title": "Decision Theory Under Severe Uncertainty",
+      "type": "theory",
+      "word_count": 338,
+      "is_stub": true,
+      "in_degree": 4,
+      "out_degree": 5
+    },
+    {
+      "slug": "j-mckenzie-alexander",
+      "title": "J. McKenzie Alexander",
+      "type": "person",
+      "word_count": 2169,
+      "is_stub": false,
+      "in_degree": 6,
+      "out_degree": 10
+    },
+    {
+      "slug": "thomas-schelling",
+      "title": "Thomas Schelling",
+      "type": "person",
+      "word_count": 292,
+      "is_stub": true,
+      "in_degree": 4,
+      "out_degree": 5
+    },
+    {
+      "slug": "value-incommensurability",
+      "title": "Value Incommensurability",
+      "type": "concept",
+      "word_count": 319,
+      "is_stub": true,
+      "in_degree": 23,
+      "out_degree": 4
+    },
+    {
+      "slug": "mechanism-design",
+      "title": "Mechanism Design",
+      "type": "theory",
+      "word_count": 357,
+      "is_stub": true,
+      "in_degree": 3,
+      "out_degree": 4
+    },
+    {
+      "slug": "irish-citizens-assembly",
+      "title": "Irish Citizens' Assembly",
+      "type": "case-study",
+      "word_count": 368,
+      "is_stub": true,
+      "in_degree": 1,
+      "out_degree": 3
+    },
+    {
+      "slug": "parity",
+      "title": "Parity",
+      "type": "concept",
+      "word_count": 685,
+      "is_stub": false,
+      "in_degree": 4,
+      "out_degree": 5
+    },
+    {
+      "slug": "heraclitus",
+      "title": "Heraclitus",
+      "type": "person",
+      "word_count": 248,
+      "is_stub": true,
+      "in_degree": 1,
+      "out_degree": 3
+    },
+    {
+      "slug": "fukushima-daiichi",
+      "title": "Fukushima Daiichi",
+      "type": "case-study",
+      "word_count": 349,
+      "is_stub": true,
+      "in_degree": 1,
+      "out_degree": 2
+    },
+    {
+      "slug": "robert-axelrod",
+      "title": "Robert Axelrod",
+      "type": "person",
+      "word_count": 382,
+      "is_stub": true,
+      "in_degree": 4,
+      "out_degree": 5
+    },
+    {
+      "slug": "social-choice-theory",
+      "title": "Social Choice Theory",
+      "type": "theory",
+      "word_count": 428,
+      "is_stub": true,
+      "in_degree": 3,
+      "out_degree": 5
+    },
+    {
+      "slug": "daniel-schmachtenberger",
+      "title": "Daniel Schmachtenberger",
+      "type": "person",
+      "word_count": 271,
+      "is_stub": true,
+      "in_degree": 0,
+      "out_degree": 3
+    },
+    {
+      "slug": "montreal-protocol",
+      "title": "Montreal Protocol",
+      "type": "case-study",
+      "word_count": 354,
+      "is_stub": true,
+      "in_degree": 0,
+      "out_degree": 4
+    },
+    {
+      "slug": "rorschach-concepts",
+      "title": "Rorschach Concepts",
+      "type": "concept",
+      "word_count": 808,
+      "is_stub": false,
+      "in_degree": 4,
+      "out_degree": 4
+    },
+    {
+      "slug": "multifaceted-social-engineering",
+      "title": "Multifaceted Social Engineering",
+      "type": "concept",
+      "word_count": 901,
+      "is_stub": false,
+      "in_degree": 4,
+      "out_degree": 4
+    },
+    {
+      "slug": "bradley-2022-impartial-evaluation-under-ambiguity",
+      "title": "Bradley 2022 (Impartial Evaluation under Ambiguity)",
+      "type": "source",
+      "word_count": 797,
+      "is_stub": false,
+      "in_degree": 0,
+      "out_degree": 0
+    },
+    {
+      "slug": "game-theory",
+      "title": "Game Theory",
+      "type": "theory",
+      "word_count": 405,
+      "is_stub": true,
+      "in_degree": 6,
+      "out_degree": 7
+    },
+    {
+      "slug": "structural-interdependence",
+      "title": "Structural Interdependence",
+      "type": "concept",
+      "word_count": 1141,
+      "is_stub": false,
+      "in_degree": 21,
+      "out_degree": 10
+    },
+    {
+      "slug": "alexander-2024-open-society-as-enemy",
+      "title": "Alexander 2024 (The Open Society as an Enemy)",
+      "type": "source",
+      "word_count": 734,
+      "is_stub": false,
+      "in_degree": 0,
+      "out_degree": 0
+    },
+    {
+      "slug": "elinor-ostrom",
+      "title": "Elinor Ostrom",
+      "type": "person",
+      "word_count": 314,
+      "is_stub": true,
+      "in_degree": 3,
+      "out_degree": 3
+    }
+  ],
+  "edges": [
+    {
+      "source": "path-dependence",
+      "target": "fukushima-daiichi",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "path-dependence",
+      "target": "coordination-without-convergence",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "mancur-olson",
+      "target": "elinor-ostrom",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "mancur-olson",
+      "target": "thomas-schelling",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "mancur-olson",
+      "target": "coordination-without-convergence",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "michael-bratman",
+      "target": "structural-interdependence",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "michael-bratman",
+      "target": "coordination-without-convergence",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "michael-bratman",
+      "target": "value-incommensurability",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "ietf-rough-consensus",
+      "target": "value-incommensurability",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "ietf-rough-consensus",
+      "target": "coordination-without-convergence",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "ietf-rough-consensus",
+      "target": "structural-interdependence",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "evolutionary-game-theory",
+      "target": "game-theory",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "evolutionary-game-theory",
+      "target": "nowak-and-may-1992",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "evolutionary-game-theory",
+      "target": "ruth-chang",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "evolutionary-game-theory",
+      "target": "aukus",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "evolutionary-game-theory",
+      "target": "structural-interdependence",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "evolutionary-game-theory",
+      "target": "j-mckenzie-alexander",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "evolutionary-game-theory",
+      "target": "coordination-without-convergence",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "evolutionary-game-theory",
+      "target": "value-incommensurability",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "evolutionary-game-theory",
+      "target": "robert-axelrod",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "evolutionary-game-theory",
+      "target": "decision-theory-under-severe-uncertainty",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "ruth-chang",
+      "target": "value-incommensurability",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "ruth-chang",
+      "target": "j-mckenzie-alexander",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "ruth-chang",
+      "target": "richard-bradley",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "ruth-chang",
+      "target": "coordination-without-convergence",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "nowak-and-may-1992",
+      "target": "evolutionary-game-theory",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "nowak-and-may-1992",
+      "target": "structural-interdependence",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "nowak-and-may-1992",
+      "target": "game-theory",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "nowak-and-may-1992",
+      "target": "robert-axelrod",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "nowak-and-may-1992",
+      "target": "value-incommensurability",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "incomplete-preferences",
+      "target": "parity",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "incomplete-preferences",
+      "target": "richard-bradley",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "incomplete-preferences",
+      "target": "decision-theory-under-severe-uncertainty",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "incomplete-preferences",
+      "target": "value-incommensurability",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "incomplete-preferences",
+      "target": "structural-interdependence",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "aukus",
+      "target": "coordination-without-convergence",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "aukus",
+      "target": "structural-interdependence",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "aukus",
+      "target": "value-incommensurability",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "restorative-justice",
+      "target": "value-incommensurability",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "restorative-justice",
+      "target": "coordination-without-convergence",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "restorative-justice",
+      "target": "irish-citizens-assembly",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "richard-bradley",
+      "target": "parity",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "richard-bradley",
+      "target": "structural-interdependence",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "richard-bradley",
+      "target": "decision-theory-under-severe-uncertainty",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "richard-bradley",
+      "target": "incomplete-preferences",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "richard-bradley",
+      "target": "j-mckenzie-alexander",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "richard-bradley",
+      "target": "value-incommensurability",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "coordination-without-convergence",
+      "target": "mancur-olson",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "coordination-without-convergence",
+      "target": "elinor-ostrom",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "coordination-without-convergence",
+      "target": "thomas-schelling",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "coordination-without-convergence",
+      "target": "rorschach-concepts",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "coordination-without-convergence",
+      "target": "multifaceted-social-engineering",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "coordination-without-convergence",
+      "target": "incomplete-preferences",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "coordination-without-convergence",
+      "target": "parity",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "coordination-without-convergence",
+      "target": "evolutionary-game-theory",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "coordination-without-convergence",
+      "target": "aukus",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "coordination-without-convergence",
+      "target": "value-incommensurability",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "coordination-without-convergence",
+      "target": "structural-interdependence",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "coordination-without-convergence",
+      "target": "decision-theory-under-severe-uncertainty",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "logos",
+      "target": "heraclitus",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "logos",
+      "target": "game-theory",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "logos",
+      "target": "mechanism-design",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "logos",
+      "target": "social-choice-theory",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "logos",
+      "target": "value-incommensurability",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "logos",
+      "target": "coordination-without-convergence",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "decision-theory-under-severe-uncertainty",
+      "target": "richard-bradley",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "decision-theory-under-severe-uncertainty",
+      "target": "structural-interdependence",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "decision-theory-under-severe-uncertainty",
+      "target": "value-incommensurability",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "decision-theory-under-severe-uncertainty",
+      "target": "coordination-without-convergence",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "decision-theory-under-severe-uncertainty",
+      "target": "evolutionary-game-theory",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "j-mckenzie-alexander",
+      "target": "evolutionary-game-theory",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "j-mckenzie-alexander",
+      "target": "rorschach-concepts",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "j-mckenzie-alexander",
+      "target": "multifaceted-social-engineering",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "j-mckenzie-alexander",
+      "target": "richard-bradley",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "j-mckenzie-alexander",
+      "target": "structural-interdependence",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "j-mckenzie-alexander",
+      "target": "coordination-without-convergence",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "j-mckenzie-alexander",
+      "target": "ruth-chang",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "j-mckenzie-alexander",
+      "target": "value-incommensurability",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "j-mckenzie-alexander",
+      "target": "nowak-and-may-1992",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "j-mckenzie-alexander",
+      "target": "game-theory",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "thomas-schelling",
+      "target": "elinor-ostrom",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "thomas-schelling",
+      "target": "mancur-olson",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "thomas-schelling",
+      "target": "coordination-without-convergence",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "thomas-schelling",
+      "target": "robert-axelrod",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "thomas-schelling",
+      "target": "structural-interdependence",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "value-incommensurability",
+      "target": "ruth-chang",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "value-incommensurability",
+      "target": "evolutionary-game-theory",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "value-incommensurability",
+      "target": "coordination-without-convergence",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "value-incommensurability",
+      "target": "structural-interdependence",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "mechanism-design",
+      "target": "game-theory",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "mechanism-design",
+      "target": "value-incommensurability",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "mechanism-design",
+      "target": "social-choice-theory",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "mechanism-design",
+      "target": "structural-interdependence",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "irish-citizens-assembly",
+      "target": "value-incommensurability",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "irish-citizens-assembly",
+      "target": "coordination-without-convergence",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "irish-citizens-assembly",
+      "target": "structural-interdependence",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "parity",
+      "target": "ruth-chang",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "parity",
+      "target": "value-incommensurability",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "parity",
+      "target": "richard-bradley",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "parity",
+      "target": "coordination-without-convergence",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "parity",
+      "target": "structural-interdependence",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "heraclitus",
+      "target": "logos",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "heraclitus",
+      "target": "coordination-without-convergence",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "heraclitus",
+      "target": "value-incommensurability",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "fukushima-daiichi",
+      "target": "aukus",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "fukushima-daiichi",
+      "target": "coordination-without-convergence",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "robert-axelrod",
+      "target": "evolutionary-game-theory",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "robert-axelrod",
+      "target": "structural-interdependence",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "robert-axelrod",
+      "target": "thomas-schelling",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "robert-axelrod",
+      "target": "coordination-without-convergence",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "robert-axelrod",
+      "target": "value-incommensurability",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "social-choice-theory",
+      "target": "structural-interdependence",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "social-choice-theory",
+      "target": "game-theory",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "social-choice-theory",
+      "target": "value-incommensurability",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "social-choice-theory",
+      "target": "mechanism-design",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "social-choice-theory",
+      "target": "richard-bradley",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "daniel-schmachtenberger",
+      "target": "coordination-without-convergence",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "daniel-schmachtenberger",
+      "target": "logos",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "daniel-schmachtenberger",
+      "target": "structural-interdependence",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "montreal-protocol",
+      "target": "value-incommensurability",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "montreal-protocol",
+      "target": "coordination-without-convergence",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "montreal-protocol",
+      "target": "aukus",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "montreal-protocol",
+      "target": "structural-interdependence",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "rorschach-concepts",
+      "target": "j-mckenzie-alexander",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "rorschach-concepts",
+      "target": "coordination-without-convergence",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "rorschach-concepts",
+      "target": "value-incommensurability",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "rorschach-concepts",
+      "target": "multifaceted-social-engineering",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "multifaceted-social-engineering",
+      "target": "j-mckenzie-alexander",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "multifaceted-social-engineering",
+      "target": "coordination-without-convergence",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "multifaceted-social-engineering",
+      "target": "structural-interdependence",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "multifaceted-social-engineering",
+      "target": "rorschach-concepts",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "game-theory",
+      "target": "evolutionary-game-theory",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "game-theory",
+      "target": "mechanism-design",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "game-theory",
+      "target": "social-choice-theory",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "game-theory",
+      "target": "value-incommensurability",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "game-theory",
+      "target": "robert-axelrod",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "game-theory",
+      "target": "thomas-schelling",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "structural-interdependence",
+      "target": "coordination-without-convergence",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "structural-interdependence",
+      "target": "aukus",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "structural-interdependence",
+      "target": "parity",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "structural-interdependence",
+      "target": "incomplete-preferences",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "structural-interdependence",
+      "target": "evolutionary-game-theory",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "structural-interdependence",
+      "target": "multifaceted-social-engineering",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "structural-interdependence",
+      "target": "rorschach-concepts",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "structural-interdependence",
+      "target": "value-incommensurability",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "structural-interdependence",
+      "target": "j-mckenzie-alexander",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "structural-interdependence",
+      "target": "richard-bradley",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "elinor-ostrom",
+      "target": "coordination-without-convergence",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "elinor-ostrom",
+      "target": "aukus",
+      "type": "wikilink",
+      "symmetric": false
+    },
+    {
+      "source": "elinor-ostrom",
+      "target": "structural-interdependence",
+      "type": "wikilink",
+      "symmetric": false
+    }
+  ]
+}

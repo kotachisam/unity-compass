@@ -64,7 +64,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
 
           {backlinks.length > 0 && (
             <div className="wiki-backlinks">
-              <h3>What links here</h3>
+              <h3 id="what-links-here">What links here</h3>
               <ul>
                 {backlinks.map((b) => (
                   <li key={b.slug}>
@@ -78,7 +78,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
 
           {sourceRefs.length > 0 && (
             <div className="wiki-source-refs">
-              <h3>Referenced in source documents</h3>
+              <h3 id="referenced-in-source-documents">Referenced in source documents</h3>
               <ul>
                 {sourceRefs.map((ref) => (
                   <li key={ref.path}>
@@ -102,76 +102,80 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
 
         <aside className="wiki-right-sidebar">
           {headings.length > 0 && (
-            <div className="wiki-toc-box">
-              <h4>Contents</h4>
-              <ul>
+            <details className="wiki-aside-section" open>
+              <summary>Contents</summary>
+              <ul className="wiki-aside-toc">
                 {headings.map((h, i) => (
                   <li key={i} className={h.level === 3 ? "toc-h3" : ""}>
                     <a href={`#${h.id}`}>{h.text}</a>
                   </li>
                 ))}
               </ul>
-            </div>
+            </details>
           )}
 
-          <div className="wiki-tools-box">
-            <h4>Tools</h4>
-
-            <h5>General</h5>
-            <ul>
-              <li>
-                <Link href={`/wiki/${slug}`}>What links here</Link>
-                {backlinks.length > 0 && (
-                  <span style={{ color: "var(--wiki-border)", marginLeft: 4 }}>({backlinks.length})</span>
-                )}
-              </li>
-              {sourceRefs.length > 0 && (
-                <li>
-                  <span style={{ color: "var(--wiki-border)" }}>Source refs: {sourceRefs.length}</span>
-                </li>
+          <details className="wiki-aside-section" open>
+            <summary>Page info</summary>
+            <dl className="wiki-aside-info">
+              <dt>Type</dt><dd>{article.type}</dd>
+              {article.created && (<><dt>Created</dt><dd>{article.created}</dd></>)}
+              {article.last_updated && (<><dt>Updated</dt><dd>{article.last_updated}</dd></>)}
+              {backlinks.length > 0 && (
+                <>
+                  <dt>Backlinks</dt>
+                  <dd><a href="#what-links-here">{backlinks.length}</a></dd>
+                </>
               )}
+              {sourceRefs.length > 0 && (
+                <>
+                  <dt>Source refs</dt>
+                  <dd><a href="#referenced-in-source-documents">{sourceRefs.length}</a></dd>
+                </>
+              )}
+            </dl>
+          </details>
+
+          {article.related.length > 0 && (
+            <details className="wiki-aside-section" open>
+              <summary>Related <span className="wiki-aside-count">{article.related.length}</span></summary>
+              <ul className="wiki-aside-list">
+                {article.related.map((r) => (
+                  <li key={r}>
+                    <Link href={`/wiki/${slugify(r)}`}>{r}</Link>
+                  </li>
+                ))}
+              </ul>
+            </details>
+          )}
+
+          {article.sources.length > 0 && (
+            <details className="wiki-aside-section">
+              <summary>Sources <span className="wiki-aside-count">{article.sources.length}</span></summary>
+              <ul className="wiki-aside-list wiki-aside-list-mono">
+                {article.sources.map((s) => (
+                  <li key={s}>{s}</li>
+                ))}
+              </ul>
+            </details>
+          )}
+
+          <details className="wiki-aside-section">
+            <summary>Actions</summary>
+            <ul className="wiki-aside-list">
               <li>
                 <a
                   href={`https://github.com/kotachisam/unity-compass/blob/main/wiki/articles/${slug}.md`}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  View source
+                  View source on GitHub
                 </a>
               </li>
+              <li>
+                <Link href="/graph">Open in graph view</Link>
+              </li>
             </ul>
-
-            <h5>Page information</h5>
-            <div className="tool-info">Type: {article.type}</div>
-            {article.created && <div className="tool-info">Created: {article.created}</div>}
-            {article.last_updated && <div className="tool-info">Updated: {article.last_updated}</div>}
-            {article.tags.length > 0 && <div className="tool-info">Tags: {article.tags.length}</div>}
-            {article.sources.length > 0 && <div className="tool-info">Sources: {article.sources.length}</div>}
-
-            {article.related.length > 0 && (
-              <>
-                <h5>Related articles</h5>
-                <ul>
-                  {article.related.map((r) => (
-                    <li key={r}>
-                      <Link href={`/wiki/${slugify(r)}`}>{r}</Link>
-                    </li>
-                  ))}
-                </ul>
-              </>
-            )}
-
-            {article.sources.length > 0 && (
-              <>
-                <h5>Sources cited</h5>
-                <ul>
-                  {article.sources.map((s) => (
-                    <li key={s} className="tool-info">{s}</li>
-                  ))}
-                </ul>
-              </>
-            )}
-          </div>
+          </details>
         </aside>
       </div>
     </>

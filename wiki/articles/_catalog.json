@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-11",
+  "generated": "2026-04-17",
   "total": 33,
   "categories": {
     "concept": {
@@ -19,7 +19,7 @@
           ],
           "created": "2026-04-06",
           "last_updated": "2026-04-10",
-          "backlinks": 25
+          "backlinks": 24
         },
         {
           "slug": "incomplete-preferences",
@@ -36,7 +36,7 @@
           ],
           "created": "2026-04-10",
           "last_updated": "2026-04-10",
-          "backlinks": 5
+          "backlinks": 3
         },
         {
           "slug": "logos",
@@ -70,7 +70,7 @@
           ],
           "created": "2026-04-10",
           "last_updated": "2026-04-10",
-          "backlinks": 5
+          "backlinks": 4
         },
         {
           "slug": "parity",
@@ -87,7 +87,7 @@
           ],
           "created": "2026-04-10",
           "last_updated": "2026-04-10",
-          "backlinks": 5
+          "backlinks": 4
         },
         {
           "slug": "path-dependence",
@@ -135,7 +135,7 @@
           ],
           "created": "2026-04-10",
           "last_updated": "2026-04-10",
-          "backlinks": 5
+          "backlinks": 4
         },
         {
           "slug": "structural-interdependence",
@@ -165,7 +165,7 @@
           ],
           "created": "2026-04-06",
           "last_updated": "2026-04-06",
-          "backlinks": 24
+          "backlinks": 23
         }
       ]
     },
@@ -186,7 +186,7 @@
           ],
           "created": "2026-04-06",
           "last_updated": "2026-04-06",
-          "backlinks": 5
+          "backlinks": 4
         },
         {
           "slug": "evolutionary-game-theory",
@@ -220,7 +220,7 @@
           ],
           "created": "2026-04-06",
           "last_updated": "2026-04-06",
-          "backlinks": 7
+          "backlinks": 6
         },
         {
           "slug": "mechanism-design",
@@ -322,7 +322,7 @@
           ],
           "created": "2026-04-06",
           "last_updated": "2026-04-10",
-          "backlinks": 7
+          "backlinks": 6
         },
         {
           "slug": "mancur-olson",
@@ -369,7 +369,7 @@
           ],
           "created": "2026-04-06",
           "last_updated": "2026-04-10",
-          "backlinks": 8
+          "backlinks": 7
         },
         {
           "slug": "robert-axelrod",

@@ -2,6 +2,7 @@ import fs from "fs"
 import path from "path"
 import matter from "gray-matter"
 import { getAllArticles } from "./articles"
+import { slugify, extractWikilinks } from "./utils"
 
 const repoRoot = path.resolve(process.cwd(), "..")
 
@@ -45,20 +46,6 @@ function extractTitle(content: string, filePath: string): string {
   const h1Match = content.match(/^#\s+(.+)$/m)
   if (h1Match) return h1Match[1].trim()
   return path.basename(filePath, ".md").replace(/^\d+-/, "").replace(/-/g, " ")
-}
-
-function extractWikilinks(content: string): string[] {
-  const wikilinkRegex = /\[\[([^\]]+)\]\]/g
-  const links: string[] = []
-  let match
-  while ((match = wikilinkRegex.exec(content)) !== null) {
-    links.push(match[1])
-  }
-  return [...new Set(links)]
-}
-
-function slugify(text: string): string {
-  return text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "")
 }
 
 export function scanRepoFiles(): RepoFile[] {

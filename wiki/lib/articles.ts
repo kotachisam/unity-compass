@@ -1,6 +1,7 @@
 import fs from "fs"
 import path from "path"
 import matter from "gray-matter"
+import { slugify } from "./utils"
 
 const articlesDirectory = path.join(process.cwd(), "articles")
 
@@ -18,13 +19,6 @@ export interface ArticleMeta {
 
 export interface Article extends ArticleMeta {
   content: string
-}
-
-function slugify(title: string): string {
-  return title
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/(^-|-$)/g, "")
 }
 
 export function resolveWikilinksToMarkdown(text: string, allSlugs: Set<string>): string {

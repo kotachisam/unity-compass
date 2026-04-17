@@ -43,6 +43,7 @@ export default function Sidebar({ articlesByType }: SidebarProps) {
         </div>
         <ul>
           <li><Link href="/">Main page</Link></li>
+          <li><Link href="/graph">Graph</Link></li>
           <li><Link href="/wiki/random">Random article</Link></li>
           <li><Link href="/search">Search</Link></li>
         </ul>

@@ -65,12 +65,12 @@ a.wikilink-missing { color: var(--wiki-link-missing); }
 
 /* === LAYOUT === */
 
-.wiki-outer { display: flex; max-width: 1600px; margin: 0 auto; }
+.wiki-outer { display: flex; max-width: 2000px; margin: 0 auto; }
 
 /* === LEFT SIDEBAR === */
 
 .wiki-sidebar {
-  width: 176px; min-width: 176px; padding: 0;
+  width: 220px; min-width: 220px; padding: 0;
   background: var(--wiki-sidebar-bg); border-right: 1px solid var(--wiki-border);
   min-height: 100vh; font-size: 13px; overflow-y: auto;
   position: sticky; top: 0; max-height: 100vh;
@@ -226,36 +226,94 @@ a.wikilink-missing { color: var(--wiki-link-missing); }
 /* === RIGHT SIDEBAR (TOC + TOOLS) === */
 
 .wiki-right-sidebar {
-  width: 220px; min-width: 220px; padding: 16px 12px;
+  width: 240px; min-width: 240px; padding: 16px 12px;
   position: sticky; top: 0; max-height: 100vh; overflow-y: auto; font-size: 13px;
+  display: flex; flex-direction: column; gap: 8px;
 }
 
-.wiki-toc-box {
-  background: var(--wiki-toc-bg); border: 1px solid var(--wiki-border-light);
-  padding: 8px 12px; margin-bottom: 16px;
+.wiki-aside-section {
+  background: var(--wiki-tools-bg);
+  border: 1px solid var(--wiki-border-light);
+  border-radius: 2px;
 }
 
-.wiki-toc-box h4 { font-size: 13px; text-align: center; margin-bottom: 6px; font-weight: 500; }
-.wiki-toc-box ul { list-style: none; }
-.wiki-toc-box li { padding: 1px 0; }
-.wiki-toc-box a { color: var(--wiki-link); font-size: 12px; }
-.wiki-toc-box .toc-h3 { padding-left: 12px; }
-
-.wiki-tools-box {
-  background: var(--wiki-tools-bg); border: 1px solid var(--wiki-border-light);
-  padding: 8px 12px; margin-bottom: 16px;
+.wiki-aside-section > summary {
+  padding: 6px 10px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 500;
+  user-select: none;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.wiki-tools-box h4 {
-  font-size: 13px; margin-bottom: 6px; font-weight: 500;
-  display: flex; justify-content: space-between; align-items: center;
+.wiki-aside-section > summary::-webkit-details-marker { display: none; }
+.wiki-aside-section > summary::marker { content: ""; }
+
+.wiki-aside-section > summary::before {
+  content: "▸";
+  display: inline-block;
+  margin-right: 6px;
+  font-size: 10px;
+  opacity: 0.5;
+  transition: transform 0.15s ease;
 }
 
-.wiki-tools-box h5 { font-size: 12px; color: var(--wiki-border); margin: 8px 0 4px; }
-.wiki-tools-box ul { list-style: none; }
-.wiki-tools-box li { padding: 1px 0; }
-.wiki-tools-box a { color: var(--wiki-link); font-size: 12px; }
-.wiki-tools-box .tool-info { color: var(--wiki-border); font-size: 12px; padding: 1px 0; }
+.wiki-aside-section[open] > summary::before {
+  transform: rotate(90deg);
+}
+
+.wiki-aside-count {
+  font-variant-numeric: tabular-nums;
+  opacity: 0.55;
+  font-size: 11px;
+  font-weight: 400;
+  margin-left: auto;
+}
+
+.wiki-aside-toc, .wiki-aside-list {
+  list-style: none;
+  margin: 0;
+  padding: 4px 10px 8px;
+  border-top: 1px solid var(--wiki-border-light);
+}
+
+.wiki-aside-toc li, .wiki-aside-list li { padding: 1px 0; }
+.wiki-aside-toc a, .wiki-aside-list a { color: var(--wiki-link); font-size: 12px; }
+.wiki-aside-toc .toc-h3 { padding-left: 12px; }
+
+.wiki-aside-list-mono li {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 11px;
+  color: var(--wiki-border);
+  word-break: break-all;
+}
+
+.wiki-aside-info {
+  margin: 0;
+  padding: 6px 10px 8px;
+  border-top: 1px solid var(--wiki-border-light);
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 2px 10px;
+  font-size: 12px;
+}
+
+.wiki-aside-info dt {
+  color: var(--wiki-border);
+  font-weight: normal;
+}
+
+.wiki-aside-info dd {
+  margin: 0;
+  font-variant-numeric: tabular-nums;
+}
+
+.wiki-aside-info dd a {
+  color: var(--wiki-link);
+}
 
 /* === ARTICLE FOOTER SECTIONS === */
 
@@ -328,10 +386,395 @@ a.wikilink-missing { color: var(--wiki-link-missing); }
   background: var(--wiki-sidebar-bg);
 }
 
+/* === GRAPH VIEW === */
+
+.graph-page {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 0;
+  height: calc(100vh - 120px);
+  min-height: 600px;
+}
+
+.graph-sidebar {
+  padding: 0.75rem 1rem 1rem;
+  border-right: 1px solid var(--wiki-border-light);
+  background: var(--wiki-sidebar-bg);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+
+.graph-sidebar h2 {
+  margin: 0;
+  font-size: 1.125rem;
+}
+
+.graph-subtitle {
+  margin: 0;
+  font-size: 0.75rem;
+  color: var(--wiki-text);
+  opacity: 0.7;
+  line-height: 1.4;
+}
+
+.graph-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.25rem 0.75rem;
+  padding: 0.5rem 0.625rem;
+  background: var(--wiki-bg);
+  border: 1px solid var(--wiki-border-light);
+  border-radius: 2px;
+  font-size: 0.8125rem;
+}
+
+.graph-stats div {
+  display: flex;
+  gap: 0.35rem;
+  align-items: baseline;
+}
+
+.graph-stats strong {
+  font-variant-numeric: tabular-nums;
+  min-width: 2ch;
+}
+
+.graph-stats span {
+  color: var(--wiki-text);
+  opacity: 0.7;
+  font-size: 0.75rem;
+}
+
+.graph-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.2rem 0;
+  font-size: 0.8125rem;
+  cursor: pointer;
+}
+
+.graph-legend-item input[type="checkbox"] {
+  margin: 0;
+}
+
+.graph-legend-divider {
+  border-top: 1px solid var(--wiki-border-light);
+  margin-top: 0.3rem;
+  padding-top: 0.4rem;
+}
+
+.graph-legend-dot {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.graph-legend-label {
+  flex: 1;
+}
+
+.graph-legend-count {
+  font-variant-numeric: tabular-nums;
+  opacity: 0.6;
+  font-size: 0.75rem;
+}
+
+.graph-tooltip {
+  position: fixed;
+  pointer-events: none;
+  z-index: 1000;
+  background: var(--wiki-bg);
+  border: 1px solid var(--wiki-border);
+  border-radius: 3px;
+  padding: 0.5rem 0.75rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+  font-size: 0.8125rem;
+  max-width: 260px;
+  min-width: 180px;
+  line-height: 1.3;
+}
+
+.graph-tooltip-title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+  line-height: 1.2;
+}
+
+.graph-tooltip-meta {
+  display: flex;
+  gap: 0.35rem;
+  align-items: center;
+  font-size: 0.75rem;
+  opacity: 0.85;
+  margin-bottom: 0.35rem;
+}
+
+.graph-tooltip-stats {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0.35rem;
+  font-size: 0.75rem;
+  display: flex;
+  gap: 0.75rem;
+  opacity: 0.9;
+}
+
+.graph-tooltip-stats strong {
+  font-variant-numeric: tabular-nums;
+}
+
+.graph-tooltip-hint {
+  font-size: 0.6875rem;
+  opacity: 0.5;
+  font-style: italic;
+}
+
+.graph-tooltip-edge {
+  display: flex;
+  gap: 0.35rem;
+  align-items: center;
+  font-weight: 500;
+}
+
+.graph-tooltip-endpoint {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.graph-tooltip-arrow {
+  font-size: 0.6875rem;
+  opacity: 0.55;
+  padding: 0.15rem 0 0.15rem 1.25rem;
+  font-style: italic;
+}
+
+.graph-stub-badge {
+  background: var(--wiki-tab-inactive);
+  color: var(--wiki-text);
+  padding: 1px 5px;
+  border-radius: 2px;
+  font-size: 0.625rem;
+  opacity: 0.75;
+}
+
+.graph-section {
+  border: 1px solid var(--wiki-border-light);
+  border-radius: 2px;
+  background: var(--wiki-bg);
+}
+
+.graph-section > summary {
+  padding: 0.4rem 0.625rem;
+  cursor: pointer;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  user-select: none;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.graph-section > summary::-webkit-details-marker { display: none; }
+.graph-section > summary::marker { content: ""; }
+
+.graph-section > summary::before {
+  content: "▸";
+  display: inline-block;
+  margin-right: 0.4rem;
+  font-size: 0.625rem;
+  opacity: 0.5;
+  transition: transform 0.15s ease;
+}
+
+.graph-section[open] > summary::before {
+  transform: rotate(90deg);
+}
+
+.graph-section-count {
+  font-variant-numeric: tabular-nums;
+  opacity: 0.55;
+  font-size: 0.75rem;
+  font-weight: 400;
+  margin-left: auto;
+}
+
+.graph-section-body {
+  padding: 0.25rem 0.625rem 0.5rem;
+  border-top: 1px solid var(--wiki-border-light);
+}
+
+.graph-section-empty {
+  margin: 0.5rem 0;
+  font-size: 0.75rem;
+  opacity: 0.55;
+  font-style: italic;
+}
+
+.graph-article-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.graph-article-list li {
+  padding: 0;
+}
+
+.graph-article-list a {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.2rem 0;
+  font-size: 0.8125rem;
+  color: var(--wiki-link);
+  text-decoration: none;
+}
+
+.graph-article-list a:hover {
+  text-decoration: underline;
+}
+
+.graph-article-title {
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.graph-article-meta {
+  font-variant-numeric: tabular-nums;
+  opacity: 0.55;
+  font-size: 0.6875rem;
+  flex-shrink: 0;
+}
+
+.graph-meta {
+  font-size: 0.6875rem;
+  opacity: 0.5;
+  margin-top: auto;
+  padding-top: 0.5rem;
+}
+
+.graph-canvas {
+  position: relative;
+  background: var(--wiki-bg);
+  overflow: hidden;
+}
+
+.graph-svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+@media (prefers-color-scheme: dark) {
+  .graph-svg text {
+    fill: var(--wiki-text);
+  }
+}
+
 /* === RESPONSIVE === */
 
 @media (max-width: 1100px) {
   .wiki-index-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 1280px) {
+  .graph-page {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    height: calc(100vh - 120px);
+  }
+  .graph-sidebar {
+    border-right: none;
+    border-bottom: 1px solid var(--wiki-border-light);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+    overflow-y: auto;
+    overflow-x: hidden;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: 0.5rem;
+    padding: 0.75rem 1rem;
+    max-height: 40vh;
+  }
+  .graph-sidebar h2 {
+    font-size: 0.9375rem;
+    margin: 0;
+    align-self: center;
+  }
+  .graph-subtitle { display: none; }
+  .graph-stats {
+    grid-template-columns: repeat(4, auto);
+    padding: 0.4rem 0.75rem;
+    gap: 0.15rem 0.75rem;
+    align-self: center;
+  }
+  .graph-section {
+    flex-shrink: 0;
+    align-self: center;
+  }
+  .graph-section > summary {
+    padding: 0.4rem 0.625rem;
+    font-size: 0.75rem;
+  }
+
+  .graph-section[open] {
+    flex-basis: 100%;
+    align-self: stretch;
+  }
+  .graph-section[open] .graph-section-body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 1rem;
+    padding: 0.5rem 0.75rem;
+    border-top: 1px solid var(--wiki-border-light);
+  }
+  .graph-section[open] .graph-legend-item {
+    padding: 0.15rem 0;
+    white-space: nowrap;
+  }
+  .graph-section[open] .graph-legend-divider {
+    border-top: none;
+    margin-top: 0;
+    padding-top: 0.15rem;
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+    border-left: 1px solid var(--wiki-border-light);
+  }
+  .graph-section[open] .graph-article-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 1rem;
+    width: 100%;
+  }
+  .graph-section[open] .graph-article-list li {
+    flex: 0 0 auto;
+  }
+  .graph-section[open] .graph-article-list a {
+    padding: 0.2rem 0;
+    font-size: 0.8125rem;
+  }
+  .graph-section[open] .graph-section-empty {
+    margin: 0;
+  }
+
+  .graph-meta {
+    order: 99;
+    width: 100%;
+    text-align: right;
+    padding-top: 0;
+    font-size: 0.6875rem;
+    align-self: flex-end;
+  }
+  .graph-canvas { min-height: 500px; }
 }
 
 @media (max-width: 900px) {

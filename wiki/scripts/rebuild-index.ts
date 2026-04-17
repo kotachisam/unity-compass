@@ -1,8 +1,11 @@
 import fs from "fs"
 import path from "path"
 import matter from "gray-matter"
+import { slugify, extractWikilinks } from "../lib/utils"
 
 const articlesDir = path.join(import.meta.dir, "..", "articles")
+
+const STUB_WORD_THRESHOLD = 500
 
 const typeLabels: Record<string, string> = {
   concept: "Concepts",
@@ -36,14 +39,54 @@ interface Catalog {
   categories: Record<string, CatalogCategory>
 }
 
+interface GraphNode {
+  slug: string
+  title: string
+  type: string
+  word_count: number
+  is_stub: boolean
+  in_degree: number
+  out_degree: number
+}
+
+interface GraphEdge {
+  source: string
+  target: string
+  type: string
+  symmetric: boolean
+}
+
+interface Graph {
+  generated: string
+  stats: {
+    nodes: number
+    edges: number
+    stubs: number
+    orphans: number
+  }
+  nodes: GraphNode[]
+  edges: GraphEdge[]
+}
+
 const files = fs.readdirSync(articlesDir).filter((f) => f.endsWith(".md") && !f.startsWith("_"))
 
+const fileContents: Record<string, string> = {}
+const fileData: Record<string, matter.GrayMatterFile<string>> = {}
+
+for (const file of files) {
+  const slug = file.replace(".md", "")
+  const raw = fs.readFileSync(path.join(articlesDir, file), "utf8")
+  const parsed = matter(raw)
+  fileContents[slug] = parsed.content
+  fileData[slug] = parsed
+}
+
 const articles: ArticleEntry[] = files.map((file) => {
-  const content = fs.readFileSync(path.join(articlesDir, file), "utf8")
-  const { data } = matter(content)
+  const slug = file.replace(".md", "")
+  const { data } = fileData[slug]
   return {
-    slug: file.replace(".md", ""),
-    title: data.title || file.replace(".md", ""),
+    slug,
+    title: data.title || slug,
     type: data.type || "article",
     description: data.description || "",
     tags: data.tags || [],
@@ -53,17 +96,38 @@ const articles: ArticleEntry[] = files.map((file) => {
   }
 })
 
-const wikilinkRe = /\[\[([^\]]+)\]\]/g
+const slugsByTitle: Record<string, string> = {}
+for (const article of articles) {
+  slugsByTitle[slugify(article.title)] = article.slug
+  slugsByTitle[article.slug] = article.slug
+}
+
 const backlinks: Record<string, string[]> = {}
+const edgeSet = new Set<string>()
+const edges: GraphEdge[] = []
 
 for (const file of files) {
-  const slug = file.replace(".md", "")
-  const content = fs.readFileSync(path.join(articlesDir, file), "utf8")
-  let match
-  while ((match = wikilinkRe.exec(content)) !== null) {
-    const target = match[1].toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "")
-    if (!backlinks[target]) backlinks[target] = []
-    if (!backlinks[target].includes(slug)) backlinks[target].push(slug)
+  const sourceSlug = file.replace(".md", "")
+  const content = fileContents[sourceSlug]
+  const wikilinks = extractWikilinks(content)
+
+  for (const link of wikilinks) {
+    const linkSlug = slugify(link)
+    const targetSlug = slugsByTitle[linkSlug] || linkSlug
+
+    if (!backlinks[targetSlug]) backlinks[targetSlug] = []
+    if (!backlinks[targetSlug].includes(sourceSlug)) backlinks[targetSlug].push(sourceSlug)
+
+    const edgeKey = `${sourceSlug}→${targetSlug}`
+    if (sourceSlug !== targetSlug && !edgeSet.has(edgeKey)) {
+      edgeSet.add(edgeKey)
+      edges.push({
+        source: sourceSlug,
+        target: targetSlug,
+        type: "wikilink",
+        symmetric: false,
+      })
+    }
   }
 }
 
@@ -103,5 +167,44 @@ fs.writeFileSync(path.join(articlesDir, "_index.md"), index)
 
 fs.writeFileSync(path.join(articlesDir, "_backlinks.json"), JSON.stringify(Object.fromEntries(sorted), null, 2))
 
+const outDegree: Record<string, number> = {}
+for (const edge of edges) {
+  outDegree[edge.source] = (outDegree[edge.source] || 0) + 1
+}
+
+const articlesBySlug = new Set(articles.map((a) => a.slug))
+const nodes: GraphNode[] = articles.map((a) => {
+  const wordCount = fileContents[a.slug].split(/\s+/).filter(Boolean).length
+  return {
+    slug: a.slug,
+    title: a.title,
+    type: a.type,
+    word_count: wordCount,
+    is_stub: wordCount < STUB_WORD_THRESHOLD,
+    in_degree: (backlinks[a.slug] || []).length,
+    out_degree: outDegree[a.slug] || 0,
+  }
+})
+
+const validEdges = edges.filter((e) => articlesBySlug.has(e.source) && articlesBySlug.has(e.target))
+
+const stubCount = nodes.filter((n) => n.is_stub).length
+const orphanCount = nodes.filter((n) => n.in_degree === 0 && n.out_degree === 0).length
+
+const graph: Graph = {
+  generated: new Date().toISOString(),
+  stats: {
+    nodes: nodes.length,
+    edges: validEdges.length,
+    stubs: stubCount,
+    orphans: orphanCount,
+  },
+  nodes,
+  edges: validEdges,
+}
+
+fs.writeFileSync(path.join(articlesDir, "_graph.json"), JSON.stringify(graph, null, 2))
+
 console.log(`Rebuilt: ${articles.length} articles, ${Object.keys(categories).length} categories, ${sorted.length} backlink targets`)
-console.log("Files: _catalog.json, _index.md, _backlinks.json")
+console.log(`Graph: ${nodes.length} nodes, ${validEdges.length} edges, ${stubCount} stubs, ${orphanCount} orphans`)
+console.log("Files: _catalog.json, _index.md, _backlinks.json, _graph.json")
