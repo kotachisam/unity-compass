@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "build": "bun run rebuild && bun run wikidata:fetch && bun run graph:merge && astro build && bunx pagefind --site dist",
+    "build": "bun run rebuild && astro build && bunx pagefind --site dist",
+    "build:full": "bun run rebuild && bun run wikidata:fetch && bun run graph:merge && astro build && bunx pagefind --site dist",
     "preview": "astro preview",
     "check": "astro check",
     "rebuild": "bun run scripts/rebuild-index.ts",
@@ -26,6 +27,7 @@
     "cmdk": "^1.1.1",
     "elkjs": "^0.9.3",
     "gray-matter": "^4.0.3",
+    "marked": "^18.0.3",
     "react": "19.2.4",
     "react-dom": "19.2.4",
     "rehype-autolink-headings": "^7.1.0",

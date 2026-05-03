@@ -3,14 +3,20 @@ import Layout from "@/layouts/Layout.astro"
 import { getAllArticles, getArticleBySlug, getBacklinks } from "@/lib/articles"
 import { extractHeadings, resolveWikilinks } from "@/lib/wikilinks"
 import { slugify } from "@/lib/utils"
+import { getSourceReferencesForArticle } from "@/lib/repo-scanner"
 import { render } from "astro:content"
 
 export async function getStaticPaths() {
   const all = await getAllArticles()
-  return all.map((a) => ({ params: { slug: a.id } }))
+  const stubs = all.map((a) => ({ slug: a.id, title: a.data.title }))
+  return all.map((a) => ({
+    params: { slug: a.id },
+    props: { stubs },
+  }))
 }
 
 const { slug } = Astro.params
+const { stubs } = Astro.props as { stubs: { slug: string; title: string }[] }
 const article = await getArticleBySlug(slug!)
 if (!article) {
   return Astro.redirect("/404")
@@ -24,6 +30,7 @@ const articleWithLinks = {
 const { Content } = await render(articleWithLinks)
 const headings = extractHeadings(article.body ?? "")
 const backlinks = await getBacklinks(slug!)
+const sourceRefs = getSourceReferencesForArticle(slug!, stubs)
 ---
 
 <Layout title={`${article.data.title} — Unity Compass Wiki`} description={article.data.description}>
@@ -67,6 +74,20 @@ const backlinks = await getBacklinks(slug!)
         </div>
       )}
 
+      {sourceRefs.length > 0 && (
+        <div class="wiki-source-refs">
+          <h3 id="referenced-in-source-documents">Referenced in source documents</h3>
+          <ul>
+            {sourceRefs.map((ref) => (
+              <li>
+                <a href={`/source/${ref.path}`}>{ref.title}</a>
+                <span class="source-path"> ({ref.path})</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
       {article.data.tags.length > 0 && (
         <div class="wiki-categories">
           <span>Categories:</span>
@@ -99,6 +120,7 @@ const backlinks = await getBacklinks(slug!)
           {article.data.last_updated && (<><dt>Updated</dt><dd>{article.data.last_updated}</dd></>)}
           {article.data.wikidata_qid && (<><dt>Wikidata</dt><dd><a href={`https://www.wikidata.org/wiki/${article.data.wikidata_qid}`} target="_blank" rel="noopener noreferrer">{article.data.wikidata_qid}</a></dd></>)}
           {backlinks.length > 0 && (<><dt>Backlinks</dt><dd><a href="#what-links-here">{backlinks.length}</a></dd></>)}
+          {sourceRefs.length > 0 && (<><dt>Source refs</dt><dd><a href="#referenced-in-source-documents">{sourceRefs.length}</a></dd></>)}
         </dl>
       </details>
 

@@ -1,0 +1,66 @@
+---
+import fs from "node:fs"
+import path from "node:path"
+import matter from "gray-matter"
+import { marked } from "marked"
+import Layout from "@/layouts/Layout.astro"
+import { getAllSourcePaths, isSafeSourcePath, REPO_ROOT } from "@/lib/repo-scanner"
+import { resolveWikilinks } from "@/lib/wikilinks"
+
+export async function getStaticPaths() {
+  const all = getAllSourcePaths()
+  return all.map((p) => ({ params: { path: p } }))
+}
+
+const relPath = Astro.params.path as string
+
+if (!isSafeSourcePath(relPath)) {
+  return Astro.redirect("/404")
+}
+
+const fullPath = path.join(REPO_ROOT, relPath)
+if (!fs.existsSync(fullPath)) {
+  return Astro.redirect("/404")
+}
+
+const raw = fs.readFileSync(fullPath, "utf8")
+const { content } = matter(raw)
+const resolved = resolveWikilinks(content)
+const html = await marked.parse(resolved, { gfm: true })
+
+const titleMatch = content.match(/^#\s+(.+)$/m)
+const title = titleMatch ? titleMatch[1].trim() : path.basename(relPath, ".md")
+---
+
+<Layout title={`${title} — Source document`}>
+  <div class="wiki-tab-bar">
+    <div class="wiki-tabs-left">
+      <span class="wiki-tab active">Source document</span>
+    </div>
+    <div class="wiki-tabs-right">
+      <span class="wiki-tab active">Read-only</span>
+      <a
+        class="wiki-tab"
+        href={`https://github.com/kotachisam/unity-compass/blob/main/${relPath}`}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        View on GitHub
+      </a>
+    </div>
+  </div>
+
+  <div class="wiki-content-area">
+    <article class="wiki-article">
+      <div style="background: var(--wiki-toc-bg); border: 1px solid var(--wiki-border-light); padding: 8px 12px; margin-bottom: 16px; font-size: 13px;">
+        <strong>Source document:</strong>{" "}
+        <code style="font-size: 12px;">{relPath}</code>
+        {" "}<a href="/">Back to wiki</a>
+      </div>
+
+      <h1>{title}</h1>
+
+      <div set:html={html} />
+    </article>
+  </div>
+</Layout>
