@@ -1,0 +1,32 @@
+---
+import Layout from "@/layouts/Layout.astro"
+
+const url = new URL(Astro.request.url)
+const q = url.searchParams.get("q") ?? ""
+---
+
+<Layout title={q ? `Search: ${q}` : "Search"}>
+  <div class="wiki-content-area">
+    <article class="wiki-article">
+      <h1>Search</h1>
+      <p>Press <kbd>⌘K</kbd> (or <kbd>Ctrl+K</kbd>) anywhere on the wiki to open the search overlay.</p>
+      {q && (
+        <p>
+          Initial query: <strong>{q}</strong>. The overlay will open shortly.
+        </p>
+      )}
+    </article>
+  </div>
+  {q && (
+    <script type="application/json" id="initial-q" set:html={JSON.stringify(q)} />
+    <script is:inline>
+      const q = JSON.parse(document.getElementById("initial-q").textContent)
+      window.addEventListener("DOMContentLoaded", () => {
+        setTimeout(() => {
+          const ev = new KeyboardEvent("keydown", { key: "k", metaKey: true, bubbles: true })
+          window.dispatchEvent(ev)
+        }, 100)
+      })
+    </script>
+  )}
+</Layout>

@@ -13,6 +13,12 @@ export default defineConfig({
   },
   vite: {
     plugins: [tailwindcss()],
+    resolve: {
+      dedupe: ["react", "react-dom"],
+    },
+    optimizeDeps: {
+      exclude: ["@pagefind/default-ui"],
+    },
   },
   integrations: [react(), mdx()],
   markdown: {

@@ -1,0 +1,140 @@
+{
+  "generated": "2026-05-03T11:01:28.406Z",
+  "total": 26,
+  "by_kind": {
+    "missing_target": [
+      {
+        "kind": "missing_target",
+        "source": "path-dependence",
+        "detail": "wikilink [[Paul Pierson]] → paul-pierson (no article)"
+      },
+      {
+        "kind": "missing_target",
+        "source": "restorative-justice",
+        "detail": "wikilink [[Game Theory|formal coordination theory]] → game-theory-formal-coordination-theory (no article)"
+      },
+      {
+        "kind": "missing_target",
+        "source": "richard-bradley",
+        "detail": "wikilink [[Incomplete Preferences|incomplete betterness relations]] → incomplete-preferences-incomplete-betterness-relations (no article)"
+      },
+      {
+        "kind": "missing_target",
+        "source": "game-theory",
+        "detail": "wikilink [[Value Incommensurability|coordination under value incommensurability]] → value-incommensurability-coordination-under-value-incommensurability (no article)"
+      }
+    ],
+    "unlinked_related": [
+      {
+        "kind": "unlinked_related",
+        "source": "evolutionary-game-theory",
+        "detail": "related entry \"Elinor Ostrom\" has no body wikilink or typed link — consider adding to links:"
+      },
+      {
+        "kind": "unlinked_related",
+        "source": "restorative-justice",
+        "detail": "related entry \"Structural Interdependence\" has no body wikilink or typed link — consider adding to links:"
+      },
+      {
+        "kind": "unlinked_related",
+        "source": "coordination-without-convergence",
+        "detail": "related entry \"J. McKenzie Alexander\" has no body wikilink or typed link — consider adding to links:"
+      },
+      {
+        "kind": "unlinked_related",
+        "source": "coordination-without-convergence",
+        "detail": "related entry \"Richard Bradley\" has no body wikilink or typed link — consider adding to links:"
+      },
+      {
+        "kind": "unlinked_related",
+        "source": "thomas-schelling",
+        "detail": "related entry \"Evolutionary Game Theory\" has no body wikilink or typed link — consider adding to links:"
+      },
+      {
+        "kind": "unlinked_related",
+        "source": "thomas-schelling",
+        "detail": "related entry \"Value Incommensurability\" has no body wikilink or typed link — consider adding to links:"
+      },
+      {
+        "kind": "unlinked_related",
+        "source": "parity",
+        "detail": "related entry \"[[Incomplete Preferences]]\" has no body wikilink or typed link — consider adding to links:"
+      },
+      {
+        "kind": "unlinked_related",
+        "source": "fukushima-daiichi",
+        "detail": "related entry \"Game Theory\" has no body wikilink or typed link — consider adding to links:"
+      },
+      {
+        "kind": "unlinked_related",
+        "source": "robert-axelrod",
+        "detail": "related entry \"Elinor Ostrom\" has no body wikilink or typed link — consider adding to links:"
+      },
+      {
+        "kind": "unlinked_related",
+        "source": "daniel-schmachtenberger",
+        "detail": "related entry \"Game Theory\" has no body wikilink or typed link — consider adding to links:"
+      },
+      {
+        "kind": "unlinked_related",
+        "source": "daniel-schmachtenberger",
+        "detail": "related entry \"Value Incommensurability\" has no body wikilink or typed link — consider adding to links:"
+      },
+      {
+        "kind": "unlinked_related",
+        "source": "montreal-protocol",
+        "detail": "related entry \"Elinor Ostrom\" has no body wikilink or typed link — consider adding to links:"
+      },
+      {
+        "kind": "unlinked_related",
+        "source": "bradley-2022-impartial-evaluation-under-ambiguity",
+        "detail": "related entry \"[[Richard Bradley]]\" has no body wikilink or typed link — consider adding to links:"
+      },
+      {
+        "kind": "unlinked_related",
+        "source": "bradley-2022-impartial-evaluation-under-ambiguity",
+        "detail": "related entry \"[[Value Incommensurability]]\" has no body wikilink or typed link — consider adding to links:"
+      },
+      {
+        "kind": "unlinked_related",
+        "source": "bradley-2022-impartial-evaluation-under-ambiguity",
+        "detail": "related entry \"[[Decision Theory Under Severe Uncertainty]]\" has no body wikilink or typed link — consider adding to links:"
+      },
+      {
+        "kind": "unlinked_related",
+        "source": "bradley-2022-impartial-evaluation-under-ambiguity",
+        "detail": "related entry \"[[Incomplete Preferences]]\" has no body wikilink or typed link — consider adding to links:"
+      },
+      {
+        "kind": "unlinked_related",
+        "source": "bradley-2022-impartial-evaluation-under-ambiguity",
+        "detail": "related entry \"[[Parity]]\" has no body wikilink or typed link — consider adding to links:"
+      },
+      {
+        "kind": "unlinked_related",
+        "source": "alexander-2024-open-society-as-enemy",
+        "detail": "related entry \"[[J. McKenzie Alexander]]\" has no body wikilink or typed link — consider adding to links:"
+      },
+      {
+        "kind": "unlinked_related",
+        "source": "alexander-2024-open-society-as-enemy",
+        "detail": "related entry \"[[Rorschach Concepts]]\" has no body wikilink or typed link — consider adding to links:"
+      },
+      {
+        "kind": "unlinked_related",
+        "source": "alexander-2024-open-society-as-enemy",
+        "detail": "related entry \"[[Multifaceted Social Engineering]]\" has no body wikilink or typed link — consider adding to links:"
+      },
+      {
+        "kind": "unlinked_related",
+        "source": "alexander-2024-open-society-as-enemy",
+        "detail": "related entry \"[[Coordination Without Convergence]]\" has no body wikilink or typed link — consider adding to links:"
+      },
+      {
+        "kind": "unlinked_related",
+        "source": "elinor-ostrom",
+        "detail": "related entry \"Evolutionary Game Theory\" has no body wikilink or typed link — consider adding to links:"
+      }
+    ]
+  }
+}

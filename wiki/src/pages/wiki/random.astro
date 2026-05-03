@@ -1,0 +1,22 @@
+---
+import Layout from "@/layouts/Layout.astro"
+import { getAllArticles } from "@/lib/articles"
+
+const all = await getAllArticles()
+const slugs = all.map((a) => a.id)
+---
+
+<Layout title="Random article">
+  <div class="wiki-content-area">
+    <article class="wiki-article">
+      <p>Picking a random article…</p>
+    </article>
+  </div>
+
+  <script type="application/json" id="random-slugs" set:html={JSON.stringify(slugs)} />
+  <script is:inline>
+    const slugs = JSON.parse(document.getElementById("random-slugs").textContent)
+    const pick = slugs[Math.floor(Math.random() * slugs.length)]
+    window.location.replace(`/wiki/${pick}`)
+  </script>
+</Layout>

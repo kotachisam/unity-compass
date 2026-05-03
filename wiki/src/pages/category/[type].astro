@@ -1,0 +1,52 @@
+---
+import Layout from "@/layouts/Layout.astro"
+import { getAllArticles } from "@/lib/articles"
+
+export async function getStaticPaths() {
+  const all = await getAllArticles()
+  const types = [...new Set(all.map((a) => a.data.type))]
+  return types.map((type) => ({
+    params: { type },
+    props: {
+      articles: all.filter((a) => a.data.type === type),
+    },
+  }))
+}
+
+const { type } = Astro.params
+const { articles } = Astro.props as { articles: Awaited<ReturnType<typeof getAllArticles>> }
+
+const labels: Record<string, string> = {
+  concept: "Concepts",
+  theory: "Theories",
+  person: "People",
+  work: "Works",
+  event: "Events",
+  "case-study": "Case Studies",
+  source: "Sources",
+  institution: "Institutions",
+}
+const label = labels[type as string] ?? (type as string)
+---
+
+<Layout title={`Category: ${label}`}>
+  <div class="wiki-content-area">
+    <article class="wiki-article">
+      <h1>Category: {label}</h1>
+      <p>{articles.length} article{articles.length === 1 ? "" : "s"} in this category.</p>
+
+      <ul>
+        {articles.map((a) => (
+          <li>
+            <a href={`/wiki/${a.id}`}>{a.data.title}</a>
+            {a.data.description && (
+              <span style="color: var(--wiki-border); font-size: 13px; margin-left: 8px;">
+                — {a.data.description}
+              </span>
+            )}
+          </li>
+        ))}
+      </ul>
+    </article>
+  </div>
+</Layout>

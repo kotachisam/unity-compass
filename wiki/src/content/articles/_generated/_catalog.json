@@ -1,0 +1,610 @@
+{
+  "generated": "2026-05-03",
+  "total": 33,
+  "categories": {
+    "concept": {
+      "label": "Concepts",
+      "count": 10,
+      "articles": [
+        {
+          "slug": "coordination-without-convergence",
+          "title": "Coordination Without Convergence",
+          "type": "concept",
+          "description": "The central concept of the Unity Compass investigation. Coordination can be grounded in structural features of interdependence assessed from situated perspectives, without requiring shared values or impartial evaluation.",
+          "tags": [
+            "coordination",
+            "convergence",
+            "collective-action",
+            "core-concept"
+          ],
+          "created": "2026-04-06",
+          "last_updated": "2026-04-10",
+          "backlinks": 24,
+          "wikidata_qid": null
+        },
+        {
+          "slug": "incomplete-preferences",
+          "title": "Incomplete Preferences",
+          "type": "concept",
+          "description": "Decision-theoretic territory where the completeness axiom of classical preference theory is relaxed. Agents with incomplete preferences cannot rank all options against all others even within their own perspective. The technical foundation for the thesis's partial-ordering move.",
+          "tags": [
+            "concept",
+            "decision-theory",
+            "preferences",
+            "formal",
+            "aumann",
+            "partial-orderings"
+          ],
+          "created": "2026-04-10",
+          "last_updated": "2026-04-10",
+          "backlinks": 3,
+          "wikidata_qid": null
+        },
+        {
+          "slug": "logos",
+          "title": "Logos",
+          "type": "concept",
+          "description": "Ancient Greek concept of cosmic ordering principle. The investigation argues that the progressive narrowing of logos to formal logic is upstream of coordination theory's incompleteness.",
+          "tags": [
+            "philosophy",
+            "logos",
+            "reason",
+            "narrowing",
+            "heraclitus",
+            "core-concept"
+          ],
+          "created": "2026-04-06",
+          "last_updated": "2026-04-06",
+          "backlinks": 2,
+          "wikidata_qid": null
+        },
+        {
+          "slug": "multifaceted-social-engineering",
+          "title": "Multifaceted Social Engineering",
+          "type": "concept",
+          "description": "An Alexander-coined term for a holistic approach to social engineering that addresses multiple dimensions of the Open Society simultaneously. Presented as the third way between Popper's piecemeal social engineering and utopian social engineering.",
+          "tags": [
+            "concept",
+            "coordination",
+            "prescription",
+            "alexander-2024",
+            "open-society",
+            "fitness-landscape"
+          ],
+          "created": "2026-04-10",
+          "last_updated": "2026-04-10",
+          "backlinks": 4,
+          "wikidata_qid": null
+        },
+        {
+          "slug": "parity",
+          "title": "Parity",
+          "type": "concept",
+          "description": "Ruth Chang's fourth value relation. Two items are on a par when they are comparable without being better, worse or equal. Central to the investigation's formal treatment of coordination across incommensurable values.",
+          "tags": [
+            "concept",
+            "philosophy",
+            "chang",
+            "value-theory",
+            "incommensurability",
+            "formal"
+          ],
+          "created": "2026-04-10",
+          "last_updated": "2026-04-10",
+          "backlinks": 4,
+          "wikidata_qid": null
+        },
+        {
+          "slug": "path-dependence",
+          "title": "Path Dependence",
+          "type": "concept",
+          "description": "The structural barrier whereby institutions resist change because the longer they operate under given assumptions, the more costly it becomes to switch. Identified in the investigation as one of five compound barriers to coordination reform.",
+          "tags": [
+            "concept",
+            "institutions",
+            "barriers",
+            "reform",
+            "increasing-returns"
+          ],
+          "created": "2026-04-06",
+          "last_updated": "2026-04-06",
+          "backlinks": 0,
+          "wikidata_qid": null
+        },
+        {
+          "slug": "restorative-justice",
+          "title": "Restorative Justice",
+          "type": "concept",
+          "description": "Coordination between people who share nothing but consequences. Demonstrates that coordination across the most extreme difference is possible when the process is structured to make room for what formal theory excludes.",
+          "tags": [
+            "concept",
+            "coordination",
+            "justice",
+            "practice",
+            "interpersonal"
+          ],
+          "created": "2026-04-06",
+          "last_updated": "2026-04-06",
+          "backlinks": 0,
+          "wikidata_qid": null
+        },
+        {
+          "slug": "rorschach-concepts",
+          "title": "Rorschach Concepts",
+          "type": "concept",
+          "description": "A term coined by J. McKenzie Alexander for political concepts whose common meaning depends heavily on individual projection. The central diagnostic in Alexander 2024 and a direct illustration of coordination without convergence.",
+          "tags": [
+            "concept",
+            "coordination",
+            "diagnostics",
+            "alexander-2024",
+            "common-meanings"
+          ],
+          "created": "2026-04-10",
+          "last_updated": "2026-04-10",
+          "backlinks": 4,
+          "wikidata_qid": null
+        },
+        {
+          "slug": "structural-interdependence",
+          "title": "Structural Interdependence",
+          "type": "concept",
+          "description": "The investigation's central hypothesis. Structural features of interdependence as candidate grounds for coordination without value convergence.",
+          "tags": [
+            "coordination",
+            "structural-features",
+            "hypothesis",
+            "core-concept"
+          ],
+          "created": "2026-04-06",
+          "last_updated": "2026-04-10",
+          "backlinks": 21,
+          "wikidata_qid": null
+        },
+        {
+          "slug": "value-incommensurability",
+          "title": "Value Incommensurability",
+          "type": "concept",
+          "description": "The condition where agents hold values that cannot be ranked on a common scale. The philosophical problem the investigation's central question addresses.",
+          "tags": [
+            "philosophy",
+            "incommensurability",
+            "parity",
+            "values"
+          ],
+          "created": "2026-04-06",
+          "last_updated": "2026-04-06",
+          "backlinks": 23,
+          "wikidata_qid": null
+        }
+      ]
+    },
+    "theory": {
+      "label": "Theories",
+      "count": 5,
+      "articles": [
+        {
+          "slug": "decision-theory-under-severe-uncertainty",
+          "title": "Decision Theory Under Severe Uncertainty",
+          "type": "theory",
+          "description": "Formal frameworks for rational decision-making when standard expected utility breaks down. Central to the investigation's sub-question on rationality.",
+          "tags": [
+            "decision-theory",
+            "uncertainty",
+            "ambiguity",
+            "formal-methods"
+          ],
+          "created": "2026-04-06",
+          "last_updated": "2026-04-06",
+          "backlinks": 4,
+          "wikidata_qid": null
+        },
+        {
+          "slug": "evolutionary-game-theory",
+          "title": "Evolutionary Game Theory",
+          "type": "theory",
+          "description": "The study of strategic interaction as a dynamic, population-level process. Extends classical game theory by replacing rational deliberation with differential replication, but retains the requirement for commensurable payoffs that the investigation identifies as a boundary condition.",
+          "tags": [
+            "game-theory",
+            "evolution",
+            "norms",
+            "stability",
+            "formal-methods",
+            "replicator-dynamics",
+            "ESS"
+          ],
+          "created": "2026-04-06",
+          "last_updated": "2026-04-06",
+          "backlinks": 8,
+          "wikidata_qid": null
+        },
+        {
+          "slug": "game-theory",
+          "title": "Game Theory",
+          "type": "theory",
+          "description": "The dominant formal framework for analysing strategic interaction. The investigation builds on its vocabulary while identifying four foundational assumptions that break under value incommensurability.",
+          "tags": [
+            "theory",
+            "formal-methods",
+            "strategic-interaction",
+            "RAND",
+            "assumptions"
+          ],
+          "created": "2026-04-06",
+          "last_updated": "2026-04-06",
+          "backlinks": 6,
+          "wikidata_qid": null
+        },
+        {
+          "slug": "mechanism-design",
+          "title": "Mechanism Design",
+          "type": "theory",
+          "description": "Sometimes called \"reverse game theory.\" Designs rules of interaction to achieve desired outcomes given strategic actors. Breaks when objectives are contested or values are incommensurable.",
+          "tags": [
+            "theory",
+            "formal-methods",
+            "incentives",
+            "institutional-design"
+          ],
+          "created": "2026-04-06",
+          "last_updated": "2026-04-06",
+          "backlinks": 3,
+          "wikidata_qid": null
+        },
+        {
+          "slug": "social-choice-theory",
+          "title": "Social Choice Theory",
+          "type": "theory",
+          "description": "The mathematical study of how individual preferences can be aggregated into collective decisions. Its impossibility results set formal limits on what coordination mechanisms can achieve.",
+          "tags": [
+            "theory",
+            "formal-methods",
+            "voting",
+            "aggregation",
+            "impossibility"
+          ],
+          "created": "2026-04-06",
+          "last_updated": "2026-04-06",
+          "backlinks": 3,
+          "wikidata_qid": null
+        }
+      ]
+    },
+    "person": {
+      "label": "People",
+      "count": 10,
+      "articles": [
+        {
+          "slug": "daniel-schmachtenberger",
+          "title": "Daniel Schmachtenberger",
+          "type": "person",
+          "description": "Systems thinker whose \"metacrisis\" framework is the closest existing project to the Unity Compass investigation in diagnostic scope. Stronger on diagnosis than prescription.",
+          "tags": [
+            "person",
+            "metacrisis",
+            "coordination",
+            "systems-thinking",
+            "diagnostics"
+          ],
+          "created": "2026-04-06",
+          "last_updated": "2026-04-06",
+          "backlinks": 0,
+          "wikidata_qid": null
+        },
+        {
+          "slug": "elinor-ostrom",
+          "title": "Elinor Ostrom",
+          "type": "person",
+          "description": "Nobel Prize-winning political economist. Her work on commons governance provides the most empirically grounded coordination research in existence.",
+          "tags": [
+            "person",
+            "commons",
+            "governance",
+            "institutional-design",
+            "political-economy"
+          ],
+          "created": "2026-04-06",
+          "last_updated": "2026-04-06",
+          "backlinks": 3,
+          "wikidata_qid": null
+        },
+        {
+          "slug": "heraclitus",
+          "title": "Heraclitus",
+          "type": "person",
+          "description": "Pre-Socratic philosopher whose concept of logos as unity-in-opposition is the philosophical anchor for the investigation's critique of narrowed reason.",
+          "tags": [
+            "person",
+            "philosophy",
+            "pre-socratic",
+            "logos",
+            "unity-in-opposition"
+          ],
+          "created": "2026-04-06",
+          "last_updated": "2026-04-06",
+          "backlinks": 1,
+          "wikidata_qid": null
+        },
+        {
+          "slug": "j-mckenzie-alexander",
+          "title": "J. McKenzie Alexander",
+          "type": "person",
+          "description": "Professor of Philosophy at LSE. Target supervisor for the doctoral research. Specialist in evolutionary game theory, the evolution of morality and social norms, and the philosophy of society.",
+          "tags": [
+            "person",
+            "lse",
+            "supervisor-target",
+            "game-theory",
+            "philosophy",
+            "evolutionary-game-theory"
+          ],
+          "created": "2026-04-06",
+          "last_updated": "2026-04-10",
+          "backlinks": 6,
+          "wikidata_qid": null
+        },
+        {
+          "slug": "mancur-olson",
+          "title": "Mancur Olson",
+          "type": "person",
+          "description": "Political economist who demonstrated that shared interests do not reliably produce collective action. His work grounds the investigation's claim that value convergence is not sufficient for coordination.",
+          "tags": [
+            "person",
+            "collective-action",
+            "free-riding",
+            "political-economy"
+          ],
+          "created": "2026-04-06",
+          "last_updated": "2026-04-06",
+          "backlinks": 2,
+          "wikidata_qid": null
+        },
+        {
+          "slug": "michael-bratman",
+          "title": "Michael Bratman",
+          "type": "person",
+          "description": "Philosopher whose shared cooperative activity theory is the primary alternative account of what grounds coordination. The investigation argues structural interdependence can explain why Bratman's conditions succeed when they do.",
+          "tags": [
+            "person",
+            "philosophy",
+            "shared-intention",
+            "collective-agency",
+            "planning-theory"
+          ],
+          "created": "2026-04-06",
+          "last_updated": "2026-04-06",
+          "backlinks": 0,
+          "wikidata_qid": null
+        },
+        {
+          "slug": "richard-bradley",
+          "title": "Richard Bradley",
+          "type": "person",
+          "description": "Professor of Philosophy at LSE. Target supervisor for the doctoral research. Specialist in decision theory, formal epistemology and social choice.",
+          "tags": [
+            "person",
+            "lse",
+            "supervisor-target",
+            "decision-theory",
+            "philosophy"
+          ],
+          "created": "2026-04-06",
+          "last_updated": "2026-04-10",
+          "backlinks": 7,
+          "wikidata_qid": null
+        },
+        {
+          "slug": "robert-axelrod",
+          "title": "Robert Axelrod",
+          "type": "person",
+          "description": "Political scientist whose iterated prisoner's dilemma tournaments demonstrated that cooperation can emerge without central authority. His four conditions for cooperation are a key reference point the investigation builds on and identifies limitations of.",
+          "tags": [
+            "person",
+            "game-theory",
+            "cooperation",
+            "tournaments",
+            "tit-for-tat"
+          ],
+          "created": "2026-04-06",
+          "last_updated": "2026-04-06",
+          "backlinks": 4,
+          "wikidata_qid": null
+        },
+        {
+          "slug": "ruth-chang",
+          "title": "Ruth Chang",
+          "type": "person",
+          "description": "Philosopher of practical reason. Her work on hard choices and parity provides the philosophical framework for value incommensurability the investigation builds on.",
+          "tags": [
+            "person",
+            "philosophy",
+            "incommensurability",
+            "parity",
+            "practical-reason"
+          ],
+          "created": "2026-04-06",
+          "last_updated": "2026-04-06",
+          "backlinks": 4,
+          "wikidata_qid": null
+        },
+        {
+          "slug": "thomas-schelling",
+          "title": "Thomas Schelling",
+          "type": "person",
+          "description": "Economist and Nobel laureate whose work on focal points demonstrated that coordination can emerge through structural salience without shared values or communication.",
+          "tags": [
+            "person",
+            "game-theory",
+            "focal-points",
+            "coordination",
+            "salience"
+          ],
+          "created": "2026-04-06",
+          "last_updated": "2026-04-06",
+          "backlinks": 4,
+          "wikidata_qid": null
+        }
+      ]
+    },
+    "case-study": {
+      "label": "Case Studies",
+      "count": 4,
+      "articles": [
+        {
+          "slug": "aukus",
+          "title": "AUKUS",
+          "type": "case-study",
+          "description": "Trilateral security partnership between Australia, UK and USA. The investigation's primary case study for testing coordination without convergence.",
+          "tags": [
+            "case-study",
+            "defence",
+            "coordination",
+            "trilateral",
+            "primary-domain"
+          ],
+          "created": "2026-04-06",
+          "last_updated": "2026-04-06",
+          "backlinks": 6,
+          "wikidata_qid": null
+        },
+        {
+          "slug": "fukushima-daiichi",
+          "title": "Fukushima Daiichi",
+          "type": "case-study",
+          "description": "The 2011 nuclear disaster as a case study in compounding coordination failure modes. Information distortion, regulatory capture, path dependence and the suppression of situated judgment.",
+          "tags": [
+            "case-study",
+            "coordination-failure",
+            "nuclear",
+            "information-distortion",
+            "capture",
+            "japan"
+          ],
+          "created": "2026-04-06",
+          "last_updated": "2026-04-06",
+          "backlinks": 1,
+          "wikidata_qid": null
+        },
+        {
+          "slug": "irish-citizens-assembly",
+          "title": "Irish Citizens' Assembly",
+          "type": "case-study",
+          "description": "Ireland's randomly-selected citizens' assemblies produced constitutional recommendations on deeply divisive issues that elected politicians had avoided for decades.",
+          "tags": [
+            "case-study",
+            "coordination-success",
+            "democracy",
+            "sortition",
+            "deliberation"
+          ],
+          "created": "2026-04-06",
+          "last_updated": "2026-04-06",
+          "backlinks": 1,
+          "wikidata_qid": null
+        },
+        {
+          "slug": "montreal-protocol",
+          "title": "Montreal Protocol",
+          "type": "case-study",
+          "description": "The 1987 international agreement to phase out ozone-depleting substances. Widely regarded as the most successful international environmental agreement and the investigation's strongest evidence for planetary-scale coordination without convergence.",
+          "tags": [
+            "case-study",
+            "coordination-success",
+            "international",
+            "ozone",
+            "assurance-game"
+          ],
+          "created": "2026-04-06",
+          "last_updated": "2026-04-06",
+          "backlinks": 0,
+          "wikidata_qid": null
+        }
+      ]
+    },
+    "source": {
+      "label": "Sources",
+      "count": 3,
+      "articles": [
+        {
+          "slug": "alexander-2024-open-society-as-enemy",
+          "title": "Alexander 2024 (The Open Society as an Enemy)",
+          "type": "source",
+          "description": "J. McKenzie Alexander's 2024 diagnostic book on how the concept of Open Society has undergone value-inversion post-Cold War. Target supervisor's most recent work and the primary vehicle for the supervision pitch.",
+          "tags": [
+            "source",
+            "book",
+            "alexander-2024",
+            "open-society",
+            "lse-press",
+            "p1-reading"
+          ],
+          "created": "2026-04-10",
+          "last_updated": "2026-04-10",
+          "backlinks": 0,
+          "wikidata_qid": null
+        },
+        {
+          "slug": "bradley-2022-impartial-evaluation-under-ambiguity",
+          "title": "Bradley 2022 (Impartial Evaluation under Ambiguity)",
+          "type": "source",
+          "description": "Bradley's 2022 paper proving that three weak conditions on impartial social evaluation force restrictive impossibility results. Central to the investigation's Bradley-facing claims and the thesis's proposal to walk through Bradley's open door on incomplete betterness relations.",
+          "tags": [
+            "source",
+            "paper",
+            "bradley-2022",
+            "decision-theory",
+            "ambiguity",
+            "p1-reading",
+            "impossibility-result"
+          ],
+          "created": "2026-04-10",
+          "last_updated": "2026-04-10",
+          "backlinks": 0,
+          "wikidata_qid": null
+        },
+        {
+          "slug": "nowak-and-may-1992",
+          "title": "Nowak and May (1992)",
+          "type": "source",
+          "description": "Demonstrated that spatial structure alone determines coordination outcomes in the prisoner's dilemma, even when defection strictly dominates. The strongest existing evidence that network topology does coordination work independent of strategic content.",
+          "tags": [
+            "source",
+            "spatial-dynamics",
+            "chaos",
+            "cooperation",
+            "lattice",
+            "structure",
+            "nature"
+          ],
+          "created": "2026-04-06",
+          "last_updated": "2026-04-06",
+          "backlinks": 2,
+          "wikidata_qid": null
+        }
+      ]
+    },
+    "institution": {
+      "label": "Institutions",
+      "count": 1,
+      "articles": [
+        {
+          "slug": "ietf-rough-consensus",
+          "title": "IETF and Rough Consensus",
+          "type": "institution",
+          "description": "The Internet Engineering Task Force coordinates thousands of engineers on internet standards using \"rough consensus and running code.\" A mechanism that acknowledges objections without requiring resolution.",
+          "tags": [
+            "institution",
+            "coordination",
+            "consensus",
+            "internet",
+            "protocol"
+          ],
+          "created": "2026-04-06",
+          "last_updated": "2026-04-06",
+          "backlinks": 0,
+          "wikidata_qid": null
+        }
+      ]
+    }
+  }
+}

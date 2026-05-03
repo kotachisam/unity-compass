@@ -1,33 +1,43 @@
 import { Command } from "cmdk"
-import { useEffect, useMemo, useState } from "react"
+import { useEffect, useRef, useState } from "react"
 
-interface SearchEntry {
-  slug: string
+interface PagefindSubResult {
+  url: string
+  excerpt: string
+}
+
+interface PagefindResult {
+  id: string
+  data: () => Promise<{
+    url: string
+    excerpt: string
+    meta: { title?: string; description?: string }
+    sub_results: PagefindSubResult[]
+  }>
+}
+
+interface PagefindAPI {
+  search: (query: string) => Promise<{ results: PagefindResult[] }>
+  init?: () => Promise<void>
+}
+
+interface ResolvedHit {
+  url: string
   title: string
-  type: string
-  description: string
-  tags: string[]
+  excerpt: string
 }
 
-interface SearchIndex {
-  generated: string
-  entries: SearchEntry[]
-}
-
-function score(entry: SearchEntry, q: string): number {
-  const t = entry.title.toLowerCase()
-  if (t === q) return 100
-  if (t.startsWith(q)) return 80
-  if (t.includes(q)) return 60
-  if (entry.tags.some((tag) => tag.toLowerCase().includes(q))) return 40
-  if (entry.description.toLowerCase().includes(q)) return 30
-  return 0
+function stripHtml(html: string): string {
+  return html.replace(/<[^>]+>/g, "")
 }
 
 export default function SearchModal() {
   const [open, setOpen] = useState(false)
   const [query, setQuery] = useState("")
-  const [index, setIndex] = useState<SearchIndex | null>(null)
+  const [pagefind, setPagefind] = useState<PagefindAPI | null>(null)
+  const [pagefindError, setPagefindError] = useState<string | null>(null)
+  const [results, setResults] = useState<ResolvedHit[]>([])
+  const lastQueryRef = useRef("")
 
   useEffect(() => {
     function handleKeyDown(e: KeyboardEvent) {
@@ -42,30 +52,51 @@ export default function SearchModal() {
   }, [])
 
   useEffect(() => {
-    if (!open || index) return
-    fetch("/_search.json")
-      .then((r) => r.json() as Promise<SearchIndex>)
-      .then(setIndex)
-      .catch(() => setIndex({ generated: "", entries: [] }))
-  }, [open, index])
+    if (!open || pagefind || pagefindError) return
+    const url = `/pagefind/pagefind.js`
+    import(/* @vite-ignore */ url)
+      .then(async (mod: PagefindAPI) => {
+        if (mod.init) await mod.init()
+        setPagefind(mod)
+      })
+      .catch((e) => {
+        setPagefindError(
+          "Search index not available in dev. Run `bun run build` to generate it."
+        )
+        console.warn("pagefind unavailable:", e)
+      })
+  }, [open, pagefind, pagefindError])
 
-  const results = useMemo(() => {
-    if (!index || !query.trim()) return []
-    const q = query.toLowerCase()
-    return index.entries
-      .map((e) => ({ entry: e, s: score(e, q) }))
-      .filter((r) => r.s > 0)
-      .sort((a, b) => b.s - a.s || a.entry.title.localeCompare(b.entry.title))
-      .slice(0, 25)
-      .map((r) => r.entry)
-  }, [index, query])
+  useEffect(() => {
+    const q = query.trim()
+    if (!pagefind || !q) {
+      setResults([])
+      return
+    }
+    lastQueryRef.current = q
+    pagefind.search(q).then(async ({ results: pageResults }) => {
+      if (lastQueryRef.current !== q) return
+      const top = pageResults.slice(0, 15)
+      const resolved = await Promise.all(
+        top.map(async (r) => {
+          const d = await r.data()
+          return {
+            url: d.url,
+            title: stripHtml(d.meta.title ?? d.url),
+            excerpt: stripHtml(d.excerpt),
+          }
+        })
+      )
+      if (lastQueryRef.current === q) setResults(resolved)
+    })
+  }, [query, pagefind])
 
   if (!open) return null
 
   return (
     <div className="wiki-search-overlay" onClick={() => setOpen(false)}>
       <div className="wiki-search-modal" onClick={(e) => e.stopPropagation()}>
-        <Command label="Search articles">
+        <Command label="Search articles" shouldFilter={false}>
           <Command.Input
             value={query}
             onValueChange={setQuery}
@@ -73,21 +104,26 @@ export default function SearchModal() {
             autoFocus
           />
           <Command.List>
-            {results.length === 0 && query.trim() && (
+            {pagefindError && (
+              <div style={{ padding: "12px 16px", color: "var(--wiki-border)", fontSize: 13 }}>
+                {pagefindError}
+              </div>
+            )}
+            {!pagefindError && results.length === 0 && query.trim() && (
               <Command.Empty>No results.</Command.Empty>
             )}
             {results.map((r) => (
               <Command.Item
-                key={r.slug}
-                value={r.slug}
+                key={r.url}
+                value={r.url}
                 onSelect={() => {
-                  window.location.href = `/wiki/${r.slug}`
+                  window.location.href = r.url
                 }}
               >
                 <div>
                   <div style={{ fontWeight: 500 }}>{r.title}</div>
-                  {r.description && (
-                    <div style={{ fontSize: 12, color: "var(--wiki-border)" }}>{r.description}</div>
+                  {r.excerpt && (
+                    <div style={{ fontSize: 12, color: "var(--wiki-border)" }}>{r.excerpt}</div>
                   )}
                 </div>
               </Command.Item>
