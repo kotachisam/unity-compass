@@ -17,6 +17,13 @@
 /.next/
 /out/
 
+# astro
+/.astro/
+/dist/
+
+# wikidata cache (regenerated at build time)
+/.wikidata-cache/
+
 # production
 /build
 

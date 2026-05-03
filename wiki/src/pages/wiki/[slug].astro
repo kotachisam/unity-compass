@@ -1,0 +1,148 @@
+---
+import Layout from "@/layouts/Layout.astro"
+import { getAllArticles, getArticleBySlug, getBacklinks } from "@/lib/articles"
+import { extractHeadings, resolveWikilinks } from "@/lib/wikilinks"
+import { slugify } from "@/lib/utils"
+import { render } from "astro:content"
+
+export async function getStaticPaths() {
+  const all = await getAllArticles()
+  return all.map((a) => ({ params: { slug: a.id } }))
+}
+
+const { slug } = Astro.params
+const article = await getArticleBySlug(slug!)
+if (!article) {
+  return Astro.redirect("/404")
+}
+
+const articleWithLinks = {
+  ...article,
+  body: resolveWikilinks(article.body ?? ""),
+}
+
+const { Content } = await render(articleWithLinks)
+const headings = extractHeadings(article.body ?? "")
+const backlinks = await getBacklinks(slug!)
+---
+
+<Layout title={`${article.data.title} — Unity Compass Wiki`} description={article.data.description}>
+  <div class="wiki-tab-bar">
+    <div class="wiki-tabs-left">
+      <span class="wiki-tab active">Article</span>
+    </div>
+    <div class="wiki-tabs-right">
+      <span class="wiki-tab active">Read</span>
+      <a
+        class="wiki-tab"
+        href={`https://github.com/kotachisam/unity-compass/blob/main/wiki/src/content/articles/${slug}.md`}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        View source
+      </a>
+    </div>
+  </div>
+
+  <div class="wiki-content-area">
+    <article class="wiki-article">
+      <h1>
+        {article.data.title}
+        <span class="wiki-article-type">({article.data.type})</span>
+      </h1>
+
+      <Content />
+
+      {backlinks.length > 0 && (
+        <div class="wiki-backlinks">
+          <h3 id="what-links-here">What links here</h3>
+          <ul>
+            {backlinks.map((b) => (
+              <li>
+                <a href={`/wiki/${b.id}`}>{b.data.title}</a>
+                <span style="color: var(--wiki-border); font-size: 12px; margin-left: 6px;">({b.data.type})</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      {article.data.tags.length > 0 && (
+        <div class="wiki-categories">
+          <span>Categories:</span>
+          {article.data.tags.map((tag) => (
+            <a href={`/search?q=${encodeURIComponent(tag)}`}>{tag}</a>
+          ))}
+        </div>
+      )}
+    </article>
+
+    <aside class="wiki-right-sidebar">
+      {headings.length > 0 && (
+        <details class="wiki-aside-section" open>
+          <summary>Contents</summary>
+          <ul class="wiki-aside-toc">
+            {headings.map((h) => (
+              <li class={h.level === 3 ? "toc-h3" : ""}>
+                <a href={`#${h.id}`}>{h.text}</a>
+              </li>
+            ))}
+          </ul>
+        </details>
+      )}
+
+      <details class="wiki-aside-section" open>
+        <summary>Page info</summary>
+        <dl class="wiki-aside-info">
+          <dt>Type</dt><dd>{article.data.type}</dd>
+          {article.data.created && (<><dt>Created</dt><dd>{article.data.created}</dd></>)}
+          {article.data.last_updated && (<><dt>Updated</dt><dd>{article.data.last_updated}</dd></>)}
+          {article.data.wikidata_qid && (<><dt>Wikidata</dt><dd><a href={`https://www.wikidata.org/wiki/${article.data.wikidata_qid}`} target="_blank" rel="noopener noreferrer">{article.data.wikidata_qid}</a></dd></>)}
+          {backlinks.length > 0 && (<><dt>Backlinks</dt><dd><a href="#what-links-here">{backlinks.length}</a></dd></>)}
+        </dl>
+      </details>
+
+      {article.data.related.length > 0 && (
+        <details class="wiki-aside-section" open>
+          <summary>Related <span class="wiki-aside-count">{article.data.related.length}</span></summary>
+          <ul class="wiki-aside-list">
+            {article.data.related.map((r) => (
+              <li>
+                <a href={`/wiki/${slugify(r)}`}>{r}</a>
+              </li>
+            ))}
+          </ul>
+        </details>
+      )}
+
+      {article.data.sources.length > 0 && (
+        <details class="wiki-aside-section">
+          <summary>Sources <span class="wiki-aside-count">{article.data.sources.length}</span></summary>
+          <ul class="wiki-aside-list wiki-aside-list-mono">
+            {article.data.sources.map((s) => (
+              <li>{s}</li>
+            ))}
+          </ul>
+        </details>
+      )}
+
+      <details class="wiki-aside-section">
+        <summary>Actions</summary>
+        <ul class="wiki-aside-list">
+          <li>
+            <a
+              href={`https://github.com/kotachisam/unity-compass/blob/main/wiki/src/content/articles/${slug}.md`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View source on GitHub
+            </a>
+          </li>
+          <li>
+            <a href="/">Open in graph view</a>
+          </li>
+        </ul>
+      </details>
+    </aside>
+  </div>
+</Layout>

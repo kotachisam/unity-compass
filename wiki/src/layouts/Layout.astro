@@ -1,0 +1,47 @@
+---
+import "@/styles/globals.css"
+import Sidebar from "@/components/react/Sidebar"
+import SearchModal from "@/components/react/SearchModal"
+import { getArticlesByType } from "@/lib/articles"
+
+interface Props {
+  title?: string
+  description?: string
+}
+
+const { title = "Unity Compass Wiki", description = "Research knowledge base for coordination across genuine difference" } = Astro.props
+
+const byType = await getArticlesByType()
+const sidebarData: Record<string, { slug: string; title: string }[]> = {}
+for (const [type, articles] of Object.entries(byType)) {
+  sidebarData[type] = articles.map((a) => ({ slug: a.id, title: a.data.title }))
+}
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="icon" href="/favicon.ico" />
+  </head>
+  <body>
+    <div class="wiki-outer">
+      <Sidebar client:load articlesByType={sidebarData} />
+
+      <main class="wiki-main">
+        <div class="wiki-global-header">
+          <form class="wiki-search" action="/search" method="get">
+            <input type="text" name="q" placeholder="Search (⌘K)" />
+            <button type="submit">Search</button>
+          </form>
+        </div>
+        <slot />
+      </main>
+    </div>
+    <SearchModal client:idle />
+  </body>
+</html>

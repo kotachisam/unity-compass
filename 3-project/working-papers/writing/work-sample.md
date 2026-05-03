@@ -12,22 +12,6 @@ This essay makes the case that the structural extension of parity to collective 
 
 ## 1 - Chang Reconstruction
 
----
+Chang (2017, 2021 [Check Dates for Possibility of Parity & Hard Choices]) presents a clear distinction between the stereotypical easy choice, when one option clearly dominates the other, and hard choices, where such a division is not so simply made. In addition, she identifies the conflation of hard and easy choices with big and small choices, beautifully demonstrating how deciding between two breakfast options can be simultaneously a small choice but a hard one.
 
-### Chang on parity (~650 words)
-Reconstruct the parity thesis from The Possibility of Parity (2002) and Hard Choices (2017). Two claims to land: (a) parity as a fourth value relation alongside better/worse/equal, (b) the small-improvement argument that distinguishes parity from vagueness or incomparability. Don't survey her whole corpus. Use her own vocabulary throughout (better/worse/equal, not mathematical notation).
-
-### 2. The individual-to-collective gap (~750 words)
-Chang's apparatus operates at individual rational choice. Articulate the two-layer extension: (a) each agent evaluating a joint outcome faces parity-like options, (b) the set of joint outcomes the collective navigates exhibits collective parity when no agent's evaluation dominates. Show this is a well-formed question, not a category error. Note that Bradley (2022) and Gaus (2021) touch adjacent territory but don't close this specific gap — Bradley works on impartial social evaluation under ambiguity, Gaus's self-organisation model commits to cardinal utility that forecloses the parity move. Cite Chang's own confirmation that the structural case is "a paradigmatic case of parity".
-
-### What a formal treatment would need (~900 words)
-Not "here's the formal object I've built" — instead, the desiderata. What properties would the apparatus need? Why does existing machinery (Nash equilibria with complete preferences, impartial social welfare functions, cardinal utility models) fail to supply them? Gesture at the direction: partial orderings over structural position-vectors, with an equilibrium concept that generalises Nash without requiring completeness. Name this as a plausible direction, not a delivered result. This is the technical heart of the essay and where you demonstrate you think formally.
-
-### Why it matters (~400 words)
-Land the stakes. Collective coordination domains where game-theoretic foundations fail because no common payoff matrix exists — AUKUS as your lived example, climate governance and AI regulation as generalisations. The argument is that a lot of real-world coordination happens under collective parity conditions and that we lack the formal apparatus to theorise it. This is where the research programme is worth three-to-four years of investigation.
-
-Citation discipline:
-  - 3-4 thinkers engaged substantively: Chang, Bradley, plus one or two of Gaus / Sen / Alexander
-  - No Heidegger, Tillich, Dreyfus, Capra, or any logos-essay furniture
-  - Use "left for another day" as the specific Bradley hook
-  - Use Chang's correspondence quote sparingly — once, well-placed
+She then identifies the three most commonly discussed reasons why the majority of us intuit the hardness internal to hard choices.

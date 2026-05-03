@@ -1,0 +1,49 @@
+---
+import Layout from "@/layouts/Layout.astro"
+import { getAllArticles } from "@/lib/articles"
+
+const all = await getAllArticles()
+const stats = {
+  total: all.length,
+  byType: all.reduce<Record<string, number>>((acc, a) => {
+    acc[a.data.type] = (acc[a.data.type] ?? 0) + 1
+    return acc
+  }, {}),
+}
+---
+
+<Layout title="Unity Compass Wiki">
+  <div class="wiki-content-area">
+    <article class="wiki-article">
+      <h1>Unity Compass Wiki</h1>
+      <p>
+        Research knowledge base for coordination across genuine difference. The graph view (this page)
+        will become the primary interface in Phase A: an orientation tool over the history of ideas
+        with absorbed articles as bright nodes and Wikidata-derived neighbours as ghost nodes.
+      </p>
+
+      <h2 id="status">Current status</h2>
+      <p>
+        <strong>{stats.total} articles</strong> across types: {Object.entries(stats.byType).map(([t, n], i) => (
+          <>
+            {i > 0 && ", "}
+            <a href={`/category/${t}`}>{t}</a> ({n})
+          </>
+        ))}.
+      </p>
+
+      <h2 id="next-steps">Next steps for this rebuild</h2>
+      <ol>
+        <li>Wikidata QID bootstrapping pass</li>
+        <li>Graph component with @xyflow/react + ELK time-axis layout</li>
+        <li>Ghost-node ingestion from Wikidata</li>
+        <li>Mini-graph on every article page</li>
+        <li>CF Worker deploy at unity.samue.lk with noindex</li>
+      </ol>
+
+      <p>
+        For now, browse the catalog via the sidebar or use the search (⌘K).
+      </p>
+    </article>
+  </div>
+</Layout>
