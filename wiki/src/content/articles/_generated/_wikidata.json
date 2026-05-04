@@ -1,0 +1,2891 @@
+{
+  "generated": "2026-05-04T08:31:59.470Z",
+  "ghost_nodes": [
+    {
+      "qid": "Q8134",
+      "label": "economics",
+      "description": "social science that studies the production, distribution, and consumption of goods and services",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 238,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q3845173",
+      "label": "The Logic of Collective Action",
+      "description": "book by Mancur Olson",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 7,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q5891",
+      "label": "philosophy",
+      "description": "study of the truths and principles of being, schools of thought, knowledge, or conduct",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 314,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q311772",
+      "label": "Donald Davidson",
+      "description": "American philosopher (1917–2003)",
+      "type": "ghost",
+      "period_year": 1917,
+      "birth_year": 1917,
+      "death_year": 2003,
+      "sitelinks": 36,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q3294042",
+      "label": "Mark Davis",
+      "description": "co-founder of Unicode, Inc",
+      "type": "ghost",
+      "period_year": 1952,
+      "birth_year": 1952,
+      "death_year": null,
+      "sitelinks": 2,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q87414999",
+      "label": "Peter D. Taylor",
+      "description": "Canadian mathematician",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 0,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q23663067",
+      "label": "Ruth Chang: How to make hard choices",
+      "description": "TEDSalon NY2014",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 0,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q284289",
+      "label": "deliberative democracy",
+      "description": "form of democracy focusing on consensus",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 30,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q1421906",
+      "label": "Howard Zehr",
+      "description": "American restorative justice scholar",
+      "type": "ghost",
+      "period_year": 1944,
+      "birth_year": 1944,
+      "death_year": null,
+      "sitelinks": 5,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q6096743",
+      "label": "Thomas J. Scheff",
+      "description": "American sociologist (1929–2025)",
+      "type": "ghost",
+      "period_year": 1929,
+      "birth_year": 1929,
+      "death_year": 2025,
+      "sitelinks": 5,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q5059734",
+      "label": "Center for Justice and Peacebuilding",
+      "description": "college in Virginia, United States",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 1,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q18748957",
+      "label": "Civil Rights and Restorative Justice Project",
+      "description": "initiative by the Northeastern University School of Law",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 1,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q68571132",
+      "label": "Sujatha Baliga",
+      "description": "American attorney and restorative justice practitioner",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 1,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q87406289",
+      "label": "Jana Smiggels Kavková",
+      "description": "",
+      "type": "ghost",
+      "period_year": 1977,
+      "birth_year": 1977,
+      "death_year": null,
+      "sitelinks": 1,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q104150566",
+      "label": "Josep Maria Tamarit Sumalla",
+      "description": "",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 1,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q107896618",
+      "label": "Heidi Jokinen",
+      "description": "Finnish scout",
+      "type": "ghost",
+      "period_year": 1979,
+      "birth_year": 1979,
+      "death_year": null,
+      "sitelinks": 1,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q110827010",
+      "label": "Wayne Northey",
+      "description": "Canadian Christian restorative justice practioner",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 1,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q90892118",
+      "label": "Philip Horsfield",
+      "description": "researcher (ORCID 0000-0001-8605-0815)",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 0,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q94509905",
+      "label": "Daniel W. Van Ness",
+      "description": "",
+      "type": "ghost",
+      "period_year": 1949,
+      "birth_year": 1949,
+      "death_year": null,
+      "sitelinks": 0,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q95221053",
+      "label": "Andrea Matoušková",
+      "description": "",
+      "type": "ghost",
+      "period_year": 1971,
+      "birth_year": 1971,
+      "death_year": null,
+      "sitelinks": 0,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q95672438",
+      "label": "Clea Laage",
+      "description": "",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 0,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q107615380",
+      "label": "Adriaan Lanni",
+      "description": "legal scholar, university teacher, jurist, historian (1972-)",
+      "type": "ghost",
+      "period_year": 1972,
+      "birth_year": 1972,
+      "death_year": null,
+      "sitelinks": 0,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q1173618",
+      "label": "David Malament",
+      "description": "American philosopher of science",
+      "type": "ghost",
+      "period_year": 1947,
+      "birth_year": 1947,
+      "death_year": null,
+      "sitelinks": 6,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q92567970",
+      "label": "Ittay Nissan-Rozen",
+      "description": "Israeli philosophy professor",
+      "type": "ghost",
+      "period_year": 1976,
+      "birth_year": 1976,
+      "death_year": null,
+      "sitelinks": 1,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q61161737",
+      "label": "Alexandru Marcoci",
+      "description": "researcher ORCID ID = 0000-0002-5780-0805",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 0,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q110620074",
+      "label": "Joe Roussos",
+      "description": "researcher",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 0,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q112601828",
+      "label": "Christopher Jeremy Thompson",
+      "description": "doctoral candidate at the London School of Economics and Political Science",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 0,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q112601843",
+      "label": "Stuart Yasgur",
+      "description": "doctoral candidate at the London School of Economics and Political Science",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 0,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q112812983",
+      "label": "Mareile Drechsler",
+      "description": "doctoral candidate at the London School of Economics and Political Science",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 0,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q112894645",
+      "label": "Benjamin Ferguson",
+      "description": "doctoral candidate at the London School of Economics and Political Science",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 0,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q112958467",
+      "label": "Hlynur Orri Stefansson",
+      "description": "doctoral candidate at the London School of Economics and Political Science",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 0,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q113109904",
+      "label": "Johannes Himmelreich",
+      "description": "academic (Syracuse University)",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 0,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q113150388",
+      "label": "Goreti Faria",
+      "description": "doctoral candidate at the London School of Economics and Political Science",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 0,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q113196064",
+      "label": "Aron Vallinder",
+      "description": "doctoral candidate at the London School of Economics and Political Science",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 0,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q134284198",
+      "label": "Fabian Beigang",
+      "description": "doctoral candidate at the London School of Economics and Political Science",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 0,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q131318771",
+      "label": "Douglas Edwards",
+      "description": "Philosopher and university lecturer specializing in metaphysics and philosophy of language, with a focus on the concept of truth",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 0,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q44455",
+      "label": "game theory",
+      "description": "branch of mathematics focused on strategic decision making",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 97,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q201424",
+      "label": "nuclear warfare",
+      "description": "conflict or strategy in which nuclear weaponry is used to inflict damage on an opponent",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 69,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q44061",
+      "label": "Wassily Leontief",
+      "description": "Russian economist (1906-1999)",
+      "type": "ghost",
+      "period_year": 1906,
+      "birth_year": 1906,
+      "death_year": 1999,
+      "sitelinks": 67,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q157245",
+      "label": "Michael Spence",
+      "description": "American economist (born 1943)",
+      "type": "ghost",
+      "period_year": 1943,
+      "birth_year": 1943,
+      "death_year": null,
+      "sitelinks": 48,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q1920219",
+      "label": "social issue",
+      "description": "problem that influences a considerable number of individuals within a society",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 44,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q602278",
+      "label": "Tyler Cowen",
+      "description": "American economist, columnist and blogger",
+      "type": "ghost",
+      "period_year": 1962,
+      "birth_year": 1962,
+      "death_year": null,
+      "sitelinks": 18,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q1640893",
+      "label": "conflict management",
+      "description": "conflicts in the workplace (for general conflicts, see Q1194317)",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 14,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q326947",
+      "label": "James Duesenberry",
+      "description": "American economist",
+      "type": "ghost",
+      "period_year": 1918,
+      "birth_year": 1918,
+      "death_year": 2009,
+      "sitelinks": 9,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q2898573",
+      "label": "Eli Noam",
+      "description": "professor of Finance and Economics at the Columbia Business School",
+      "type": "ghost",
+      "period_year": 1946,
+      "birth_year": 1946,
+      "death_year": null,
+      "sitelinks": 7,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q5621196",
+      "label": "Gustav Ranis",
+      "description": "economist (1929–2013)",
+      "type": "ghost",
+      "period_year": 1929,
+      "birth_year": 1929,
+      "death_year": 2013,
+      "sitelinks": 5,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q7330150",
+      "label": "Richard Zeckhauser",
+      "description": "American economist",
+      "type": "ghost",
+      "period_year": 1940,
+      "birth_year": 1940,
+      "death_year": null,
+      "sitelinks": 3,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q11605551",
+      "label": "The strategy of conflict",
+      "description": "",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 1,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q21535828",
+      "label": "Arthur Smithies",
+      "description": "Australian-American economist",
+      "type": "ghost",
+      "period_year": 1907,
+      "birth_year": 1907,
+      "death_year": 1981,
+      "sitelinks": 1,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q41804267",
+      "label": "Martin C. McGuire",
+      "description": "American economist",
+      "type": "ghost",
+      "period_year": 1933,
+      "birth_year": 1933,
+      "death_year": 2024,
+      "sitelinks": 0,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q120567709",
+      "label": "Davit Tavkhelidze",
+      "description": "Georgian engineer (1910-1989)",
+      "type": "ghost",
+      "period_year": 1910,
+      "birth_year": 1910,
+      "death_year": 1989,
+      "sitelinks": 1,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q124202030",
+      "label": "regret-free mechanism",
+      "description": "",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 1,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q135187791",
+      "label": "mechanosemantics",
+      "description": "field concerned with engineering meaning through systems using principles from mechanism design, economics, and linguistics",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 0,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q135187809",
+      "label": "Dizzy Spins",
+      "description": "American record producer, businessman, and inventor",
+      "type": "ghost",
+      "period_year": 2002,
+      "birth_year": 2002,
+      "death_year": null,
+      "sitelinks": 0,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q868",
+      "label": "Aristotle",
+      "description": "4th-century BCE Classical Greek philosopher and polymath",
+      "type": "ghost",
+      "period_year": -383,
+      "birth_year": -383,
+      "death_year": -321,
+      "sitelinks": 315,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q859",
+      "label": "Plato",
+      "description": "4th-century BCE Greek philosopher",
+      "type": "ghost",
+      "period_year": -428,
+      "birth_year": -428,
+      "death_year": -348,
+      "sitelinks": 300,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q9358",
+      "label": "Friedrich Nietzsche",
+      "description": "German philosopher (1844-1900)",
+      "type": "ghost",
+      "period_year": 1844,
+      "birth_year": 1844,
+      "death_year": 1900,
+      "sitelinks": 254,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q34787",
+      "label": "Friedrich Engels",
+      "description": "German philosopher, sociologist and economist (1820–1895)",
+      "type": "ghost",
+      "period_year": 1820,
+      "birth_year": 1820,
+      "death_year": 1895,
+      "sitelinks": 196,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q9235",
+      "label": "Georg Wilhelm Friedrich Hegel",
+      "description": "German philosopher and theologian (1770–1831)",
+      "type": "ghost",
+      "period_year": 1770,
+      "birth_year": 1770,
+      "death_year": 1831,
+      "sitelinks": 192,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q48301",
+      "label": "Martin Heidegger",
+      "description": "German philosopher (1889–1976)",
+      "type": "ghost",
+      "period_year": 1889,
+      "birth_year": 1889,
+      "death_year": 1976,
+      "sitelinks": 147,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q45970",
+      "label": "Czesław Miłosz",
+      "description": "Polish-American poet and Nobel laureate (1911–2004)",
+      "type": "ghost",
+      "period_year": 1911,
+      "birth_year": 1911,
+      "death_year": 2004,
+      "sitelinks": 122,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q125551",
+      "label": "Parmenides",
+      "description": "late 6th/early 5th century BC Greek pre-Socratic philosopher",
+      "type": "ghost",
+      "period_year": -514,
+      "birth_year": -514,
+      "death_year": -469,
+      "sitelinks": 112,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q131671",
+      "label": "Xenophanes",
+      "description": "Greek Pre-Socratic philosopher (c.570–c.478 BC)",
+      "type": "ghost",
+      "period_year": -569,
+      "birth_year": -569,
+      "death_year": -477,
+      "sitelinks": 99,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q57112",
+      "label": "Oswald Spengler",
+      "description": "German historian and philosopher (1880-1936)",
+      "type": "ghost",
+      "period_year": 1880,
+      "birth_year": 1880,
+      "death_year": 1936,
+      "sitelinks": 89,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q298860",
+      "label": "Hippasus",
+      "description": "5th-century BC Pythagorean philosopher",
+      "type": "ghost",
+      "period_year": -600,
+      "birth_year": -600,
+      "death_year": -500,
+      "sitelinks": 46,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q312410",
+      "label": "Epicharmus of Kos",
+      "description": "late 6th/early 5th century BC Greek dramatist and philosopher",
+      "type": "ghost",
+      "period_year": -523,
+      "birth_year": -523,
+      "death_year": -434,
+      "sitelinks": 42,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q317880",
+      "label": "Edgar Morin",
+      "description": "French philosopher and sociologist (b. 1921)",
+      "type": "ghost",
+      "period_year": 1921,
+      "birth_year": 1921,
+      "death_year": null,
+      "sitelinks": 39,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q2718927",
+      "label": "Pentti Saarikoski",
+      "description": "Finnish writer, poet and translator (1937–1983)",
+      "type": "ghost",
+      "period_year": 1937,
+      "birth_year": 1937,
+      "death_year": 1983,
+      "sitelinks": 22,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q1136168",
+      "label": "aftermath of the 2011 Tōhoku earthquake and tsunami",
+      "description": "",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 12,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q11593710",
+      "label": "Fukushima Daiichi nuclear disaster (Unit 2 Reactor)",
+      "description": "reactor 2",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 2,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q11571749",
+      "label": "Q11571749",
+      "description": "",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 1,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q11593709",
+      "label": "Fukushima Daiichi nuclear disaster (Unit 1 Reactor)",
+      "description": "Fukushima reactor n°1",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 1,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q88902399",
+      "label": "Fukushima Health Management Survey Group",
+      "description": "",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 0,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q36442",
+      "label": "political science",
+      "description": "scientific study of politics",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 142,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q915809",
+      "label": "The Evolution of Cooperation",
+      "description": "1984 book by Robert M. Axelrod",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 5,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q58042499",
+      "label": "Lars-Erik Cederman",
+      "description": "political scientist",
+      "type": "ghost",
+      "period_year": 1963,
+      "birth_year": 1963,
+      "death_year": null,
+      "sitelinks": 5,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q5687347",
+      "label": "Hayward Alker",
+      "description": "American professor of international relations (1937–2007)",
+      "type": "ghost",
+      "period_year": 1937,
+      "birth_year": 1937,
+      "death_year": 2007,
+      "sitelinks": 3,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q102693128",
+      "label": "Bear Frederick Braumoeller",
+      "description": "political scientist",
+      "type": "ghost",
+      "period_year": 1968,
+      "birth_year": 1968,
+      "death_year": 2023,
+      "sitelinks": 2,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q7727217",
+      "label": "The Complexity of Cooperation",
+      "description": "book by Robert Axelrod",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 1,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q22617938",
+      "label": "Conflict of Interest: A Theory of Divergent Goals with Applications to Politics",
+      "description": "book by Robert M. Axelrod",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 0,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q22629415",
+      "label": "Harnessing Complexity: Organizational Implications of a Scientific Frontier",
+      "description": "book by Robert M. Axelrod and Michael D. Cohen",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 0,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q102904770",
+      "label": "Dan Reiter",
+      "description": "Ph.D. University of Michigan 1994",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 0,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q125973763",
+      "label": "The Evolution of Cooperation",
+      "description": "2006 Basic Books edition",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 0,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q831304",
+      "label": "Condorcet criterion",
+      "description": "electoral system criterion for systems that choose the plurality winner in a pairwise election",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 10,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q906371",
+      "label": "discursive dilemma",
+      "description": "paradox in social choice theory",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 4,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q18274931",
+      "label": "R. M. Nureev",
+      "description": "Russian scientist",
+      "type": "ghost",
+      "period_year": 1950,
+      "birth_year": 1950,
+      "death_year": 2023,
+      "sitelinks": 2,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q28134198",
+      "label": "computational social choice",
+      "description": "",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 2,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q107646307",
+      "label": "Random social choice",
+      "description": "",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 1,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q114644612",
+      "label": "Jacek Haman",
+      "description": "Polish sociologist",
+      "type": "ghost",
+      "period_year": 1970,
+      "birth_year": 1970,
+      "death_year": null,
+      "sitelinks": 1,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q102316377",
+      "label": "Thomas Schwartz",
+      "description": "American political scientist and philosopher, 1943-2024",
+      "type": "ghost",
+      "period_year": 1943,
+      "birth_year": 1943,
+      "death_year": 2024,
+      "sitelinks": 0,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q17455",
+      "label": "John von Neumann",
+      "description": "Hungarian and American mathematician and physicist (1903–1957)",
+      "type": "ghost",
+      "period_year": 1903,
+      "birth_year": 1903,
+      "death_year": 1957,
+      "sitelinks": 121,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q128736",
+      "label": "John Forbes Nash",
+      "description": "American mathematician and economist (1928–2015)",
+      "type": "ghost",
+      "period_year": 1928,
+      "birth_year": 1928,
+      "death_year": 2015,
+      "sitelinks": 106,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q206460",
+      "label": "Thomas Schelling",
+      "description": "American economist (1921-2016)",
+      "type": "ghost",
+      "period_year": 1921,
+      "birth_year": 1921,
+      "death_year": 2016,
+      "sitelinks": 63,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q41693",
+      "label": "prisoner's dilemma",
+      "description": "canonical example of a game analyzed in game theory",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 61,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q40688",
+      "label": "Yanis Varoufakis",
+      "description": "Greek economist and politician",
+      "type": "ghost",
+      "period_year": 1961,
+      "birth_year": 1961,
+      "death_year": null,
+      "sitelinks": 61,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q12830",
+      "label": "Reinhard Selten",
+      "description": "German economist (1930-2016)",
+      "type": "ghost",
+      "period_year": 1930,
+      "birth_year": 1930,
+      "death_year": 2016,
+      "sitelinks": 57,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q154356",
+      "label": "Émile Borel",
+      "description": "French mathematician and politician (1871-1956)",
+      "type": "ghost",
+      "period_year": 1871,
+      "birth_year": 1871,
+      "death_year": 1956,
+      "sitelinks": 56,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q244739",
+      "label": "Lloyd Shapley",
+      "description": "American economist and mathematician",
+      "type": "ghost",
+      "period_year": 1923,
+      "birth_year": 1923,
+      "death_year": 2016,
+      "sitelinks": 51,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q28542",
+      "label": "Alvin Eliot Roth",
+      "description": "American economist, professor",
+      "type": "ghost",
+      "period_year": 1951,
+      "birth_year": 1951,
+      "death_year": null,
+      "sitelinks": 50,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q272510",
+      "label": "John Harsanyi",
+      "description": "Hungarian economist (1920-2000)",
+      "type": "ghost",
+      "period_year": 1920,
+      "birth_year": 1920,
+      "death_year": 2000,
+      "sitelinks": 50,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q268961",
+      "label": "John Horton Conway",
+      "description": "English mathematician (1937–2020)",
+      "type": "ghost",
+      "period_year": 1937,
+      "birth_year": 1937,
+      "death_year": 2020,
+      "sitelinks": 48,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q323207",
+      "label": "John Maynard Smith",
+      "description": "British theoretical evolutionary biologist and geneticist (1920-2004)",
+      "type": "ghost",
+      "period_year": 1920,
+      "birth_year": 1920,
+      "death_year": 2004,
+      "sitelinks": 39,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q583438",
+      "label": "Robert Axelrod",
+      "description": "American political scientist (b. 1943)",
+      "type": "ghost",
+      "period_year": 1943,
+      "birth_year": 1943,
+      "death_year": null,
+      "sitelinks": 25,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q26090",
+      "label": "mechanism design",
+      "description": "field in game theory",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 22,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q487453",
+      "label": "Anatol Rapoport",
+      "description": "Russian-born American mathematical psychologist (1911–2007)",
+      "type": "ghost",
+      "period_year": 1911,
+      "birth_year": 1911,
+      "death_year": 2007,
+      "sitelinks": 18,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q3099856",
+      "label": "Gaël Giraud",
+      "description": "French economist and Catholic priest",
+      "type": "ghost",
+      "period_year": 1970,
+      "birth_year": 1970,
+      "death_year": null,
+      "sitelinks": 5,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q23581133",
+      "label": "Institutional analysis and development framework",
+      "description": "systematic method in policy analysis",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 2,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q27044649",
+      "label": "Governing the Commons: The Evolution of Institutions for Collective Action",
+      "description": "book by Elinor Ostrom published in 1990",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 1,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q115861553",
+      "label": "Q115861553",
+      "description": "2010 French edition of Elinor Ostrom's work \"Governing the commons\"",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 1,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q61818418",
+      "label": "Dwaine Marvick",
+      "description": "American political scientist",
+      "type": "ghost",
+      "period_year": 1923,
+      "birth_year": 1923,
+      "death_year": 1999,
+      "sitelinks": 0,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q103083278",
+      "label": "John Paul McIver",
+      "description": "Ph.D. Indiana University 1986",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 0,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q110972059",
+      "label": "Understanding Knowledge as a Commons",
+      "description": "2006 edition",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 0,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q136268231",
+      "label": "Q136268231",
+      "description": "book 2005",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 0,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q136774073",
+      "label": "Ostrom Design Principles",
+      "description": "core underlying “best practices” or factors (i.e., rules and structures) that characterize robust institutions for the governance of common-pool resources",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 0,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q27978005",
+      "label": "Understanding Knowledge as a Commons",
+      "description": "book by Charlotte Hess & Elinor Ostrom",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 0,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q110972063",
+      "label": "Rules, Games, and Common-pool Resources",
+      "description": "book published in 1994",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 0,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q111714419",
+      "label": "Institutions, Incentives, and Irrigation in Nepal",
+      "description": "report published in 1994",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 0,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q111716153",
+      "label": "The Commons in the New Millennium: Challenges and Adaptations",
+      "description": "book published in 2003",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 0,
+      "is_ghost": true
+    },
+    {
+      "qid": "Q111718960",
+      "label": "People and Forests: Communities, Institutions, and Governance",
+      "description": "book published in 2000",
+      "type": "ghost",
+      "period_year": null,
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 0,
+      "is_ghost": true
+    }
+  ],
+  "ghost_edges": [
+    {
+      "source": "Q519898",
+      "target": "Q8134",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q3845173",
+      "target": "Q519898",
+      "type": "author_of",
+      "provenance": "wikidata",
+      "property": "P50"
+    },
+    {
+      "source": "Q3739250",
+      "target": "Q5891",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q3739250",
+      "target": "Q311772",
+      "type": "doctoral_advisor",
+      "provenance": "wikidata",
+      "property": "P184"
+    },
+    {
+      "source": "Q3739250",
+      "target": "Q3294042",
+      "type": "doctoral_student",
+      "provenance": "wikidata",
+      "property": "P185"
+    },
+    {
+      "source": "Q87414999",
+      "target": "Q2298789",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q23663067",
+      "target": "Q7382918",
+      "type": "author_of",
+      "provenance": "wikidata",
+      "property": "P50"
+    },
+    {
+      "source": "Q1165392",
+      "target": "Q284289",
+      "type": "part_of",
+      "provenance": "wikidata",
+      "property": "P361"
+    },
+    {
+      "source": "Q1421906",
+      "target": "Q1165392",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q6096743",
+      "target": "Q1165392",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q5059734",
+      "target": "Q1165392",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q18748957",
+      "target": "Q1165392",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q68571132",
+      "target": "Q1165392",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q87406289",
+      "target": "Q1165392",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q104150566",
+      "target": "Q1165392",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q107896618",
+      "target": "Q1165392",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q110827010",
+      "target": "Q1165392",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q90892118",
+      "target": "Q1165392",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q94509905",
+      "target": "Q1165392",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q95221053",
+      "target": "Q1165392",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q95672438",
+      "target": "Q1165392",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q107615380",
+      "target": "Q1165392",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q1173618",
+      "target": "Q58449111",
+      "type": "doctoral_student",
+      "provenance": "wikidata",
+      "property": "P185"
+    },
+    {
+      "source": "Q92567970",
+      "target": "Q58449111",
+      "type": "doctoral_advisor",
+      "provenance": "wikidata",
+      "property": "P184"
+    },
+    {
+      "source": "Q61161737",
+      "target": "Q58449111",
+      "type": "doctoral_advisor",
+      "provenance": "wikidata",
+      "property": "P184"
+    },
+    {
+      "source": "Q110620074",
+      "target": "Q58449111",
+      "type": "doctoral_advisor",
+      "provenance": "wikidata",
+      "property": "P184"
+    },
+    {
+      "source": "Q112601828",
+      "target": "Q58449111",
+      "type": "doctoral_advisor",
+      "provenance": "wikidata",
+      "property": "P184"
+    },
+    {
+      "source": "Q112601843",
+      "target": "Q58449111",
+      "type": "doctoral_advisor",
+      "provenance": "wikidata",
+      "property": "P184"
+    },
+    {
+      "source": "Q112812983",
+      "target": "Q58449111",
+      "type": "doctoral_advisor",
+      "provenance": "wikidata",
+      "property": "P184"
+    },
+    {
+      "source": "Q112894645",
+      "target": "Q58449111",
+      "type": "doctoral_advisor",
+      "provenance": "wikidata",
+      "property": "P184"
+    },
+    {
+      "source": "Q112958467",
+      "target": "Q58449111",
+      "type": "doctoral_advisor",
+      "provenance": "wikidata",
+      "property": "P184"
+    },
+    {
+      "source": "Q113109904",
+      "target": "Q58449111",
+      "type": "doctoral_advisor",
+      "provenance": "wikidata",
+      "property": "P184"
+    },
+    {
+      "source": "Q113150388",
+      "target": "Q58449111",
+      "type": "doctoral_advisor",
+      "provenance": "wikidata",
+      "property": "P184"
+    },
+    {
+      "source": "Q113196064",
+      "target": "Q58449111",
+      "type": "doctoral_advisor",
+      "provenance": "wikidata",
+      "property": "P184"
+    },
+    {
+      "source": "Q134284198",
+      "target": "Q58449111",
+      "type": "doctoral_advisor",
+      "provenance": "wikidata",
+      "property": "P184"
+    },
+    {
+      "source": "Q131318771",
+      "target": "Q180832",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q206460",
+      "target": "Q8134",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q206460",
+      "target": "Q44455",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q206460",
+      "target": "Q201424",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q44061",
+      "target": "Q206460",
+      "type": "doctoral_student",
+      "provenance": "wikidata",
+      "property": "P185"
+    },
+    {
+      "source": "Q157245",
+      "target": "Q206460",
+      "type": "doctoral_advisor",
+      "provenance": "wikidata",
+      "property": "P184"
+    },
+    {
+      "source": "Q206460",
+      "target": "Q1920219",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q602278",
+      "target": "Q206460",
+      "type": "doctoral_advisor",
+      "provenance": "wikidata",
+      "property": "P184"
+    },
+    {
+      "source": "Q206460",
+      "target": "Q1640893",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q326947",
+      "target": "Q206460",
+      "type": "doctoral_student",
+      "provenance": "wikidata",
+      "property": "P185"
+    },
+    {
+      "source": "Q2898573",
+      "target": "Q206460",
+      "type": "doctoral_advisor",
+      "provenance": "wikidata",
+      "property": "P184"
+    },
+    {
+      "source": "Q5621196",
+      "target": "Q206460",
+      "type": "doctoral_advisor",
+      "provenance": "wikidata",
+      "property": "P184"
+    },
+    {
+      "source": "Q7330150",
+      "target": "Q206460",
+      "type": "doctoral_advisor",
+      "provenance": "wikidata",
+      "property": "P184"
+    },
+    {
+      "source": "Q11605551",
+      "target": "Q206460",
+      "type": "author_of",
+      "provenance": "wikidata",
+      "property": "P50"
+    },
+    {
+      "source": "Q21535828",
+      "target": "Q206460",
+      "type": "doctoral_student",
+      "provenance": "wikidata",
+      "property": "P185"
+    },
+    {
+      "source": "Q41804267",
+      "target": "Q206460",
+      "type": "doctoral_advisor",
+      "provenance": "wikidata",
+      "property": "P184"
+    },
+    {
+      "source": "Q26090",
+      "target": "Q44455",
+      "type": "part_of",
+      "provenance": "wikidata",
+      "property": "P361"
+    },
+    {
+      "source": "Q120567709",
+      "target": "Q26090",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q124202030",
+      "target": "Q26090",
+      "type": "part_of",
+      "provenance": "wikidata",
+      "property": "P361"
+    },
+    {
+      "source": "Q135187791",
+      "target": "Q26090",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q135187809",
+      "target": "Q26090",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q868",
+      "target": "Q41155",
+      "type": "influenced_by",
+      "provenance": "wikidata",
+      "property": "P737"
+    },
+    {
+      "source": "Q41155",
+      "target": "Q5891",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q859",
+      "target": "Q41155",
+      "type": "influenced_by",
+      "provenance": "wikidata",
+      "property": "P737"
+    },
+    {
+      "source": "Q9358",
+      "target": "Q41155",
+      "type": "influenced_by",
+      "provenance": "wikidata",
+      "property": "P737"
+    },
+    {
+      "source": "Q34787",
+      "target": "Q41155",
+      "type": "influenced_by",
+      "provenance": "wikidata",
+      "property": "P737"
+    },
+    {
+      "source": "Q9235",
+      "target": "Q41155",
+      "type": "influenced_by",
+      "provenance": "wikidata",
+      "property": "P737"
+    },
+    {
+      "source": "Q48301",
+      "target": "Q41155",
+      "type": "influenced_by",
+      "provenance": "wikidata",
+      "property": "P737"
+    },
+    {
+      "source": "Q45970",
+      "target": "Q41155",
+      "type": "influenced_by",
+      "provenance": "wikidata",
+      "property": "P737"
+    },
+    {
+      "source": "Q125551",
+      "target": "Q41155",
+      "type": "influenced_by",
+      "provenance": "wikidata",
+      "property": "P737"
+    },
+    {
+      "source": "Q41155",
+      "target": "Q131671",
+      "type": "influenced_by",
+      "provenance": "wikidata",
+      "property": "P737"
+    },
+    {
+      "source": "Q57112",
+      "target": "Q41155",
+      "type": "influenced_by",
+      "provenance": "wikidata",
+      "property": "P737"
+    },
+    {
+      "source": "Q41155",
+      "target": "Q298860",
+      "type": "influenced_by",
+      "provenance": "wikidata",
+      "property": "P737"
+    },
+    {
+      "source": "Q312410",
+      "target": "Q41155",
+      "type": "influenced_by",
+      "provenance": "wikidata",
+      "property": "P737"
+    },
+    {
+      "source": "Q317880",
+      "target": "Q41155",
+      "type": "influenced_by",
+      "provenance": "wikidata",
+      "property": "P737"
+    },
+    {
+      "source": "Q2718927",
+      "target": "Q41155",
+      "type": "influenced_by",
+      "provenance": "wikidata",
+      "property": "P737"
+    },
+    {
+      "source": "Q171178",
+      "target": "Q1136168",
+      "type": "part_of",
+      "provenance": "wikidata",
+      "property": "P361"
+    },
+    {
+      "source": "Q11593710",
+      "target": "Q171178",
+      "type": "part_of",
+      "provenance": "wikidata",
+      "property": "P361"
+    },
+    {
+      "source": "Q11571749",
+      "target": "Q171178",
+      "type": "part_of",
+      "provenance": "wikidata",
+      "property": "P361"
+    },
+    {
+      "source": "Q11593709",
+      "target": "Q171178",
+      "type": "part_of",
+      "provenance": "wikidata",
+      "property": "P361"
+    },
+    {
+      "source": "Q88902399",
+      "target": "Q171178",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q583438",
+      "target": "Q36442",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q583438",
+      "target": "Q44455",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q583438",
+      "target": "Q915809",
+      "type": "notable_work",
+      "provenance": "wikidata",
+      "property": "P800"
+    },
+    {
+      "source": "Q583438",
+      "target": "Q58042499",
+      "type": "doctoral_student",
+      "provenance": "wikidata",
+      "property": "P185"
+    },
+    {
+      "source": "Q583438",
+      "target": "Q5687347",
+      "type": "doctoral_advisor",
+      "provenance": "wikidata",
+      "property": "P184"
+    },
+    {
+      "source": "Q583438",
+      "target": "Q102693128",
+      "type": "doctoral_student",
+      "provenance": "wikidata",
+      "property": "P185"
+    },
+    {
+      "source": "Q583438",
+      "target": "Q7727217",
+      "type": "notable_work",
+      "provenance": "wikidata",
+      "property": "P800"
+    },
+    {
+      "source": "Q583438",
+      "target": "Q22617938",
+      "type": "notable_work",
+      "provenance": "wikidata",
+      "property": "P800"
+    },
+    {
+      "source": "Q583438",
+      "target": "Q22629415",
+      "type": "notable_work",
+      "provenance": "wikidata",
+      "property": "P800"
+    },
+    {
+      "source": "Q583438",
+      "target": "Q102904770",
+      "type": "doctoral_student",
+      "provenance": "wikidata",
+      "property": "P185"
+    },
+    {
+      "source": "Q125973763",
+      "target": "Q583438",
+      "type": "author_of",
+      "provenance": "wikidata",
+      "property": "P50"
+    },
+    {
+      "source": "Q831304",
+      "target": "Q1971461",
+      "type": "part_of",
+      "provenance": "wikidata",
+      "property": "P361"
+    },
+    {
+      "source": "Q906371",
+      "target": "Q1971461",
+      "type": "part_of",
+      "provenance": "wikidata",
+      "property": "P361"
+    },
+    {
+      "source": "Q18274931",
+      "target": "Q1971461",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q28134198",
+      "target": "Q1971461",
+      "type": "part_of",
+      "provenance": "wikidata",
+      "property": "P361"
+    },
+    {
+      "source": "Q107646307",
+      "target": "Q1971461",
+      "type": "part_of",
+      "provenance": "wikidata",
+      "property": "P361"
+    },
+    {
+      "source": "Q114644612",
+      "target": "Q1971461",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q102316377",
+      "target": "Q1971461",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q17455",
+      "target": "Q44455",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q128736",
+      "target": "Q44455",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q206460",
+      "target": "Q44455",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q41693",
+      "target": "Q44455",
+      "type": "part_of",
+      "provenance": "wikidata",
+      "property": "P361"
+    },
+    {
+      "source": "Q40688",
+      "target": "Q44455",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q12830",
+      "target": "Q44455",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q154356",
+      "target": "Q44455",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q244739",
+      "target": "Q44455",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q28542",
+      "target": "Q44455",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q272510",
+      "target": "Q44455",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q268961",
+      "target": "Q44455",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q323207",
+      "target": "Q44455",
+      "type": "notable_work",
+      "provenance": "wikidata",
+      "property": "P800"
+    },
+    {
+      "source": "Q583438",
+      "target": "Q44455",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q26090",
+      "target": "Q44455",
+      "type": "part_of",
+      "provenance": "wikidata",
+      "property": "P361"
+    },
+    {
+      "source": "Q487453",
+      "target": "Q44455",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q153761",
+      "target": "Q8134",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q3099856",
+      "target": "Q153761",
+      "type": "influenced_by",
+      "provenance": "wikidata",
+      "property": "P737"
+    },
+    {
+      "source": "Q153761",
+      "target": "Q23581133",
+      "type": "notable_work",
+      "provenance": "wikidata",
+      "property": "P800"
+    },
+    {
+      "source": "Q153761",
+      "target": "Q27044649",
+      "type": "notable_work",
+      "provenance": "wikidata",
+      "property": "P800"
+    },
+    {
+      "source": "Q115861553",
+      "target": "Q153761",
+      "type": "author_of",
+      "provenance": "wikidata",
+      "property": "P50"
+    },
+    {
+      "source": "Q153761",
+      "target": "Q61818418",
+      "type": "doctoral_advisor",
+      "provenance": "wikidata",
+      "property": "P184"
+    },
+    {
+      "source": "Q153761",
+      "target": "Q103083278",
+      "type": "doctoral_student",
+      "provenance": "wikidata",
+      "property": "P185"
+    },
+    {
+      "source": "Q153761",
+      "target": "Q110972059",
+      "type": "notable_work",
+      "provenance": "wikidata",
+      "property": "P800"
+    },
+    {
+      "source": "Q153761",
+      "target": "Q136268231",
+      "type": "notable_work",
+      "provenance": "wikidata",
+      "property": "P800"
+    },
+    {
+      "source": "Q153761",
+      "target": "Q136774073",
+      "type": "notable_work",
+      "provenance": "wikidata",
+      "property": "P800"
+    },
+    {
+      "source": "Q27978005",
+      "target": "Q153761",
+      "type": "author_of",
+      "provenance": "wikidata",
+      "property": "P50"
+    },
+    {
+      "source": "Q110972063",
+      "target": "Q153761",
+      "type": "author_of",
+      "provenance": "wikidata",
+      "property": "P50"
+    },
+    {
+      "source": "Q111714419",
+      "target": "Q153761",
+      "type": "author_of",
+      "provenance": "wikidata",
+      "property": "P50"
+    },
+    {
+      "source": "Q111716153",
+      "target": "Q153761",
+      "type": "author_of",
+      "provenance": "wikidata",
+      "property": "P50"
+    },
+    {
+      "source": "Q111718960",
+      "target": "Q153761",
+      "type": "author_of",
+      "provenance": "wikidata",
+      "property": "P50"
+    }
+  ],
+  "contemporaries": [
+    {
+      "source": "Q311772",
+      "target": "Q1173618",
+      "shared_field": "Q5891"
+    },
+    {
+      "source": "Q311772",
+      "target": "Q48301",
+      "shared_field": "Q5891"
+    },
+    {
+      "source": "Q311772",
+      "target": "Q102316377",
+      "shared_field": "Q5891"
+    },
+    {
+      "source": "Q1421906",
+      "target": "Q6096743",
+      "shared_field": "Q1165392"
+    },
+    {
+      "source": "Q1421906",
+      "target": "Q87406289",
+      "shared_field": "Q1165392"
+    },
+    {
+      "source": "Q1421906",
+      "target": "Q107896618",
+      "shared_field": "Q1165392"
+    },
+    {
+      "source": "Q1421906",
+      "target": "Q94509905",
+      "shared_field": "Q1165392"
+    },
+    {
+      "source": "Q1421906",
+      "target": "Q95221053",
+      "shared_field": "Q1165392"
+    },
+    {
+      "source": "Q1421906",
+      "target": "Q107615380",
+      "shared_field": "Q1165392"
+    },
+    {
+      "source": "Q6096743",
+      "target": "Q87406289",
+      "shared_field": "Q1165392"
+    },
+    {
+      "source": "Q6096743",
+      "target": "Q107896618",
+      "shared_field": "Q1165392"
+    },
+    {
+      "source": "Q6096743",
+      "target": "Q94509905",
+      "shared_field": "Q1165392"
+    },
+    {
+      "source": "Q6096743",
+      "target": "Q95221053",
+      "shared_field": "Q1165392"
+    },
+    {
+      "source": "Q6096743",
+      "target": "Q107615380",
+      "shared_field": "Q1165392"
+    },
+    {
+      "source": "Q6096743",
+      "target": "Q317880",
+      "shared_field": "Q21201"
+    },
+    {
+      "source": "Q87406289",
+      "target": "Q107896618",
+      "shared_field": "Q1165392"
+    },
+    {
+      "source": "Q87406289",
+      "target": "Q94509905",
+      "shared_field": "Q1165392"
+    },
+    {
+      "source": "Q87406289",
+      "target": "Q95221053",
+      "shared_field": "Q1165392"
+    },
+    {
+      "source": "Q87406289",
+      "target": "Q107615380",
+      "shared_field": "Q1165392"
+    },
+    {
+      "source": "Q87406289",
+      "target": "Q58042499",
+      "shared_field": "Q36442"
+    },
+    {
+      "source": "Q87406289",
+      "target": "Q102693128",
+      "shared_field": "Q36442"
+    },
+    {
+      "source": "Q87406289",
+      "target": "Q102316377",
+      "shared_field": "Q36442"
+    },
+    {
+      "source": "Q87406289",
+      "target": "Q583438",
+      "shared_field": "Q36442"
+    },
+    {
+      "source": "Q107896618",
+      "target": "Q94509905",
+      "shared_field": "Q1165392"
+    },
+    {
+      "source": "Q107896618",
+      "target": "Q95221053",
+      "shared_field": "Q223871"
+    },
+    {
+      "source": "Q107896618",
+      "target": "Q107615380",
+      "shared_field": "Q1165392"
+    },
+    {
+      "source": "Q94509905",
+      "target": "Q95221053",
+      "shared_field": "Q1165392"
+    },
+    {
+      "source": "Q94509905",
+      "target": "Q107615380",
+      "shared_field": "Q146491"
+    },
+    {
+      "source": "Q95221053",
+      "target": "Q107615380",
+      "shared_field": "Q1165392"
+    },
+    {
+      "source": "Q1173618",
+      "target": "Q48301",
+      "shared_field": "Q5891"
+    },
+    {
+      "source": "Q1173618",
+      "target": "Q102316377",
+      "shared_field": "Q5891"
+    },
+    {
+      "source": "Q44061",
+      "target": "Q157245",
+      "shared_field": "Q8134"
+    },
+    {
+      "source": "Q44061",
+      "target": "Q2898573",
+      "shared_field": "Q8134"
+    },
+    {
+      "source": "Q44061",
+      "target": "Q128736",
+      "shared_field": "Q8134"
+    },
+    {
+      "source": "Q44061",
+      "target": "Q206460",
+      "shared_field": "Q8134"
+    },
+    {
+      "source": "Q44061",
+      "target": "Q40688",
+      "shared_field": "Q8134"
+    },
+    {
+      "source": "Q44061",
+      "target": "Q12830",
+      "shared_field": "Q8134"
+    },
+    {
+      "source": "Q44061",
+      "target": "Q244739",
+      "shared_field": "Q8134"
+    },
+    {
+      "source": "Q44061",
+      "target": "Q28542",
+      "shared_field": "Q8134"
+    },
+    {
+      "source": "Q44061",
+      "target": "Q272510",
+      "shared_field": "Q8134"
+    },
+    {
+      "source": "Q157245",
+      "target": "Q2898573",
+      "shared_field": "Q8134"
+    },
+    {
+      "source": "Q157245",
+      "target": "Q18274931",
+      "shared_field": "Q39072"
+    },
+    {
+      "source": "Q157245",
+      "target": "Q128736",
+      "shared_field": "Q8134"
+    },
+    {
+      "source": "Q157245",
+      "target": "Q206460",
+      "shared_field": "Q8134"
+    },
+    {
+      "source": "Q157245",
+      "target": "Q40688",
+      "shared_field": "Q8134"
+    },
+    {
+      "source": "Q157245",
+      "target": "Q12830",
+      "shared_field": "Q8134"
+    },
+    {
+      "source": "Q157245",
+      "target": "Q244739",
+      "shared_field": "Q8134"
+    },
+    {
+      "source": "Q157245",
+      "target": "Q28542",
+      "shared_field": "Q8134"
+    },
+    {
+      "source": "Q157245",
+      "target": "Q272510",
+      "shared_field": "Q8134"
+    },
+    {
+      "source": "Q2898573",
+      "target": "Q128736",
+      "shared_field": "Q8134"
+    },
+    {
+      "source": "Q2898573",
+      "target": "Q206460",
+      "shared_field": "Q8134"
+    },
+    {
+      "source": "Q2898573",
+      "target": "Q40688",
+      "shared_field": "Q8134"
+    },
+    {
+      "source": "Q2898573",
+      "target": "Q12830",
+      "shared_field": "Q8134"
+    },
+    {
+      "source": "Q2898573",
+      "target": "Q244739",
+      "shared_field": "Q8134"
+    },
+    {
+      "source": "Q2898573",
+      "target": "Q28542",
+      "shared_field": "Q8134"
+    },
+    {
+      "source": "Q2898573",
+      "target": "Q272510",
+      "shared_field": "Q8134"
+    },
+    {
+      "source": "Q868",
+      "target": "Q859",
+      "shared_field": "Q5891"
+    },
+    {
+      "source": "Q34787",
+      "target": "Q9235",
+      "shared_field": "Q5891"
+    },
+    {
+      "source": "Q34787",
+      "target": "Q48301",
+      "shared_field": "Q5891"
+    },
+    {
+      "source": "Q48301",
+      "target": "Q102316377",
+      "shared_field": "Q5891"
+    },
+    {
+      "source": "Q125551",
+      "target": "Q131671",
+      "shared_field": "Q5891"
+    },
+    {
+      "source": "Q125551",
+      "target": "Q298860",
+      "shared_field": "Q5891"
+    },
+    {
+      "source": "Q125551",
+      "target": "Q312410",
+      "shared_field": "Q5891"
+    },
+    {
+      "source": "Q131671",
+      "target": "Q298860",
+      "shared_field": "Q5891"
+    },
+    {
+      "source": "Q131671",
+      "target": "Q312410",
+      "shared_field": "Q5891"
+    },
+    {
+      "source": "Q298860",
+      "target": "Q312410",
+      "shared_field": "Q5891"
+    },
+    {
+      "source": "Q317880",
+      "target": "Q154356",
+      "shared_field": "Q7163"
+    },
+    {
+      "source": "Q58042499",
+      "target": "Q5687347",
+      "shared_field": "Q166542"
+    },
+    {
+      "source": "Q58042499",
+      "target": "Q102693128",
+      "shared_field": "Q36442"
+    },
+    {
+      "source": "Q58042499",
+      "target": "Q102316377",
+      "shared_field": "Q36442"
+    },
+    {
+      "source": "Q58042499",
+      "target": "Q583438",
+      "shared_field": "Q36442"
+    },
+    {
+      "source": "Q102693128",
+      "target": "Q102316377",
+      "shared_field": "Q36442"
+    },
+    {
+      "source": "Q102693128",
+      "target": "Q583438",
+      "shared_field": "Q36442"
+    },
+    {
+      "source": "Q18274931",
+      "target": "Q114644612",
+      "shared_field": "Q1971461"
+    },
+    {
+      "source": "Q18274931",
+      "target": "Q102316377",
+      "shared_field": "Q1971461"
+    },
+    {
+      "source": "Q114644612",
+      "target": "Q102316377",
+      "shared_field": "Q1971461"
+    },
+    {
+      "source": "Q102316377",
+      "target": "Q583438",
+      "shared_field": "Q36442"
+    },
+    {
+      "source": "Q17455",
+      "target": "Q128736",
+      "shared_field": "Q395"
+    },
+    {
+      "source": "Q17455",
+      "target": "Q206460",
+      "shared_field": "Q44455"
+    },
+    {
+      "source": "Q17455",
+      "target": "Q12830",
+      "shared_field": "Q395"
+    },
+    {
+      "source": "Q17455",
+      "target": "Q154356",
+      "shared_field": "Q395"
+    },
+    {
+      "source": "Q17455",
+      "target": "Q244739",
+      "shared_field": "Q395"
+    },
+    {
+      "source": "Q17455",
+      "target": "Q28542",
+      "shared_field": "Q44455"
+    },
+    {
+      "source": "Q17455",
+      "target": "Q272510",
+      "shared_field": "Q44455"
+    },
+    {
+      "source": "Q17455",
+      "target": "Q268961",
+      "shared_field": "Q395"
+    },
+    {
+      "source": "Q17455",
+      "target": "Q583438",
+      "shared_field": "Q44455"
+    },
+    {
+      "source": "Q17455",
+      "target": "Q487453",
+      "shared_field": "Q44455"
+    },
+    {
+      "source": "Q128736",
+      "target": "Q206460",
+      "shared_field": "Q8134"
+    },
+    {
+      "source": "Q128736",
+      "target": "Q40688",
+      "shared_field": "Q8134"
+    },
+    {
+      "source": "Q128736",
+      "target": "Q12830",
+      "shared_field": "Q395"
+    },
+    {
+      "source": "Q128736",
+      "target": "Q154356",
+      "shared_field": "Q395"
+    },
+    {
+      "source": "Q128736",
+      "target": "Q244739",
+      "shared_field": "Q395"
+    },
+    {
+      "source": "Q128736",
+      "target": "Q28542",
+      "shared_field": "Q8134"
+    },
+    {
+      "source": "Q128736",
+      "target": "Q272510",
+      "shared_field": "Q8134"
+    },
+    {
+      "source": "Q128736",
+      "target": "Q268961",
+      "shared_field": "Q395"
+    },
+    {
+      "source": "Q128736",
+      "target": "Q583438",
+      "shared_field": "Q44455"
+    },
+    {
+      "source": "Q128736",
+      "target": "Q487453",
+      "shared_field": "Q44455"
+    },
+    {
+      "source": "Q206460",
+      "target": "Q40688",
+      "shared_field": "Q8134"
+    },
+    {
+      "source": "Q206460",
+      "target": "Q12830",
+      "shared_field": "Q8134"
+    },
+    {
+      "source": "Q206460",
+      "target": "Q154356",
+      "shared_field": "Q44455"
+    },
+    {
+      "source": "Q206460",
+      "target": "Q244739",
+      "shared_field": "Q8134"
+    },
+    {
+      "source": "Q206460",
+      "target": "Q28542",
+      "shared_field": "Q8134"
+    },
+    {
+      "source": "Q206460",
+      "target": "Q272510",
+      "shared_field": "Q8134"
+    },
+    {
+      "source": "Q206460",
+      "target": "Q268961",
+      "shared_field": "Q44455"
+    },
+    {
+      "source": "Q206460",
+      "target": "Q583438",
+      "shared_field": "Q44455"
+    },
+    {
+      "source": "Q206460",
+      "target": "Q487453",
+      "shared_field": "Q44455"
+    },
+    {
+      "source": "Q40688",
+      "target": "Q12830",
+      "shared_field": "Q8134"
+    },
+    {
+      "source": "Q40688",
+      "target": "Q244739",
+      "shared_field": "Q8134"
+    },
+    {
+      "source": "Q40688",
+      "target": "Q28542",
+      "shared_field": "Q8134"
+    },
+    {
+      "source": "Q40688",
+      "target": "Q272510",
+      "shared_field": "Q8134"
+    },
+    {
+      "source": "Q40688",
+      "target": "Q268961",
+      "shared_field": "Q44455"
+    },
+    {
+      "source": "Q40688",
+      "target": "Q583438",
+      "shared_field": "Q44455"
+    },
+    {
+      "source": "Q40688",
+      "target": "Q487453",
+      "shared_field": "Q44455"
+    },
+    {
+      "source": "Q12830",
+      "target": "Q154356",
+      "shared_field": "Q395"
+    },
+    {
+      "source": "Q12830",
+      "target": "Q244739",
+      "shared_field": "Q395"
+    },
+    {
+      "source": "Q12830",
+      "target": "Q28542",
+      "shared_field": "Q8134"
+    },
+    {
+      "source": "Q12830",
+      "target": "Q272510",
+      "shared_field": "Q8134"
+    },
+    {
+      "source": "Q12830",
+      "target": "Q268961",
+      "shared_field": "Q395"
+    },
+    {
+      "source": "Q12830",
+      "target": "Q583438",
+      "shared_field": "Q44455"
+    },
+    {
+      "source": "Q12830",
+      "target": "Q487453",
+      "shared_field": "Q44455"
+    },
+    {
+      "source": "Q154356",
+      "target": "Q244739",
+      "shared_field": "Q395"
+    },
+    {
+      "source": "Q154356",
+      "target": "Q28542",
+      "shared_field": "Q44455"
+    },
+    {
+      "source": "Q154356",
+      "target": "Q272510",
+      "shared_field": "Q44455"
+    },
+    {
+      "source": "Q154356",
+      "target": "Q268961",
+      "shared_field": "Q395"
+    },
+    {
+      "source": "Q154356",
+      "target": "Q583438",
+      "shared_field": "Q44455"
+    },
+    {
+      "source": "Q154356",
+      "target": "Q487453",
+      "shared_field": "Q44455"
+    },
+    {
+      "source": "Q244739",
+      "target": "Q28542",
+      "shared_field": "Q8134"
+    },
+    {
+      "source": "Q244739",
+      "target": "Q272510",
+      "shared_field": "Q8134"
+    },
+    {
+      "source": "Q244739",
+      "target": "Q268961",
+      "shared_field": "Q395"
+    },
+    {
+      "source": "Q244739",
+      "target": "Q583438",
+      "shared_field": "Q44455"
+    },
+    {
+      "source": "Q244739",
+      "target": "Q487453",
+      "shared_field": "Q44455"
+    },
+    {
+      "source": "Q28542",
+      "target": "Q272510",
+      "shared_field": "Q8134"
+    },
+    {
+      "source": "Q28542",
+      "target": "Q268961",
+      "shared_field": "Q44455"
+    },
+    {
+      "source": "Q28542",
+      "target": "Q583438",
+      "shared_field": "Q44455"
+    },
+    {
+      "source": "Q28542",
+      "target": "Q487453",
+      "shared_field": "Q44455"
+    },
+    {
+      "source": "Q272510",
+      "target": "Q268961",
+      "shared_field": "Q44455"
+    },
+    {
+      "source": "Q272510",
+      "target": "Q583438",
+      "shared_field": "Q44455"
+    },
+    {
+      "source": "Q272510",
+      "target": "Q487453",
+      "shared_field": "Q44455"
+    },
+    {
+      "source": "Q268961",
+      "target": "Q583438",
+      "shared_field": "Q44455"
+    },
+    {
+      "source": "Q268961",
+      "target": "Q487453",
+      "shared_field": "Q44455"
+    },
+    {
+      "source": "Q583438",
+      "target": "Q487453",
+      "shared_field": "Q44455"
+    }
+  ]
+}

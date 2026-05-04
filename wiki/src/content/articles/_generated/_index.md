@@ -56,4 +56,4 @@ Master catalog of all wiki articles.
 ---
 
 **Statistics:** 33 articles across 6 categories
-**Last rebuilt:** 2026-05-03
+**Last rebuilt:** 2026-05-04

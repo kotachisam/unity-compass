@@ -1,0 +1,4424 @@
+{
+  "generated": "2026-05-04T08:31:59.505Z",
+  "stats": {
+    "total_nodes": 148,
+    "absorbed_nodes": 33,
+    "ghost_nodes": 115,
+    "total_edges": 412,
+    "edges_by_type": {
+      "references": 150,
+      "contemporary_of": 141,
+      "field_of_work": 44,
+      "doctoral_advisor": 21,
+      "influenced_by": 15,
+      "part_of": 12,
+      "author_of": 10,
+      "notable_work": 10,
+      "doctoral_student": 9
+    },
+    "edges_by_provenance": {
+      "absorbed": 150,
+      "wikidata": 121,
+      "derived": 141
+    }
+  },
+  "nodes": [
+    {
+      "id": "path-dependence",
+      "label": "Path Dependence",
+      "type": "concept",
+      "is_ghost": false,
+      "period_year": null,
+      "word_count": 315,
+      "is_stub": true,
+      "in_degree": 0,
+      "out_degree": 3,
+      "wikidata_qid": "Q1093521"
+    },
+    {
+      "id": "mancur-olson",
+      "label": "Mancur Olson",
+      "type": "person",
+      "is_ghost": false,
+      "period_year": null,
+      "word_count": 286,
+      "is_stub": true,
+      "in_degree": 2,
+      "out_degree": 3,
+      "wikidata_qid": "Q519898"
+    },
+    {
+      "id": "michael-bratman",
+      "label": "Michael Bratman",
+      "type": "person",
+      "is_ghost": false,
+      "period_year": null,
+      "word_count": 316,
+      "is_stub": true,
+      "in_degree": 0,
+      "out_degree": 3,
+      "wikidata_qid": "Q3739250"
+    },
+    {
+      "id": "ietf-rough-consensus",
+      "label": "IETF and Rough Consensus",
+      "type": "institution",
+      "is_ghost": false,
+      "period_year": null,
+      "word_count": 342,
+      "is_stub": true,
+      "in_degree": 0,
+      "out_degree": 3,
+      "wikidata_qid": null
+    },
+    {
+      "id": "evolutionary-game-theory",
+      "label": "Evolutionary Game Theory",
+      "type": "theory",
+      "is_ghost": false,
+      "period_year": null,
+      "word_count": 2045,
+      "is_stub": false,
+      "in_degree": 8,
+      "out_degree": 10,
+      "wikidata_qid": "Q2298789"
+    },
+    {
+      "id": "ruth-chang",
+      "label": "Ruth Chang",
+      "type": "person",
+      "is_ghost": false,
+      "period_year": null,
+      "word_count": 345,
+      "is_stub": true,
+      "in_degree": 4,
+      "out_degree": 4,
+      "wikidata_qid": "Q7382918"
+    },
+    {
+      "id": "nowak-and-may-1992",
+      "label": "Nowak and May (1992)",
+      "type": "source",
+      "is_ghost": false,
+      "period_year": null,
+      "word_count": 1179,
+      "is_stub": false,
+      "in_degree": 2,
+      "out_degree": 5,
+      "wikidata_qid": null
+    },
+    {
+      "id": "incomplete-preferences",
+      "label": "Incomplete Preferences",
+      "type": "concept",
+      "is_ghost": false,
+      "period_year": null,
+      "word_count": 931,
+      "is_stub": false,
+      "in_degree": 3,
+      "out_degree": 5,
+      "wikidata_qid": null
+    },
+    {
+      "id": "aukus",
+      "label": "AUKUS",
+      "type": "case-study",
+      "is_ghost": false,
+      "period_year": null,
+      "word_count": 303,
+      "is_stub": true,
+      "in_degree": 6,
+      "out_degree": 3,
+      "wikidata_qid": "Q108556886"
+    },
+    {
+      "id": "restorative-justice",
+      "label": "Restorative Justice",
+      "type": "concept",
+      "is_ghost": false,
+      "period_year": null,
+      "word_count": 382,
+      "is_stub": true,
+      "in_degree": 0,
+      "out_degree": 4,
+      "wikidata_qid": "Q1165392"
+    },
+    {
+      "id": "richard-bradley",
+      "label": "Richard Bradley",
+      "type": "person",
+      "is_ghost": false,
+      "period_year": null,
+      "word_count": 691,
+      "is_stub": false,
+      "in_degree": 7,
+      "out_degree": 7,
+      "wikidata_qid": "Q58449111"
+    },
+    {
+      "id": "coordination-without-convergence",
+      "label": "Coordination Without Convergence",
+      "type": "concept",
+      "is_ghost": false,
+      "period_year": null,
+      "word_count": 884,
+      "is_stub": false,
+      "in_degree": 24,
+      "out_degree": 12,
+      "wikidata_qid": null
+    },
+    {
+      "id": "logos",
+      "label": "Logos",
+      "type": "concept",
+      "is_ghost": false,
+      "period_year": null,
+      "word_count": 421,
+      "is_stub": true,
+      "in_degree": 2,
+      "out_degree": 6,
+      "wikidata_qid": "Q180832"
+    },
+    {
+      "id": "decision-theory-under-severe-uncertainty",
+      "label": "Decision Theory Under Severe Uncertainty",
+      "type": "theory",
+      "is_ghost": false,
+      "period_year": null,
+      "word_count": 338,
+      "is_stub": true,
+      "in_degree": 4,
+      "out_degree": 5,
+      "wikidata_qid": null
+    },
+    {
+      "id": "j-mckenzie-alexander",
+      "label": "J. McKenzie Alexander",
+      "type": "person",
+      "is_ghost": false,
+      "period_year": null,
+      "word_count": 2169,
+      "is_stub": false,
+      "in_degree": 6,
+      "out_degree": 10,
+      "wikidata_qid": null
+    },
+    {
+      "id": "thomas-schelling",
+      "label": "Thomas Schelling",
+      "type": "person",
+      "is_ghost": false,
+      "period_year": null,
+      "word_count": 292,
+      "is_stub": true,
+      "in_degree": 4,
+      "out_degree": 5,
+      "wikidata_qid": "Q206460"
+    },
+    {
+      "id": "value-incommensurability",
+      "label": "Value Incommensurability",
+      "type": "concept",
+      "is_ghost": false,
+      "period_year": null,
+      "word_count": 319,
+      "is_stub": true,
+      "in_degree": 23,
+      "out_degree": 4,
+      "wikidata_qid": null
+    },
+    {
+      "id": "mechanism-design",
+      "label": "Mechanism Design",
+      "type": "theory",
+      "is_ghost": false,
+      "period_year": null,
+      "word_count": 357,
+      "is_stub": true,
+      "in_degree": 3,
+      "out_degree": 4,
+      "wikidata_qid": "Q26090"
+    },
+    {
+      "id": "irish-citizens-assembly",
+      "label": "Irish Citizens' Assembly",
+      "type": "case-study",
+      "is_ghost": false,
+      "period_year": null,
+      "word_count": 368,
+      "is_stub": true,
+      "in_degree": 1,
+      "out_degree": 3,
+      "wikidata_qid": null
+    },
+    {
+      "id": "parity",
+      "label": "Parity",
+      "type": "concept",
+      "is_ghost": false,
+      "period_year": null,
+      "word_count": 685,
+      "is_stub": false,
+      "in_degree": 4,
+      "out_degree": 5,
+      "wikidata_qid": null
+    },
+    {
+      "id": "heraclitus",
+      "label": "Heraclitus",
+      "type": "person",
+      "is_ghost": false,
+      "period_year": null,
+      "word_count": 248,
+      "is_stub": true,
+      "in_degree": 1,
+      "out_degree": 3,
+      "wikidata_qid": "Q41155"
+    },
+    {
+      "id": "fukushima-daiichi",
+      "label": "Fukushima Daiichi",
+      "type": "case-study",
+      "is_ghost": false,
+      "period_year": null,
+      "word_count": 349,
+      "is_stub": true,
+      "in_degree": 1,
+      "out_degree": 2,
+      "wikidata_qid": "Q171178"
+    },
+    {
+      "id": "robert-axelrod",
+      "label": "Robert Axelrod",
+      "type": "person",
+      "is_ghost": false,
+      "period_year": null,
+      "word_count": 382,
+      "is_stub": true,
+      "in_degree": 4,
+      "out_degree": 5,
+      "wikidata_qid": "Q583438"
+    },
+    {
+      "id": "social-choice-theory",
+      "label": "Social Choice Theory",
+      "type": "theory",
+      "is_ghost": false,
+      "period_year": null,
+      "word_count": 428,
+      "is_stub": true,
+      "in_degree": 3,
+      "out_degree": 5,
+      "wikidata_qid": "Q1971461"
+    },
+    {
+      "id": "daniel-schmachtenberger",
+      "label": "Daniel Schmachtenberger",
+      "type": "person",
+      "is_ghost": false,
+      "period_year": null,
+      "word_count": 271,
+      "is_stub": true,
+      "in_degree": 0,
+      "out_degree": 3,
+      "wikidata_qid": "Q110189381"
+    },
+    {
+      "id": "montreal-protocol",
+      "label": "Montreal Protocol",
+      "type": "case-study",
+      "is_ghost": false,
+      "period_year": null,
+      "word_count": 354,
+      "is_stub": true,
+      "in_degree": 0,
+      "out_degree": 4,
+      "wikidata_qid": "Q219438"
+    },
+    {
+      "id": "rorschach-concepts",
+      "label": "Rorschach Concepts",
+      "type": "concept",
+      "is_ghost": false,
+      "period_year": null,
+      "word_count": 808,
+      "is_stub": false,
+      "in_degree": 4,
+      "out_degree": 4,
+      "wikidata_qid": null
+    },
+    {
+      "id": "multifaceted-social-engineering",
+      "label": "Multifaceted Social Engineering",
+      "type": "concept",
+      "is_ghost": false,
+      "period_year": null,
+      "word_count": 901,
+      "is_stub": false,
+      "in_degree": 4,
+      "out_degree": 4,
+      "wikidata_qid": null
+    },
+    {
+      "id": "bradley-2022-impartial-evaluation-under-ambiguity",
+      "label": "Bradley 2022 (Impartial Evaluation under Ambiguity)",
+      "type": "source",
+      "is_ghost": false,
+      "period_year": null,
+      "word_count": 797,
+      "is_stub": false,
+      "in_degree": 0,
+      "out_degree": 0,
+      "wikidata_qid": null
+    },
+    {
+      "id": "game-theory",
+      "label": "Game Theory",
+      "type": "theory",
+      "is_ghost": false,
+      "period_year": null,
+      "word_count": 405,
+      "is_stub": true,
+      "in_degree": 6,
+      "out_degree": 7,
+      "wikidata_qid": "Q44455"
+    },
+    {
+      "id": "structural-interdependence",
+      "label": "Structural Interdependence",
+      "type": "concept",
+      "is_ghost": false,
+      "period_year": null,
+      "word_count": 1141,
+      "is_stub": false,
+      "in_degree": 21,
+      "out_degree": 10,
+      "wikidata_qid": null
+    },
+    {
+      "id": "alexander-2024-open-society-as-enemy",
+      "label": "Alexander 2024 (The Open Society as an Enemy)",
+      "type": "source",
+      "is_ghost": false,
+      "period_year": null,
+      "word_count": 734,
+      "is_stub": false,
+      "in_degree": 0,
+      "out_degree": 0,
+      "wikidata_qid": null
+    },
+    {
+      "id": "elinor-ostrom",
+      "label": "Elinor Ostrom",
+      "type": "person",
+      "is_ghost": false,
+      "period_year": null,
+      "word_count": 314,
+      "is_stub": true,
+      "in_degree": 3,
+      "out_degree": 3,
+      "wikidata_qid": "Q153761"
+    },
+    {
+      "id": "Q8134",
+      "label": "economics",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "social science that studies the production, distribution, and consumption of goods and services",
+      "sitelinks": 238,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q3845173",
+      "label": "The Logic of Collective Action",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "book by Mancur Olson",
+      "sitelinks": 7,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q5891",
+      "label": "philosophy",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "study of the truths and principles of being, schools of thought, knowledge, or conduct",
+      "sitelinks": 314,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q311772",
+      "label": "Donald Davidson",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": 1917,
+      "description": "American philosopher (1917–2003)",
+      "sitelinks": 36,
+      "birth_year": 1917,
+      "death_year": 2003
+    },
+    {
+      "id": "Q3294042",
+      "label": "Mark Davis",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": 1952,
+      "description": "co-founder of Unicode, Inc",
+      "sitelinks": 2,
+      "birth_year": 1952,
+      "death_year": null
+    },
+    {
+      "id": "Q87414999",
+      "label": "Peter D. Taylor",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "Canadian mathematician",
+      "sitelinks": 0,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q23663067",
+      "label": "Ruth Chang: How to make hard choices",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "TEDSalon NY2014",
+      "sitelinks": 0,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q284289",
+      "label": "deliberative democracy",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "form of democracy focusing on consensus",
+      "sitelinks": 30,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q1421906",
+      "label": "Howard Zehr",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": 1944,
+      "description": "American restorative justice scholar",
+      "sitelinks": 5,
+      "birth_year": 1944,
+      "death_year": null
+    },
+    {
+      "id": "Q6096743",
+      "label": "Thomas J. Scheff",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": 1929,
+      "description": "American sociologist (1929–2025)",
+      "sitelinks": 5,
+      "birth_year": 1929,
+      "death_year": 2025
+    },
+    {
+      "id": "Q5059734",
+      "label": "Center for Justice and Peacebuilding",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "college in Virginia, United States",
+      "sitelinks": 1,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q18748957",
+      "label": "Civil Rights and Restorative Justice Project",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "initiative by the Northeastern University School of Law",
+      "sitelinks": 1,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q68571132",
+      "label": "Sujatha Baliga",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "American attorney and restorative justice practitioner",
+      "sitelinks": 1,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q87406289",
+      "label": "Jana Smiggels Kavková",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": 1977,
+      "description": "",
+      "sitelinks": 1,
+      "birth_year": 1977,
+      "death_year": null
+    },
+    {
+      "id": "Q104150566",
+      "label": "Josep Maria Tamarit Sumalla",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "",
+      "sitelinks": 1,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q107896618",
+      "label": "Heidi Jokinen",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": 1979,
+      "description": "Finnish scout",
+      "sitelinks": 1,
+      "birth_year": 1979,
+      "death_year": null
+    },
+    {
+      "id": "Q110827010",
+      "label": "Wayne Northey",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "Canadian Christian restorative justice practioner",
+      "sitelinks": 1,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q90892118",
+      "label": "Philip Horsfield",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "researcher (ORCID 0000-0001-8605-0815)",
+      "sitelinks": 0,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q94509905",
+      "label": "Daniel W. Van Ness",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": 1949,
+      "description": "",
+      "sitelinks": 0,
+      "birth_year": 1949,
+      "death_year": null
+    },
+    {
+      "id": "Q95221053",
+      "label": "Andrea Matoušková",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": 1971,
+      "description": "",
+      "sitelinks": 0,
+      "birth_year": 1971,
+      "death_year": null
+    },
+    {
+      "id": "Q95672438",
+      "label": "Clea Laage",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "",
+      "sitelinks": 0,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q107615380",
+      "label": "Adriaan Lanni",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": 1972,
+      "description": "legal scholar, university teacher, jurist, historian (1972-)",
+      "sitelinks": 0,
+      "birth_year": 1972,
+      "death_year": null
+    },
+    {
+      "id": "Q1173618",
+      "label": "David Malament",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": 1947,
+      "description": "American philosopher of science",
+      "sitelinks": 6,
+      "birth_year": 1947,
+      "death_year": null
+    },
+    {
+      "id": "Q92567970",
+      "label": "Ittay Nissan-Rozen",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": 1976,
+      "description": "Israeli philosophy professor",
+      "sitelinks": 1,
+      "birth_year": 1976,
+      "death_year": null
+    },
+    {
+      "id": "Q61161737",
+      "label": "Alexandru Marcoci",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "researcher ORCID ID = 0000-0002-5780-0805",
+      "sitelinks": 0,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q110620074",
+      "label": "Joe Roussos",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "researcher",
+      "sitelinks": 0,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q112601828",
+      "label": "Christopher Jeremy Thompson",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "doctoral candidate at the London School of Economics and Political Science",
+      "sitelinks": 0,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q112601843",
+      "label": "Stuart Yasgur",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "doctoral candidate at the London School of Economics and Political Science",
+      "sitelinks": 0,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q112812983",
+      "label": "Mareile Drechsler",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "doctoral candidate at the London School of Economics and Political Science",
+      "sitelinks": 0,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q112894645",
+      "label": "Benjamin Ferguson",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "doctoral candidate at the London School of Economics and Political Science",
+      "sitelinks": 0,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q112958467",
+      "label": "Hlynur Orri Stefansson",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "doctoral candidate at the London School of Economics and Political Science",
+      "sitelinks": 0,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q113109904",
+      "label": "Johannes Himmelreich",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "academic (Syracuse University)",
+      "sitelinks": 0,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q113150388",
+      "label": "Goreti Faria",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "doctoral candidate at the London School of Economics and Political Science",
+      "sitelinks": 0,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q113196064",
+      "label": "Aron Vallinder",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "doctoral candidate at the London School of Economics and Political Science",
+      "sitelinks": 0,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q134284198",
+      "label": "Fabian Beigang",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "doctoral candidate at the London School of Economics and Political Science",
+      "sitelinks": 0,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q131318771",
+      "label": "Douglas Edwards",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "Philosopher and university lecturer specializing in metaphysics and philosophy of language, with a focus on the concept of truth",
+      "sitelinks": 0,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q201424",
+      "label": "nuclear warfare",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "conflict or strategy in which nuclear weaponry is used to inflict damage on an opponent",
+      "sitelinks": 69,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q44061",
+      "label": "Wassily Leontief",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": 1906,
+      "description": "Russian economist (1906-1999)",
+      "sitelinks": 67,
+      "birth_year": 1906,
+      "death_year": 1999
+    },
+    {
+      "id": "Q157245",
+      "label": "Michael Spence",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": 1943,
+      "description": "American economist (born 1943)",
+      "sitelinks": 48,
+      "birth_year": 1943,
+      "death_year": null
+    },
+    {
+      "id": "Q1920219",
+      "label": "social issue",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "problem that influences a considerable number of individuals within a society",
+      "sitelinks": 44,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q602278",
+      "label": "Tyler Cowen",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": 1962,
+      "description": "American economist, columnist and blogger",
+      "sitelinks": 18,
+      "birth_year": 1962,
+      "death_year": null
+    },
+    {
+      "id": "Q1640893",
+      "label": "conflict management",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "conflicts in the workplace (for general conflicts, see Q1194317)",
+      "sitelinks": 14,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q326947",
+      "label": "James Duesenberry",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": 1918,
+      "description": "American economist",
+      "sitelinks": 9,
+      "birth_year": 1918,
+      "death_year": 2009
+    },
+    {
+      "id": "Q2898573",
+      "label": "Eli Noam",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": 1946,
+      "description": "professor of Finance and Economics at the Columbia Business School",
+      "sitelinks": 7,
+      "birth_year": 1946,
+      "death_year": null
+    },
+    {
+      "id": "Q5621196",
+      "label": "Gustav Ranis",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": 1929,
+      "description": "economist (1929–2013)",
+      "sitelinks": 5,
+      "birth_year": 1929,
+      "death_year": 2013
+    },
+    {
+      "id": "Q7330150",
+      "label": "Richard Zeckhauser",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": 1940,
+      "description": "American economist",
+      "sitelinks": 3,
+      "birth_year": 1940,
+      "death_year": null
+    },
+    {
+      "id": "Q11605551",
+      "label": "The strategy of conflict",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "",
+      "sitelinks": 1,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q21535828",
+      "label": "Arthur Smithies",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": 1907,
+      "description": "Australian-American economist",
+      "sitelinks": 1,
+      "birth_year": 1907,
+      "death_year": 1981
+    },
+    {
+      "id": "Q41804267",
+      "label": "Martin C. McGuire",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": 1933,
+      "description": "American economist",
+      "sitelinks": 0,
+      "birth_year": 1933,
+      "death_year": 2024
+    },
+    {
+      "id": "Q120567709",
+      "label": "Davit Tavkhelidze",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": 1910,
+      "description": "Georgian engineer (1910-1989)",
+      "sitelinks": 1,
+      "birth_year": 1910,
+      "death_year": 1989
+    },
+    {
+      "id": "Q124202030",
+      "label": "regret-free mechanism",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "",
+      "sitelinks": 1,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q135187791",
+      "label": "mechanosemantics",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "field concerned with engineering meaning through systems using principles from mechanism design, economics, and linguistics",
+      "sitelinks": 0,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q135187809",
+      "label": "Dizzy Spins",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": 2002,
+      "description": "American record producer, businessman, and inventor",
+      "sitelinks": 0,
+      "birth_year": 2002,
+      "death_year": null
+    },
+    {
+      "id": "Q868",
+      "label": "Aristotle",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": -383,
+      "description": "4th-century BCE Classical Greek philosopher and polymath",
+      "sitelinks": 315,
+      "birth_year": -383,
+      "death_year": -321
+    },
+    {
+      "id": "Q859",
+      "label": "Plato",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": -428,
+      "description": "4th-century BCE Greek philosopher",
+      "sitelinks": 300,
+      "birth_year": -428,
+      "death_year": -348
+    },
+    {
+      "id": "Q9358",
+      "label": "Friedrich Nietzsche",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": 1844,
+      "description": "German philosopher (1844-1900)",
+      "sitelinks": 254,
+      "birth_year": 1844,
+      "death_year": 1900
+    },
+    {
+      "id": "Q34787",
+      "label": "Friedrich Engels",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": 1820,
+      "description": "German philosopher, sociologist and economist (1820–1895)",
+      "sitelinks": 196,
+      "birth_year": 1820,
+      "death_year": 1895
+    },
+    {
+      "id": "Q9235",
+      "label": "Georg Wilhelm Friedrich Hegel",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": 1770,
+      "description": "German philosopher and theologian (1770–1831)",
+      "sitelinks": 192,
+      "birth_year": 1770,
+      "death_year": 1831
+    },
+    {
+      "id": "Q48301",
+      "label": "Martin Heidegger",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": 1889,
+      "description": "German philosopher (1889–1976)",
+      "sitelinks": 147,
+      "birth_year": 1889,
+      "death_year": 1976
+    },
+    {
+      "id": "Q45970",
+      "label": "Czesław Miłosz",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": 1911,
+      "description": "Polish-American poet and Nobel laureate (1911–2004)",
+      "sitelinks": 122,
+      "birth_year": 1911,
+      "death_year": 2004
+    },
+    {
+      "id": "Q125551",
+      "label": "Parmenides",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": -514,
+      "description": "late 6th/early 5th century BC Greek pre-Socratic philosopher",
+      "sitelinks": 112,
+      "birth_year": -514,
+      "death_year": -469
+    },
+    {
+      "id": "Q131671",
+      "label": "Xenophanes",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": -569,
+      "description": "Greek Pre-Socratic philosopher (c.570–c.478 BC)",
+      "sitelinks": 99,
+      "birth_year": -569,
+      "death_year": -477
+    },
+    {
+      "id": "Q57112",
+      "label": "Oswald Spengler",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": 1880,
+      "description": "German historian and philosopher (1880-1936)",
+      "sitelinks": 89,
+      "birth_year": 1880,
+      "death_year": 1936
+    },
+    {
+      "id": "Q298860",
+      "label": "Hippasus",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": -600,
+      "description": "5th-century BC Pythagorean philosopher",
+      "sitelinks": 46,
+      "birth_year": -600,
+      "death_year": -500
+    },
+    {
+      "id": "Q312410",
+      "label": "Epicharmus of Kos",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": -523,
+      "description": "late 6th/early 5th century BC Greek dramatist and philosopher",
+      "sitelinks": 42,
+      "birth_year": -523,
+      "death_year": -434
+    },
+    {
+      "id": "Q317880",
+      "label": "Edgar Morin",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": 1921,
+      "description": "French philosopher and sociologist (b. 1921)",
+      "sitelinks": 39,
+      "birth_year": 1921,
+      "death_year": null
+    },
+    {
+      "id": "Q2718927",
+      "label": "Pentti Saarikoski",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": 1937,
+      "description": "Finnish writer, poet and translator (1937–1983)",
+      "sitelinks": 22,
+      "birth_year": 1937,
+      "death_year": 1983
+    },
+    {
+      "id": "Q1136168",
+      "label": "aftermath of the 2011 Tōhoku earthquake and tsunami",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "",
+      "sitelinks": 12,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q11593710",
+      "label": "Fukushima Daiichi nuclear disaster (Unit 2 Reactor)",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "reactor 2",
+      "sitelinks": 2,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q11571749",
+      "label": "Q11571749",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "",
+      "sitelinks": 1,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q11593709",
+      "label": "Fukushima Daiichi nuclear disaster (Unit 1 Reactor)",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "Fukushima reactor n°1",
+      "sitelinks": 1,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q88902399",
+      "label": "Fukushima Health Management Survey Group",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "",
+      "sitelinks": 0,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q36442",
+      "label": "political science",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "scientific study of politics",
+      "sitelinks": 142,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q915809",
+      "label": "The Evolution of Cooperation",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "1984 book by Robert M. Axelrod",
+      "sitelinks": 5,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q58042499",
+      "label": "Lars-Erik Cederman",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": 1963,
+      "description": "political scientist",
+      "sitelinks": 5,
+      "birth_year": 1963,
+      "death_year": null
+    },
+    {
+      "id": "Q5687347",
+      "label": "Hayward Alker",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": 1937,
+      "description": "American professor of international relations (1937–2007)",
+      "sitelinks": 3,
+      "birth_year": 1937,
+      "death_year": 2007
+    },
+    {
+      "id": "Q102693128",
+      "label": "Bear Frederick Braumoeller",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": 1968,
+      "description": "political scientist",
+      "sitelinks": 2,
+      "birth_year": 1968,
+      "death_year": 2023
+    },
+    {
+      "id": "Q7727217",
+      "label": "The Complexity of Cooperation",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "book by Robert Axelrod",
+      "sitelinks": 1,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q22617938",
+      "label": "Conflict of Interest: A Theory of Divergent Goals with Applications to Politics",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "book by Robert M. Axelrod",
+      "sitelinks": 0,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q22629415",
+      "label": "Harnessing Complexity: Organizational Implications of a Scientific Frontier",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "book by Robert M. Axelrod and Michael D. Cohen",
+      "sitelinks": 0,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q102904770",
+      "label": "Dan Reiter",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "Ph.D. University of Michigan 1994",
+      "sitelinks": 0,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q125973763",
+      "label": "The Evolution of Cooperation",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "2006 Basic Books edition",
+      "sitelinks": 0,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q831304",
+      "label": "Condorcet criterion",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "electoral system criterion for systems that choose the plurality winner in a pairwise election",
+      "sitelinks": 10,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q906371",
+      "label": "discursive dilemma",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "paradox in social choice theory",
+      "sitelinks": 4,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q18274931",
+      "label": "R. M. Nureev",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": 1950,
+      "description": "Russian scientist",
+      "sitelinks": 2,
+      "birth_year": 1950,
+      "death_year": 2023
+    },
+    {
+      "id": "Q28134198",
+      "label": "computational social choice",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "",
+      "sitelinks": 2,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q107646307",
+      "label": "Random social choice",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "",
+      "sitelinks": 1,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q114644612",
+      "label": "Jacek Haman",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": 1970,
+      "description": "Polish sociologist",
+      "sitelinks": 1,
+      "birth_year": 1970,
+      "death_year": null
+    },
+    {
+      "id": "Q102316377",
+      "label": "Thomas Schwartz",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": 1943,
+      "description": "American political scientist and philosopher, 1943-2024",
+      "sitelinks": 0,
+      "birth_year": 1943,
+      "death_year": 2024
+    },
+    {
+      "id": "Q17455",
+      "label": "John von Neumann",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": 1903,
+      "description": "Hungarian and American mathematician and physicist (1903–1957)",
+      "sitelinks": 121,
+      "birth_year": 1903,
+      "death_year": 1957
+    },
+    {
+      "id": "Q128736",
+      "label": "John Forbes Nash",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": 1928,
+      "description": "American mathematician and economist (1928–2015)",
+      "sitelinks": 106,
+      "birth_year": 1928,
+      "death_year": 2015
+    },
+    {
+      "id": "Q41693",
+      "label": "prisoner's dilemma",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "canonical example of a game analyzed in game theory",
+      "sitelinks": 61,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q40688",
+      "label": "Yanis Varoufakis",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": 1961,
+      "description": "Greek economist and politician",
+      "sitelinks": 61,
+      "birth_year": 1961,
+      "death_year": null
+    },
+    {
+      "id": "Q12830",
+      "label": "Reinhard Selten",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": 1930,
+      "description": "German economist (1930-2016)",
+      "sitelinks": 57,
+      "birth_year": 1930,
+      "death_year": 2016
+    },
+    {
+      "id": "Q154356",
+      "label": "Émile Borel",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": 1871,
+      "description": "French mathematician and politician (1871-1956)",
+      "sitelinks": 56,
+      "birth_year": 1871,
+      "death_year": 1956
+    },
+    {
+      "id": "Q244739",
+      "label": "Lloyd Shapley",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": 1923,
+      "description": "American economist and mathematician",
+      "sitelinks": 51,
+      "birth_year": 1923,
+      "death_year": 2016
+    },
+    {
+      "id": "Q28542",
+      "label": "Alvin Eliot Roth",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": 1951,
+      "description": "American economist, professor",
+      "sitelinks": 50,
+      "birth_year": 1951,
+      "death_year": null
+    },
+    {
+      "id": "Q272510",
+      "label": "John Harsanyi",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": 1920,
+      "description": "Hungarian economist (1920-2000)",
+      "sitelinks": 50,
+      "birth_year": 1920,
+      "death_year": 2000
+    },
+    {
+      "id": "Q268961",
+      "label": "John Horton Conway",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": 1937,
+      "description": "English mathematician (1937–2020)",
+      "sitelinks": 48,
+      "birth_year": 1937,
+      "death_year": 2020
+    },
+    {
+      "id": "Q323207",
+      "label": "John Maynard Smith",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": 1920,
+      "description": "British theoretical evolutionary biologist and geneticist (1920-2004)",
+      "sitelinks": 39,
+      "birth_year": 1920,
+      "death_year": 2004
+    },
+    {
+      "id": "Q487453",
+      "label": "Anatol Rapoport",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": 1911,
+      "description": "Russian-born American mathematical psychologist (1911–2007)",
+      "sitelinks": 18,
+      "birth_year": 1911,
+      "death_year": 2007
+    },
+    {
+      "id": "Q3099856",
+      "label": "Gaël Giraud",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": 1970,
+      "description": "French economist and Catholic priest",
+      "sitelinks": 5,
+      "birth_year": 1970,
+      "death_year": null
+    },
+    {
+      "id": "Q23581133",
+      "label": "Institutional analysis and development framework",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "systematic method in policy analysis",
+      "sitelinks": 2,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q27044649",
+      "label": "Governing the Commons: The Evolution of Institutions for Collective Action",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "book by Elinor Ostrom published in 1990",
+      "sitelinks": 1,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q115861553",
+      "label": "Q115861553",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "2010 French edition of Elinor Ostrom's work \"Governing the commons\"",
+      "sitelinks": 1,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q61818418",
+      "label": "Dwaine Marvick",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": 1923,
+      "description": "American political scientist",
+      "sitelinks": 0,
+      "birth_year": 1923,
+      "death_year": 1999
+    },
+    {
+      "id": "Q103083278",
+      "label": "John Paul McIver",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "Ph.D. Indiana University 1986",
+      "sitelinks": 0,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q110972059",
+      "label": "Understanding Knowledge as a Commons",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "2006 edition",
+      "sitelinks": 0,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q136268231",
+      "label": "Q136268231",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "book 2005",
+      "sitelinks": 0,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q136774073",
+      "label": "Ostrom Design Principles",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "core underlying “best practices” or factors (i.e., rules and structures) that characterize robust institutions for the governance of common-pool resources",
+      "sitelinks": 0,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q27978005",
+      "label": "Understanding Knowledge as a Commons",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "book by Charlotte Hess & Elinor Ostrom",
+      "sitelinks": 0,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q110972063",
+      "label": "Rules, Games, and Common-pool Resources",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "book published in 1994",
+      "sitelinks": 0,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q111714419",
+      "label": "Institutions, Incentives, and Irrigation in Nepal",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "report published in 1994",
+      "sitelinks": 0,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q111716153",
+      "label": "The Commons in the New Millennium: Challenges and Adaptations",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "book published in 2003",
+      "sitelinks": 0,
+      "birth_year": null,
+      "death_year": null
+    },
+    {
+      "id": "Q111718960",
+      "label": "People and Forests: Communities, Institutions, and Governance",
+      "type": "ghost",
+      "is_ghost": true,
+      "period_year": null,
+      "description": "book published in 2000",
+      "sitelinks": 0,
+      "birth_year": null,
+      "death_year": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "path-dependence",
+      "target": "fukushima-daiichi",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "path-dependence",
+      "target": "coordination-without-convergence",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "mancur-olson",
+      "target": "elinor-ostrom",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "mancur-olson",
+      "target": "thomas-schelling",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "mancur-olson",
+      "target": "coordination-without-convergence",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "michael-bratman",
+      "target": "structural-interdependence",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "michael-bratman",
+      "target": "coordination-without-convergence",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "michael-bratman",
+      "target": "value-incommensurability",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "ietf-rough-consensus",
+      "target": "value-incommensurability",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "ietf-rough-consensus",
+      "target": "coordination-without-convergence",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "ietf-rough-consensus",
+      "target": "structural-interdependence",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "evolutionary-game-theory",
+      "target": "game-theory",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "evolutionary-game-theory",
+      "target": "nowak-and-may-1992",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "evolutionary-game-theory",
+      "target": "ruth-chang",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "evolutionary-game-theory",
+      "target": "aukus",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "evolutionary-game-theory",
+      "target": "structural-interdependence",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "evolutionary-game-theory",
+      "target": "j-mckenzie-alexander",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "evolutionary-game-theory",
+      "target": "coordination-without-convergence",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "evolutionary-game-theory",
+      "target": "value-incommensurability",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "evolutionary-game-theory",
+      "target": "robert-axelrod",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "evolutionary-game-theory",
+      "target": "decision-theory-under-severe-uncertainty",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "ruth-chang",
+      "target": "value-incommensurability",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "ruth-chang",
+      "target": "j-mckenzie-alexander",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "ruth-chang",
+      "target": "richard-bradley",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "ruth-chang",
+      "target": "coordination-without-convergence",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "nowak-and-may-1992",
+      "target": "evolutionary-game-theory",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "nowak-and-may-1992",
+      "target": "structural-interdependence",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "nowak-and-may-1992",
+      "target": "game-theory",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "nowak-and-may-1992",
+      "target": "robert-axelrod",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "nowak-and-may-1992",
+      "target": "value-incommensurability",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "incomplete-preferences",
+      "target": "parity",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "incomplete-preferences",
+      "target": "richard-bradley",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "incomplete-preferences",
+      "target": "decision-theory-under-severe-uncertainty",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "incomplete-preferences",
+      "target": "value-incommensurability",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "incomplete-preferences",
+      "target": "structural-interdependence",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "aukus",
+      "target": "coordination-without-convergence",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "aukus",
+      "target": "structural-interdependence",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "aukus",
+      "target": "value-incommensurability",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "restorative-justice",
+      "target": "value-incommensurability",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "restorative-justice",
+      "target": "coordination-without-convergence",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "restorative-justice",
+      "target": "irish-citizens-assembly",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "richard-bradley",
+      "target": "parity",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "richard-bradley",
+      "target": "structural-interdependence",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "richard-bradley",
+      "target": "decision-theory-under-severe-uncertainty",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "richard-bradley",
+      "target": "incomplete-preferences",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "richard-bradley",
+      "target": "j-mckenzie-alexander",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "richard-bradley",
+      "target": "value-incommensurability",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "coordination-without-convergence",
+      "target": "mancur-olson",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "coordination-without-convergence",
+      "target": "elinor-ostrom",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "coordination-without-convergence",
+      "target": "thomas-schelling",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "coordination-without-convergence",
+      "target": "rorschach-concepts",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "coordination-without-convergence",
+      "target": "multifaceted-social-engineering",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "coordination-without-convergence",
+      "target": "incomplete-preferences",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "coordination-without-convergence",
+      "target": "parity",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "coordination-without-convergence",
+      "target": "evolutionary-game-theory",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "coordination-without-convergence",
+      "target": "aukus",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "coordination-without-convergence",
+      "target": "value-incommensurability",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "coordination-without-convergence",
+      "target": "structural-interdependence",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "coordination-without-convergence",
+      "target": "decision-theory-under-severe-uncertainty",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "logos",
+      "target": "heraclitus",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "logos",
+      "target": "game-theory",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "logos",
+      "target": "mechanism-design",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "logos",
+      "target": "social-choice-theory",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "logos",
+      "target": "value-incommensurability",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "logos",
+      "target": "coordination-without-convergence",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "decision-theory-under-severe-uncertainty",
+      "target": "richard-bradley",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "decision-theory-under-severe-uncertainty",
+      "target": "structural-interdependence",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "decision-theory-under-severe-uncertainty",
+      "target": "value-incommensurability",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "decision-theory-under-severe-uncertainty",
+      "target": "coordination-without-convergence",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "decision-theory-under-severe-uncertainty",
+      "target": "evolutionary-game-theory",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "j-mckenzie-alexander",
+      "target": "evolutionary-game-theory",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "j-mckenzie-alexander",
+      "target": "rorschach-concepts",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "j-mckenzie-alexander",
+      "target": "multifaceted-social-engineering",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "j-mckenzie-alexander",
+      "target": "richard-bradley",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "j-mckenzie-alexander",
+      "target": "structural-interdependence",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "j-mckenzie-alexander",
+      "target": "coordination-without-convergence",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "j-mckenzie-alexander",
+      "target": "ruth-chang",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "j-mckenzie-alexander",
+      "target": "value-incommensurability",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "j-mckenzie-alexander",
+      "target": "nowak-and-may-1992",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "j-mckenzie-alexander",
+      "target": "game-theory",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "thomas-schelling",
+      "target": "elinor-ostrom",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "thomas-schelling",
+      "target": "mancur-olson",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "thomas-schelling",
+      "target": "coordination-without-convergence",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "thomas-schelling",
+      "target": "robert-axelrod",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "thomas-schelling",
+      "target": "structural-interdependence",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "value-incommensurability",
+      "target": "ruth-chang",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "value-incommensurability",
+      "target": "evolutionary-game-theory",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "value-incommensurability",
+      "target": "coordination-without-convergence",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "value-incommensurability",
+      "target": "structural-interdependence",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "mechanism-design",
+      "target": "game-theory",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "mechanism-design",
+      "target": "value-incommensurability",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "mechanism-design",
+      "target": "social-choice-theory",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "mechanism-design",
+      "target": "structural-interdependence",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "irish-citizens-assembly",
+      "target": "value-incommensurability",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "irish-citizens-assembly",
+      "target": "coordination-without-convergence",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "irish-citizens-assembly",
+      "target": "structural-interdependence",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "parity",
+      "target": "ruth-chang",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "parity",
+      "target": "value-incommensurability",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "parity",
+      "target": "richard-bradley",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "parity",
+      "target": "coordination-without-convergence",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "parity",
+      "target": "structural-interdependence",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "heraclitus",
+      "target": "logos",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "heraclitus",
+      "target": "coordination-without-convergence",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "heraclitus",
+      "target": "value-incommensurability",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "fukushima-daiichi",
+      "target": "aukus",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "fukushima-daiichi",
+      "target": "coordination-without-convergence",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "robert-axelrod",
+      "target": "evolutionary-game-theory",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "robert-axelrod",
+      "target": "structural-interdependence",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "robert-axelrod",
+      "target": "thomas-schelling",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "robert-axelrod",
+      "target": "coordination-without-convergence",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "robert-axelrod",
+      "target": "value-incommensurability",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "social-choice-theory",
+      "target": "structural-interdependence",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "social-choice-theory",
+      "target": "game-theory",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "social-choice-theory",
+      "target": "value-incommensurability",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "social-choice-theory",
+      "target": "mechanism-design",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "social-choice-theory",
+      "target": "richard-bradley",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "daniel-schmachtenberger",
+      "target": "coordination-without-convergence",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "daniel-schmachtenberger",
+      "target": "logos",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "daniel-schmachtenberger",
+      "target": "structural-interdependence",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "montreal-protocol",
+      "target": "value-incommensurability",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "montreal-protocol",
+      "target": "coordination-without-convergence",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "montreal-protocol",
+      "target": "aukus",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "montreal-protocol",
+      "target": "structural-interdependence",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "rorschach-concepts",
+      "target": "j-mckenzie-alexander",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "rorschach-concepts",
+      "target": "coordination-without-convergence",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "rorschach-concepts",
+      "target": "value-incommensurability",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "rorschach-concepts",
+      "target": "multifaceted-social-engineering",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "multifaceted-social-engineering",
+      "target": "j-mckenzie-alexander",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "multifaceted-social-engineering",
+      "target": "coordination-without-convergence",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "multifaceted-social-engineering",
+      "target": "structural-interdependence",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "multifaceted-social-engineering",
+      "target": "rorschach-concepts",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "game-theory",
+      "target": "evolutionary-game-theory",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "game-theory",
+      "target": "mechanism-design",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "game-theory",
+      "target": "social-choice-theory",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "game-theory",
+      "target": "value-incommensurability",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "game-theory",
+      "target": "robert-axelrod",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "game-theory",
+      "target": "thomas-schelling",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "structural-interdependence",
+      "target": "coordination-without-convergence",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "structural-interdependence",
+      "target": "aukus",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "structural-interdependence",
+      "target": "parity",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "structural-interdependence",
+      "target": "incomplete-preferences",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "structural-interdependence",
+      "target": "evolutionary-game-theory",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "structural-interdependence",
+      "target": "multifaceted-social-engineering",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "structural-interdependence",
+      "target": "rorschach-concepts",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "structural-interdependence",
+      "target": "value-incommensurability",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "structural-interdependence",
+      "target": "j-mckenzie-alexander",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "structural-interdependence",
+      "target": "richard-bradley",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "elinor-ostrom",
+      "target": "coordination-without-convergence",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "elinor-ostrom",
+      "target": "aukus",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "elinor-ostrom",
+      "target": "structural-interdependence",
+      "type": "references",
+      "provenance": "absorbed"
+    },
+    {
+      "source": "mancur-olson",
+      "target": "Q8134",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q3845173",
+      "target": "mancur-olson",
+      "type": "author_of",
+      "provenance": "wikidata",
+      "property": "P50"
+    },
+    {
+      "source": "michael-bratman",
+      "target": "Q5891",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "michael-bratman",
+      "target": "Q311772",
+      "type": "doctoral_advisor",
+      "provenance": "wikidata",
+      "property": "P184"
+    },
+    {
+      "source": "michael-bratman",
+      "target": "Q3294042",
+      "type": "doctoral_student",
+      "provenance": "wikidata",
+      "property": "P185"
+    },
+    {
+      "source": "Q87414999",
+      "target": "evolutionary-game-theory",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q23663067",
+      "target": "ruth-chang",
+      "type": "author_of",
+      "provenance": "wikidata",
+      "property": "P50"
+    },
+    {
+      "source": "restorative-justice",
+      "target": "Q284289",
+      "type": "part_of",
+      "provenance": "wikidata",
+      "property": "P361"
+    },
+    {
+      "source": "Q1421906",
+      "target": "restorative-justice",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q6096743",
+      "target": "restorative-justice",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q5059734",
+      "target": "restorative-justice",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q18748957",
+      "target": "restorative-justice",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q68571132",
+      "target": "restorative-justice",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q87406289",
+      "target": "restorative-justice",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q104150566",
+      "target": "restorative-justice",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q107896618",
+      "target": "restorative-justice",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q110827010",
+      "target": "restorative-justice",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q90892118",
+      "target": "restorative-justice",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q94509905",
+      "target": "restorative-justice",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q95221053",
+      "target": "restorative-justice",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q95672438",
+      "target": "restorative-justice",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q107615380",
+      "target": "restorative-justice",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q1173618",
+      "target": "richard-bradley",
+      "type": "doctoral_student",
+      "provenance": "wikidata",
+      "property": "P185"
+    },
+    {
+      "source": "Q92567970",
+      "target": "richard-bradley",
+      "type": "doctoral_advisor",
+      "provenance": "wikidata",
+      "property": "P184"
+    },
+    {
+      "source": "Q61161737",
+      "target": "richard-bradley",
+      "type": "doctoral_advisor",
+      "provenance": "wikidata",
+      "property": "P184"
+    },
+    {
+      "source": "Q110620074",
+      "target": "richard-bradley",
+      "type": "doctoral_advisor",
+      "provenance": "wikidata",
+      "property": "P184"
+    },
+    {
+      "source": "Q112601828",
+      "target": "richard-bradley",
+      "type": "doctoral_advisor",
+      "provenance": "wikidata",
+      "property": "P184"
+    },
+    {
+      "source": "Q112601843",
+      "target": "richard-bradley",
+      "type": "doctoral_advisor",
+      "provenance": "wikidata",
+      "property": "P184"
+    },
+    {
+      "source": "Q112812983",
+      "target": "richard-bradley",
+      "type": "doctoral_advisor",
+      "provenance": "wikidata",
+      "property": "P184"
+    },
+    {
+      "source": "Q112894645",
+      "target": "richard-bradley",
+      "type": "doctoral_advisor",
+      "provenance": "wikidata",
+      "property": "P184"
+    },
+    {
+      "source": "Q112958467",
+      "target": "richard-bradley",
+      "type": "doctoral_advisor",
+      "provenance": "wikidata",
+      "property": "P184"
+    },
+    {
+      "source": "Q113109904",
+      "target": "richard-bradley",
+      "type": "doctoral_advisor",
+      "provenance": "wikidata",
+      "property": "P184"
+    },
+    {
+      "source": "Q113150388",
+      "target": "richard-bradley",
+      "type": "doctoral_advisor",
+      "provenance": "wikidata",
+      "property": "P184"
+    },
+    {
+      "source": "Q113196064",
+      "target": "richard-bradley",
+      "type": "doctoral_advisor",
+      "provenance": "wikidata",
+      "property": "P184"
+    },
+    {
+      "source": "Q134284198",
+      "target": "richard-bradley",
+      "type": "doctoral_advisor",
+      "provenance": "wikidata",
+      "property": "P184"
+    },
+    {
+      "source": "Q131318771",
+      "target": "logos",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "thomas-schelling",
+      "target": "Q8134",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "thomas-schelling",
+      "target": "game-theory",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "thomas-schelling",
+      "target": "Q201424",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q44061",
+      "target": "thomas-schelling",
+      "type": "doctoral_student",
+      "provenance": "wikidata",
+      "property": "P185"
+    },
+    {
+      "source": "Q157245",
+      "target": "thomas-schelling",
+      "type": "doctoral_advisor",
+      "provenance": "wikidata",
+      "property": "P184"
+    },
+    {
+      "source": "thomas-schelling",
+      "target": "Q1920219",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q602278",
+      "target": "thomas-schelling",
+      "type": "doctoral_advisor",
+      "provenance": "wikidata",
+      "property": "P184"
+    },
+    {
+      "source": "thomas-schelling",
+      "target": "Q1640893",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q326947",
+      "target": "thomas-schelling",
+      "type": "doctoral_student",
+      "provenance": "wikidata",
+      "property": "P185"
+    },
+    {
+      "source": "Q2898573",
+      "target": "thomas-schelling",
+      "type": "doctoral_advisor",
+      "provenance": "wikidata",
+      "property": "P184"
+    },
+    {
+      "source": "Q5621196",
+      "target": "thomas-schelling",
+      "type": "doctoral_advisor",
+      "provenance": "wikidata",
+      "property": "P184"
+    },
+    {
+      "source": "Q7330150",
+      "target": "thomas-schelling",
+      "type": "doctoral_advisor",
+      "provenance": "wikidata",
+      "property": "P184"
+    },
+    {
+      "source": "Q11605551",
+      "target": "thomas-schelling",
+      "type": "author_of",
+      "provenance": "wikidata",
+      "property": "P50"
+    },
+    {
+      "source": "Q21535828",
+      "target": "thomas-schelling",
+      "type": "doctoral_student",
+      "provenance": "wikidata",
+      "property": "P185"
+    },
+    {
+      "source": "Q41804267",
+      "target": "thomas-schelling",
+      "type": "doctoral_advisor",
+      "provenance": "wikidata",
+      "property": "P184"
+    },
+    {
+      "source": "mechanism-design",
+      "target": "game-theory",
+      "type": "part_of",
+      "provenance": "wikidata",
+      "property": "P361"
+    },
+    {
+      "source": "Q120567709",
+      "target": "mechanism-design",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q124202030",
+      "target": "mechanism-design",
+      "type": "part_of",
+      "provenance": "wikidata",
+      "property": "P361"
+    },
+    {
+      "source": "Q135187791",
+      "target": "mechanism-design",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q135187809",
+      "target": "mechanism-design",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q868",
+      "target": "heraclitus",
+      "type": "influenced_by",
+      "provenance": "wikidata",
+      "property": "P737"
+    },
+    {
+      "source": "heraclitus",
+      "target": "Q5891",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q859",
+      "target": "heraclitus",
+      "type": "influenced_by",
+      "provenance": "wikidata",
+      "property": "P737"
+    },
+    {
+      "source": "Q9358",
+      "target": "heraclitus",
+      "type": "influenced_by",
+      "provenance": "wikidata",
+      "property": "P737"
+    },
+    {
+      "source": "Q34787",
+      "target": "heraclitus",
+      "type": "influenced_by",
+      "provenance": "wikidata",
+      "property": "P737"
+    },
+    {
+      "source": "Q9235",
+      "target": "heraclitus",
+      "type": "influenced_by",
+      "provenance": "wikidata",
+      "property": "P737"
+    },
+    {
+      "source": "Q48301",
+      "target": "heraclitus",
+      "type": "influenced_by",
+      "provenance": "wikidata",
+      "property": "P737"
+    },
+    {
+      "source": "Q45970",
+      "target": "heraclitus",
+      "type": "influenced_by",
+      "provenance": "wikidata",
+      "property": "P737"
+    },
+    {
+      "source": "Q125551",
+      "target": "heraclitus",
+      "type": "influenced_by",
+      "provenance": "wikidata",
+      "property": "P737"
+    },
+    {
+      "source": "heraclitus",
+      "target": "Q131671",
+      "type": "influenced_by",
+      "provenance": "wikidata",
+      "property": "P737"
+    },
+    {
+      "source": "Q57112",
+      "target": "heraclitus",
+      "type": "influenced_by",
+      "provenance": "wikidata",
+      "property": "P737"
+    },
+    {
+      "source": "heraclitus",
+      "target": "Q298860",
+      "type": "influenced_by",
+      "provenance": "wikidata",
+      "property": "P737"
+    },
+    {
+      "source": "Q312410",
+      "target": "heraclitus",
+      "type": "influenced_by",
+      "provenance": "wikidata",
+      "property": "P737"
+    },
+    {
+      "source": "Q317880",
+      "target": "heraclitus",
+      "type": "influenced_by",
+      "provenance": "wikidata",
+      "property": "P737"
+    },
+    {
+      "source": "Q2718927",
+      "target": "heraclitus",
+      "type": "influenced_by",
+      "provenance": "wikidata",
+      "property": "P737"
+    },
+    {
+      "source": "fukushima-daiichi",
+      "target": "Q1136168",
+      "type": "part_of",
+      "provenance": "wikidata",
+      "property": "P361"
+    },
+    {
+      "source": "Q11593710",
+      "target": "fukushima-daiichi",
+      "type": "part_of",
+      "provenance": "wikidata",
+      "property": "P361"
+    },
+    {
+      "source": "Q11571749",
+      "target": "fukushima-daiichi",
+      "type": "part_of",
+      "provenance": "wikidata",
+      "property": "P361"
+    },
+    {
+      "source": "Q11593709",
+      "target": "fukushima-daiichi",
+      "type": "part_of",
+      "provenance": "wikidata",
+      "property": "P361"
+    },
+    {
+      "source": "Q88902399",
+      "target": "fukushima-daiichi",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "robert-axelrod",
+      "target": "Q36442",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "robert-axelrod",
+      "target": "game-theory",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "robert-axelrod",
+      "target": "Q915809",
+      "type": "notable_work",
+      "provenance": "wikidata",
+      "property": "P800"
+    },
+    {
+      "source": "robert-axelrod",
+      "target": "Q58042499",
+      "type": "doctoral_student",
+      "provenance": "wikidata",
+      "property": "P185"
+    },
+    {
+      "source": "robert-axelrod",
+      "target": "Q5687347",
+      "type": "doctoral_advisor",
+      "provenance": "wikidata",
+      "property": "P184"
+    },
+    {
+      "source": "robert-axelrod",
+      "target": "Q102693128",
+      "type": "doctoral_student",
+      "provenance": "wikidata",
+      "property": "P185"
+    },
+    {
+      "source": "robert-axelrod",
+      "target": "Q7727217",
+      "type": "notable_work",
+      "provenance": "wikidata",
+      "property": "P800"
+    },
+    {
+      "source": "robert-axelrod",
+      "target": "Q22617938",
+      "type": "notable_work",
+      "provenance": "wikidata",
+      "property": "P800"
+    },
+    {
+      "source": "robert-axelrod",
+      "target": "Q22629415",
+      "type": "notable_work",
+      "provenance": "wikidata",
+      "property": "P800"
+    },
+    {
+      "source": "robert-axelrod",
+      "target": "Q102904770",
+      "type": "doctoral_student",
+      "provenance": "wikidata",
+      "property": "P185"
+    },
+    {
+      "source": "Q125973763",
+      "target": "robert-axelrod",
+      "type": "author_of",
+      "provenance": "wikidata",
+      "property": "P50"
+    },
+    {
+      "source": "Q831304",
+      "target": "social-choice-theory",
+      "type": "part_of",
+      "provenance": "wikidata",
+      "property": "P361"
+    },
+    {
+      "source": "Q906371",
+      "target": "social-choice-theory",
+      "type": "part_of",
+      "provenance": "wikidata",
+      "property": "P361"
+    },
+    {
+      "source": "Q18274931",
+      "target": "social-choice-theory",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q28134198",
+      "target": "social-choice-theory",
+      "type": "part_of",
+      "provenance": "wikidata",
+      "property": "P361"
+    },
+    {
+      "source": "Q107646307",
+      "target": "social-choice-theory",
+      "type": "part_of",
+      "provenance": "wikidata",
+      "property": "P361"
+    },
+    {
+      "source": "Q114644612",
+      "target": "social-choice-theory",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q102316377",
+      "target": "social-choice-theory",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q17455",
+      "target": "game-theory",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q128736",
+      "target": "game-theory",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q41693",
+      "target": "game-theory",
+      "type": "part_of",
+      "provenance": "wikidata",
+      "property": "P361"
+    },
+    {
+      "source": "Q40688",
+      "target": "game-theory",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q12830",
+      "target": "game-theory",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q154356",
+      "target": "game-theory",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q244739",
+      "target": "game-theory",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q28542",
+      "target": "game-theory",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q272510",
+      "target": "game-theory",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q268961",
+      "target": "game-theory",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q323207",
+      "target": "game-theory",
+      "type": "notable_work",
+      "provenance": "wikidata",
+      "property": "P800"
+    },
+    {
+      "source": "Q487453",
+      "target": "game-theory",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "elinor-ostrom",
+      "target": "Q8134",
+      "type": "field_of_work",
+      "provenance": "wikidata",
+      "property": "P101"
+    },
+    {
+      "source": "Q3099856",
+      "target": "elinor-ostrom",
+      "type": "influenced_by",
+      "provenance": "wikidata",
+      "property": "P737"
+    },
+    {
+      "source": "elinor-ostrom",
+      "target": "Q23581133",
+      "type": "notable_work",
+      "provenance": "wikidata",
+      "property": "P800"
+    },
+    {
+      "source": "elinor-ostrom",
+      "target": "Q27044649",
+      "type": "notable_work",
+      "provenance": "wikidata",
+      "property": "P800"
+    },
+    {
+      "source": "Q115861553",
+      "target": "elinor-ostrom",
+      "type": "author_of",
+      "provenance": "wikidata",
+      "property": "P50"
+    },
+    {
+      "source": "elinor-ostrom",
+      "target": "Q61818418",
+      "type": "doctoral_advisor",
+      "provenance": "wikidata",
+      "property": "P184"
+    },
+    {
+      "source": "elinor-ostrom",
+      "target": "Q103083278",
+      "type": "doctoral_student",
+      "provenance": "wikidata",
+      "property": "P185"
+    },
+    {
+      "source": "elinor-ostrom",
+      "target": "Q110972059",
+      "type": "notable_work",
+      "provenance": "wikidata",
+      "property": "P800"
+    },
+    {
+      "source": "elinor-ostrom",
+      "target": "Q136268231",
+      "type": "notable_work",
+      "provenance": "wikidata",
+      "property": "P800"
+    },
+    {
+      "source": "elinor-ostrom",
+      "target": "Q136774073",
+      "type": "notable_work",
+      "provenance": "wikidata",
+      "property": "P800"
+    },
+    {
+      "source": "Q27978005",
+      "target": "elinor-ostrom",
+      "type": "author_of",
+      "provenance": "wikidata",
+      "property": "P50"
+    },
+    {
+      "source": "Q110972063",
+      "target": "elinor-ostrom",
+      "type": "author_of",
+      "provenance": "wikidata",
+      "property": "P50"
+    },
+    {
+      "source": "Q111714419",
+      "target": "elinor-ostrom",
+      "type": "author_of",
+      "provenance": "wikidata",
+      "property": "P50"
+    },
+    {
+      "source": "Q111716153",
+      "target": "elinor-ostrom",
+      "type": "author_of",
+      "provenance": "wikidata",
+      "property": "P50"
+    },
+    {
+      "source": "Q111718960",
+      "target": "elinor-ostrom",
+      "type": "author_of",
+      "provenance": "wikidata",
+      "property": "P50"
+    },
+    {
+      "source": "Q311772",
+      "target": "Q1173618",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q5891"
+    },
+    {
+      "source": "Q311772",
+      "target": "Q48301",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q5891"
+    },
+    {
+      "source": "Q311772",
+      "target": "Q102316377",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q5891"
+    },
+    {
+      "source": "Q1421906",
+      "target": "Q6096743",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q1165392"
+    },
+    {
+      "source": "Q1421906",
+      "target": "Q87406289",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q1165392"
+    },
+    {
+      "source": "Q1421906",
+      "target": "Q107896618",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q1165392"
+    },
+    {
+      "source": "Q1421906",
+      "target": "Q94509905",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q1165392"
+    },
+    {
+      "source": "Q1421906",
+      "target": "Q95221053",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q1165392"
+    },
+    {
+      "source": "Q1421906",
+      "target": "Q107615380",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q1165392"
+    },
+    {
+      "source": "Q6096743",
+      "target": "Q87406289",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q1165392"
+    },
+    {
+      "source": "Q6096743",
+      "target": "Q107896618",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q1165392"
+    },
+    {
+      "source": "Q6096743",
+      "target": "Q94509905",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q1165392"
+    },
+    {
+      "source": "Q6096743",
+      "target": "Q95221053",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q1165392"
+    },
+    {
+      "source": "Q6096743",
+      "target": "Q107615380",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q1165392"
+    },
+    {
+      "source": "Q6096743",
+      "target": "Q317880",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q21201"
+    },
+    {
+      "source": "Q87406289",
+      "target": "Q107896618",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q1165392"
+    },
+    {
+      "source": "Q87406289",
+      "target": "Q94509905",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q1165392"
+    },
+    {
+      "source": "Q87406289",
+      "target": "Q95221053",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q1165392"
+    },
+    {
+      "source": "Q87406289",
+      "target": "Q107615380",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q1165392"
+    },
+    {
+      "source": "Q87406289",
+      "target": "Q58042499",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q36442"
+    },
+    {
+      "source": "Q87406289",
+      "target": "Q102693128",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q36442"
+    },
+    {
+      "source": "Q87406289",
+      "target": "Q102316377",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q36442"
+    },
+    {
+      "source": "Q87406289",
+      "target": "robert-axelrod",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q36442"
+    },
+    {
+      "source": "Q107896618",
+      "target": "Q94509905",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q1165392"
+    },
+    {
+      "source": "Q107896618",
+      "target": "Q95221053",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q223871"
+    },
+    {
+      "source": "Q107896618",
+      "target": "Q107615380",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q1165392"
+    },
+    {
+      "source": "Q94509905",
+      "target": "Q95221053",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q1165392"
+    },
+    {
+      "source": "Q94509905",
+      "target": "Q107615380",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q146491"
+    },
+    {
+      "source": "Q95221053",
+      "target": "Q107615380",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q1165392"
+    },
+    {
+      "source": "Q1173618",
+      "target": "Q48301",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q5891"
+    },
+    {
+      "source": "Q1173618",
+      "target": "Q102316377",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q5891"
+    },
+    {
+      "source": "Q44061",
+      "target": "Q157245",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q8134"
+    },
+    {
+      "source": "Q44061",
+      "target": "Q2898573",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q8134"
+    },
+    {
+      "source": "Q44061",
+      "target": "Q128736",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q8134"
+    },
+    {
+      "source": "Q44061",
+      "target": "thomas-schelling",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q8134"
+    },
+    {
+      "source": "Q44061",
+      "target": "Q40688",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q8134"
+    },
+    {
+      "source": "Q44061",
+      "target": "Q12830",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q8134"
+    },
+    {
+      "source": "Q44061",
+      "target": "Q244739",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q8134"
+    },
+    {
+      "source": "Q44061",
+      "target": "Q28542",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q8134"
+    },
+    {
+      "source": "Q44061",
+      "target": "Q272510",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q8134"
+    },
+    {
+      "source": "Q157245",
+      "target": "Q2898573",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q8134"
+    },
+    {
+      "source": "Q157245",
+      "target": "Q18274931",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q39072"
+    },
+    {
+      "source": "Q157245",
+      "target": "Q128736",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q8134"
+    },
+    {
+      "source": "Q157245",
+      "target": "thomas-schelling",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q8134"
+    },
+    {
+      "source": "Q157245",
+      "target": "Q40688",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q8134"
+    },
+    {
+      "source": "Q157245",
+      "target": "Q12830",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q8134"
+    },
+    {
+      "source": "Q157245",
+      "target": "Q244739",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q8134"
+    },
+    {
+      "source": "Q157245",
+      "target": "Q28542",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q8134"
+    },
+    {
+      "source": "Q157245",
+      "target": "Q272510",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q8134"
+    },
+    {
+      "source": "Q2898573",
+      "target": "Q128736",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q8134"
+    },
+    {
+      "source": "Q2898573",
+      "target": "thomas-schelling",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q8134"
+    },
+    {
+      "source": "Q2898573",
+      "target": "Q40688",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q8134"
+    },
+    {
+      "source": "Q2898573",
+      "target": "Q12830",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q8134"
+    },
+    {
+      "source": "Q2898573",
+      "target": "Q244739",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q8134"
+    },
+    {
+      "source": "Q2898573",
+      "target": "Q28542",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q8134"
+    },
+    {
+      "source": "Q2898573",
+      "target": "Q272510",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q8134"
+    },
+    {
+      "source": "Q868",
+      "target": "Q859",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q5891"
+    },
+    {
+      "source": "Q34787",
+      "target": "Q9235",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q5891"
+    },
+    {
+      "source": "Q34787",
+      "target": "Q48301",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q5891"
+    },
+    {
+      "source": "Q48301",
+      "target": "Q102316377",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q5891"
+    },
+    {
+      "source": "Q125551",
+      "target": "Q131671",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q5891"
+    },
+    {
+      "source": "Q125551",
+      "target": "Q298860",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q5891"
+    },
+    {
+      "source": "Q125551",
+      "target": "Q312410",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q5891"
+    },
+    {
+      "source": "Q131671",
+      "target": "Q298860",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q5891"
+    },
+    {
+      "source": "Q131671",
+      "target": "Q312410",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q5891"
+    },
+    {
+      "source": "Q298860",
+      "target": "Q312410",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q5891"
+    },
+    {
+      "source": "Q317880",
+      "target": "Q154356",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q7163"
+    },
+    {
+      "source": "Q58042499",
+      "target": "Q5687347",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q166542"
+    },
+    {
+      "source": "Q58042499",
+      "target": "Q102693128",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q36442"
+    },
+    {
+      "source": "Q58042499",
+      "target": "Q102316377",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q36442"
+    },
+    {
+      "source": "Q58042499",
+      "target": "robert-axelrod",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q36442"
+    },
+    {
+      "source": "Q102693128",
+      "target": "Q102316377",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q36442"
+    },
+    {
+      "source": "Q102693128",
+      "target": "robert-axelrod",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q36442"
+    },
+    {
+      "source": "Q18274931",
+      "target": "Q114644612",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q1971461"
+    },
+    {
+      "source": "Q18274931",
+      "target": "Q102316377",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q1971461"
+    },
+    {
+      "source": "Q114644612",
+      "target": "Q102316377",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q1971461"
+    },
+    {
+      "source": "Q102316377",
+      "target": "robert-axelrod",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q36442"
+    },
+    {
+      "source": "Q17455",
+      "target": "Q128736",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q395"
+    },
+    {
+      "source": "Q17455",
+      "target": "thomas-schelling",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q44455"
+    },
+    {
+      "source": "Q17455",
+      "target": "Q12830",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q395"
+    },
+    {
+      "source": "Q17455",
+      "target": "Q154356",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q395"
+    },
+    {
+      "source": "Q17455",
+      "target": "Q244739",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q395"
+    },
+    {
+      "source": "Q17455",
+      "target": "Q28542",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q44455"
+    },
+    {
+      "source": "Q17455",
+      "target": "Q272510",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q44455"
+    },
+    {
+      "source": "Q17455",
+      "target": "Q268961",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q395"
+    },
+    {
+      "source": "Q17455",
+      "target": "robert-axelrod",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q44455"
+    },
+    {
+      "source": "Q17455",
+      "target": "Q487453",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q44455"
+    },
+    {
+      "source": "Q128736",
+      "target": "thomas-schelling",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q8134"
+    },
+    {
+      "source": "Q128736",
+      "target": "Q40688",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q8134"
+    },
+    {
+      "source": "Q128736",
+      "target": "Q12830",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q395"
+    },
+    {
+      "source": "Q128736",
+      "target": "Q154356",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q395"
+    },
+    {
+      "source": "Q128736",
+      "target": "Q244739",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q395"
+    },
+    {
+      "source": "Q128736",
+      "target": "Q28542",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q8134"
+    },
+    {
+      "source": "Q128736",
+      "target": "Q272510",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q8134"
+    },
+    {
+      "source": "Q128736",
+      "target": "Q268961",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q395"
+    },
+    {
+      "source": "Q128736",
+      "target": "robert-axelrod",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q44455"
+    },
+    {
+      "source": "Q128736",
+      "target": "Q487453",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q44455"
+    },
+    {
+      "source": "thomas-schelling",
+      "target": "Q40688",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q8134"
+    },
+    {
+      "source": "thomas-schelling",
+      "target": "Q12830",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q8134"
+    },
+    {
+      "source": "thomas-schelling",
+      "target": "Q154356",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q44455"
+    },
+    {
+      "source": "thomas-schelling",
+      "target": "Q244739",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q8134"
+    },
+    {
+      "source": "thomas-schelling",
+      "target": "Q28542",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q8134"
+    },
+    {
+      "source": "thomas-schelling",
+      "target": "Q272510",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q8134"
+    },
+    {
+      "source": "thomas-schelling",
+      "target": "Q268961",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q44455"
+    },
+    {
+      "source": "thomas-schelling",
+      "target": "robert-axelrod",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q44455"
+    },
+    {
+      "source": "thomas-schelling",
+      "target": "Q487453",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q44455"
+    },
+    {
+      "source": "Q40688",
+      "target": "Q12830",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q8134"
+    },
+    {
+      "source": "Q40688",
+      "target": "Q244739",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q8134"
+    },
+    {
+      "source": "Q40688",
+      "target": "Q28542",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q8134"
+    },
+    {
+      "source": "Q40688",
+      "target": "Q272510",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q8134"
+    },
+    {
+      "source": "Q40688",
+      "target": "Q268961",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q44455"
+    },
+    {
+      "source": "Q40688",
+      "target": "robert-axelrod",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q44455"
+    },
+    {
+      "source": "Q40688",
+      "target": "Q487453",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q44455"
+    },
+    {
+      "source": "Q12830",
+      "target": "Q154356",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q395"
+    },
+    {
+      "source": "Q12830",
+      "target": "Q244739",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q395"
+    },
+    {
+      "source": "Q12830",
+      "target": "Q28542",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q8134"
+    },
+    {
+      "source": "Q12830",
+      "target": "Q272510",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q8134"
+    },
+    {
+      "source": "Q12830",
+      "target": "Q268961",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q395"
+    },
+    {
+      "source": "Q12830",
+      "target": "robert-axelrod",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q44455"
+    },
+    {
+      "source": "Q12830",
+      "target": "Q487453",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q44455"
+    },
+    {
+      "source": "Q154356",
+      "target": "Q244739",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q395"
+    },
+    {
+      "source": "Q154356",
+      "target": "Q28542",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q44455"
+    },
+    {
+      "source": "Q154356",
+      "target": "Q272510",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q44455"
+    },
+    {
+      "source": "Q154356",
+      "target": "Q268961",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q395"
+    },
+    {
+      "source": "Q154356",
+      "target": "robert-axelrod",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q44455"
+    },
+    {
+      "source": "Q154356",
+      "target": "Q487453",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q44455"
+    },
+    {
+      "source": "Q244739",
+      "target": "Q28542",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q8134"
+    },
+    {
+      "source": "Q244739",
+      "target": "Q272510",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q8134"
+    },
+    {
+      "source": "Q244739",
+      "target": "Q268961",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q395"
+    },
+    {
+      "source": "Q244739",
+      "target": "robert-axelrod",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q44455"
+    },
+    {
+      "source": "Q244739",
+      "target": "Q487453",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q44455"
+    },
+    {
+      "source": "Q28542",
+      "target": "Q272510",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q8134"
+    },
+    {
+      "source": "Q28542",
+      "target": "Q268961",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q44455"
+    },
+    {
+      "source": "Q28542",
+      "target": "robert-axelrod",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q44455"
+    },
+    {
+      "source": "Q28542",
+      "target": "Q487453",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q44455"
+    },
+    {
+      "source": "Q272510",
+      "target": "Q268961",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q44455"
+    },
+    {
+      "source": "Q272510",
+      "target": "robert-axelrod",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q44455"
+    },
+    {
+      "source": "Q272510",
+      "target": "Q487453",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q44455"
+    },
+    {
+      "source": "Q268961",
+      "target": "robert-axelrod",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q44455"
+    },
+    {
+      "source": "Q268961",
+      "target": "Q487453",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q44455"
+    },
+    {
+      "source": "robert-axelrod",
+      "target": "Q487453",
+      "type": "contemporary_of",
+      "provenance": "derived",
+      "note": "shared field of work: Q44455"
+    }
+  ]
+}

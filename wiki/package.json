@@ -5,8 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "build": "bun run rebuild && astro build && bunx pagefind --site dist",
-    "build:full": "bun run rebuild && bun run wikidata:fetch && bun run graph:merge && astro build && bunx pagefind --site dist",
+    "build": "bun run rebuild && bun run wikidata:fetch && bun run graph:merge && astro build && bunx pagefind --site dist",
     "preview": "astro preview",
     "check": "astro check",
     "rebuild": "bun run scripts/rebuild-index.ts",
