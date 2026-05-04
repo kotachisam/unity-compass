@@ -1,10 +1,11 @@
-import { useEffect, useMemo, useState } from "react"
+import { useEffect, useMemo, useRef, useState } from "react"
 import {
   ReactFlow,
   Background,
   type Node,
   type Edge,
   type NodeMouseHandler,
+  type Viewport,
 } from "@xyflow/react"
 import "@xyflow/react/dist/style.css"
 
@@ -46,8 +47,26 @@ interface MiniGraphIslandProps {
   radius?: number
 }
 
+const NODE_W = 150
+const NODE_H = 50
+const FRAME_HEIGHT = 380
+
 export default function MiniGraphIsland({ slug, radius = 1 }: MiniGraphIslandProps) {
   const [graph, setGraph] = useState<FullGraph | null>(null)
+  const wrapperRef = useRef<HTMLDivElement>(null)
+  const [size, setSize] = useState({ w: 700, h: FRAME_HEIGHT })
+
+  useEffect(() => {
+    if (!wrapperRef.current) return
+    const ro = new ResizeObserver((entries) => {
+      for (const entry of entries) {
+        const { width, height } = entry.contentRect
+        setSize({ w: Math.max(280, width), h: Math.max(220, height) })
+      }
+    })
+    ro.observe(wrapperRef.current)
+    return () => ro.disconnect()
+  }, [])
 
   useEffect(() => {
     fetch("/_full_graph.json")
@@ -158,27 +177,28 @@ export default function MiniGraphIsland({ slug, radius = 1 }: MiniGraphIslandPro
   const ys = Object.values(layout.positions).map((p) => p.y)
   const xSpan = Math.max(1, Math.max(...xs) - Math.min(...xs))
   const ySpan = Math.max(1, Math.max(...ys) - Math.min(...ys))
-  const containerWidth = 700
-  const containerHeight = 380
-  const zoomFit = Math.min(containerWidth / (xSpan + 200), containerHeight / (ySpan + 200), 1)
+  const zoomFit = Math.min(size.w / (xSpan + NODE_W + 100), size.h / (ySpan + NODE_H + 100), 1)
   const zoom = Math.max(0.5, Math.min(0.95, zoomFit))
-  const cx = centrePos?.x ?? 0
-  const cy = centrePos?.y ?? 0
-  const defaultViewport = {
-    x: -cx * zoom + containerWidth / 2,
-    y: -cy * zoom + containerHeight / 2,
+  const cx = (centrePos?.x ?? 0) + NODE_W / 2
+  const cy = (centrePos?.y ?? 0) + NODE_H / 2
+  const defaultViewport: Viewport = {
+    x: size.w / 2 - cx * zoom,
+    y: size.h / 2 - cy * zoom,
     zoom,
   }
 
   return (
-    <div style={{
-      width: "100%",
-      height: 380,
-      border: "1px solid var(--rule-soft)",
-      borderRadius: "var(--r-2)",
-      overflow: "hidden",
-      background: "var(--paper-tint)",
-    }}>
+    <div
+      ref={wrapperRef}
+      style={{
+        width: "100%",
+        height: FRAME_HEIGHT,
+        border: "1px solid var(--rule-soft)",
+        borderRadius: "var(--r-2)",
+        overflow: "hidden",
+        background: "var(--paper-tint)",
+      }}
+    >
       <ReactFlow
         nodes={rfNodes}
         edges={rfEdges}

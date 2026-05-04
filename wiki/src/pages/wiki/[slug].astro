@@ -102,7 +102,13 @@ const sourceRefs = getSourceReferencesForArticle(slug!, stubs)
       </section>
     </article>
 
-    <aside class="wiki-right-sidebar">
+    <aside class="wiki-right-sidebar" data-aside>
+      <div class="wiki-aside-toolbar">
+        <span class="wiki-aside-toolbar-label">Page metadata</span>
+        <button type="button" class="wiki-aside-master-btn" data-aside-toggle aria-expanded="true">
+          Collapse all
+        </button>
+      </div>
       {headings.length > 0 && (
         <details class="wiki-aside-section" open>
           <summary>Contents</summary>
@@ -171,4 +177,33 @@ const sourceRefs = getSourceReferencesForArticle(slug!, stubs)
       </details>
     </aside>
   </div>
+
+  <script is:inline>
+    ;(function () {
+      const aside = document.querySelector("[data-aside]")
+      const btn = document.querySelector("[data-aside-toggle]")
+      if (!aside || !btn) return
+      const sections = aside.querySelectorAll("details.wiki-aside-section")
+
+      function syncLabel() {
+        const anyOpen = Array.from(sections).some((s) => s.open)
+        btn.textContent = anyOpen ? "Collapse all" : "Expand all"
+        btn.setAttribute("aria-expanded", anyOpen ? "true" : "false")
+      }
+
+      btn.addEventListener("click", () => {
+        const anyOpen = Array.from(sections).some((s) => s.open)
+        sections.forEach((s) => {
+          s.open = !anyOpen
+        })
+        syncLabel()
+      })
+
+      sections.forEach((s) =>
+        s.addEventListener("toggle", syncLabel)
+      )
+
+      syncLabel()
+    })()
+  </script>
 </Layout>

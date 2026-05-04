@@ -27,7 +27,9 @@
   --halo: rgba(140, 103, 36, 0.18);
 
   --font-serif: "Spectral", "Iowan Old Style", "Source Serif 4", Georgia, serif;
-  --font-sans: "Public Sans", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+  --font-sans:
+    "Public Sans", -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+    sans-serif;
   --font-mono: "JetBrains Mono", "SF Mono", Menlo, monospace;
 
   --step--1: 0.8125rem;
@@ -162,6 +164,20 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+  scroll-padding-top: 2rem;
+}
+
+@media (max-width: 1023px) {
+  html {
+    scroll-padding-top: calc(var(--topbar-h) + 1.5rem);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }
 
 body {
@@ -197,7 +213,9 @@ a {
   text-decoration-color: var(--gilt-faded);
   text-underline-offset: 0.18em;
   text-decoration-thickness: 1px;
-  transition: color var(--t-fast), text-decoration-color var(--t-fast);
+  transition:
+    color var(--t-fast),
+    text-decoration-color var(--t-fast);
 }
 
 a:hover {
@@ -262,7 +280,9 @@ a:focus-visible {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  transition: background var(--t-fast), border-color var(--t-fast);
+  transition:
+    background var(--t-fast),
+    border-color var(--t-fast);
   font-family: var(--font-sans);
   flex-shrink: 0;
 }
@@ -329,7 +349,9 @@ a:focus-visible {
     width: min(20rem, 86vw);
     transform: translateX(-100%);
     transition: transform var(--t-base) var(--ease);
-    box-shadow: 0 0 0 1px var(--rule-soft), 8px 0 32px rgba(0, 0, 0, 0.18);
+    box-shadow:
+      0 0 0 1px var(--rule-soft),
+      8px 0 32px rgba(0, 0, 0, 0.18);
     padding-top: var(--s-5);
   }
 
@@ -411,7 +433,9 @@ a:focus-visible {
   font-size: 1.25rem;
   letter-spacing: 0.02em;
   border: 2px solid var(--gilt);
-  box-shadow: 0 0 0 4px var(--paper-tint), 0 0 0 5px var(--rule-soft);
+  box-shadow:
+    0 0 0 4px var(--paper-tint),
+    0 0 0 5px var(--rule-soft);
   transition: transform var(--t-base) var(--ease);
 }
 
@@ -504,7 +528,9 @@ a:focus-visible {
   color: var(--ink-soft);
   border-radius: var(--r-1);
   text-decoration: none;
-  transition: background var(--t-fast), color var(--t-fast);
+  transition:
+    background var(--t-fast),
+    color var(--t-fast);
 }
 
 .wiki-sidebar-section a:hover {
@@ -646,7 +672,9 @@ a:focus-visible {
   font-weight: 500;
   font-size: 0.8125rem;
   letter-spacing: 0.01em;
-  transition: background var(--t-fast), color var(--t-fast);
+  transition:
+    background var(--t-fast),
+    color var(--t-fast);
   background: transparent;
 }
 
@@ -982,7 +1010,10 @@ a:focus-visible {
   padding: var(--s-1) var(--s-3);
   border-radius: 999px;
   cursor: pointer;
-  transition: background var(--t-fast), color var(--t-fast), border-color var(--t-fast);
+  transition:
+    background var(--t-fast),
+    color var(--t-fast),
+    border-color var(--t-fast);
 }
 
 .wiki-aside-master-btn:hover {
@@ -1120,7 +1151,9 @@ a:focus-visible {
   font-size: 0.8125rem;
   text-decoration: none;
   border-radius: var(--r-1);
-  transition: background var(--t-fast), color var(--t-fast);
+  transition:
+    background var(--t-fast),
+    color var(--t-fast);
 }
 
 .wiki-aside-toc a:hover,
@@ -1264,7 +1297,10 @@ a:focus-visible {
   border-radius: 999px;
   color: var(--ink-soft);
   text-decoration: none;
-  transition: background var(--t-fast), color var(--t-fast), border-color var(--t-fast);
+  transition:
+    background var(--t-fast),
+    color var(--t-fast),
+    border-color var(--t-fast);
 }
 
 .wiki-categories a:hover {
@@ -1730,7 +1766,9 @@ a:focus-visible {
   border: 1px solid var(--rule-soft);
   border-radius: var(--r-2);
   text-decoration: none;
-  transition: background var(--t-fast), color var(--t-fast);
+  transition:
+    background var(--t-fast),
+    color var(--t-fast);
 }
 
 .graph-back-fab:hover {
@@ -1761,8 +1799,23 @@ a:focus-visible {
   cursor: pointer;
   font-family: var(--font-sans);
   font-size: 0.875rem;
-  transition: background var(--t-fast), color var(--t-fast);
+  transition:
+    background var(--t-fast),
+    color var(--t-fast);
   flex-shrink: 0;
+}
+
+.wiki-theme-toggle svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
+}
+
+@media (max-width: 1023px) {
+  .wiki-theme-toggle svg {
+    width: 1.125rem;
+    height: 1.125rem;
+  }
 }
 
 .wiki-theme-toggle:hover {
