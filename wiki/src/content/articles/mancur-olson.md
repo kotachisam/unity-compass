@@ -1,12 +1,24 @@
 ---
 title: Mancur Olson
 type: person
-created: 2026-04-06
-last_updated: 2026-04-06
-related: ["Coordination Without Convergence", "Elinor Ostrom", "Thomas Schelling"]
-sources: ["Olson 1965"]
-tags: [person, collective-action, free-riding, political-economy]
-description: Political economist who demonstrated that shared interests do not reliably produce collective action. His work grounds the investigation's claim that value convergence is not sufficient for coordination.
+created: 2026-04-06T00:00:00.000Z
+last_updated: 2026-04-06T00:00:00.000Z
+related:
+  - Coordination Without Convergence
+  - Elinor Ostrom
+  - Thomas Schelling
+sources:
+  - Olson 1965
+tags:
+  - person
+  - collective-action
+  - free-riding
+  - political-economy
+description: >-
+  Political economist who demonstrated that shared interests do not reliably
+  produce collective action. His work grounds the investigation's claim that
+  value convergence is not sufficient for coordination.
+wikidata_qid: Q519898
 ---
 
 **Mancur Olson** (1932-1998) was an American political economist whose *The Logic of Collective Action* (1965) demonstrated that shared interests do not reliably produce collective coordination.

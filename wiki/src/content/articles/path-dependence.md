@@ -1,12 +1,25 @@
 ---
 title: Path Dependence
 type: concept
-created: 2026-04-06
-last_updated: 2026-04-06
-related: ["Coordination Without Convergence", "Fukushima Daiichi"]
-sources: ["Pierson 2004"]
-tags: [concept, institutions, barriers, reform, increasing-returns]
-description: The structural barrier whereby institutions resist change because the longer they operate under given assumptions, the more costly it becomes to switch. Identified in the investigation as one of five compound barriers to coordination reform.
+created: 2026-04-06T00:00:00.000Z
+last_updated: 2026-04-06T00:00:00.000Z
+related:
+  - Coordination Without Convergence
+  - Fukushima Daiichi
+sources:
+  - Pierson 2004
+tags:
+  - concept
+  - institutions
+  - barriers
+  - reform
+  - increasing-returns
+description: >-
+  The structural barrier whereby institutions resist change because the longer
+  they operate under given assumptions, the more costly it becomes to switch.
+  Identified in the investigation as one of five compound barriers to
+  coordination reform.
+wikidata_qid: Q1093521
 ---
 
 **Path dependence** describes the structural tendency of institutions to resist change even when the people inside them recognise the need for it. The investigation identifies it as one of five compound barriers to coordination reform, and the one most directly connected to the philosophical inheritance that narrowed what "rational coordination" could mean.

@@ -1,12 +1,28 @@
 ---
 title: Logos
 type: concept
-created: 2026-04-06
-last_updated: 2026-04-06
-related: ["Heraclitus", "Value Incommensurability", "Coordination Without Convergence", "Game Theory"]
-sources: ["Robinson 1987", "Norton 2024"]
-tags: [philosophy, logos, reason, narrowing, heraclitus, core-concept]
-description: Ancient Greek concept of cosmic ordering principle. The investigation argues that the progressive narrowing of logos to formal logic is upstream of coordination theory's incompleteness.
+created: 2026-04-06T00:00:00.000Z
+last_updated: 2026-04-06T00:00:00.000Z
+related:
+  - Heraclitus
+  - Value Incommensurability
+  - Coordination Without Convergence
+  - Game Theory
+sources:
+  - Robinson 1987
+  - Norton 2024
+tags:
+  - philosophy
+  - logos
+  - reason
+  - narrowing
+  - heraclitus
+  - core-concept
+description: >-
+  Ancient Greek concept of cosmic ordering principle. The investigation argues
+  that the progressive narrowing of logos to formal logic is upstream of
+  coordination theory's incompleteness.
+wikidata_qid: Q180832
 ---
 
 **Logos** is an ancient Greek term that originally meant something far richer than what is now called logic. For [[Heraclitus]], it was a cosmic ordering principle that included the capacity to hold opposites in tension without forcing resolution. The investigation identifies the progressive narrowing of logos to formal logic as the primary point of observation connecting the multiple factors that make coordination theory incomplete.

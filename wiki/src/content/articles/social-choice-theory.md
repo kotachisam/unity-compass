@@ -1,12 +1,27 @@
 ---
 title: Social Choice Theory
 type: theory
-created: 2026-04-06
-last_updated: 2026-04-06
-related: ["Game Theory", "Value Incommensurability", "Mechanism Design", "Richard Bradley"]
-sources: ["Arrow 1951", "Sen 1970"]
-tags: [theory, formal-methods, voting, aggregation, impossibility]
-description: The mathematical study of how individual preferences can be aggregated into collective decisions. Its impossibility results set formal limits on what coordination mechanisms can achieve.
+created: 2026-04-06T00:00:00.000Z
+last_updated: 2026-04-06T00:00:00.000Z
+related:
+  - Game Theory
+  - Value Incommensurability
+  - Mechanism Design
+  - Richard Bradley
+sources:
+  - Arrow 1951
+  - Sen 1970
+tags:
+  - theory
+  - formal-methods
+  - voting
+  - aggregation
+  - impossibility
+description: >-
+  The mathematical study of how individual preferences can be aggregated into
+  collective decisions. Its impossibility results set formal limits on what
+  coordination mechanisms can achieve.
+wikidata_qid: Q1971461
 ---
 
 **Social choice theory** asks how individual preferences can be aggregated into collective decisions. It is the formal foundation for voting systems, welfare economics and democratic theory. Its most famous results are proofs of impossibility, which set hard limits on what any coordination mechanism can achieve.

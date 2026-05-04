@@ -1,12 +1,26 @@
 ---
 title: Restorative Justice
 type: concept
-created: 2026-04-06
-last_updated: 2026-04-06
-related: ["Coordination Without Convergence", "Value Incommensurability", "Structural Interdependence"]
-sources: ["Sherman and Strang 2007", "Strang et al 2013"]
-tags: [concept, coordination, justice, practice, interpersonal]
-description: Coordination between people who share nothing but consequences. Demonstrates that coordination across the most extreme difference is possible when the process is structured to make room for what formal theory excludes.
+created: 2026-04-06T00:00:00.000Z
+last_updated: 2026-04-06T00:00:00.000Z
+related:
+  - Coordination Without Convergence
+  - Value Incommensurability
+  - Structural Interdependence
+sources:
+  - Sherman and Strang 2007
+  - Strang et al 2013
+tags:
+  - concept
+  - coordination
+  - justice
+  - practice
+  - interpersonal
+description: >-
+  Coordination between people who share nothing but consequences. Demonstrates
+  that coordination across the most extreme difference is possible when the
+  process is structured to make room for what formal theory excludes.
+wikidata_qid: Q1165392
 ---
 
 **Restorative justice** brings together victims, offenders and affected community members to address the harm caused by a crime through dialogue rather than punishment. It is coordination across the most extreme difference imaginable: participants who share no values, no relationship, no mutual goodwill and often no desire to be in the same room. What they share is consequences.

@@ -1,12 +1,25 @@
 ---
 title: Daniel Schmachtenberger
 type: person
-created: 2026-04-06
-last_updated: 2026-04-06
-related: ["Coordination Without Convergence", "Game Theory", "Value Incommensurability"]
-sources: ["Consilience Project"]
-tags: [person, metacrisis, coordination, systems-thinking, diagnostics]
-description: Systems thinker whose "metacrisis" framework is the closest existing project to the Unity Compass investigation in diagnostic scope. Stronger on diagnosis than prescription.
+created: 2026-04-06T00:00:00.000Z
+last_updated: 2026-04-06T00:00:00.000Z
+related:
+  - Coordination Without Convergence
+  - Game Theory
+  - Value Incommensurability
+sources:
+  - Consilience Project
+tags:
+  - person
+  - metacrisis
+  - coordination
+  - systems-thinking
+  - diagnostics
+description: >-
+  Systems thinker whose "metacrisis" framework is the closest existing project
+  to the Unity Compass investigation in diagnostic scope. Stronger on diagnosis
+  than prescription.
+wikidata_qid: Q110189381
 ---
 
 **Daniel Schmachtenberger** is an American systems thinker and social philosopher associated with the Consilience Project. His "metacrisis" framing is identified in the investigation as the closest existing work to its own diagnostic scope.

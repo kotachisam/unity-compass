@@ -1,12 +1,30 @@
 ---
 title: Game Theory
 type: theory
-created: 2026-04-06
-last_updated: 2026-04-06
-related: ["Evolutionary Game Theory", "Robert Axelrod", "Thomas Schelling", "Mechanism Design", "Social Choice Theory", "Value Incommensurability"]
-sources: ["Axelrod 1984", "Schelling 1960", "Colman 2003"]
-tags: [theory, formal-methods, strategic-interaction, RAND, assumptions]
-description: The dominant formal framework for analysing strategic interaction. The investigation builds on its vocabulary while identifying four foundational assumptions that break under value incommensurability.
+created: 2026-04-06T00:00:00.000Z
+last_updated: 2026-04-06T00:00:00.000Z
+related:
+  - Evolutionary Game Theory
+  - Robert Axelrod
+  - Thomas Schelling
+  - Mechanism Design
+  - Social Choice Theory
+  - Value Incommensurability
+sources:
+  - Axelrod 1984
+  - Schelling 1960
+  - Colman 2003
+tags:
+  - theory
+  - formal-methods
+  - strategic-interaction
+  - RAND
+  - assumptions
+description: >-
+  The dominant formal framework for analysing strategic interaction. The
+  investigation builds on its vocabulary while identifying four foundational
+  assumptions that break under value incommensurability.
+wikidata_qid: Q44455
 ---
 
 **Game theory** is the mathematical study of strategic interaction between rational agents. It is the dominant formal framework for analysing coordination and the parent discipline of much of the theory the investigation engages with, including [[Evolutionary Game Theory]], [[Mechanism Design]] and [[Social Choice Theory]].

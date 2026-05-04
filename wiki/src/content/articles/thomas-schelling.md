@@ -1,12 +1,26 @@
 ---
 title: Thomas Schelling
 type: person
-created: 2026-04-06
-last_updated: 2026-04-06
-related: ["Coordination Without Convergence", "Robert Axelrod", "Evolutionary Game Theory", "Value Incommensurability"]
-sources: ["Schelling 1960"]
-tags: [person, game-theory, focal-points, coordination, salience]
-description: Economist and Nobel laureate whose work on focal points demonstrated that coordination can emerge through structural salience without shared values or communication.
+created: 2026-04-06T00:00:00.000Z
+last_updated: 2026-04-06T00:00:00.000Z
+related:
+  - Coordination Without Convergence
+  - Robert Axelrod
+  - Evolutionary Game Theory
+  - Value Incommensurability
+sources:
+  - Schelling 1960
+tags:
+  - person
+  - game-theory
+  - focal-points
+  - coordination
+  - salience
+description: >-
+  Economist and Nobel laureate whose work on focal points demonstrated that
+  coordination can emerge through structural salience without shared values or
+  communication.
+wikidata_qid: Q206460
 ---
 
 **Thomas Schelling** (1921-2016) was an American economist and Nobel laureate whose [*The Strategy of Conflict*](https://www.hup.harvard.edu/books/9780674840317) (1960) introduced the concept of focal points to coordination theory.

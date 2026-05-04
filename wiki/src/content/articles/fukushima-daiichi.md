@@ -1,12 +1,27 @@
 ---
 title: Fukushima Daiichi
 type: case-study
-created: 2026-04-06
-last_updated: 2026-04-06
-related: ["AUKUS", "Coordination Without Convergence", "Game Theory"]
-sources: ["Kurokawa 2012", "Norton 2016"]
-tags: [case-study, coordination-failure, nuclear, information-distortion, capture, japan]
-description: The 2011 nuclear disaster as a case study in compounding coordination failure modes. Information distortion, regulatory capture, path dependence and the suppression of situated judgment.
+created: 2026-04-06T00:00:00.000Z
+last_updated: 2026-04-06T00:00:00.000Z
+related:
+  - AUKUS
+  - Coordination Without Convergence
+  - Game Theory
+sources:
+  - Kurokawa 2012
+  - Norton 2016
+tags:
+  - case-study
+  - coordination-failure
+  - nuclear
+  - information-distortion
+  - capture
+  - japan
+description: >-
+  The 2011 nuclear disaster as a case study in compounding coordination failure
+  modes. Information distortion, regulatory capture, path dependence and the
+  suppression of situated judgment.
+wikidata_qid: Q171178
 ---
 
 The **Fukushima Daiichi** nuclear disaster (March 2011) resulted from a magnitude 9.0 earthquake and subsequent tsunami overwhelming a nuclear power station whose sea wall was inadequate for the threat. The Kurokawa Report concluded that the disaster was "profoundly man-made": the result of institutional failures in oversight, risk communication and regulatory independence.

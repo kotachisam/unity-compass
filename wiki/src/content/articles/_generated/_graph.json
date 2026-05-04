@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-03T15:54:51.232Z",
+  "generated": "2026-05-03T17:28:56.763Z",
   "stats": {
     "nodes": 33,
     "edges": 150,
@@ -21,7 +21,7 @@
       "is_stub": true,
       "in_degree": 0,
       "out_degree": 3,
-      "wikidata_qid": null,
+      "wikidata_qid": "Q1093521",
       "period_year": null,
       "is_ghost": false
     },
@@ -33,7 +33,7 @@
       "is_stub": true,
       "in_degree": 2,
       "out_degree": 3,
-      "wikidata_qid": null,
+      "wikidata_qid": "Q519898",
       "period_year": null,
       "is_ghost": false
     },
@@ -45,7 +45,7 @@
       "is_stub": true,
       "in_degree": 0,
       "out_degree": 3,
-      "wikidata_qid": null,
+      "wikidata_qid": "Q3739250",
       "period_year": null,
       "is_ghost": false
     },
@@ -69,7 +69,7 @@
       "is_stub": false,
       "in_degree": 8,
       "out_degree": 10,
-      "wikidata_qid": null,
+      "wikidata_qid": "Q2298789",
       "period_year": null,
       "is_ghost": false
     },
@@ -81,7 +81,7 @@
       "is_stub": true,
       "in_degree": 4,
       "out_degree": 4,
-      "wikidata_qid": null,
+      "wikidata_qid": "Q7382918",
       "period_year": null,
       "is_ghost": false
     },
@@ -117,7 +117,7 @@
       "is_stub": true,
       "in_degree": 6,
       "out_degree": 3,
-      "wikidata_qid": null,
+      "wikidata_qid": "Q108556886",
       "period_year": null,
       "is_ghost": false
     },
@@ -129,7 +129,7 @@
       "is_stub": true,
       "in_degree": 0,
       "out_degree": 4,
-      "wikidata_qid": null,
+      "wikidata_qid": "Q1165392",
       "period_year": null,
       "is_ghost": false
     },
@@ -141,7 +141,7 @@
       "is_stub": false,
       "in_degree": 7,
       "out_degree": 7,
-      "wikidata_qid": null,
+      "wikidata_qid": "Q58449111",
       "period_year": null,
       "is_ghost": false
     },
@@ -165,7 +165,7 @@
       "is_stub": true,
       "in_degree": 2,
       "out_degree": 6,
-      "wikidata_qid": null,
+      "wikidata_qid": "Q180832",
       "period_year": null,
       "is_ghost": false
     },
@@ -201,7 +201,7 @@
       "is_stub": true,
       "in_degree": 4,
       "out_degree": 5,
-      "wikidata_qid": null,
+      "wikidata_qid": "Q206460",
       "period_year": null,
       "is_ghost": false
     },
@@ -225,7 +225,7 @@
       "is_stub": true,
       "in_degree": 3,
       "out_degree": 4,
-      "wikidata_qid": null,
+      "wikidata_qid": "Q26090",
       "period_year": null,
       "is_ghost": false
     },
@@ -261,7 +261,7 @@
       "is_stub": true,
       "in_degree": 1,
       "out_degree": 3,
-      "wikidata_qid": null,
+      "wikidata_qid": "Q41155",
       "period_year": null,
       "is_ghost": false
     },
@@ -273,7 +273,7 @@
       "is_stub": true,
       "in_degree": 1,
       "out_degree": 2,
-      "wikidata_qid": null,
+      "wikidata_qid": "Q171178",
       "period_year": null,
       "is_ghost": false
     },
@@ -285,7 +285,7 @@
       "is_stub": true,
       "in_degree": 4,
       "out_degree": 5,
-      "wikidata_qid": null,
+      "wikidata_qid": "Q583438",
       "period_year": null,
       "is_ghost": false
     },
@@ -297,7 +297,7 @@
       "is_stub": true,
       "in_degree": 3,
       "out_degree": 5,
-      "wikidata_qid": null,
+      "wikidata_qid": "Q1971461",
       "period_year": null,
       "is_ghost": false
     },
@@ -309,7 +309,7 @@
       "is_stub": true,
       "in_degree": 0,
       "out_degree": 3,
-      "wikidata_qid": null,
+      "wikidata_qid": "Q110189381",
       "period_year": null,
       "is_ghost": false
     },
@@ -321,7 +321,7 @@
       "is_stub": true,
       "in_degree": 0,
       "out_degree": 4,
-      "wikidata_qid": null,
+      "wikidata_qid": "Q219438",
       "period_year": null,
       "is_ghost": false
     },
@@ -369,7 +369,7 @@
       "is_stub": true,
       "in_degree": 6,
       "out_degree": 7,
-      "wikidata_qid": null,
+      "wikidata_qid": "Q44455",
       "period_year": null,
       "is_ghost": false
     },
@@ -405,7 +405,7 @@
       "is_stub": true,
       "in_degree": 3,
       "out_degree": 3,
-      "wikidata_qid": null,
+      "wikidata_qid": "Q153761",
       "period_year": null,
       "is_ghost": false
     }

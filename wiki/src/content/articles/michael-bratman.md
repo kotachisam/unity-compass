@@ -1,12 +1,27 @@
 ---
 title: Michael Bratman
 type: person
-created: 2026-04-06
-last_updated: 2026-04-06
-related: ["Coordination Without Convergence", "Structural Interdependence", "Value Incommensurability"]
-sources: ["Bratman 1992", "Bratman 2014"]
-tags: [person, philosophy, shared-intention, collective-agency, planning-theory]
-description: Philosopher whose shared cooperative activity theory is the primary alternative account of what grounds coordination. The investigation argues structural interdependence can explain why Bratman's conditions succeed when they do.
+created: 2026-04-06T00:00:00.000Z
+last_updated: 2026-04-06T00:00:00.000Z
+related:
+  - Coordination Without Convergence
+  - Structural Interdependence
+  - Value Incommensurability
+sources:
+  - Bratman 1992
+  - Bratman 2014
+tags:
+  - person
+  - philosophy
+  - shared-intention
+  - collective-agency
+  - planning-theory
+description: >-
+  Philosopher whose shared cooperative activity theory is the primary
+  alternative account of what grounds coordination. The investigation argues
+  structural interdependence can explain why Bratman's conditions succeed when
+  they do.
+wikidata_qid: Q3739250
 ---
 
 **Michael Bratman** is an American philosopher at Stanford University whose work on shared intention and shared cooperative activity provides the primary alternative account of coordination grounding that the investigation positions itself against.

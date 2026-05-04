@@ -1,12 +1,25 @@
 ---
 title: AUKUS
 type: case-study
-created: 2026-04-06
-last_updated: 2026-04-06
-related: ["Coordination Without Convergence", "Structural Interdependence", "Value Incommensurability"]
-sources: ["AUKUS Joint Leaders Statement 2021"]
-tags: [case-study, defence, coordination, trilateral, primary-domain]
-description: Trilateral security partnership between Australia, UK and USA. The investigation's primary case study for testing coordination without convergence.
+created: 2026-04-06T00:00:00.000Z
+last_updated: 2026-04-06T00:00:00.000Z
+related:
+  - Coordination Without Convergence
+  - Structural Interdependence
+  - Value Incommensurability
+sources:
+  - AUKUS Joint Leaders Statement 2021
+tags:
+  - case-study
+  - defence
+  - coordination
+  - trilateral
+  - primary-domain
+description: >-
+  Trilateral security partnership between Australia, UK and USA. The
+  investigation's primary case study for testing coordination without
+  convergence.
+wikidata_qid: Q108556886
 ---
 
 **AUKUS** is a trilateral security partnership between Australia, the United Kingdom and the United States, announced in September 2021. Pillar I involves Australia acquiring nuclear-powered submarines through an unprecedented technology-sharing arrangement. Pillar II covers advanced capabilities including AI, quantum computing, cyber and undersea technologies.

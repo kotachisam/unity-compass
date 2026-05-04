@@ -1,12 +1,42 @@
 ---
 title: Evolutionary Game Theory
 type: theory
-created: 2026-04-06
-last_updated: 2026-04-06
-related: ["J. McKenzie Alexander", "Coordination Without Convergence", "Structural Interdependence", "Elinor Ostrom", "Game Theory", "Value Incommensurability", "Nowak and May (1992)", "Ruth Chang", "Robert Axelrod"]
-sources: ["Alexander 2021", "Alexander 2023", "Alexander 2007", "Axelrod 1984", "Maynard Smith 1982", "Maynard Smith and Price 1973", "Taylor and Jonker 1978", "Nowak and May 1992", "Weibull 1995"]
-tags: [game-theory, evolution, norms, stability, formal-methods, replicator-dynamics, ESS]
-description: The study of strategic interaction as a dynamic, population-level process. Extends classical game theory by replacing rational deliberation with differential replication, but retains the requirement for commensurable payoffs that the investigation identifies as a boundary condition.
+created: 2026-04-06T00:00:00.000Z
+last_updated: 2026-04-06T00:00:00.000Z
+related:
+  - J. McKenzie Alexander
+  - Coordination Without Convergence
+  - Structural Interdependence
+  - Elinor Ostrom
+  - Game Theory
+  - Value Incommensurability
+  - Nowak and May (1992)
+  - Ruth Chang
+  - Robert Axelrod
+sources:
+  - Alexander 2021
+  - Alexander 2023
+  - Alexander 2007
+  - Axelrod 1984
+  - Maynard Smith 1982
+  - Maynard Smith and Price 1973
+  - Taylor and Jonker 1978
+  - Nowak and May 1992
+  - Weibull 1995
+tags:
+  - game-theory
+  - evolution
+  - norms
+  - stability
+  - formal-methods
+  - replicator-dynamics
+  - ESS
+description: >-
+  The study of strategic interaction as a dynamic, population-level process.
+  Extends classical game theory by replacing rational deliberation with
+  differential replication, but retains the requirement for commensurable
+  payoffs that the investigation identifies as a boundary condition.
+wikidata_qid: Q2298789
 ---
 
 **Evolutionary game theory** (EGT) applies the mathematical framework of [[Game Theory]] to populations of agents whose strategies change over time through selection, imitation or learning rather than through rational deliberation. Where classical game theory asks what a rational agent *should* do given full knowledge of the game, EGT asks what strategies *survive and spread* when agents interact repeatedly and the population composition evolves in response to relative success (Alexander 2021, Introduction; Maynard Smith 1982).

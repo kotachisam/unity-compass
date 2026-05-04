@@ -1,12 +1,27 @@
 ---
 title: Robert Axelrod
 type: person
-created: 2026-04-06
-last_updated: 2026-04-06
-related: ["Evolutionary Game Theory", "Thomas Schelling", "Elinor Ostrom", "Coordination Without Convergence"]
-sources: ["Axelrod 1984"]
-tags: [person, game-theory, cooperation, tournaments, tit-for-tat]
-description: Political scientist whose iterated prisoner's dilemma tournaments demonstrated that cooperation can emerge without central authority. His four conditions for cooperation are a key reference point the investigation builds on and identifies limitations of.
+created: 2026-04-06T00:00:00.000Z
+last_updated: 2026-04-06T00:00:00.000Z
+related:
+  - Evolutionary Game Theory
+  - Thomas Schelling
+  - Elinor Ostrom
+  - Coordination Without Convergence
+sources:
+  - Axelrod 1984
+tags:
+  - person
+  - game-theory
+  - cooperation
+  - tournaments
+  - tit-for-tat
+description: >-
+  Political scientist whose iterated prisoner's dilemma tournaments demonstrated
+  that cooperation can emerge without central authority. His four conditions for
+  cooperation are a key reference point the investigation builds on and
+  identifies limitations of.
+wikidata_qid: Q583438
 ---
 
 **Robert Axelrod** is an American political scientist at the University of Michigan whose work on the evolution of cooperation is foundational to the investigation's engagement with [[Evolutionary Game Theory]].

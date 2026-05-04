@@ -1,12 +1,25 @@
 ---
 title: Ruth Chang
 type: person
-created: 2026-04-06
-last_updated: 2026-04-06
-related: ["Value Incommensurability", "Coordination Without Convergence"]
-sources: ["Chang 2002", "Chang 2017"]
-tags: [person, philosophy, incommensurability, parity, practical-reason]
-description: Philosopher of practical reason. Her work on hard choices and parity provides the philosophical framework for value incommensurability the investigation builds on.
+created: 2026-04-06T00:00:00.000Z
+last_updated: 2026-04-06T00:00:00.000Z
+related:
+  - Value Incommensurability
+  - Coordination Without Convergence
+sources:
+  - Chang 2002
+  - Chang 2017
+tags:
+  - person
+  - philosophy
+  - incommensurability
+  - parity
+  - practical-reason
+description: >-
+  Philosopher of practical reason. Her work on hard choices and parity provides
+  the philosophical framework for value incommensurability the investigation
+  builds on.
+wikidata_qid: Q7382918
 ---
 
 **Ruth Chang** is a philosopher specialising in practical reason, value theory and normativity. She is currently Professor of Jurisprudence at the University of Oxford. Her work on hard choices and the concept of parity is foundational to the investigation's treatment of [[Value Incommensurability]].

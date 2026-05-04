@@ -28,7 +28,7 @@ interface SearchResult {
 }
 
 async function searchEntities(query: string): Promise<SearchResult[]> {
-  const url = `${SEARCH_API}?action=wbsearchentities&search=${encodeURIComponent(query)}&language=en&format=json&limit=5&origin=*`
+  const url = `${SEARCH_API}?action=wbsearchentities&search=${encodeURIComponent(query)}&language=en&format=json&limit=15&origin=*`
   const res = await fetch(url, { headers: { "User-Agent": "unity-compass-wiki/0.1 (samuelknorton@gmail.com)" } })
   if (!res.ok) throw new Error(`Wikidata search failed for "${query}": ${res.status}`)
   const json = (await res.json()) as { search: SearchResult[] }
@@ -78,7 +78,7 @@ async function processOne(slug: string, title: string, type: string): Promise<{
     console.error(`  claims error for ${title}:`, e instanceof Error ? e.message : e)
   }
 
-  const results = candidates.map((c) => {
+  const enriched = candidates.map((c, originalIdx) => {
     const inst = claimsMap[c.id] ?? []
     const matchesType = hint ? inst.some((i) => hint.instanceOf.includes(i)) : false
     return {
@@ -87,7 +87,13 @@ async function processOne(slug: string, title: string, type: string): Promise<{
       desc: c.description ?? "",
       instanceOf: inst,
       matches_type: matchesType,
+      originalIdx,
     }
+  })
+
+  const results = [...enriched].sort((a, b) => {
+    if (a.matches_type !== b.matches_type) return a.matches_type ? -1 : 1
+    return a.originalIdx - b.originalIdx
   })
 
   const exactTitle = title.toLowerCase()

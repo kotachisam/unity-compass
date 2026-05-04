@@ -1,12 +1,30 @@
 ---
 title: Richard Bradley
 type: person
-created: 2026-04-06
-last_updated: 2026-04-10
-related: ["Decision Theory Under Severe Uncertainty", "Structural Interdependence", "J. McKenzie Alexander", "Value Incommensurability", "Incomplete Preferences", "Parity"]
-sources: ["Bradley 2017", "Bradley 2022", "Bradley and Stefánsson 2019", "wiki/sources/P1/bradley/bradley-2022-impartial-evaluation-under-ambiguity.md"]
-tags: [person, lse, supervisor-target, decision-theory, philosophy]
-description: Professor of Philosophy at LSE. Target supervisor for the doctoral research. Specialist in decision theory, formal epistemology and social choice.
+created: 2026-04-06T00:00:00.000Z
+last_updated: 2026-04-10T00:00:00.000Z
+related:
+  - Decision Theory Under Severe Uncertainty
+  - Structural Interdependence
+  - J. McKenzie Alexander
+  - Value Incommensurability
+  - Incomplete Preferences
+  - Parity
+sources:
+  - Bradley 2017
+  - Bradley 2022
+  - Bradley and Stefánsson 2019
+  - wiki/sources/P1/bradley/bradley-2022-impartial-evaluation-under-ambiguity.md
+tags:
+  - person
+  - lse
+  - supervisor-target
+  - decision-theory
+  - philosophy
+description: >-
+  Professor of Philosophy at LSE. Target supervisor for the doctoral research.
+  Specialist in decision theory, formal epistemology and social choice.
+wikidata_qid: Q58449111
 ---
 
 **Richard Bradley** is Professor of Philosophy at the London School of Economics and Political Science. His research focuses on decision theory, formal epistemology, social choice, scientific uncertainty and conditionals.

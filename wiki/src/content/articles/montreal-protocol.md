@@ -1,12 +1,27 @@
 ---
 title: Montreal Protocol
 type: case-study
-created: 2026-04-06
-last_updated: 2026-04-06
-related: ["Coordination Without Convergence", "Elinor Ostrom", "AUKUS", "Structural Interdependence"]
-sources: ["Benedick 1991"]
-tags: [case-study, coordination-success, international, ozone, assurance-game]
-description: The 1987 international agreement to phase out ozone-depleting substances. Widely regarded as the most successful international environmental agreement and the investigation's strongest evidence for planetary-scale coordination without convergence.
+created: 2026-04-06T00:00:00.000Z
+last_updated: 2026-04-06T00:00:00.000Z
+related:
+  - Coordination Without Convergence
+  - Elinor Ostrom
+  - AUKUS
+  - Structural Interdependence
+sources:
+  - Benedick 1991
+tags:
+  - case-study
+  - coordination-success
+  - international
+  - ozone
+  - assurance-game
+description: >-
+  The 1987 international agreement to phase out ozone-depleting substances.
+  Widely regarded as the most successful international environmental agreement
+  and the investigation's strongest evidence for planetary-scale coordination
+  without convergence.
+wikidata_qid: Q219438
 ---
 
 The **Montreal Protocol** (1987) coordinated 197 nations to phase out ozone-depleting substances. The ozone layer is measurably recovering. No comparable climate agreement has achieved equivalent results. The investigation treats it as the strongest available evidence that coordination across genuine difference at planetary scale is possible.

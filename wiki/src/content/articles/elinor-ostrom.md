@@ -1,12 +1,24 @@
 ---
 title: Elinor Ostrom
 type: person
-created: 2026-04-06
-last_updated: 2026-04-06
-related: ["Coordination Without Convergence", "Evolutionary Game Theory", "AUKUS"]
-sources: ["Ostrom 1990"]
-tags: [person, commons, governance, institutional-design, political-economy]
-description: Nobel Prize-winning political economist. Her work on commons governance provides the most empirically grounded coordination research in existence.
+created: 2026-04-06T00:00:00.000Z
+last_updated: 2026-04-06T00:00:00.000Z
+related:
+  - Coordination Without Convergence
+  - Evolutionary Game Theory
+  - AUKUS
+sources:
+  - Ostrom 1990
+tags:
+  - person
+  - commons
+  - governance
+  - institutional-design
+  - political-economy
+description: >-
+  Nobel Prize-winning political economist. Her work on commons governance
+  provides the most empirically grounded coordination research in existence.
+wikidata_qid: Q153761
 ---
 
 **Elinor Ostrom** (1933-2012) was an American political economist who received the Nobel Memorial Prize in Economic Sciences in 2009 for her work demonstrating that communities can and do successfully manage shared resources without either privatisation or state control.
