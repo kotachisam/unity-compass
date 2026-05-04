@@ -3,6 +3,9 @@ title: Heraclitus
 type: person
 created: 2026-04-06T00:00:00.000Z
 last_updated: 2026-04-06T00:00:00.000Z
+period:
+  birth: -535
+  death: -475
 related:
   - Logos
   - Value Incommensurability

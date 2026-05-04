@@ -49,10 +49,20 @@ interface NeighbourRaw {
   field_of_work_qids: string[]
 }
 
+interface SeedMetadata {
+  qid: string
+  label: string
+  description: string
+  birth_year: number | null
+  death_year: number | null
+  sitelinks: number
+}
+
 interface QidCache {
   qid: string
   fetched: string
   neighbours: NeighbourRaw[]
+  seed?: SeedMetadata
 }
 
 interface SparqlBinding {
@@ -110,6 +120,41 @@ function parseYear(date: string | undefined): number | null {
   if (!m) return null
   const sign = m[1] === "-" ? -1 : 1
   return sign * Number(m[2])
+}
+
+async function querySeedMetadata(qid: string): Promise<SeedMetadata | null> {
+  const sparql = `SELECT ?label ?description ?birth ?death ?sitelinks WHERE {
+    BIND(wd:${qid} AS ?seed)
+    OPTIONAL { ?seed wdt:P569 ?birth . }
+    OPTIONAL { ?seed wdt:P570 ?death . }
+    OPTIONAL { ?seed wikibase:sitelinks ?sitelinks . }
+    SERVICE wikibase:label { bd:serviceParam wikibase:language "en" .
+      ?seed rdfs:label ?label .
+      ?seed schema:description ?description .
+    }
+  } LIMIT 1`
+  const body = new URLSearchParams({ query: sparql, format: "json" })
+  const res = await fetch(SPARQL_URL, {
+    method: "POST",
+    headers: {
+      "User-Agent": USER_AGENT,
+      "Content-Type": "application/x-www-form-urlencoded",
+      Accept: "application/sparql-results+json",
+    },
+    body: body.toString(),
+  })
+  if (!res.ok) return null
+  const json = (await res.json()) as { results: { bindings: Array<{ label?: SparqlBinding; description?: SparqlBinding; birth?: SparqlBinding; death?: SparqlBinding; sitelinks?: SparqlBinding }> } }
+  const row = json.results.bindings[0]
+  if (!row) return null
+  return {
+    qid,
+    label: row.label?.value ?? qid,
+    description: row.description?.value ?? "",
+    birth_year: parseYear(row.birth?.value),
+    death_year: parseYear(row.death?.value),
+    sitelinks: row.sitelinks ? Number(row.sitelinks.value) : 0,
+  }
 }
 
 async function querySparql(qid: string): Promise<SparqlRow[]> {
@@ -182,14 +227,17 @@ function isFresh(cachePath: string): boolean {
 async function fetchOne(qid: string): Promise<QidCache> {
   const cachePath = path.join(cacheDir, `${qid}.json`)
   if (isFresh(cachePath)) {
-    return JSON.parse(fs.readFileSync(cachePath, "utf8")) as QidCache
+    const data = JSON.parse(fs.readFileSync(cachePath, "utf8")) as QidCache
+    if (data.seed) return data
   }
   const rows = await querySparql(qid)
   const neighbours = consolidateRows(rows)
+  const seed = await querySeedMetadata(qid)
   const cache: QidCache = {
     qid,
     fetched: new Date().toISOString(),
     neighbours,
+    ...(seed ? { seed } : {}),
   }
   fs.mkdirSync(cacheDir, { recursive: true })
   fs.writeFileSync(cachePath, JSON.stringify(cache, null, 2))
@@ -222,6 +270,7 @@ interface WikidataIndex {
   ghost_nodes: GhostNode[]
   ghost_edges: GhostEdge[]
   contemporaries: { source: string; target: string; shared_field: string }[]
+  seed_metadata: Record<string, SeedMetadata>
 }
 
 function neighbourToGhostNode(n: NeighbourRaw): GhostNode {
@@ -324,11 +373,20 @@ async function main() {
   }))
   const contemporaries = deriveContemporaries(fieldEnrichedNodes)
 
+  const seedMetadata: Record<string, SeedMetadata> = {}
+  for (const qid of seeds) {
+    const cachePath = path.join(cacheDir, `${qid}.json`)
+    if (!fs.existsSync(cachePath)) continue
+    const data = JSON.parse(fs.readFileSync(cachePath, "utf8")) as QidCache
+    if (data.seed) seedMetadata[qid] = data.seed
+  }
+
   const index: WikidataIndex = {
     generated: new Date().toISOString(),
     ghost_nodes: ghostNodes,
     ghost_edges: ghostEdges,
     contemporaries,
+    seed_metadata: seedMetadata,
   }
   fs.writeFileSync(path.join(generatedDir, "_wikidata.json"), JSON.stringify(index, null, 2))
 

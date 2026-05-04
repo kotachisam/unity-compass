@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-04T08:31:59.505Z",
+  "generated": "2026-05-04T09:56:46.392Z",
   "stats": {
     "total_nodes": 148,
     "absorbed_nodes": 33,
@@ -9,12 +9,12 @@
       "references": 150,
       "contemporary_of": 141,
       "field_of_work": 44,
-      "doctoral_advisor": 21,
+      "doctoral_student": 20,
       "influenced_by": 15,
       "part_of": 12,
       "author_of": 10,
-      "notable_work": 10,
-      "doctoral_student": 9
+      "doctoral_advisor": 10,
+      "notable_work": 10
     },
     "edges_by_provenance": {
       "absorbed": 150,
@@ -40,7 +40,7 @@
       "label": "Mancur Olson",
       "type": "person",
       "is_ghost": false,
-      "period_year": null,
+      "period_year": 1932,
       "word_count": 286,
       "is_stub": true,
       "in_degree": 2,
@@ -52,7 +52,7 @@
       "label": "Michael Bratman",
       "type": "person",
       "is_ghost": false,
-      "period_year": null,
+      "period_year": 1945,
       "word_count": 316,
       "is_stub": true,
       "in_degree": 0,
@@ -148,7 +148,7 @@
       "label": "Richard Bradley",
       "type": "person",
       "is_ghost": false,
-      "period_year": null,
+      "period_year": 1964,
       "word_count": 691,
       "is_stub": false,
       "in_degree": 7,
@@ -208,7 +208,7 @@
       "label": "Thomas Schelling",
       "type": "person",
       "is_ghost": false,
-      "period_year": null,
+      "period_year": 1921,
       "word_count": 292,
       "is_stub": true,
       "in_degree": 4,
@@ -268,7 +268,7 @@
       "label": "Heraclitus",
       "type": "person",
       "is_ghost": false,
-      "period_year": null,
+      "period_year": -534,
       "word_count": 248,
       "is_stub": true,
       "in_degree": 1,
@@ -292,7 +292,7 @@
       "label": "Robert Axelrod",
       "type": "person",
       "is_ghost": false,
-      "period_year": null,
+      "period_year": 1943,
       "word_count": 382,
       "is_stub": true,
       "in_degree": 4,
@@ -412,7 +412,7 @@
       "label": "Elinor Ostrom",
       "type": "person",
       "is_ghost": false,
-      "period_year": null,
+      "period_year": 1933,
       "word_count": 314,
       "is_stub": true,
       "in_degree": 3,
@@ -2741,95 +2741,95 @@
       "property": "P101"
     },
     {
-      "source": "Q1173618",
-      "target": "richard-bradley",
+      "source": "richard-bradley",
+      "target": "Q1173618",
+      "type": "doctoral_advisor",
+      "provenance": "wikidata",
+      "property": "P184"
+    },
+    {
+      "source": "richard-bradley",
+      "target": "Q92567970",
       "type": "doctoral_student",
       "provenance": "wikidata",
       "property": "P185"
     },
     {
-      "source": "Q92567970",
-      "target": "richard-bradley",
-      "type": "doctoral_advisor",
+      "source": "richard-bradley",
+      "target": "Q61161737",
+      "type": "doctoral_student",
       "provenance": "wikidata",
-      "property": "P184"
+      "property": "P185"
     },
     {
-      "source": "Q61161737",
-      "target": "richard-bradley",
-      "type": "doctoral_advisor",
+      "source": "richard-bradley",
+      "target": "Q110620074",
+      "type": "doctoral_student",
       "provenance": "wikidata",
-      "property": "P184"
+      "property": "P185"
     },
     {
-      "source": "Q110620074",
-      "target": "richard-bradley",
-      "type": "doctoral_advisor",
+      "source": "richard-bradley",
+      "target": "Q112601828",
+      "type": "doctoral_student",
       "provenance": "wikidata",
-      "property": "P184"
+      "property": "P185"
     },
     {
-      "source": "Q112601828",
-      "target": "richard-bradley",
-      "type": "doctoral_advisor",
+      "source": "richard-bradley",
+      "target": "Q112601843",
+      "type": "doctoral_student",
       "provenance": "wikidata",
-      "property": "P184"
+      "property": "P185"
     },
     {
-      "source": "Q112601843",
-      "target": "richard-bradley",
-      "type": "doctoral_advisor",
+      "source": "richard-bradley",
+      "target": "Q112812983",
+      "type": "doctoral_student",
       "provenance": "wikidata",
-      "property": "P184"
+      "property": "P185"
     },
     {
-      "source": "Q112812983",
-      "target": "richard-bradley",
-      "type": "doctoral_advisor",
+      "source": "richard-bradley",
+      "target": "Q112894645",
+      "type": "doctoral_student",
       "provenance": "wikidata",
-      "property": "P184"
+      "property": "P185"
     },
     {
-      "source": "Q112894645",
-      "target": "richard-bradley",
-      "type": "doctoral_advisor",
+      "source": "richard-bradley",
+      "target": "Q112958467",
+      "type": "doctoral_student",
       "provenance": "wikidata",
-      "property": "P184"
+      "property": "P185"
     },
     {
-      "source": "Q112958467",
-      "target": "richard-bradley",
-      "type": "doctoral_advisor",
+      "source": "richard-bradley",
+      "target": "Q113109904",
+      "type": "doctoral_student",
       "provenance": "wikidata",
-      "property": "P184"
+      "property": "P185"
     },
     {
-      "source": "Q113109904",
-      "target": "richard-bradley",
-      "type": "doctoral_advisor",
+      "source": "richard-bradley",
+      "target": "Q113150388",
+      "type": "doctoral_student",
       "provenance": "wikidata",
-      "property": "P184"
+      "property": "P185"
     },
     {
-      "source": "Q113150388",
-      "target": "richard-bradley",
-      "type": "doctoral_advisor",
+      "source": "richard-bradley",
+      "target": "Q113196064",
+      "type": "doctoral_student",
       "provenance": "wikidata",
-      "property": "P184"
+      "property": "P185"
     },
     {
-      "source": "Q113196064",
-      "target": "richard-bradley",
-      "type": "doctoral_advisor",
+      "source": "richard-bradley",
+      "target": "Q134284198",
+      "type": "doctoral_student",
       "provenance": "wikidata",
-      "property": "P184"
-    },
-    {
-      "source": "Q134284198",
-      "target": "richard-bradley",
-      "type": "doctoral_advisor",
-      "provenance": "wikidata",
-      "property": "P184"
+      "property": "P185"
     },
     {
       "source": "Q131318771",

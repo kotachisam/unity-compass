@@ -72,7 +72,7 @@ interface GraphEdge {
 }
 
 interface Warning {
-  kind: "missing_target" | "unlinked_related" | "duplicate_link"
+  kind: "missing_target" | "unlinked_related" | "duplicate_link" | "qid_without_period"
   source: string
   detail: string
 }
@@ -170,10 +170,25 @@ function resolveTarget(raw: string): { slug: string; resolved: boolean } {
   return { slug: resolved, resolved: articleSlugs.has(resolved) }
 }
 
+const ENTITY_TYPES_NEEDING_DATES = new Set(["person", "work", "event", "case-study"])
+
 for (const file of files) {
   const sourceSlug = file.replace(".md", "")
   const content = fileContents[sourceSlug]
   const { data } = fileData[sourceSlug]
+
+  if (
+    data.wikidata_qid &&
+    ENTITY_TYPES_NEEDING_DATES.has(data.type) &&
+    !data.period &&
+    !data.date
+  ) {
+    warnings.push({
+      kind: "qid_without_period",
+      source: sourceSlug,
+      detail: `${data.type} has wikidata_qid (${data.wikidata_qid}) but no period/date — graph layout will rely on build-time backfill or neighbour averaging`,
+    })
+  }
 
   const wikilinks = extractWikilinks(content)
   for (const link of wikilinks) {

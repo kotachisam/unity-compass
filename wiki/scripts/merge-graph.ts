@@ -54,11 +54,21 @@ interface GhostEdge {
   note?: string
 }
 
+interface SeedMetadata {
+  qid: string
+  label: string
+  description: string
+  birth_year: number | null
+  death_year: number | null
+  sitelinks: number
+}
+
 interface WikidataIndex {
   generated: string
   ghost_nodes: GhostNode[]
   ghost_edges: GhostEdge[]
   contemporaries: { source: string; target: string; shared_field: string }[]
+  seed_metadata?: Record<string, SeedMetadata>
 }
 
 interface MergedNode {
@@ -98,7 +108,8 @@ if (!fs.existsSync(graphPath)) {
 const absorbed = JSON.parse(fs.readFileSync(graphPath, "utf8")) as AbsorbedGraph
 const wikidata: WikidataIndex = fs.existsSync(wikidataPath)
   ? (JSON.parse(fs.readFileSync(wikidataPath, "utf8")) as WikidataIndex)
-  : { generated: "", ghost_nodes: [], ghost_edges: [], contemporaries: [] }
+  : { generated: "", ghost_nodes: [], ghost_edges: [], contemporaries: [], seed_metadata: {} }
+const seedMeta = wikidata.seed_metadata ?? {}
 
 const qidToSlug = new Map<string, string>()
 for (const n of absorbed.nodes) {
@@ -109,18 +120,29 @@ function remap(id: string): string {
   return qidToSlug.get(id) ?? id
 }
 
-const mergedNodes: MergedNode[] = absorbed.nodes.map((n) => ({
-  id: n.slug,
-  label: n.title,
-  type: n.type,
-  is_ghost: false,
-  period_year: n.period_year,
-  word_count: n.word_count,
-  is_stub: n.is_stub,
-  in_degree: n.in_degree,
-  out_degree: n.out_degree,
-  wikidata_qid: n.wikidata_qid,
-}))
+let backfilled = 0
+const mergedNodes: MergedNode[] = absorbed.nodes.map((n) => {
+  let effectiveYear = n.period_year
+  if (effectiveYear === null && n.wikidata_qid && seedMeta[n.wikidata_qid]) {
+    const meta = seedMeta[n.wikidata_qid]
+    if (meta.birth_year !== null) {
+      effectiveYear = meta.birth_year
+      backfilled++
+    }
+  }
+  return {
+    id: n.slug,
+    label: n.title,
+    type: n.type,
+    is_ghost: false,
+    period_year: effectiveYear,
+    word_count: n.word_count,
+    is_stub: n.is_stub,
+    in_degree: n.in_degree,
+    out_degree: n.out_degree,
+    wikidata_qid: n.wikidata_qid,
+  }
+})
 
 const absorbedQids = new Set(absorbed.nodes.map((n) => n.wikidata_qid).filter(Boolean) as string[])
 
@@ -215,7 +237,11 @@ const fullGraph = {
 
 fs.writeFileSync(path.join(generatedDir, "_full_graph.json"), JSON.stringify(fullGraph, null, 2))
 
-console.log(`Nodes: ${stats.total_nodes} (${stats.absorbed_nodes} absorbed + ${stats.ghost_nodes} ghost)`)
+const publicDir = path.join(__dirname, "..", "public")
+fs.mkdirSync(publicDir, { recursive: true })
+fs.writeFileSync(path.join(publicDir, "_full_graph.json"), JSON.stringify(fullGraph))
+
+console.log(`Nodes: ${stats.total_nodes} (${stats.absorbed_nodes} absorbed + ${stats.ghost_nodes} ghost) — ${backfilled} dates backfilled from Wikidata`)
 console.log(`Edges: ${stats.total_edges}`)
 console.log(`By type: ${Object.entries(stats.edges_by_type).map(([t, n]) => `${t}=${n}`).join(", ")}`)
 console.log(`By provenance: ${Object.entries(stats.edges_by_provenance).map(([p, n]) => `${p}=${n}`).join(", ")}`)

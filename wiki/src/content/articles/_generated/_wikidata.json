@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-04T08:31:59.470Z",
+  "generated": "2026-05-04T09:49:00.549Z",
   "ghost_nodes": [
     {
       "qid": "Q8134",
@@ -1467,95 +1467,95 @@
       "property": "P101"
     },
     {
-      "source": "Q1173618",
-      "target": "Q58449111",
+      "source": "Q58449111",
+      "target": "Q1173618",
+      "type": "doctoral_advisor",
+      "provenance": "wikidata",
+      "property": "P184"
+    },
+    {
+      "source": "Q58449111",
+      "target": "Q92567970",
       "type": "doctoral_student",
       "provenance": "wikidata",
       "property": "P185"
     },
     {
-      "source": "Q92567970",
-      "target": "Q58449111",
-      "type": "doctoral_advisor",
+      "source": "Q58449111",
+      "target": "Q61161737",
+      "type": "doctoral_student",
       "provenance": "wikidata",
-      "property": "P184"
+      "property": "P185"
     },
     {
-      "source": "Q61161737",
-      "target": "Q58449111",
-      "type": "doctoral_advisor",
+      "source": "Q58449111",
+      "target": "Q110620074",
+      "type": "doctoral_student",
       "provenance": "wikidata",
-      "property": "P184"
+      "property": "P185"
     },
     {
-      "source": "Q110620074",
-      "target": "Q58449111",
-      "type": "doctoral_advisor",
+      "source": "Q58449111",
+      "target": "Q112601828",
+      "type": "doctoral_student",
       "provenance": "wikidata",
-      "property": "P184"
+      "property": "P185"
     },
     {
-      "source": "Q112601828",
-      "target": "Q58449111",
-      "type": "doctoral_advisor",
+      "source": "Q58449111",
+      "target": "Q112601843",
+      "type": "doctoral_student",
       "provenance": "wikidata",
-      "property": "P184"
+      "property": "P185"
     },
     {
-      "source": "Q112601843",
-      "target": "Q58449111",
-      "type": "doctoral_advisor",
+      "source": "Q58449111",
+      "target": "Q112812983",
+      "type": "doctoral_student",
       "provenance": "wikidata",
-      "property": "P184"
+      "property": "P185"
     },
     {
-      "source": "Q112812983",
-      "target": "Q58449111",
-      "type": "doctoral_advisor",
+      "source": "Q58449111",
+      "target": "Q112894645",
+      "type": "doctoral_student",
       "provenance": "wikidata",
-      "property": "P184"
+      "property": "P185"
     },
     {
-      "source": "Q112894645",
-      "target": "Q58449111",
-      "type": "doctoral_advisor",
+      "source": "Q58449111",
+      "target": "Q112958467",
+      "type": "doctoral_student",
       "provenance": "wikidata",
-      "property": "P184"
+      "property": "P185"
     },
     {
-      "source": "Q112958467",
-      "target": "Q58449111",
-      "type": "doctoral_advisor",
+      "source": "Q58449111",
+      "target": "Q113109904",
+      "type": "doctoral_student",
       "provenance": "wikidata",
-      "property": "P184"
+      "property": "P185"
     },
     {
-      "source": "Q113109904",
-      "target": "Q58449111",
-      "type": "doctoral_advisor",
+      "source": "Q58449111",
+      "target": "Q113150388",
+      "type": "doctoral_student",
       "provenance": "wikidata",
-      "property": "P184"
+      "property": "P185"
     },
     {
-      "source": "Q113150388",
-      "target": "Q58449111",
-      "type": "doctoral_advisor",
+      "source": "Q58449111",
+      "target": "Q113196064",
+      "type": "doctoral_student",
       "provenance": "wikidata",
-      "property": "P184"
+      "property": "P185"
     },
     {
-      "source": "Q113196064",
-      "target": "Q58449111",
-      "type": "doctoral_advisor",
+      "source": "Q58449111",
+      "target": "Q134284198",
+      "type": "doctoral_student",
       "provenance": "wikidata",
-      "property": "P184"
-    },
-    {
-      "source": "Q134284198",
-      "target": "Q58449111",
-      "type": "doctoral_advisor",
-      "provenance": "wikidata",
-      "property": "P184"
+      "property": "P185"
     },
     {
       "source": "Q131318771",
@@ -2887,5 +2887,159 @@
       "target": "Q487453",
       "shared_field": "Q44455"
     }
-  ]
+  ],
+  "seed_metadata": {
+    "Q1093521": {
+      "qid": "Q1093521",
+      "label": "path dependence",
+      "description": "actions in the present which are constrained by actions in the past",
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 18
+    },
+    "Q519898": {
+      "qid": "Q519898",
+      "label": "Mancur Olson",
+      "description": "American economist (1932–1998)",
+      "birth_year": 1932,
+      "death_year": 1998,
+      "sitelinks": 22
+    },
+    "Q3739250": {
+      "qid": "Q3739250",
+      "label": "Michael Bratman",
+      "description": "American philosopher",
+      "birth_year": 1945,
+      "death_year": null,
+      "sitelinks": 6
+    },
+    "Q2298789": {
+      "qid": "Q2298789",
+      "label": "evolutionary game theory",
+      "description": "application of game theory to evolving populations in biology",
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 16
+    },
+    "Q7382918": {
+      "qid": "Q7382918",
+      "label": "Ruth Chang",
+      "description": "American philosopher",
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 2
+    },
+    "Q108556886": {
+      "qid": "Q108556886",
+      "label": "AUKUS",
+      "description": "military technology partnership between Australia, the United Kingdom and the United States",
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 42
+    },
+    "Q1165392": {
+      "qid": "Q1165392",
+      "label": "restorative justice",
+      "description": "approach to justice where victims and perpetrators mediate a restitution agreement",
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 24
+    },
+    "Q58449111": {
+      "qid": "Q58449111",
+      "label": "Richard Bradley",
+      "description": "South African philosopher",
+      "birth_year": 1964,
+      "death_year": null,
+      "sitelinks": 2
+    },
+    "Q180832": {
+      "qid": "Q180832",
+      "label": "logos",
+      "description": "term in Western philosophy, psychology, rhetoric, and religion",
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 59
+    },
+    "Q206460": {
+      "qid": "Q206460",
+      "label": "Thomas Schelling",
+      "description": "American economist (1921-2016)",
+      "birth_year": 1921,
+      "death_year": 2016,
+      "sitelinks": 63
+    },
+    "Q26090": {
+      "qid": "Q26090",
+      "label": "mechanism design",
+      "description": "field in game theory",
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 22
+    },
+    "Q41155": {
+      "qid": "Q41155",
+      "label": "Heraclitus",
+      "description": "Greek philosopher (late 6th/early 5th-century BC)",
+      "birth_year": -534,
+      "death_year": -470,
+      "sitelinks": 146
+    },
+    "Q171178": {
+      "qid": "Q171178",
+      "label": "Fukushima Daiichi nuclear disaster",
+      "description": "2011 nuclear disaster in Japan",
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 73
+    },
+    "Q583438": {
+      "qid": "Q583438",
+      "label": "Robert Axelrod",
+      "description": "American political scientist (b. 1943)",
+      "birth_year": 1943,
+      "death_year": null,
+      "sitelinks": 25
+    },
+    "Q1971461": {
+      "qid": "Q1971461",
+      "label": "social choice theory",
+      "description": "academic discipline",
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 21
+    },
+    "Q110189381": {
+      "qid": "Q110189381",
+      "label": "Daniel Schmachtenberger",
+      "description": "guest on the Lex Fridman podcast",
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 1
+    },
+    "Q219438": {
+      "qid": "Q219438",
+      "label": "Montreal Protocol",
+      "description": "environmental protocol designed to protect the ozone layer",
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 47
+    },
+    "Q44455": {
+      "qid": "Q44455",
+      "label": "game theory",
+      "description": "branch of mathematics focused on strategic decision making",
+      "birth_year": null,
+      "death_year": null,
+      "sitelinks": 97
+    },
+    "Q153761": {
+      "qid": "Q153761",
+      "label": "Elinor Ostrom",
+      "description": "American political economist (1933-2012)",
+      "birth_year": 1933,
+      "death_year": 2012,
+      "sitelinks": 93
+    }
+  }
 }

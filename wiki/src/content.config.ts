@@ -5,10 +5,19 @@ const dateLike = z.union([z.string(), z.date()]).transform((v) =>
   v instanceof Date ? v.toISOString().split("T")[0] : v
 )
 
+const yearLike = z.union([z.number().int(), z.string(), z.date()]).transform((v) => {
+  if (v instanceof Date) return v.getFullYear()
+  if (typeof v === "string") {
+    const m = v.match(/^(-?)(\d{1,4})/)
+    return m ? Number(`${m[1]}${m[2]}`) : null
+  }
+  return v
+})
+
 const period = z.object({
-  birth: dateLike.nullable().optional(),
-  death: dateLike.nullable().optional(),
-  flourished: z.string().nullable().optional(),
+  birth: yearLike.nullable().optional(),
+  death: yearLike.nullable().optional(),
+  flourished: z.union([z.number().int(), z.string()]).nullable().optional(),
 })
 
 const linkEntry = z.object({

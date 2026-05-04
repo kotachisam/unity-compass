@@ -3,6 +3,9 @@ title: J. McKenzie Alexander
 type: person
 created: 2026-04-06
 last_updated: 2026-04-10
+period:
+  birth: 1971
+  death: null
 related: ["Evolutionary Game Theory", "Structural Interdependence", "Richard Bradley", "Game Theory", "Value Incommensurability", "Nowak and May 1992", "[[Rorschach Concepts]]", "[[Multifaceted Social Engineering]]"]
 sources: ["Alexander 2007", "Alexander 2023", "Alexander 2024", "Alexander and Skyrms 1999", "Alexander 2000", "Alexander 2021 SEP", "wiki/sources/P1/alexander/alexander-2024-open-society-as-enemy.md"]
 tags: [person, lse, supervisor-target, game-theory, philosophy, evolutionary-game-theory]
