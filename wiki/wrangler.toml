@@ -4,7 +4,6 @@ workers_dev = false
 
 [assets]
 directory = "./dist"
-binding = "ASSETS"
 not_found_handling = "404-page"
 
 [[routes]]
@@ -14,6 +13,3 @@ custom_domain = true
 
 [observability]
 enabled = true
-
-[placement]
-mode = "smart"
