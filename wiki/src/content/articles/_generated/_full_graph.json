@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-04T18:05:01.283Z",
+  "generated": "2026-05-04T18:23:53.904Z",
   "stats": {
     "total_nodes": 67,
     "absorbed_nodes": 33,
@@ -196,7 +196,7 @@
       "label": "J. McKenzie Alexander",
       "type": "person",
       "is_ghost": false,
-      "period_year": null,
+      "period_year": 1971,
       "word_count": 2169,
       "is_stub": false,
       "in_degree": 6,
@@ -268,7 +268,7 @@
       "label": "Heraclitus",
       "type": "person",
       "is_ghost": false,
-      "period_year": -534,
+      "period_year": -535,
       "word_count": 248,
       "is_stub": true,
       "in_degree": 1,

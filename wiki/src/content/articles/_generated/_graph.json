@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-04T18:05:01.212Z",
+  "generated": "2026-05-04T18:23:53.827Z",
   "stats": {
     "nodes": 33,
     "edges": 150,
@@ -190,7 +190,7 @@
       "in_degree": 6,
       "out_degree": 10,
       "wikidata_qid": null,
-      "period_year": null,
+      "period_year": 1971,
       "is_ghost": false
     },
     {
@@ -262,7 +262,7 @@
       "in_degree": 1,
       "out_degree": 3,
       "wikidata_qid": "Q41155",
-      "period_year": null,
+      "period_year": -535,
       "is_ghost": false
     },
     {

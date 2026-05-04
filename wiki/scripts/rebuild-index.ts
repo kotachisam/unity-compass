@@ -84,22 +84,27 @@ function normaliseDate(v: unknown): string {
 }
 
 function periodYear(data: Record<string, unknown>): number | null {
+  if (typeof data.date === "number") return data.date
   if (typeof data.date === "string") {
-    const m = data.date.match(/^(\d{4})/)
+    const m = data.date.match(/^(-?\d{1,4})/)
     if (m) return Number(m[1])
   }
   if (data.date instanceof Date) return data.date.getFullYear()
   const period = data.period as { birth?: unknown; flourished?: unknown } | undefined
-  if (period?.birth) {
+  if (period?.birth != null) {
+    if (typeof period.birth === "number") return period.birth
     if (period.birth instanceof Date) return period.birth.getFullYear()
     if (typeof period.birth === "string") {
       const m = period.birth.match(/^(-?\d{1,4})/)
       if (m) return Number(m[1])
     }
   }
-  if (typeof period?.flourished === "string") {
-    const m = period.flourished.match(/(-?\d{1,4})/)
-    if (m) return Number(m[1])
+  if (period?.flourished != null) {
+    if (typeof period.flourished === "number") return period.flourished
+    if (typeof period.flourished === "string") {
+      const m = period.flourished.match(/(-?\d{1,4})/)
+      if (m) return Number(m[1])
+    }
   }
   return null
 }
