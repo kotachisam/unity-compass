@@ -1,0 +1,174 @@
+import { useEffect, useMemo, useState } from "react"
+import {
+  ReactFlow,
+  Background,
+  type Node,
+  type Edge,
+  type NodeMouseHandler,
+} from "@xyflow/react"
+import "@xyflow/react/dist/style.css"
+
+import { computeLayout, type LayoutNode, type LayoutEdge } from "./graph/layout/in-code-layout"
+import EntityNode, { type EntityNodeData } from "./graph/nodes/EntityNode"
+import { EDGE_COLOURS } from "./graph/styles"
+
+interface GraphNodeRaw {
+  id: string
+  label: string
+  type: string
+  is_ghost: boolean
+  period_year: number | null
+  word_count?: number
+  is_stub?: boolean
+  wikidata_qid?: string | null
+  description?: string
+  sitelinks?: number
+  birth_year?: number | null
+  death_year?: number | null
+}
+
+interface GraphEdgeRaw {
+  source: string
+  target: string
+  type: string
+  provenance: string
+}
+
+interface FullGraph {
+  nodes: GraphNodeRaw[]
+  edges: GraphEdgeRaw[]
+}
+
+const NODE_TYPES = { entity: EntityNode }
+
+interface MiniGraphIslandProps {
+  slug: string
+  radius?: number
+}
+
+export default function MiniGraphIsland({ slug, radius = 1 }: MiniGraphIslandProps) {
+  const [graph, setGraph] = useState<FullGraph | null>(null)
+
+  useEffect(() => {
+    fetch("/_full_graph.json")
+      .then((r) => r.json() as Promise<FullGraph>)
+      .then(setGraph)
+      .catch((e) => console.error("Failed to load mini-graph:", e))
+  }, [])
+
+  const slice = useMemo(() => {
+    if (!graph) return null
+    const adjacency = new Map<string, Set<string>>()
+    for (const e of graph.edges) {
+      if (!adjacency.has(e.source)) adjacency.set(e.source, new Set())
+      if (!adjacency.has(e.target)) adjacency.set(e.target, new Set())
+      adjacency.get(e.source)!.add(e.target)
+      adjacency.get(e.target)!.add(e.source)
+    }
+    const visible = new Set<string>([slug])
+    let frontier = new Set<string>([slug])
+    for (let i = 0; i < radius; i++) {
+      const next = new Set<string>()
+      for (const id of frontier) {
+        for (const neighbour of adjacency.get(id) ?? []) {
+          if (!visible.has(neighbour)) {
+            visible.add(neighbour)
+            next.add(neighbour)
+          }
+        }
+      }
+      frontier = next
+    }
+    const nodes = graph.nodes.filter((n) => visible.has(n.id))
+    const edges = graph.edges.filter((e) => visible.has(e.source) && visible.has(e.target))
+    return { nodes, edges }
+  }, [graph, slug, radius])
+
+  const layout = useMemo(() => {
+    if (!slice) return null
+    const layoutNodes: LayoutNode[] = slice.nodes.map((n) => ({
+      id: n.id,
+      type: n.type,
+      is_ghost: n.is_ghost,
+      period_year: n.period_year,
+      birth_year: n.birth_year,
+      death_year: n.death_year,
+    }))
+    const layoutEdges: LayoutEdge[] = slice.edges.map((e) => ({ source: e.source, target: e.target }))
+    return computeLayout(layoutNodes, layoutEdges)
+  }, [slice])
+
+  const { rfNodes, rfEdges } = useMemo(() => {
+    if (!slice || !layout) return { rfNodes: [] as Node[], rfEdges: [] as Edge[] }
+    const rfNodes: Node[] = slice.nodes.map((n) => {
+      const pos = layout.positions[n.id]
+      const isCentre = n.id === slug
+      const data: EntityNodeData = {
+        label: n.label,
+        type: n.type,
+        is_ghost: n.is_ghost,
+        is_stub: n.is_stub,
+        word_count: n.word_count,
+        position_provenance: pos?.position_provenance,
+        effective_year: pos?.effective_year,
+        description: n.description,
+      }
+      return {
+        id: n.id,
+        type: "entity",
+        position: { x: pos?.x ?? 0, y: pos?.y ?? 0 },
+        data: data as unknown as Record<string, unknown>,
+        style: isCentre ? { boxShadow: "0 0 0 3px rgba(16, 185, 129, 0.4)" } : undefined,
+      }
+    })
+    const rfEdges: Edge[] = slice.edges.map((e, i) => ({
+      id: `e${i}`,
+      source: e.source,
+      target: e.target,
+      type: "default",
+      style: {
+        stroke: EDGE_COLOURS[e.type] ?? "#cbd5e1",
+        strokeWidth: 1.4,
+        strokeDasharray: e.provenance === "wikidata" ? "5 3" : e.provenance === "derived" ? "2 2" : undefined,
+        opacity: 0.6,
+      },
+    }))
+    return { rfNodes, rfEdges }
+  }, [slice, layout, slug])
+
+  const onNodeClick: NodeMouseHandler = (_, node) => {
+    const raw = slice?.nodes.find((n) => n.id === node.id)
+    if (!raw) return
+    if (raw.is_ghost) {
+      window.open(`https://www.wikidata.org/wiki/${raw.id}`, "_blank")
+    } else if (raw.id !== slug) {
+      window.location.href = `/wiki/${raw.id}`
+    }
+  }
+
+  if (!slice || !layout) return <div style={{ padding: 16, color: "#9ca3af", fontSize: 13 }}>Loading neighbourhood…</div>
+  if (slice.nodes.length <= 1) {
+    return <div style={{ padding: 16, color: "#9ca3af", fontSize: 13 }}>No connected neighbours yet.</div>
+  }
+
+  return (
+    <div style={{ width: "100%", height: 380, border: "1px solid #e5e7eb", borderRadius: 6, overflow: "hidden", background: "#fafafa" }}>
+      <ReactFlow
+        nodes={rfNodes}
+        edges={rfEdges}
+        nodeTypes={NODE_TYPES}
+        onNodeClick={onNodeClick}
+        fitView
+        fitViewOptions={{ padding: 0.15 }}
+        minZoom={0.3}
+        maxZoom={2}
+        proOptions={{ hideAttribution: true }}
+        nodesDraggable={false}
+        panOnDrag
+        zoomOnScroll={false}
+      >
+        <Background gap={30} size={1} color="#e5e7eb" />
+      </ReactFlow>
+    </div>
+  )
+}

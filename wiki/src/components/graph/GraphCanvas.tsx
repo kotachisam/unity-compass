@@ -95,54 +95,67 @@ export default function GraphCanvas() {
     return computeLayout(layoutNodes, layoutEdges)
   }, [graph])
 
-  const { rfNodes, rfEdges } = useMemo(() => {
-    if (!graph || !layout) return { rfNodes: [] as Node[], rfEdges: [] as Edge[] }
+  const visibleNodeIds = useMemo(() => {
+    if (!graph || !layout) return new Set<string>()
+    return new Set(
+      graph.nodes
+        .filter((n) => {
+          if (!showGhosts && n.is_ghost) return false
+          const pos = layout.positions[n.id]
+          if (!showInferred && pos?.position_provenance === "inferred") return false
+          return true
+        })
+        .map((n) => n.id)
+    )
+  }, [graph, layout, showGhosts, showInferred])
 
-    const oneHopNeighbours = new Set<string>()
-    if (hoveredId) {
-      for (const e of graph.edges) {
-        if (e.source === hoveredId) oneHopNeighbours.add(e.target)
-        if (e.target === hoveredId) oneHopNeighbours.add(e.source)
-      }
-      oneHopNeighbours.add(hoveredId)
+  const rfNodes = useMemo<Node[]>(() => {
+    if (!graph || !layout) return []
+    return graph.nodes
+      .filter((n) => visibleNodeIds.has(n.id))
+      .map((n) => {
+        const pos = layout.positions[n.id]
+        const data: EntityNodeData = {
+          label: n.label,
+          type: n.type,
+          is_ghost: n.is_ghost,
+          is_stub: n.is_stub,
+          word_count: n.word_count,
+          position_provenance: pos?.position_provenance,
+          effective_year: pos?.effective_year,
+          description: n.description,
+        }
+        return {
+          id: n.id,
+          type: "entity",
+          position: { x: pos?.x ?? 0, y: pos?.y ?? 0 },
+          data: data as unknown as Record<string, unknown>,
+        }
+      })
+  }, [graph, layout, visibleNodeIds])
+
+  const oneHopNeighbours = useMemo(() => {
+    const set = new Set<string>()
+    if (!hoveredId || !graph) return set
+    for (const e of graph.edges) {
+      if (e.source === hoveredId) set.add(e.target)
+      if (e.target === hoveredId) set.add(e.source)
     }
+    set.add(hoveredId)
+    return set
+  }, [hoveredId, graph])
 
-    const visibleNodes = graph.nodes.filter((n) => {
-      if (!showGhosts && n.is_ghost) return false
-      const pos = layout.positions[n.id]
-      if (!showInferred && pos?.position_provenance === "inferred") return false
-      return true
-    })
-
-    const visibleNodeIds = new Set(visibleNodes.map((n) => n.id))
-
-    const rfNodes: Node[] = visibleNodes.map((n) => {
-      const pos = layout.positions[n.id]
-      const dimmed = hoveredId !== null && !oneHopNeighbours.has(n.id)
-      const data: EntityNodeData = {
-        label: n.label,
-        type: n.type,
-        is_ghost: n.is_ghost,
-        is_stub: n.is_stub,
-        word_count: n.word_count,
-        position_provenance: pos?.position_provenance,
-        effective_year: pos?.effective_year,
-        description: n.description,
-      }
-      return {
-        id: n.id,
-        type: "entity",
-        position: { x: pos?.x ?? 0, y: pos?.y ?? 0 },
-        data: data as unknown as Record<string, unknown>,
-        style: { opacity: dimmed ? 0.25 : 1 },
-      }
-    })
-
-    const rfEdges: Edge[] = graph.edges
+  const rfEdges = useMemo<Edge[]>(() => {
+    if (!graph) return []
+    return graph.edges
       .filter((e) => enabledEdges.has(e.type))
       .filter((e) => visibleNodeIds.has(e.source) && visibleNodeIds.has(e.target))
       .map((e, i) => {
-        const dimmed = hoveredId !== null && !(oneHopNeighbours.has(e.source) && oneHopNeighbours.has(e.target))
+        const isHighlighted =
+          hoveredId !== null &&
+          oneHopNeighbours.has(e.source) &&
+          oneHopNeighbours.has(e.target)
+        const isDimmed = hoveredId !== null && !isHighlighted
         const colour = EDGE_COLOURS[e.type] ?? "#cbd5e1"
         return {
           id: `e${i}`,
@@ -152,15 +165,14 @@ export default function GraphCanvas() {
           animated: false,
           style: {
             stroke: colour,
-            strokeWidth: e.provenance === "absorbed" ? 1.4 : 1,
-            strokeDasharray: e.provenance === "wikidata" ? "5 3" : e.provenance === "derived" ? "2 2" : undefined,
-            opacity: dimmed ? 0.1 : 0.6,
+            strokeWidth: isHighlighted ? 2 : e.provenance === "absorbed" ? 1.4 : 1,
+            strokeDasharray:
+              e.provenance === "wikidata" ? "5 3" : e.provenance === "derived" ? "2 2" : undefined,
+            opacity: isDimmed ? 0.08 : isHighlighted ? 0.95 : 0.6,
           },
         }
       })
-
-    return { rfNodes, rfEdges }
-  }, [graph, layout, hoveredId, enabledEdges, showInferred, showGhosts])
+  }, [graph, enabledEdges, visibleNodeIds, hoveredId, oneHopNeighbours])
 
   const onNodeClick: NodeMouseHandler = (_, node) => {
     const raw = graph?.nodes.find((n) => n.id === node.id)

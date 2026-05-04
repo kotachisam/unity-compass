@@ -1,5 +1,6 @@
 ---
 import Layout from "@/layouts/Layout.astro"
+import MiniGraphIsland from "@/components/MiniGraphIsland"
 import { getAllArticles, getArticleBySlug, getBacklinks } from "@/lib/articles"
 import { extractHeadings, resolveWikilinks } from "@/lib/wikilinks"
 import { slugify } from "@/lib/utils"
@@ -91,11 +92,19 @@ const sourceRefs = getSourceReferencesForArticle(slug!, stubs)
       {article.data.tags.length > 0 && (
         <div class="wiki-categories">
           <span>Categories:</span>
-          {article.data.tags.map((tag) => (
+          {article.data.tags.map((tag: string) => (
             <a href={`/search?q=${encodeURIComponent(tag)}`}>{tag}</a>
           ))}
         </div>
       )}
+
+      <section class="wiki-mini-graph" style="margin-top: 32px;">
+        <h3 id="neighbourhood">Neighbourhood</h3>
+        <p style="color: var(--wiki-border); font-size: 13px; margin-bottom: 12px;">
+          1-hop neighbourhood from this article. Click another node to navigate. Click a Wikidata ghost (dashed) to open it externally.
+        </p>
+        <MiniGraphIsland client:visible slug={slug!} radius={1} />
+      </section>
     </article>
 
     <aside class="wiki-right-sidebar">
@@ -128,7 +137,7 @@ const sourceRefs = getSourceReferencesForArticle(slug!, stubs)
         <details class="wiki-aside-section" open>
           <summary>Related <span class="wiki-aside-count">{article.data.related.length}</span></summary>
           <ul class="wiki-aside-list">
-            {article.data.related.map((r) => (
+            {article.data.related.map((r: string) => (
               <li>
                 <a href={`/wiki/${slugify(r)}`}>{r}</a>
               </li>
@@ -141,7 +150,7 @@ const sourceRefs = getSourceReferencesForArticle(slug!, stubs)
         <details class="wiki-aside-section">
           <summary>Sources <span class="wiki-aside-count">{article.data.sources.length}</span></summary>
           <ul class="wiki-aside-list wiki-aside-list-mono">
-            {article.data.sources.map((s) => (
+            {article.data.sources.map((s: string) => (
               <li>{s}</li>
             ))}
           </ul>

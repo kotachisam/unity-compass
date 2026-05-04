@@ -13,9 +13,7 @@
     "wikidata:apply": "bun run scripts/apply-qids.ts",
     "wikidata:fetch": "bun run scripts/fetch-wikidata.ts",
     "graph:merge": "bun run scripts/merge-graph.ts",
-    "search:build": "bun run scripts/build-search-index.ts",
-    "next:dev": "next dev --webpack",
-    "next:build": "next build"
+    "deploy": "bun run build && bunx wrangler deploy"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
@@ -35,16 +33,10 @@
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@tailwindcss/vite": "^4",
-    "@types/d3": "^7.4.3",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "d3": "^7.9.0",
-    "next": "16.2.2",
     "pagefind": "^1.5.2",
-    "react-markdown": "^10.1.0",
-    "remark": "^15.0.1",
-    "remark-gfm": "^4.0.1",
     "tailwindcss": "^4",
     "typescript": "^5"
   },

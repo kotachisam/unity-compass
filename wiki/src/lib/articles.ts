@@ -5,7 +5,7 @@ export type Article = CollectionEntry<"articles">
 
 export async function getAllArticles(): Promise<Article[]> {
   const all = await getCollection("articles")
-  return all.sort((a, b) => a.data.title.localeCompare(b.data.title))
+  return all.sort((a: Article, b: Article) => a.data.title.localeCompare(b.data.title))
 }
 
 export async function getArticlesByType(): Promise<Record<string, Article[]>> {
@@ -40,7 +40,7 @@ export async function getBacklinks(slug: string): Promise<Article[]> {
     if (
       a.body?.includes(`[[${targetTitle}]]`) ||
       a.body?.includes(`](/wiki/${slug})`) ||
-      a.data.related?.some((r) => slugify(r) === slug)
+      a.data.related?.some((r: string) => slugify(r) === slug)
     ) {
       out.push(a)
     }

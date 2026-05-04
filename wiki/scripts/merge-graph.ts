@@ -146,8 +146,16 @@ const mergedNodes: MergedNode[] = absorbed.nodes.map((n) => {
 
 const absorbedQids = new Set(absorbed.nodes.map((n) => n.wikidata_qid).filter(Boolean) as string[])
 
-for (const g of wikidata.ghost_nodes) {
-  if (absorbedQids.has(g.qid)) continue
+const GHOST_GLOBAL_CAP = 60
+const GHOST_MIN_SITELINKS = 5
+
+const eligibleGhosts = wikidata.ghost_nodes
+  .filter((g) => !absorbedQids.has(g.qid))
+  .filter((g) => g.sitelinks >= GHOST_MIN_SITELINKS)
+  .sort((a, b) => b.sitelinks - a.sitelinks)
+  .slice(0, GHOST_GLOBAL_CAP)
+
+for (const g of eligibleGhosts) {
   mergedNodes.push({
     id: g.qid,
     label: g.label,

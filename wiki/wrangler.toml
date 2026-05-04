@@ -1,0 +1,19 @@
+name = "unity-wiki"
+compatibility_date = "2026-05-04"
+workers_dev = false
+
+[assets]
+directory = "./dist"
+binding = "ASSETS"
+not_found_handling = "404-page"
+
+[[routes]]
+pattern = "unity.samue.lk/*"
+zone_name = "samue.lk"
+custom_domain = true
+
+[observability]
+enabled = true
+
+[placement]
+mode = "smart"

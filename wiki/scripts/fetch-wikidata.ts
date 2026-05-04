@@ -8,7 +8,7 @@ const cacheDir = path.join(__dirname, "..", ".wikidata-cache")
 const SPARQL_URL = "https://query.wikidata.org/sparql"
 const USER_AGENT = "unity-compass-wiki/0.1 (samuelknorton@gmail.com)"
 const CACHE_TTL_MS = 30 * 24 * 60 * 60 * 1000
-const NEIGHBOUR_CAP = 15
+const NEIGHBOUR_CAP = 8
 const REQUEST_DELAY_MS = 500
 
 const PROPERTIES = {
