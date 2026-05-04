@@ -539,28 +539,86 @@ a:focus-visible {
   text-decoration: none;
 }
 
-.wiki-sidebar-category-header {
+.wiki-sidebar-category {
+  margin-bottom: var(--s-1);
+}
+
+.wiki-sidebar-category-card {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: var(--s-1) var(--s-2);
+  padding: var(--s-2) var(--s-3);
+  border: 1px solid transparent;
+  border-radius: var(--r-2);
+  cursor: pointer;
+  transition:
+    background var(--t-fast),
+    border-color var(--t-fast);
+  user-select: none;
 }
 
-.wiki-sidebar-category-header a {
-  padding: 0;
+.wiki-sidebar-category-card:hover {
+  background: var(--shade);
+  border-color: var(--rule);
+}
+
+.wiki-sidebar-category-card:focus-visible {
+  outline: 2px solid var(--gilt);
+  outline-offset: 1px;
+}
+
+.wiki-sidebar-category-card[aria-expanded="true"] {
+  background: var(--paper);
+  border-color: var(--rule);
+}
+
+.wiki-sidebar-category-title {
   font-weight: 500;
   font-size: 0.875rem;
   color: var(--ink) !important;
   letter-spacing: -0.005em;
+  padding: 0 !important;
+  background: transparent !important;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: baseline;
+  gap: var(--s-2);
 }
 
-.wiki-sidebar-category-header a span {
+.wiki-sidebar-category-title:hover {
+  background: transparent !important;
+  color: var(--gilt) !important;
+  text-decoration: underline;
+  text-decoration-color: var(--gilt-faded);
+  text-underline-offset: 0.16em;
+}
+
+.wiki-sidebar-category-title span {
   color: var(--ink-faint);
   font-size: 0.6875rem;
   font-family: var(--font-mono);
   font-weight: 400;
-  margin-left: var(--s-2);
   letter-spacing: 0.05em;
+}
+
+.wiki-sidebar-category-chevron {
+  flex-shrink: 0;
+  color: var(--ink-faint);
+  transition: transform var(--t-fast);
+}
+
+.wiki-sidebar-category-chevron[data-open="true"] {
+  transform: rotate(-180deg);
+  color: var(--gilt);
+}
+
+.wiki-sidebar-category-list {
+  list-style: none;
+  padding: var(--s-1) var(--s-3) var(--s-2);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
 }
 
 .wiki-sidebar-section.collapsed ul {

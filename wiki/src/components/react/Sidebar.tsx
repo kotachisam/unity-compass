@@ -60,23 +60,41 @@ export default function Sidebar({ articlesByType }: SidebarProps) {
           const isOpen = openCategories[type] || false
 
           return (
-            <div key={type} style={{ marginBottom: 4 }}>
-              <div className="wiki-sidebar-category-header">
-                <a href={`/category/${type}`}>
-                  {label}
-                  <span>({articles.length})</span>
-                </a>
-                <button
-                  className="toggle"
-                  type="button"
-                  aria-label={`${isOpen ? "Collapse" : "Expand"} ${label}`}
-                  onClick={() => toggleCategory(type)}
+            <div key={type} className="wiki-sidebar-category">
+              <div
+                className="wiki-sidebar-category-card"
+                role="button"
+                tabIndex={0}
+                aria-expanded={isOpen}
+                onClick={() => toggleCategory(type)}
+                onKeyDown={(e) => {
+                  if (e.key === "Enter" || e.key === " ") {
+                    e.preventDefault()
+                    toggleCategory(type)
+                  }
+                }}
+              >
+                <a
+                  href={`/category/${type}`}
+                  className="wiki-sidebar-category-title"
+                  onClick={(e) => e.stopPropagation()}
                 >
-                  [{isOpen ? "−" : "+"}]
-                </button>
+                  {label}
+                  <span>{articles.length}</span>
+                </a>
+                <svg
+                  className="wiki-sidebar-category-chevron"
+                  data-open={isOpen}
+                  viewBox="0 0 12 12"
+                  width="10"
+                  height="10"
+                  aria-hidden="true"
+                >
+                  <path d="M3 4.5 6 7.5 9 4.5" fill="none" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
               </div>
               {isOpen && (
-                <ul style={{ marginLeft: 4 }}>
+                <ul className="wiki-sidebar-category-list">
                   {articles.map((a) => (
                     <li key={a.slug}>
                       <a href={`/wiki/${a.slug}`}>{a.title}</a>
