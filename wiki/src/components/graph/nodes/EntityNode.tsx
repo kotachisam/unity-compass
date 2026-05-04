@@ -30,13 +30,15 @@ export default function EntityNode({ data }: NodeProps) {
   const style: React.CSSProperties = {
     width: w,
     height: h,
-    background: isGhost ? "#fff" : `${colour}15`,
+    background: isGhost
+      ? "color-mix(in srgb, var(--paper) 92%, transparent)"
+      : `color-mix(in srgb, ${colour} 14%, var(--paper))`,
     border: `${isGhost ? "1.5px dashed" : "2px solid"} ${colour}`,
     borderRadius: 6,
     padding: "6px 10px",
     fontSize: isGhost ? 11 : 12,
     fontStyle: isGhost ? "italic" : "normal",
-    color: isStub ? "#94a3b8" : "#1f2937",
+    color: isStub ? "var(--ink-faint)" : "var(--ink)",
     opacity: isGhost ? 0.78 : 1,
     display: "flex",
     flexDirection: "column",
@@ -45,7 +47,10 @@ export default function EntityNode({ data }: NodeProps) {
     textAlign: "center",
     lineHeight: 1.15,
     cursor: "pointer",
-    boxShadow: isInferred ? "0 0 0 2px rgba(245, 158, 11, 0.25)" : "0 1px 2px rgba(0,0,0,0.05)",
+    boxShadow: isInferred
+      ? "0 0 0 2px var(--halo)"
+      : "0 1px 2px rgba(0,0,0,0.06)",
+    fontFamily: "var(--font-sans)",
   }
 
   return (
@@ -55,7 +60,7 @@ export default function EntityNode({ data }: NodeProps) {
         {d.label}
       </div>
       {d.effective_year !== null && d.effective_year !== undefined && !isGhost && (
-        <div style={{ fontSize: 9, color: "#6b7280", marginTop: 2 }}>
+        <div style={{ fontSize: 9, color: "var(--ink-faint)", marginTop: 2, fontFamily: "var(--font-mono)" }}>
           {d.effective_year}{isInferred ? " ~" : ""}
         </div>
       )}

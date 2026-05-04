@@ -945,21 +945,83 @@ a:focus-visible {
 .wiki-right-sidebar {
   font-family: var(--font-sans);
   font-size: 0.8125rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--s-4) var(--s-5);
+  margin-top: var(--s-7);
+  padding-top: var(--s-5);
+  border-top: 1px solid var(--rule-soft);
+}
+
+.wiki-aside-toolbar {
+  grid-column: 1 / -1;
   display: flex;
-  flex-direction: column;
-  gap: var(--s-3);
-  order: -1;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: var(--s-1);
+}
+
+.wiki-aside-toolbar-label {
+  font-size: 0.6875rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--ink-faint);
+}
+
+.wiki-aside-master-btn {
+  appearance: none;
+  background: transparent;
+  border: 1px solid var(--rule);
+  color: var(--ink-soft);
+  font-family: var(--font-sans);
+  font-size: 0.6875rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: var(--s-1) var(--s-3);
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background var(--t-fast), color var(--t-fast), border-color var(--t-fast);
+}
+
+.wiki-aside-master-btn:hover {
+  background: var(--shade);
+  color: var(--gilt);
+  border-color: var(--ink-faint);
+}
+
+@media (min-width: 1280px) {
+  .wiki-aside-toolbar {
+    margin-bottom: var(--s-2);
+  }
+}
+
+@media (min-width: 640px) {
+  .wiki-right-sidebar {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 900px) {
+  .wiki-right-sidebar {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 @media (min-width: 1280px) {
   .wiki-right-sidebar {
-    order: 1;
+    grid-template-columns: 1fr;
+    gap: var(--s-3);
     position: sticky;
     top: var(--s-5);
     align-self: start;
     max-height: calc(100vh - var(--s-7));
     overflow-y: auto;
     padding-right: var(--s-1);
+    margin-top: 0;
+    padding-top: 0;
+    border-top: none;
   }
 }
 
@@ -1393,6 +1455,53 @@ a:focus-visible {
 
 .wiki-about-box p:last-child {
   margin-bottom: 0;
+}
+
+/* ---- React Flow theme overrides ---- */
+
+.react-flow {
+  background: var(--paper);
+}
+
+.react-flow__background {
+  background: var(--paper);
+}
+
+.react-flow__controls {
+  background: var(--paper-tint);
+  border: 1px solid var(--rule-soft);
+  border-radius: var(--r-2);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+}
+
+.react-flow__controls-button {
+  background: var(--paper-tint) !important;
+  color: var(--ink) !important;
+  border-bottom: 1px solid var(--rule-soft) !important;
+  border-right: none !important;
+}
+
+.react-flow__controls-button:hover {
+  background: var(--paper-deep) !important;
+}
+
+.react-flow__controls-button svg {
+  fill: var(--ink);
+}
+
+.react-flow__minimap {
+  background: var(--paper-tint) !important;
+  border: 1px solid var(--rule-soft);
+  border-radius: var(--r-2);
+}
+
+.react-flow__minimap-mask {
+  fill: var(--shade-strong);
+}
+
+.react-flow__attribution {
+  display: none !important;
 }
 
 /* ---- Graph view shell ---- */

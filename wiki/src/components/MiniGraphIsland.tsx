@@ -118,7 +118,9 @@ export default function MiniGraphIsland({ slug, radius = 1 }: MiniGraphIslandPro
         type: "entity",
         position: { x: pos?.x ?? 0, y: pos?.y ?? 0 },
         data: data as unknown as Record<string, unknown>,
-        style: isCentre ? { boxShadow: "0 0 0 3px rgba(16, 185, 129, 0.4)" } : undefined,
+        style: isCentre
+          ? { boxShadow: "0 0 0 3px var(--halo), 0 0 0 5px var(--gilt)" }
+          : undefined,
       }
     })
     const rfEdges: Edge[] = slice.edges.map((e, i) => ({
@@ -146,20 +148,43 @@ export default function MiniGraphIsland({ slug, radius = 1 }: MiniGraphIslandPro
     }
   }
 
-  if (!slice || !layout) return <div style={{ padding: 16, color: "#9ca3af", fontSize: 13 }}>Loading neighbourhood…</div>
+  if (!slice || !layout) return <div style={{ padding: 16, color: "var(--ink-faint)", fontSize: 13 }}>Loading neighbourhood…</div>
   if (slice.nodes.length <= 1) {
-    return <div style={{ padding: 16, color: "#9ca3af", fontSize: 13 }}>No connected neighbours yet.</div>
+    return <div style={{ padding: 16, color: "var(--ink-faint)", fontSize: 13 }}>No connected neighbours yet.</div>
+  }
+
+  const centrePos = layout.positions[slug]
+  const xs = Object.values(layout.positions).map((p) => p.x)
+  const ys = Object.values(layout.positions).map((p) => p.y)
+  const xSpan = Math.max(1, Math.max(...xs) - Math.min(...xs))
+  const ySpan = Math.max(1, Math.max(...ys) - Math.min(...ys))
+  const containerWidth = 700
+  const containerHeight = 380
+  const zoomFit = Math.min(containerWidth / (xSpan + 200), containerHeight / (ySpan + 200), 1)
+  const zoom = Math.max(0.5, Math.min(0.95, zoomFit))
+  const cx = centrePos?.x ?? 0
+  const cy = centrePos?.y ?? 0
+  const defaultViewport = {
+    x: -cx * zoom + containerWidth / 2,
+    y: -cy * zoom + containerHeight / 2,
+    zoom,
   }
 
   return (
-    <div style={{ width: "100%", height: 380, border: "1px solid #e5e7eb", borderRadius: 6, overflow: "hidden", background: "#fafafa" }}>
+    <div style={{
+      width: "100%",
+      height: 380,
+      border: "1px solid var(--rule-soft)",
+      borderRadius: "var(--r-2)",
+      overflow: "hidden",
+      background: "var(--paper-tint)",
+    }}>
       <ReactFlow
         nodes={rfNodes}
         edges={rfEdges}
         nodeTypes={NODE_TYPES}
         onNodeClick={onNodeClick}
-        fitView
-        fitViewOptions={{ padding: 0.15 }}
+        defaultViewport={defaultViewport}
         minZoom={0.3}
         maxZoom={2}
         proOptions={{ hideAttribution: true }}
