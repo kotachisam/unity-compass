@@ -53,7 +53,7 @@ const sourceRefs = getSourceReferencesForArticle(slug!, stubs)
   </div>
 
   <div class="wiki-content-area">
-    <article class="wiki-article">
+    <article class="wiki-article" data-pagefind-body data-pagefind-meta={`title:${article.data.title}`}>
       <h1>
         {article.data.title}
         <span class="wiki-article-type">({article.data.type})</span>

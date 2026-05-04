@@ -1,0 +1,22 @@
+---
+import "@/styles/globals.css"
+import GraphIsland from "@/components/GraphIsland"
+import SearchModal from "@/components/react/SearchModal"
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Graph view — Unity Compass Wiki</title>
+  </head>
+  <body style="margin: 0; padding: 0; overflow: hidden;">
+    <GraphIsland client:only="react" />
+    <SearchModal client:idle />
+    <a href="/" style="position: fixed; top: 12px; right: 16px; z-index: 100; font-size: 12px; padding: 6px 10px; background: rgba(255,255,255,0.9); border: 1px solid var(--wiki-border-light); border-radius: 4px; text-decoration: none; color: var(--wiki-link); backdrop-filter: blur(4px);">
+      ← Back to wiki
+    </a>
+  </body>
+</html>

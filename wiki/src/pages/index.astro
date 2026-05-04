@@ -1,16 +1,162 @@
 ---
-import GraphIsland from "@/components/GraphIsland"
+import Layout from "@/layouts/Layout.astro"
+import { getAllArticles, getArticlesByType } from "@/lib/articles"
+import { getAllSourcePaths } from "@/lib/repo-scanner"
+import { resolveWikilinks } from "@/lib/wikilinks"
+import { marked } from "marked"
+
+const typeLabels: Record<string, string> = {
+  concept: "Concepts",
+  theory: "Theories",
+  person: "People",
+  work: "Works",
+  event: "Events",
+  "case-study": "Case Studies",
+  source: "Sources",
+  institution: "Institutions",
+}
+
+const typeDescriptions: Record<string, string> = {
+  concept: "Ideas and principles the investigation develops or uses",
+  theory: "Formal frameworks engaged with",
+  person: "Thinkers, researchers and key figures",
+  work: "Books, papers and articles referenced",
+  event: "Real-world events the investigation engages with",
+  "case-study": "Real-world coordination cases examined",
+  source: "Reading notes on primary literature",
+  institution: "Organisations and partnerships",
+}
+
+const allArticles = await getAllArticles()
+const byType = await getArticlesByType()
+const typeCount = Object.keys(byType).length
+const sourceFileCount = getAllSourcePaths().length
+
+const featured =
+  allArticles.find((a) => a.id === "coordination-without-convergence") ?? allArticles[0]
+
+let featuredExcerpt = ""
+if (featured?.body) {
+  const lines = featured.body
+    .split("\n")
+    .filter((l: string) => l.trim() && !l.startsWith("#") && !l.startsWith("---") && !l.startsWith("[^"))
+  featuredExcerpt = lines.slice(0, 3).join("\n\n").slice(0, 400)
+  if (featuredExcerpt.length >= 400) featuredExcerpt += "…"
+}
+const featuredHtml = featuredExcerpt ? await marked.parse(resolveWikilinks(featuredExcerpt)) : ""
+
+const recentlyUpdated = [...allArticles]
+  .filter((a) => a.data.last_updated)
+  .sort((a, b) => String(b.data.last_updated).localeCompare(String(a.data.last_updated)))
+  .slice(0, 5)
 ---
 
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="robots" content="noindex, nofollow" />
-    <title>Unity Compass Wiki — Graph view</title>
-  </head>
-  <body style="margin: 0; padding: 0; overflow: hidden;">
-    <GraphIsland client:only="react" />
-  </body>
-</html>
+<Layout title="Unity Compass Wiki">
+  <div class="wiki-tab-bar">
+    <div class="wiki-tabs-left">
+      <span class="wiki-tab active">Main page</span>
+    </div>
+    <div class="wiki-tabs-right">
+      <a class="wiki-tab" href="/graph">Open graph view →</a>
+    </div>
+  </div>
+
+  <div class="wiki-index">
+    <h1>Welcome to the Unity Compass Wiki</h1>
+    <p class="wiki-index-subtitle">
+      the research knowledge base for coordination across genuine difference
+    </p>
+    <p class="wiki-stats">
+      {allArticles.length} articles across {typeCount} categories
+      {sourceFileCount > 0 && (
+        <> &middot; Indexed from {sourceFileCount} source documents</>
+      )}
+    </p>
+
+    <div class="wiki-index-grid">
+      {featured && (
+        <div class="wiki-box">
+          <div class="wiki-box-header">Featured article</div>
+          <div class="wiki-box-body">
+            <p>
+              <a href={`/wiki/${featured.id}`}><strong>{featured.data.title}</strong></a>
+              {" "}({featured.data.type})
+              {featured.data.description ? ` — ${featured.data.description}` : ""}
+            </p>
+            {featuredHtml && (
+              <div style="margin-top: 8px;" set:html={featuredHtml} />
+            )}
+            <p style="margin-top: 8px;">
+              <a href={`/wiki/${featured.id}`}>Read more →</a>
+            </p>
+          </div>
+        </div>
+      )}
+
+      <div class="wiki-box">
+        <div class="wiki-box-header">Recently updated</div>
+        <div class="wiki-box-body">
+          {recentlyUpdated.length > 0 ? (
+            <ul>
+              {recentlyUpdated.map((a) => (
+                <li>
+                  <a href={`/wiki/${a.id}`}>{a.data.title}</a>
+                  <span style="color: var(--wiki-border); font-size: 11px; margin-left: 6px;">
+                    ({String(a.data.last_updated)})
+                  </span>
+                </li>
+              ))}
+            </ul>
+          ) : (
+            <p>No recently updated articles.</p>
+          )}
+        </div>
+      </div>
+    </div>
+
+    <div class="wiki-index-grid-wide">
+      <div>
+        <div class="wiki-box">
+          <div class="wiki-box-header">Browse by category</div>
+          <div class="wiki-box-body">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+              {Object.entries(typeLabels).map(([type, label]) => {
+                const articles = byType[type]
+                if (!articles || articles.length === 0) return null
+                return (
+                  <div style="padding: 8px 12px; background: var(--wiki-toc-bg); border: 1px solid var(--wiki-border-light);">
+                    <a href={`/category/${type}`} style="font-weight: 600; font-size: 14px;">
+                      {label}
+                    </a>
+                    <span style="color: var(--wiki-border); font-size: 12px; margin-left: 6px;">
+                      ({articles.length})
+                    </span>
+                    <p style="font-size: 12px; color: var(--wiki-border); margin-top: 2px;">
+                      {typeDescriptions[type]}
+                    </p>
+                  </div>
+                )
+              })}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="wiki-about-box">
+          <h3>About</h3>
+          <p>
+            This wiki is the research knowledge base for the Unity Compass
+            investigation into coordination across genuine difference.
+          </p>
+          <p style="margin-top: 8px;">
+            Articles cover the concepts, thinkers, theories, case studies and
+            source materials the investigation engages with. Use the
+            <a href="/graph">graph view</a> to navigate by intellectual lineage,
+            or browse by category above.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>
