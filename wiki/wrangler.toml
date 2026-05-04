@@ -7,7 +7,7 @@ directory = "./dist"
 not_found_handling = "404-page"
 
 [[routes]]
-pattern = "unity.samue.lk/*"
+pattern = "unity.samue.lk"
 zone_name = "samue.lk"
 custom_domain = true
 
