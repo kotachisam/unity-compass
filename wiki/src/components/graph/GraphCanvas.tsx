@@ -68,6 +68,18 @@ export default function GraphCanvas() {
   const [showGhosts, setShowGhosts] = useState(true)
   const [enabledEdges, setEnabledEdges] = useState<Set<string>>(new Set())
   const [hoveredId, setHoveredId] = useState<string | null>(null)
+  const [asideOpen, setAsideOpen] = useState(() => {
+    if (typeof window === "undefined") return true
+    return window.matchMedia("(min-width: 1024px)").matches
+  })
+
+  useEffect(() => {
+    if (typeof window === "undefined") return
+    const mq = window.matchMedia("(min-width: 1024px)")
+    const onChange = (e: MediaQueryListEvent) => setAsideOpen(e.matches)
+    mq.addEventListener("change", onChange)
+    return () => mq.removeEventListener("change", onChange)
+  }, [])
 
   useEffect(() => {
     fetch("/_full_graph.json")
@@ -203,26 +215,25 @@ export default function GraphCanvas() {
   const tier2 = allEdgeTypes.filter((t) => !TIER_1_EDGE_TYPES.has(t))
 
   return (
-    <div style={{ width: "100%", height: "100vh", display: "flex" }}>
-      <aside style={{
-        width: 280,
-        borderRight: "1px solid #e5e7eb",
-        background: "#fafafa",
-        padding: 18,
-        fontSize: 13,
-        overflowY: "auto",
-        flexShrink: 0,
-      }}>
-        <h2 style={{ fontSize: 16, fontWeight: 600, marginTop: 0, marginBottom: 4 }}>Graph view</h2>
-        <div style={{ color: "#6b7280", marginBottom: 16, fontSize: 12 }}>
-          {graph.stats.absorbed_nodes} absorbed + {graph.stats.ghost_nodes} ghost · {graph.stats.total_edges} edges
+    <div className="graph-shell">
+      <aside className="graph-aside" data-open={asideOpen}>
+        <div className="graph-aside-handle" onClick={() => setAsideOpen(false)}>
+          <span>Filters</span>
+          <span aria-hidden="true">×</span>
         </div>
 
-        <h3 style={{ fontSize: 11, textTransform: "uppercase", color: "#6b7280", margin: "18px 0 8px", letterSpacing: "0.04em" }}>Node visibility</h3>
+        <a href="/" className="graph-aside-back">← Back to wiki</a>
+
+        <h2>Graph view</h2>
+        <p className="graph-stats">
+          {graph.stats.absorbed_nodes} absorbed + {graph.stats.ghost_nodes} ghost · {graph.stats.total_edges} edges
+        </p>
+
+        <h3>Node visibility</h3>
         <Toggle label={`Show Wikidata ghosts (${graph.stats.ghost_nodes})`} on={showGhosts} onChange={setShowGhosts} />
         <Toggle label="Show inferred-position nodes" on={showInferred} onChange={setShowInferred} />
 
-        <h3 style={{ fontSize: 11, textTransform: "uppercase", color: "#6b7280", margin: "18px 0 8px", letterSpacing: "0.04em" }}>Edges (high-signal)</h3>
+        <h3>Edges (high-signal)</h3>
         {tier1.map((t) => (
           <EdgeToggle
             key={t}
@@ -237,7 +248,7 @@ export default function GraphCanvas() {
           />
         ))}
 
-        <h3 style={{ fontSize: 11, textTransform: "uppercase", color: "#6b7280", margin: "18px 0 8px", letterSpacing: "0.04em" }}>Edges (sidekick, off by default)</h3>
+        <h3>Edges (sidekick, off by default)</h3>
         {tier2.map((t) => (
           <EdgeToggle
             key={t}
@@ -252,20 +263,33 @@ export default function GraphCanvas() {
           />
         ))}
 
-        <h3 style={{ fontSize: 11, textTransform: "uppercase", color: "#6b7280", margin: "18px 0 8px", letterSpacing: "0.04em" }}>Type bands</h3>
+        <h3>Type bands</h3>
         {Object.keys(layout.bands).map((t) => (
-          <div key={t} style={{ display: "flex", alignItems: "center", gap: 8, padding: "2px 0" }}>
-            <span style={{
-              width: 10, height: 10, borderRadius: 2,
-              background: TYPE_COLOURS[t] ?? "#888",
-              border: t === "ghost" ? "1px dashed #888" : "none",
-            }} />
+          <div key={t} className="graph-band-row">
+            <span
+              className="graph-band-swatch"
+              style={{
+                background: TYPE_COLOURS[t] ?? "#888",
+                border: t === "ghost" ? "1px dashed currentColor" : "none",
+                opacity: t === "ghost" ? 0.6 : 1,
+              }}
+            />
             <span>{TYPE_LABELS[t] ?? t}</span>
           </div>
         ))}
       </aside>
 
-      <div style={{ flex: 1, height: "100vh" }}>
+      <div className="graph-canvas-wrap">
+        <a href="/" className="graph-back-fab">
+          ← Wiki
+        </a>
+        <button
+          type="button"
+          className="graph-filter-trigger"
+          onClick={() => setAsideOpen((v) => !v)}
+        >
+          {asideOpen ? "Close filters" : "Filters"}
+        </button>
         <ReactFlow
           nodes={rfNodes}
           edges={rfEdges}
@@ -278,7 +302,7 @@ export default function GraphCanvas() {
           maxZoom={3}
           proOptions={{ hideAttribution: true }}
         >
-          <Background gap={50} size={1} color="#e5e7eb" />
+          <Background gap={50} size={1} color="rgba(140, 103, 36, 0.08)" />
           <Controls />
           <MiniMap
             nodeStrokeColor={(n) => {
@@ -291,6 +315,7 @@ export default function GraphCanvas() {
             }}
             pannable
             zoomable
+            style={{ background: "var(--paper-tint)" }}
           />
         </ReactFlow>
       </div>
@@ -300,7 +325,7 @@ export default function GraphCanvas() {
 
 function Toggle({ label, on, onChange }: { label: string; on: boolean; onChange: (v: boolean) => void }) {
   return (
-    <label style={{ display: "flex", alignItems: "center", gap: 8, padding: "5px 0", cursor: "pointer", fontSize: 13 }}>
+    <label className="graph-toggle-row">
       <input type="checkbox" checked={on} onChange={(e) => onChange(e.target.checked)} />
       <span>{label}</span>
     </label>
@@ -309,11 +334,11 @@ function Toggle({ label, on, onChange }: { label: string; on: boolean; onChange:
 
 function EdgeToggle({ type, count, on, onChange }: { type: string; count: number; on: boolean; onChange: (v: boolean) => void }) {
   return (
-    <label style={{ display: "flex", alignItems: "center", gap: 8, padding: "5px 0", cursor: "pointer", fontSize: 13 }}>
+    <label className="graph-toggle-row">
       <input type="checkbox" checked={on} onChange={(e) => onChange(e.target.checked)} />
-      <span style={{ width: 18, height: 3, background: EDGE_COLOURS[type] ?? "#888", borderRadius: 1 }} />
+      <span className="graph-toggle-swatch" style={{ background: EDGE_COLOURS[type] ?? "#888" }} />
       <span style={{ flex: 1 }}>{type}</span>
-      <span style={{ color: "#9ca3af", fontSize: 12 }}>{count}</span>
+      <span className="graph-toggle-count">{count}</span>
     </label>
   )
 }

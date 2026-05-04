@@ -9,7 +9,10 @@ interface Props {
   description?: string
 }
 
-const { title = "Unity Compass Wiki", description = "Research knowledge base for coordination across genuine difference" } = Astro.props
+const {
+  title = "Unity Compass Wiki",
+  description = "Research knowledge base for coordination across genuine difference",
+} = Astro.props
 
 const byType = await getArticlesByType()
 const sidebarData: Record<string, { slug: string; title: string }[]> = {}
@@ -22,13 +25,70 @@ for (const [type, articles] of Object.entries(byType)) {
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <meta name="robots" content="noindex, nofollow" />
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="icon" href="/favicon.ico" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Public+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+    />
+
+    <script is:inline>
+      ;(function () {
+        try {
+          const stored = localStorage.getItem("uc-theme")
+          if (stored === "light" || stored === "dark") {
+            document.documentElement.dataset.theme = stored
+          }
+        } catch (e) {}
+      })()
+    </script>
   </head>
   <body>
+    <div class="wiki-drawer-overlay" data-drawer-close></div>
+
+    <header class="wiki-topbar">
+      <button
+        class="wiki-topbar-icon-btn"
+        type="button"
+        aria-label="Open navigation"
+        data-drawer-open
+      >
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+          <path d="M3 6h18M3 12h18M3 18h18" />
+        </svg>
+      </button>
+      <a href="/" class="wiki-topbar-title">
+        Unity Compass <em>wiki</em>
+      </a>
+      <button
+        class="wiki-topbar-icon-btn"
+        type="button"
+        aria-label="Search"
+        data-search-open
+      >
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+          <circle cx="11" cy="11" r="7" />
+          <path d="m20 20-3-3" />
+        </svg>
+      </button>
+      <button
+        class="wiki-theme-toggle"
+        type="button"
+        aria-label="Toggle theme"
+        data-theme-toggle
+      >
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z" />
+        </svg>
+      </button>
+    </header>
+
     <div class="wiki-outer">
       <Sidebar client:load articlesByType={sidebarData} />
 
@@ -38,10 +98,76 @@ for (const [type, articles] of Object.entries(byType)) {
             <input type="text" name="q" placeholder="Search (⌘K)" />
             <button type="submit">Search</button>
           </form>
+          <button
+            class="wiki-theme-toggle"
+            type="button"
+            aria-label="Toggle theme"
+            data-theme-toggle
+            style="margin-left: 0.75rem;"
+          >
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z" />
+            </svg>
+          </button>
         </div>
         <slot />
       </main>
     </div>
+
     <SearchModal client:idle />
+
+    <script is:inline>
+      ;(function () {
+        const body = document.body
+        const overlay = document.querySelector(".wiki-drawer-overlay")
+        const openBtns = document.querySelectorAll("[data-drawer-open]")
+        const closeBtns = document.querySelectorAll("[data-drawer-close]")
+        const sidebar = document.querySelector(".wiki-sidebar")
+
+        function openDrawer() {
+          body.dataset.drawer = "open"
+        }
+        function closeDrawer() {
+          delete body.dataset.drawer
+        }
+
+        openBtns.forEach((b) => b.addEventListener("click", openDrawer))
+        closeBtns.forEach((b) => b.addEventListener("click", closeDrawer))
+        if (sidebar) {
+          sidebar.addEventListener("click", (e) => {
+            const target = e.target instanceof HTMLElement ? e.target : null
+            if (target && target.closest("a")) closeDrawer()
+          })
+        }
+        document.addEventListener("keydown", (e) => {
+          if (e.key === "Escape") closeDrawer()
+        })
+
+        const themeBtns = document.querySelectorAll("[data-theme-toggle]")
+        themeBtns.forEach((b) =>
+          b.addEventListener("click", () => {
+            const cur = document.documentElement.dataset.theme
+            let next
+            if (cur === "dark") next = "light"
+            else if (cur === "light") next = "dark"
+            else {
+              const sysDark = window.matchMedia("(prefers-color-scheme: dark)").matches
+              next = sysDark ? "light" : "dark"
+            }
+            document.documentElement.dataset.theme = next
+            try {
+              localStorage.setItem("uc-theme", next)
+            } catch (e) {}
+          })
+        )
+
+        document.querySelectorAll("[data-search-open]").forEach((b) =>
+          b.addEventListener("click", () => {
+            const ev = new KeyboardEvent("keydown", { key: "k", metaKey: true, bubbles: true })
+            window.dispatchEvent(ev)
+          })
+        )
+      })()
+    </script>
   </body>
 </html>

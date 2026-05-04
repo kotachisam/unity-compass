@@ -25,9 +25,9 @@ export default function Sidebar({ articlesByType }: SidebarProps) {
   }
 
   return (
-    <nav className="wiki-sidebar">
+    <nav className="wiki-sidebar" aria-label="Wiki navigation">
       <div className="wiki-sidebar-logo">
-        <a href="/" style={{ textDecoration: "none", color: "inherit" }}>
+        <a href="/">
           <div className="wiki-logo-circle">UC</div>
           <h1>Unity Compass</h1>
           <p>The Research Wiki</p>
@@ -37,12 +37,13 @@ export default function Sidebar({ articlesByType }: SidebarProps) {
       <div className={`wiki-sidebar-section ${navOpen ? "" : "collapsed"}`}>
         <div className="wiki-sidebar-section-header">
           <span>Navigation</span>
-          <button className="toggle" onClick={() => setNavOpen(!navOpen)}>
+          <button className="toggle" type="button" onClick={() => setNavOpen(!navOpen)}>
             [{navOpen ? "hide" : "show"}]
           </button>
         </div>
         <ul>
           <li><a href="/">Main page</a></li>
+          <li><a href="/graph">Graph view</a></li>
           <li><a href="/wiki/random">Random article</a></li>
           <li><a href="/search">Search</a></li>
         </ul>
@@ -59,18 +60,17 @@ export default function Sidebar({ articlesByType }: SidebarProps) {
           const isOpen = openCategories[type] || false
 
           return (
-            <div key={type} style={{ marginBottom: 2 }}>
-              <div className="wiki-sidebar-category-header" style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                <a href={`/category/${type}`} style={{ fontWeight: 500, fontSize: 12 }}>
+            <div key={type} style={{ marginBottom: 4 }}>
+              <div className="wiki-sidebar-category-header">
+                <a href={`/category/${type}`}>
                   {label}
-                  <span style={{ color: "var(--wiki-border)", fontWeight: 400, marginLeft: 4 }}>
-                    ({articles.length})
-                  </span>
+                  <span>({articles.length})</span>
                 </a>
                 <button
                   className="toggle"
+                  type="button"
+                  aria-label={`${isOpen ? "Collapse" : "Expand"} ${label}`}
                   onClick={() => toggleCategory(type)}
-                  style={{ fontSize: 10, background: "none", border: "none", color: "var(--wiki-link)", cursor: "pointer", padding: 0 }}
                 >
                   [{isOpen ? "−" : "+"}]
                 </button>
