@@ -4,6 +4,7 @@ import mdx from "@astrojs/mdx"
 import tailwindcss from "@tailwindcss/vite"
 import rehypeSlug from "rehype-slug"
 import rehypeAutolinkHeadings from "rehype-autolink-headings"
+import remarkWikilinks from "./src/lib/remark-wikilinks"
 
 export default defineConfig({
   site: "https://unity.samue.lk",
@@ -24,6 +25,7 @@ export default defineConfig({
   markdown: {
     gfm: true,
     smartypants: false,
+    remarkPlugins: [remarkWikilinks],
     rehypePlugins: [
       rehypeSlug,
       [rehypeAutolinkHeadings, { behavior: "wrap" }],

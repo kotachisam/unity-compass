@@ -2,7 +2,7 @@
 import Layout from "@/layouts/Layout.astro"
 import MiniGraphIsland from "@/components/MiniGraphIsland"
 import { getAllArticles, getArticleBySlug, getBacklinks } from "@/lib/articles"
-import { extractHeadings, resolveWikilinks } from "@/lib/wikilinks"
+import { extractHeadings } from "@/lib/wikilinks"
 import { slugify } from "@/lib/utils"
 import { getSourceReferencesForArticle } from "@/lib/repo-scanner"
 import { render } from "astro:content"
@@ -23,12 +23,7 @@ if (!article) {
   return Astro.redirect("/404")
 }
 
-const articleWithLinks = {
-  ...article,
-  body: resolveWikilinks(article.body ?? ""),
-}
-
-const { Content } = await render(articleWithLinks)
+const { Content } = await render(article)
 const headings = extractHeadings(article.body ?? "")
 const backlinks = await getBacklinks(slug!)
 const sourceRefs = getSourceReferencesForArticle(slug!, stubs)
