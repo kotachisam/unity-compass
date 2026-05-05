@@ -1266,23 +1266,73 @@ a:focus-visible {
 
 /* ---- Backlinks, source refs, categories ---- */
 
-.wiki-backlinks,
-.wiki-source-refs {
-  margin-top: var(--s-7);
-  padding-top: var(--s-5);
+.wiki-collapsible {
+  margin-top: var(--s-5);
+  padding-top: var(--s-4);
   border-top: 1px solid var(--rule-soft);
   font-family: var(--font-sans);
 }
 
-.wiki-backlinks h3,
-.wiki-source-refs h3 {
+.wiki-collapsible > summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: baseline;
+  gap: var(--s-2);
   font-family: var(--font-sans);
   font-size: 0.6875rem;
   letter-spacing: 0.16em;
   text-transform: uppercase;
   font-weight: 600;
   color: var(--ink-faint);
-  margin: 0 0 var(--s-3);
+  user-select: none;
+  transition: color var(--t-fast);
+}
+
+.wiki-collapsible > summary::-webkit-details-marker {
+  display: none;
+}
+
+.wiki-collapsible > summary::marker {
+  content: "";
+}
+
+.wiki-collapsible > summary::before {
+  content: "+";
+  display: inline-block;
+  width: 0.75rem;
+  font-weight: 400;
+  color: var(--ink-faint);
+  transition: transform var(--t-fast);
+}
+
+.wiki-collapsible[open] > summary::before {
+  content: "−";
+}
+
+.wiki-collapsible > summary:hover {
+  color: var(--ink-soft);
+}
+
+.wiki-collapsible-count {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--ink-faint);
+  font-weight: 400;
+}
+
+.wiki-collapsible[open] > ul {
+  margin-top: var(--s-3);
+}
+
+.wiki-collapsible-muted {
+  opacity: 0.7;
+}
+
+.wiki-collapsible-muted > summary {
+  font-size: 0.625rem;
 }
 
 .wiki-backlinks ul,
@@ -1317,6 +1367,12 @@ a:focus-visible {
 .wiki-backlinks a,
 .wiki-source-refs a {
   text-decoration: none;
+}
+
+.wiki-backlink-type {
+  color: var(--ink-faint);
+  font-size: 0.75rem;
+  margin-left: var(--s-1);
 }
 
 .source-path {

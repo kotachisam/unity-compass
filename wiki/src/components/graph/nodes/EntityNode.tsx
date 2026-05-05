@@ -13,9 +13,9 @@ export interface EntityNodeData {
 }
 
 const SIZE_BY_DEGREE = (wc?: number) => {
-  if (typeof wc !== "number") return { w: 130, h: 44 }
-  const scale = Math.min(1.4, Math.max(0.85, Math.sqrt(wc) / 30))
-  return { w: Math.round(130 * scale), h: Math.round(44 * scale) }
+  if (typeof wc !== "number") return { w: 110, h: 80 }
+  const scale = Math.min(1.3, Math.max(0.9, Math.sqrt(wc) / 30))
+  return { w: Math.round(110 * scale), h: Math.round(80 * scale) }
 }
 
 export default function EntityNode({ data }: NodeProps) {
@@ -25,7 +25,7 @@ export default function EntityNode({ data }: NodeProps) {
   const isInferred = d.position_provenance === "inferred"
   const isStub = d.is_stub === true
 
-  const { w, h } = isGhost ? { w: 110, h: 36 } : SIZE_BY_DEGREE(d.word_count)
+  const { w, h } = isGhost ? { w: 96, h: 64 } : SIZE_BY_DEGREE(d.word_count)
 
   const style: React.CSSProperties = {
     width: w,
@@ -56,7 +56,18 @@ export default function EntityNode({ data }: NodeProps) {
   return (
     <div style={style} title={d.description ?? d.label}>
       <Handle type="target" position={Position.Top} style={{ opacity: 0 }} />
-      <div style={{ fontWeight: 500, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap", width: "100%" }}>
+      <div
+        style={{
+          fontWeight: 500,
+          width: "100%",
+          overflow: "hidden",
+          display: "-webkit-box",
+          WebkitLineClamp: 3,
+          WebkitBoxOrient: "vertical",
+          wordBreak: "break-word",
+          hyphens: "auto",
+        }}
+      >
         {d.label}
       </div>
       {d.effective_year !== null && d.effective_year !== undefined && !isGhost && (

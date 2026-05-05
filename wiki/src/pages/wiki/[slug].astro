@@ -56,34 +56,6 @@ const sourceRefs = getSourceReferencesForArticle(slug!, stubs)
 
       <Content />
 
-      {backlinks.length > 0 && (
-        <div class="wiki-backlinks">
-          <h3 id="what-links-here">What links here</h3>
-          <ul>
-            {backlinks.map((b) => (
-              <li>
-                <a href={`/wiki/${b.id}`}>{b.data.title}</a>
-                <span style="color: var(--wiki-border); font-size: 12px; margin-left: 6px;">({b.data.type})</span>
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
-
-      {sourceRefs.length > 0 && (
-        <div class="wiki-source-refs">
-          <h3 id="referenced-in-source-documents">Referenced in source documents</h3>
-          <ul>
-            {sourceRefs.map((ref) => (
-              <li>
-                <a href={`/source/${ref.path}`}>{ref.title}</a>
-                <span class="source-path"> ({ref.path})</span>
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
-
       {article.data.tags.length > 0 && (
         <div class="wiki-categories">
           <span>Categories:</span>
@@ -93,13 +65,47 @@ const sourceRefs = getSourceReferencesForArticle(slug!, stubs)
         </div>
       )}
 
-      <section class="wiki-mini-graph" style="margin-top: 32px;">
+      <section class="wiki-mini-graph">
         <h3 id="neighbourhood">Neighbourhood</h3>
-        <p style="color: var(--wiki-border); font-size: 13px; margin-bottom: 12px;">
+        <p>
           1-hop neighbourhood from this article. Click another node to navigate. Click a Wikidata ghost (dashed) to open it externally.
         </p>
         <MiniGraphIsland client:visible slug={slug!} radius={1} />
       </section>
+
+      {backlinks.length > 0 && (
+        <details class="wiki-backlinks wiki-collapsible" id="what-links-here">
+          <summary>
+            <span class="wiki-collapsible-label">What links here</span>
+            <span class="wiki-collapsible-count">{backlinks.length}</span>
+          </summary>
+          <ul>
+            {backlinks.map((b) => (
+              <li>
+                <a href={`/wiki/${b.id}`}>{b.data.title}</a>
+                <span class="wiki-backlink-type">({b.data.type})</span>
+              </li>
+            ))}
+          </ul>
+        </details>
+      )}
+
+      {sourceRefs.length > 0 && (
+        <details class="wiki-source-refs wiki-collapsible wiki-collapsible-muted" id="referenced-in-source-documents">
+          <summary>
+            <span class="wiki-collapsible-label">Referenced in source documents</span>
+            <span class="wiki-collapsible-count">{sourceRefs.length}</span>
+          </summary>
+          <ul>
+            {sourceRefs.map((ref) => (
+              <li>
+                <a href={`/source/${ref.path}`}>{ref.title}</a>
+                <span class="source-path"> ({ref.path})</span>
+              </li>
+            ))}
+          </ul>
+        </details>
+      )}
     </article>
 
     <aside class="wiki-right-sidebar" data-aside>
@@ -204,6 +210,20 @@ const sourceRefs = getSourceReferencesForArticle(slug!, stubs)
       )
 
       syncLabel()
+    })()
+
+    ;(function () {
+      function openDetailsFromHash() {
+        const hash = window.location.hash.slice(1)
+        if (!hash) return
+        const target = document.getElementById(hash)
+        if (target && target.tagName === "DETAILS") {
+          target.open = true
+          target.scrollIntoView({ behavior: "smooth", block: "start" })
+        }
+      }
+      window.addEventListener("hashchange", openDetailsFromHash)
+      openDetailsFromHash()
     })()
   </script>
 </Layout>

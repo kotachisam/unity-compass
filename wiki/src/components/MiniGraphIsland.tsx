@@ -47,8 +47,8 @@ interface MiniGraphIslandProps {
   radius?: number
 }
 
-const NODE_W = 150
-const NODE_H = 50
+const NODE_W = 110
+const NODE_H = 80
 const FRAME_HEIGHT = 380
 
 export default function MiniGraphIsland({ slug, radius = 1 }: MiniGraphIslandProps) {

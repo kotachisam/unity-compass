@@ -21,8 +21,8 @@ export interface PositionedNode {
 }
 
 const TYPE_ORDER = ["person", "concept", "theory", "work", "event", "case-study", "institution", "source", "ghost"]
-const NODE_WIDTH = 150
-const NODE_HEIGHT = 50
+const NODE_WIDTH = 110
+const NODE_HEIGHT = 80
 const X_OVERLAP_PAD = 14
 const Y_OVERLAP_PAD = 10
 const ROW_STEP = NODE_HEIGHT + Y_OVERLAP_PAD
