@@ -22,6 +22,11 @@
 - Overclaim what you've built vs what you're proposing to build
 
 ---
+## Intro - Part 2 (chopped)
+
+When n agents must coordinate on a joint outcome, the SET of joint outcomes they navigate can itself exhibit parity, in that no agent's evaluation dominates the others' and the outcomes are bidirectionally related across agents. Many real-world coordination cases, one example of which is the trilateral defence agreement AUKUS (considering the UK, USA and Australia as agents) meet these conditions. Chang has confirmed that the structural extension is "a paradigmatic case of parity" (personal communication, 2026). 
+
+This essay makes the case that the structural extension of parity to collective coordination is a well-formed and tractable research direction. It shows that the gap between Chang's individual-level apparatus and the collective case is real and not a category error, identifies what a formal treatment would need to deliver and gestures at the kind of machinery (partial orderings over structural position-vectors) that could plausibly handle it. The stakes lie in coordination domains where standard game-theoretic foundations fail because no common payoff structure can be constructed.
 
 ## S1 — Chang on Parity (~650 words)
 
