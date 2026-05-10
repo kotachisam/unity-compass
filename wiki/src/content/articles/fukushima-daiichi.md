@@ -22,6 +22,7 @@ description: >-
   modes. Information distortion, regulatory capture, path dependence and the
   suppression of situated judgment.
 wikidata_qid: Q171178
+date: 2011-03-11
 ---
 
 The **Fukushima Daiichi** nuclear disaster (March 2011) resulted from a magnitude 9.0 earthquake and subsequent tsunami overwhelming a nuclear power station whose sea wall was inadequate for the threat. The Kurokawa Report concluded that the disaster was "profoundly man-made": the result of institutional failures in oversight, risk communication and regulatory independence.

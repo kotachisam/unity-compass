@@ -20,6 +20,8 @@ description: >-
   the philosophical framework for value incommensurability the investigation
   builds on.
 wikidata_qid: Q7382918
+period:
+  birth: 1963
 ---
 
 **Ruth Chang** is a philosopher specialising in practical reason, value theory and normativity. She is currently Professor of Jurisprudence at the University of Oxford. Her work on hard choices and the concept of parity is foundational to the investigation's treatment of [[Value Incommensurability]].

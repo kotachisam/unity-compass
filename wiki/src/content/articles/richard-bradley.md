@@ -25,6 +25,8 @@ description: >-
   Professor of Philosophy at LSE. Target supervisor for the doctoral research.
   Specialist in decision theory, formal epistemology and social choice.
 wikidata_qid: Q58449111
+period:
+  birth: 1964
 ---
 
 **Richard Bradley** is Professor of Philosophy at the London School of Economics and Political Science. His research focuses on decision theory, formal epistemology, social choice, scientific uncertainty and conditionals.

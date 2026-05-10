@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-04T18:52:39.461Z",
-  "total": 37,
+  "generated": "2026-05-10T19:26:49.067Z",
+  "total": 27,
   "by_kind": {
     "missing_target": [
       {
@@ -22,63 +22,6 @@
         "kind": "missing_target",
         "source": "game-theory",
         "detail": "wikilink [[Value Incommensurability|coordination under value incommensurability]] → value-incommensurability-coordination-under-value-incommensurability (no article)"
-      }
-    ],
-    "qid_without_period": [
-      {
-        "kind": "qid_without_period",
-        "source": "mancur-olson",
-        "detail": "person has wikidata_qid (Q519898) but no period/date — graph layout will rely on build-time backfill or neighbour averaging"
-      },
-      {
-        "kind": "qid_without_period",
-        "source": "michael-bratman",
-        "detail": "person has wikidata_qid (Q3739250) but no period/date — graph layout will rely on build-time backfill or neighbour averaging"
-      },
-      {
-        "kind": "qid_without_period",
-        "source": "ruth-chang",
-        "detail": "person has wikidata_qid (Q7382918) but no period/date — graph layout will rely on build-time backfill or neighbour averaging"
-      },
-      {
-        "kind": "qid_without_period",
-        "source": "aukus",
-        "detail": "case-study has wikidata_qid (Q108556886) but no period/date — graph layout will rely on build-time backfill or neighbour averaging"
-      },
-      {
-        "kind": "qid_without_period",
-        "source": "richard-bradley",
-        "detail": "person has wikidata_qid (Q58449111) but no period/date — graph layout will rely on build-time backfill or neighbour averaging"
-      },
-      {
-        "kind": "qid_without_period",
-        "source": "thomas-schelling",
-        "detail": "person has wikidata_qid (Q206460) but no period/date — graph layout will rely on build-time backfill or neighbour averaging"
-      },
-      {
-        "kind": "qid_without_period",
-        "source": "fukushima-daiichi",
-        "detail": "case-study has wikidata_qid (Q171178) but no period/date — graph layout will rely on build-time backfill or neighbour averaging"
-      },
-      {
-        "kind": "qid_without_period",
-        "source": "robert-axelrod",
-        "detail": "person has wikidata_qid (Q583438) but no period/date — graph layout will rely on build-time backfill or neighbour averaging"
-      },
-      {
-        "kind": "qid_without_period",
-        "source": "daniel-schmachtenberger",
-        "detail": "person has wikidata_qid (Q110189381) but no period/date — graph layout will rely on build-time backfill or neighbour averaging"
-      },
-      {
-        "kind": "qid_without_period",
-        "source": "montreal-protocol",
-        "detail": "case-study has wikidata_qid (Q219438) but no period/date — graph layout will rely on build-time backfill or neighbour averaging"
-      },
-      {
-        "kind": "qid_without_period",
-        "source": "elinor-ostrom",
-        "detail": "person has wikidata_qid (Q153761) but no period/date — graph layout will rely on build-time backfill or neighbour averaging"
       }
     ],
     "unlinked_related": [
@@ -191,6 +134,13 @@
         "kind": "unlinked_related",
         "source": "elinor-ostrom",
         "detail": "related entry \"Evolutionary Game Theory\" has no body wikilink or typed link — consider adding to links:"
+      }
+    ],
+    "qid_without_period": [
+      {
+        "kind": "qid_without_period",
+        "source": "daniel-schmachtenberger",
+        "detail": "person has wikidata_qid (Q110189381) but no period/date — graph layout will rely on build-time backfill or neighbour averaging"
       }
     ]
   }

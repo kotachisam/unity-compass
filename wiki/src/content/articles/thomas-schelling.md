@@ -21,6 +21,9 @@ description: >-
   coordination can emerge through structural salience without shared values or
   communication.
 wikidata_qid: Q206460
+period:
+  birth: 1921
+  death: 2016
 ---
 
 **Thomas Schelling** (1921-2016) was an American economist and Nobel laureate whose [*The Strategy of Conflict*](https://www.hup.harvard.edu/books/9780674840317) (1960) introduced the concept of focal points to coordination theory.

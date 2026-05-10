@@ -22,6 +22,7 @@ description: >-
   and the investigation's strongest evidence for planetary-scale coordination
   without convergence.
 wikidata_qid: Q219438
+date: 1987-09-16
 ---
 
 The **Montreal Protocol** (1987) coordinated 197 nations to phase out ozone-depleting substances. The ozone layer is measurably recovering. No comparable climate agreement has achieved equivalent results. The investigation treats it as the strongest available evidence that coordination across genuine difference at planetary scale is possible.

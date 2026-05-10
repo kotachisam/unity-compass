@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-04T18:52:39.460Z",
+  "generated": "2026-05-10T19:26:49.066Z",
   "stats": {
     "nodes": 33,
     "edges": 150,
@@ -34,7 +34,7 @@
       "in_degree": 2,
       "out_degree": 3,
       "wikidata_qid": "Q519898",
-      "period_year": null,
+      "period_year": 1932,
       "is_ghost": false
     },
     {
@@ -46,7 +46,7 @@
       "in_degree": 0,
       "out_degree": 3,
       "wikidata_qid": "Q3739250",
-      "period_year": null,
+      "period_year": 1945,
       "is_ghost": false
     },
     {
@@ -82,7 +82,7 @@
       "in_degree": 4,
       "out_degree": 4,
       "wikidata_qid": "Q7382918",
-      "period_year": null,
+      "period_year": 1963,
       "is_ghost": false
     },
     {
@@ -118,7 +118,7 @@
       "in_degree": 6,
       "out_degree": 3,
       "wikidata_qid": "Q108556886",
-      "period_year": null,
+      "period_year": 2021,
       "is_ghost": false
     },
     {
@@ -142,7 +142,7 @@
       "in_degree": 7,
       "out_degree": 7,
       "wikidata_qid": "Q58449111",
-      "period_year": null,
+      "period_year": 1964,
       "is_ghost": false
     },
     {
@@ -202,7 +202,7 @@
       "in_degree": 4,
       "out_degree": 5,
       "wikidata_qid": "Q206460",
-      "period_year": null,
+      "period_year": 1921,
       "is_ghost": false
     },
     {
@@ -274,7 +274,7 @@
       "in_degree": 1,
       "out_degree": 2,
       "wikidata_qid": "Q171178",
-      "period_year": null,
+      "period_year": 2011,
       "is_ghost": false
     },
     {
@@ -286,7 +286,7 @@
       "in_degree": 4,
       "out_degree": 5,
       "wikidata_qid": "Q583438",
-      "period_year": null,
+      "period_year": 1943,
       "is_ghost": false
     },
     {
@@ -322,7 +322,7 @@
       "in_degree": 0,
       "out_degree": 4,
       "wikidata_qid": "Q219438",
-      "period_year": null,
+      "period_year": 1987,
       "is_ghost": false
     },
     {
@@ -406,7 +406,7 @@
       "in_degree": 3,
       "out_degree": 3,
       "wikidata_qid": "Q153761",
-      "period_year": null,
+      "period_year": 1933,
       "is_ghost": false
     }
   ],

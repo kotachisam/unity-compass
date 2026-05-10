@@ -19,6 +19,9 @@ description: >-
   Nobel Prize-winning political economist. Her work on commons governance
   provides the most empirically grounded coordination research in existence.
 wikidata_qid: Q153761
+period:
+  birth: 1933
+  death: 2012
 ---
 
 **Elinor Ostrom** (1933-2012) was an American political economist who received the Nobel Memorial Prize in Economic Sciences in 2009 for her work demonstrating that communities can and do successfully manage shared resources without either privatisation or state control.

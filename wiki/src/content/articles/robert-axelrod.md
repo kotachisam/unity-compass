@@ -22,6 +22,8 @@ description: >-
   cooperation are a key reference point the investigation builds on and
   identifies limitations of.
 wikidata_qid: Q583438
+period:
+  birth: 1943
 ---
 
 **Robert Axelrod** is an American political scientist at the University of Michigan whose work on the evolution of cooperation is foundational to the investigation's engagement with [[Evolutionary Game Theory]].

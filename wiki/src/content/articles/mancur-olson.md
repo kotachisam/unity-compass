@@ -19,6 +19,9 @@ description: >-
   produce collective action. His work grounds the investigation's claim that
   value convergence is not sufficient for coordination.
 wikidata_qid: Q519898
+period:
+  birth: 1932
+  death: 1998
 ---
 
 **Mancur Olson** (1932-1998) was an American political economist whose *The Logic of Collective Action* (1965) demonstrated that shared interests do not reliably produce collective coordination.

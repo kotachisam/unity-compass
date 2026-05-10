@@ -22,6 +22,8 @@ description: >-
   structural interdependence can explain why Bratman's conditions succeed when
   they do.
 wikidata_qid: Q3739250
+period:
+  birth: 1945
 ---
 
 **Michael Bratman** is an American philosopher at Stanford University whose work on shared intention and shared cooperative activity provides the primary alternative account of coordination grounding that the investigation positions itself against.
