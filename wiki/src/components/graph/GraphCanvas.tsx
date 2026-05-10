@@ -72,6 +72,30 @@ export default function GraphCanvas() {
     if (typeof window === "undefined") return true
     return window.matchMedia("(min-width: 1024px)").matches
   })
+  const [moreEdgesOpen, setMoreEdgesOpen] = useState(() => {
+    if (typeof window === "undefined") return false
+    return window.localStorage.getItem("graph:moreEdgesOpen") === "true"
+  })
+  const [selectedNodeId, setSelectedNodeId] = useState<string | null>(null)
+
+  useEffect(() => {
+    if (typeof window === "undefined") return
+    window.localStorage.setItem("graph:moreEdgesOpen", String(moreEdgesOpen))
+  }, [moreEdgesOpen])
+
+  useEffect(() => {
+    if (typeof window === "undefined") return
+    function onKey(e: KeyboardEvent) {
+      if (e.key === "Escape") setSelectedNodeId(null)
+    }
+    window.addEventListener("keydown", onKey)
+    return () => window.removeEventListener("keydown", onKey)
+  }, [])
+
+  const selectedNode = useMemo(() => {
+    if (!selectedNodeId || !graph) return null
+    return graph.nodes.find((n) => n.id === selectedNodeId) ?? null
+  }, [selectedNodeId, graph])
 
   useEffect(() => {
     if (typeof window === "undefined") return
@@ -187,13 +211,17 @@ export default function GraphCanvas() {
   }, [graph, enabledEdges, visibleNodeIds, hoveredId, oneHopNeighbours])
 
   const onNodeClick: NodeMouseHandler = (_, node) => {
-    const raw = graph?.nodes.find((n) => n.id === node.id)
-    if (!raw) return
-    if (raw.is_ghost) {
-      window.open(`https://www.wikidata.org/wiki/${raw.id}`, "_blank")
-    } else {
-      window.location.href = `/wiki/${raw.id}`
+    if (selectedNodeId === node.id) {
+      const raw = graph?.nodes.find((n) => n.id === node.id)
+      if (!raw) return
+      if (raw.is_ghost) {
+        window.open(`https://www.wikidata.org/wiki/${raw.id}`, "_blank")
+      } else {
+        window.location.href = `/wiki/${raw.id}`
+      }
+      return
     }
+    setSelectedNodeId(node.id)
   }
 
   if (!graph || !layout) {
@@ -248,8 +276,24 @@ export default function GraphCanvas() {
           />
         ))}
 
-        <h3>Edges (sidekick, off by default)</h3>
-        {tier2.map((t) => (
+        <button
+          type="button"
+          className="graph-aside-disclosure"
+          aria-expanded={moreEdgesOpen}
+          onClick={() => setMoreEdgesOpen((v) => !v)}
+        >
+          <span>More edge types ({tier2.length})</span>
+          <svg
+            className="graph-aside-disclosure-chevron"
+            viewBox="0 0 12 12"
+            width="10"
+            height="10"
+            aria-hidden="true"
+          >
+            <path d="M3 4.5 6 7.5 9 4.5" fill="none" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
+          </svg>
+        </button>
+        {moreEdgesOpen && tier2.map((t) => (
           <EdgeToggle
             key={t}
             type={t}
@@ -294,9 +338,11 @@ export default function GraphCanvas() {
           nodes={rfNodes}
           edges={rfEdges}
           nodeTypes={NODE_TYPES}
+          nodesDraggable={false}
           onNodeClick={onNodeClick}
           onNodeMouseEnter={(_, n) => setHoveredId(n.id)}
           onNodeMouseLeave={() => setHoveredId(null)}
+          onPaneClick={() => setSelectedNodeId(null)}
           defaultViewport={{ x: -medianX * 0.65 + 600, y: -50, zoom: 0.65 }}
           minZoom={0.05}
           maxZoom={3}
@@ -318,7 +364,59 @@ export default function GraphCanvas() {
             style={{ background: "var(--paper-tint)" }}
           />
         </ReactFlow>
+        {selectedNode && (
+          <NodePreview
+            node={selectedNode}
+            year={layout.positions[selectedNode.id]?.effective_year ?? null}
+            onClose={() => setSelectedNodeId(null)}
+          />
+        )}
       </div>
+    </div>
+  )
+}
+
+function NodePreview({
+  node,
+  year,
+  onClose,
+}: {
+  node: GraphNodeRaw
+  year: number | null
+  onClose: () => void
+}) {
+  const typeLabel = TYPE_LABELS[node.is_ghost ? "ghost" : node.type] ?? node.type
+  const href = node.is_ghost
+    ? `https://www.wikidata.org/wiki/${node.id}`
+    : `/wiki/${node.id}`
+  const external = node.is_ghost
+
+  return (
+    <div className="graph-node-preview" role="dialog" aria-label={`${node.label} preview`}>
+      <button
+        type="button"
+        className="graph-node-preview-close"
+        onClick={onClose}
+        aria-label="Close preview"
+      >
+        ×
+      </button>
+      <div className="graph-node-preview-type">{typeLabel}</div>
+      <h3 className="graph-node-preview-title">{node.label}</h3>
+      {year !== null && (
+        <div className="graph-node-preview-year">{year}</div>
+      )}
+      {node.description && (
+        <p className="graph-node-preview-description">{node.description}</p>
+      )}
+      <a
+        className="graph-node-preview-open"
+        href={href}
+        target={external ? "_blank" : undefined}
+        rel={external ? "noopener noreferrer" : undefined}
+      >
+        {external ? "Open on Wikidata →" : "Open article →"}
+      </a>
     </div>
   )
 }
