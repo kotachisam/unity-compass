@@ -33,7 +33,7 @@ This observation both anticipates and challenges the move this essay proposes. T
 
 ## 2 - The Structural Argument
 
-Where standard equilibrium concepts presuppose a complete ordering of outcomes - any two are rankable as better, worse, or equal - the apparatus this section explores assumes only a partial ordering: some pairs are rankable, others are not, and the structure of which pairs are rankable carries information that scalar utilities discard.
+Where standard equilibrium concepts presuppose a complete ordering of outcomes - any two are rankable as better, worse, or equal - the apparatus this section explores assumes only a partial ordering: some pairs are rankable, others are not, and the structure of which pairs are rankable carries information that scalar utilities discard. What is the coordination problem when agents' evaluative commitments don't converge? Two agents share a decsion space. Each can rank some pairs of outcomes, some pairs they cannot rank because the evaluative dimensions on which they evaluate cross the qualitative-difference threshold Chang identified in S1. The agents must nonetheless arrive at joint action. 
 
 Paragraph 1: Frame the coordination problem - agents whose evaluative commitments don't converge. Why this is a distinct problem from individual parity (already done in your bridge from S1) and from social evaluation (where Bradley sits).
 
