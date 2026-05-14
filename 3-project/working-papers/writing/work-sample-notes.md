@@ -1,168 +1,125 @@
-# Writing Sample Reference Notes
-## MPhil/PhD Philosophy — London School of Economics
+# Written Work Sample Drafting Notes
 
-**Primary reader:** J. McKenzie Alexander (evolutionary game theory, coordination problems, structural evolution of social norms)
-**Secondary reader:** Richard Bradley (decision theory under uncertainty, imprecise probabilities, social choice)
-**Committee:** LSE Philosophy department
-
-**Thesis in one sentence:** Parity, as Chang defines it for individual hard choices, extends structurally to collective coordination — and the collective case has emergent properties that require formal machinery neither Chang, Bradley nor Alexander currently provides.
-
-**What the sample must demonstrate:**
-- You can handle analytic philosophy at PhD level
-- You understand Chang's apparatus precisely, not just loosely
-- You see why the collective extension is a genuine philosophical problem, not a category error
-- You know enough about Alexander's and Bradley's frameworks to identify where they help and where they fall short
-- You have a concrete coordination case (AUKUS) that grounds the abstract argument
-
-**What the sample must NOT do:**
-- Deliver the formal apparatus (that's the PhD)
-- Survey Chang's whole corpus
-- Use logos-essay vocabulary (no Heidegger, Tillich, Dreyfus, Capra)
-- Use mathematical notation in S1 (use Chang's own vocabulary: better, worse, equal, on a par)
-- Overclaim what you've built vs what you're proposing to build
-
----
-## Intro - Part 2 (chopped)
-
-When n agents must coordinate on a joint outcome, the SET of joint outcomes they navigate can itself exhibit parity, in that no agent's evaluation dominates the others' and the outcomes are bidirectionally related across agents. Many real-world coordination cases, one example of which is the trilateral defence agreement AUKUS (considering the UK, USA and Australia as agents) meet these conditions. Chang has confirmed that the structural extension is "a paradigmatic case of parity" (personal communication, 2026). 
-
-This essay makes the case that the structural extension of parity to collective coordination is a well-formed and tractable research direction. It shows that the gap between Chang's individual-level apparatus and the collective case is real and not a category error, identifies what a formal treatment would need to deliver and gestures at the kind of machinery (partial orderings over structural position-vectors) that could plausibly handle it. The stakes lie in coordination domains where standard game-theoretic foundations fail because no common payoff structure can be constructed.
-
-## S1 — Chang on Parity (~650 words)
-
-**Purpose:** Show you can reconstruct a major philosopher's argument precisely and concisely.
-
-**Two claims to land:**
-1. Parity as a fourth value relation alongside better/worse/equal
-2. The small-improvement argument that distinguishes parity from vagueness or incomparability
-
-**Structure:**
-- Open with Chang's distinction between hard/easy and big/small choices (you've started this)
-- The three common intuitions about why hard choices feel hard:
-  - (i) Ignorance — we just don't know enough about the options. Chang rejects: even with full information, some choices remain hard
-  - (ii) Incomparability — the options simply can't be compared. Chang rejects: they clearly CAN be compared, we make these choices constantly
-  - (iii) Equality — they're precisely equal. Chang rejects via the small-improvement argument
-- The small-improvement argument: if A and B were exactly equal, then A+ (A with a small improvement) would be better than B. But in genuine hard cases, A+ still doesn't dominate B. Therefore the relation isn't equality. It's something else.
-- That something else is parity. Two items are on a par when they are comparable (not incomparable) but neither is better than the other and they are not exactly equal. They are in the same evaluative neighbourhood but are qualitatively different in ways that resist ranking.
-
-**Key sources:**
-- Chang, "The Possibility of Parity" (2002) — where parity is first argued for
-- Chang, "Hard Choices" (2017) — the accessible presentation with the career-choice examples
-- Check exact dates before submission
-
-**Voice:** Expository, precise, using Chang's vocabulary throughout. No editorial commentary yet. You're demonstrating competence, not originality. Save your own moves for S2.
+Single-axis sample: **commensurability**. The three-axis programme lives in the proposal (`proposals/research-proposal-v4.md`). This file is the working bench for the sample's drafting only.
 
 ---
 
-## S2 — The Individual-to-Collective Gap (~900 words)
+## Claim Summary
 
-**Purpose:** This is the core move of the essay. Argue that collective coordination under parity is a well-formed, structurally distinct problem — not just individual parity happening in multiple heads simultaneously.
+The commensurability assumption — that agents' different values must be commensurable enough for aggregation — is a useful theoretical scaffold but a vastly inaccurate model of coordination as it actually occurs. The structural middle, the territory the assumption fits poorly, is the substantive ground of coordination in many high-stakes cases. The essay makes the case for this claim at sample scale: motivates it by interrogating the modelling presupposition behind the assumption, articulates the criterion any account of the middle would have to meet, illustrates with candidate features drawn from a paradigm case (AUKUS), and replies to the strongest live objection (Sen-adequacy).
 
-**The two-layer extension:**
-- Layer 1: Each agent evaluating a joint outcome may face parity-like options (individual parity applied to collective stakes)
-- Layer 2: The SET of joint outcomes the collective navigates exhibits collective parity — no agent's evaluation dominates the others', the outcomes are bidirectionally related across agents
-
-**The structural distinctness argument (this is what Alexander needs to see):**
-- The collective case has emergent properties that don't reduce to aggregated individual parity
-- When agents with incommensurable evaluations must converge on a joint outcome, the dynamics of convergence are a coordination problem with its own logic
-- This is not just "everyone faces hard choices at the same time" — it's that the collective choice landscape itself exhibits parity-like structure
-- The question is how agents coordinate when no shared ranking exists and none can be constructed
-
-**Engage adjacent thinkers who don't close the gap:**
-- Bradley (2017, "Decision Theory with a Human Face") works on decision-making under ambiguity with imprecise probabilities and social evaluation — but his framework assumes the problem is representable within a single evaluative scheme, even if that scheme is imprecise. He doesn't handle genuine cross-agent incommensurability.
-  - Use the phrase "left for another day" if Bradley himself uses it about the collective case (verify this)
-- Gaus (2021, "The Open Society and Its Complexities") models self-organising normative orders — but commits to cardinal utility which forecloses the parity move entirely. If preferences must be cardinally representable, parity is defined away rather than addressed.
-- Alexander (2007, "The Structural Evolution of Morality") accounts for how coordination norms emerge through evolutionary dynamics — but assumes agents whose preferences can be represented cardinally. The question this essay poses: what happens to that evolutionary dynamic when agents face genuinely incommensurable values, when preferences resist cardinal representation?
-
-**The Chang confirmation:**
-- Place it here, once: Chang has confirmed the structural extension is "a paradigmatic case of parity" (personal communication, 2026)
-- Don't lean on it. Use it as validation that the question is well-formed, not as authority for your specific argument
-
-**Voice:** Argumentative. You're making a case, not surveying literature. Each paragraph should advance the argument, not just report what someone else said.
+The move is **model-adequacy**, not logical falsification. The assumption is conceded as a useful theoretical scaffold. The empirical claim is that it fits reality's coordination challenges poorly where they matter most.
 
 ---
 
-## S3 — What a Formal Treatment Would Need (~700 words)
+## The Cartwright move (the §2-§3 philosophical register)
 
-**Purpose:** Demonstrate you think formally by articulating desiderata, not by delivering a finished framework. Show you know the landscape of existing tools and can identify precisely where they fail.
+The essay's §2-§3 argument operates in the Cartwright lineage (*How the Laws of Physics Lie* 1983; *The Dappled World* 1999): don't attack the theory, interrogate its applicability conditions. Two questions do the work.
 
-**Why existing machinery fails:**
-- Nash equilibria: require complete, transitive preferences and a common payoff matrix. Under parity, preferences are incomplete by definition. Nash can't even be stated.
-- Social welfare functions (Arrow, Sen): aggregate individual rankings into collective rankings. But parity means individual rankings are themselves incomplete. Garbage in, garbage out.
-- Cardinal utility models (Gaus, standard game theory): assume preferences are cardinally representable. Parity is precisely the claim that some evaluative relations resist cardinal representation.
+1. **Why was the scope constrained to something so simplifiable?** The modelling tradition behind game theory and social choice constrained itself to cases admitting well-defined (typically cardinal) preferences. Ask whether that was tractability or faithfulness to the phenomenon. If tractability, the assumption is tracking solvability, not the phenomenon.
+2. **At what stage has the assumption lost relevance to the decisions it purports to model?** The operationalisation question. Give me the cases the model fits and the cases it doesn't. The structural middle is what lies on the other side of that line.
 
-**What the apparatus would need (desiderata, not delivery):**
-- Must accommodate incomplete preference orderings (partial orders, not total orders)
-- Must represent structural positions across agents without collapsing them into a single metric
-- Must define an equilibrium concept that generalises Nash without requiring completeness — something like "no agent can improve their position by unilateral deviation" stated in terms of partial orderings rather than utility maximisation
-- Gesture at direction: partial orderings over structural position-vectors
-- Bradley's imprecise probabilities provide part of the formal language (representing uncertainty without false precision)
-- Alexander's evolutionary dynamics provide part of the convergence mechanism (how agents reach stable coordination without pre-existing agreement)
-- Neither alone is sufficient. The research programme is the integration.
+The questions do not hang. Question 2 has an empirical answer in §3 (AUKUS), and §4 names the territory question 2 opens up. The essay is one extended philosophical question rather than a series of assertions — the right verb register for "make the case for, do not prove."
 
-**Voice:** Technical but accessible. You're showing you can think in formal terms without hiding behind notation. Use words, not symbols. The formalism belongs in the PhD, not the sample.
+**Why not call the modelling assumption a "flaw."** A defender of game theory will say: "well-defined preferences is not a flaw, it is a scope. No theory is obliged to cover cases outside its scope." The Cartwright move sidesteps that fight by asking about applicability conditions rather than judging the theory. The claim is not that the modelling tradition is wrong; the claim is that its modelling presupposition excludes substantive territory, and that the excluded territory is where many real coordination problems sit.
 
 ---
 
-## S4 — Why It Matters (~450 words)
+## The Schelling/Ostrom A+B springboard
 
-**Purpose:** Land the stakes. Make the reader feel why three to four years of investigation is warranted.
+The synthetic move underpinning the broader research direction — and at sample scale, the §5 tertiary objection-reply.
 
-**The general claim:**
-- A large class of real-world coordination problems operate under collective parity conditions
-- We currently lack formal apparatus to theorise them
-- This isn't a gap in abstract philosophy — it's a gap that affects how we understand (and potentially improve) actual governance
+- **Ostrom** showed value convergence is **not sufficient** for coordination. Shared interests plus no good institutions yields tragic commons.
+- **Schelling** showed value convergence is **not necessary** for coordination. Focal points produce coordination across divergent values.
 
-**AUKUS as the concrete case:**
-- Three sovereign nations (UK, USA, Australia) coordinating on nuclear submarine technology transfer
-- Their strategic evaluations are genuinely incommensurable — not just "different priorities" but qualitatively different value structures (post-imperial strategic identity, superpower alliance management, regional security posture)
-- No common payoff matrix can be constructed
-- They are constructing coordination norms in real time, without shared evolutionary history, without cardinal utility alignment, under conditions where the strategic landscape itself is subject to parity
-- This is the kind of case Alexander's framework was built to analyse, extended into territory where his cardinal-preference assumption breaks down
-- You have lived professional experience with this domain (name it briefly, don't overplay it)
+Jointly: value convergence is neither necessary nor sufficient. That leaves a structural middle as the substantive ground of coordination in those cases. Each premise alone is well-rehearsed; the joint move is what opens the space the essay's claim occupies.
 
-**Generalisations (one sentence each):**
-- Climate governance: nations with incommensurable development priorities coordinating on emissions
-- AI regulation: jurisdictions with incommensurable values (innovation vs precaution vs sovereignty) coordinating on governance frameworks
+**For the sample specifically.** §4's candidate features (shared risk topology, procedural commitments) are named after work these two did. The §5 tertiary objection — "Schelling and Ostrom already noticed structural features that ground coordination, you are saying nothing new" — is replied to with a softer citing-move: neither takes up the question of whether the underlying incompleteness in agents' evaluations is **ineliminable**. Schelling works within game theory's well-defined-preferences tradition, which is silent on the question. Ostrom is empirical-institutionalist and positionally agnostic on the value-theoretic substrate. The ineliminability question is what does the work, and that is what the essay's structural-middle framing answers.
 
-**Closing beat:**
-- The research programme is worth pursuing because the problem is both theoretically well-formed and practically urgent
-- What's needed is a formal framework that takes parity seriously at the collective level — and that's what the PhD proposes to build
+Ostrom's positional agnosticism is the springboard, not a defect to attack. The essay extends what they did by adding the philosophical question they did not take up.
 
 ---
 
-## Citation Checklist
+## Citation Map (commensurability axis only)
 
-**Substantive engagement (must appear with argument, not just name-dropped):**
-- [ ] Chang — "The Possibility of Parity" (2002) and/or "Hard Choices" (2017)
-- [ ] Alexander — "The Structural Evolution of Morality" (2007)
-- [ ] Bradley — "Decision Theory with a Human Face" (2017)
+### Claim: "the commensurability assumption is a live position in the literature"
 
-**Supporting references (name + one-line engagement):**
-- [ ] Gaus — "The Open Society and Its Complexities" (2021)
-- [ ] Sen — if relevant, on capability approach or social choice (optional)
+| Position | Source |
+|---|---|
+| Standard utilitarian aggregation | Sidgwick, Mill, modern population ethics (background) |
+| Defended explicitly | Klocksiem "In Defense of the Trichotomy Thesis" (2010); Dorr, Nebel & Zuehl "The Case for Comparability" (*Noûs* 2022) — primary steelman |
+| Implicit in social welfare functions | Arrow *Social Choice and Individual Values* (1951) |
+| Contested at the intra-agent level | Chang *Possibility of Parity* (2002), *Comparativism* (2016); Rabinowicz *Value Relations* (2008); Sen *Maximization and the Act of Choice* (1997); Raz *The Morality of Freedom* (1986); Anderson *Value in Ethics and Economics* (1993); Broome via the vagueness route |
 
-**Explicitly excluded:**
-- Heidegger, Tillich, Dreyfus, Capra, any logos-essay furniture
-- No sources you haven't actually read
+### Claim: "model-adequacy framing is a legitimate philosophical move"
 
-**Verify before submission:**
-- [ ] Exact publication dates for Chang (2002) and Chang (2017)
-- [ ] Bradley's "left for another day" phrasing — does he actually say this? If not, reframe
-- [ ] Alexander (2007) date and whether "The Structural Evolution of Morality" is the right title
-- [ ] Chang personal communication — are you comfortable citing this? Did she say it in writing?
+| Position | Source |
+|---|---|
+| "All models are wrong" tradition | Box & Draper *Empirical Model-Building and Response Surfaces* (1987) |
+| Model criticism in philosophy of science | Cartwright *How the Laws of Physics Lie* (1983); *The Dappled World* (1999) — the lineage for the §2-§3 register |
+| Models in science generally | Frigg & Hartmann SEP "Models in Science"; Frigg & Nguyen *Models and Representation* (2020); Suppes |
+| Use of model criticism in coordination theory specifically | Currently absent — this essay's contribution position |
+
+### Claim: "AUKUS coordinates without commensurability"
+
+| Evidence | Source |
+|---|---|
+| Coordination via structural features, not commensurability | The AUKUS case (operational territory); climate governance regimes as secondary parallel |
+| Disproof of necessity of value convergence | Schelling *The Strategy of Conflict* (1960) Ch. 1 — focal points |
+| Disproof of sufficiency of value convergence | Ostrom *Governing the Commons* (1990); *Understanding Institutional Diversity* (2005) Ch. 1 — IAD framework |
+
+### Claim: "§4 candidate features meet the criterion"
+
+| Feature | Supporting literature |
+|---|---|
+| Shared risk topology | Schelling on mutual deterrence and focal points; Bradley, Frigg & Roussos on confidence under model uncertainty |
+| Procedural commitments | Ostrom on IAD framework and institutional design; Habermas on procedural norms (separating procedural from substantive) |
+
+### Claim: "Sen-adequacy reply"
+
+| Position | Source |
+|---|---|
+| Sen's framework as permissive | Sen 1997 "Maximization and the Act of Choice"; CCSW Ch. 7\*, 8 |
+| Structural-middle thesis as normative-constructive | The essay's own contribution; argued via the AUKUS case |
+| Ineliminability as the distinguishing question | The essay's own contribution; primed by Cartwright lineage in §2 and the §3 case |
 
 ---
 
-## Audience Reminders
+## How this relates to the intra-agent debate
 
-- Alexander wants to see you understand coordination as a structurally distinct domain, not just scaled-up individual choice
-- Bradley wants to see you can handle formal desiderata without hand-waving
-- The committee wants to see you can write analytic philosophy at their standard
-- Nobody expects you to have solved the problem. They expect you to have posed it well.
+The intra-agent trichotomy debate (Chang, Rabinowicz, Sen, Broome, Carlson/Risberg) is parallel evidence that trichotomies in this conceptual family are routinely contested. The essay uses this as foundational background in §1, not as the thesis being extended. Do not get tangled in defending one side at the intra-agent level — the move is at the inter-agent level.
 
-## Process Reminders
+**Brown's challenge** ("does parity do any work that Sen-style maximisation does not already do?") is handled in §5 as the Sen-adequacy press, replied via the normative-ineliminability distinction. The essay does not commit to parity as a specific value relation. The structural-middle claim is about inter-agent coordination ground, not intra-agent value relations.
 
-- Write the ugly draft first. Every section. Don't polish S1 before S2-S4 exist.
-- Total target: ~2700 words
-- The sample is the most important thing on your desk right now. Everything else waits.
+---
+
+## LSE faculty alignment reads (priority for citation)
+
+- **Brown, *Aggregation and Self-Sacrifice*** (Ethics 2022) — primary co-supervisor candidate (PhD Director), must engage
+- **Brown and Wang, review of Andersson and Herlitz**, *Value Incommensurability* (Econ & Phil 2024) — chase via Wang
+- **Wang, *When not to pick*** (2025 Jacobsen Essay Prize) — chase via Wang
+- **Heesen, *The Necessity of Commensuration Bias in Grant Peer Review*** (Ergo 2022) — direct hit on aggregation under incommensurability
+- **Mahtani, *The Objects of Credence*** (OUP 2024) — supervaluationist treatment, library borrow
+- **Bradley, Frigg and Roussos, *Making Confident Decisions with Model Ensembles*** (Phil Sci 2021) — confidence approach; Frigg-as-HoD-ally signal
+
+---
+
+## Structural exemplars (for the sample's shape, not content)
+
+- Francis and Gustafsson 2025, *Stochastic Dominance for Incomplete Preferences* (Analysis) — primary structural model
+- Ben Bradley 2026, *Incommensurability, Conditional Value, and the Procreation Asymmetry* (Analysis) — secondary structural model
+
+---
+
+## Testing checklist
+
+Use during drafting. Record spine-sentence checks, structural-integrity tests, and claims that need verification.
+
+- [ ] After §2 draft: does the DNZ steelman feel like the strongest version of the assumption-defending view? Does the Cartwright-style modelling-presupposition question land as a principled question rather than an assertion of flaw?
+- [ ] After §3 draft: is AUKUS doing evidential work or just illustrative? If illustrative, restructure. Does §3 answer the "at what stage does the simplification lose relevance" question raised in §2?
+- [ ] After §4 draft: are the two candidate features (shared risk topology, procedural commitments) genuinely distinct, or do they collapse into one feature with two names? Are there candidates I have missed worth flagging in passing?
+- [ ] After §5 draft: have I named the strongest objection (Sen-adequacy) at strength, not a weaker one? Has the DNZ-absorption secondary reply got enough room to land? Is the Schelling/Ostrom tertiary citing-move proportionate (one paragraph, not a full reply)?
+- [ ] After §5 draft: does the reply rely on the normative-ineliminability distinction without overclaiming? The structural features do explanatory work *that Sen's permissive framework leaves out* — case-made, not proven.
+- [ ] Final pass: is each citation in the citation map actually deployed in the text, or are some listed as backing that does not appear?
+- [ ] Final pass: is the verb register "make the case for" throughout, or has "prove/establish/demonstrate" crept in?
+- [ ] Final pass: does the essay stand alone? A committee reader who only has the sample (not the proposal) should not feel context is missing.

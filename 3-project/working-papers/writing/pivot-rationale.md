@@ -1,0 +1,220 @@
+# Work Sample Pivot Rationale
+
+Date: 2026-05-13
+Submission deadline: ~2026-05-27 (14 days out)
+Decision: re-architect §1 and §2 from a Chang-centric base to a Sen-and-Rabinowicz base, demoting Chang to a citation rather than the spine.
+
+This document records why that call was made, what evidence drove it, and what risk profile it accepts. It exists so that in 6 days time, jet-lagged in Sydney and second-guessing the rebuild, the reasoning can be re-read rather than re-derived.
+
+## Where the draft began
+
+The starting state of `work-sample.md` was a four-section plan organised around Ruth Chang's parity:
+
+1. Introduction framing coordination among agents with structurally incommensurable evaluations
+2. Chang reconstruction, ~1100 words, walking through the trichotomy refutation and the Small Improvement Argument
+3. The structural argument, an extension of parity to multi-agent settings, paragraph-level sketch only
+4. What the formalisation would require, stub only
+5. Case study: AUKUS Trilateral Agreement, stub only
+
+The central move was to take Chang's parity (a single-agent value relation) and extend it to a multi-agent coordination problem, then sketch a formal apparatus and apply it to a case. Three claims in 4000 words.
+
+## The Alexander conversation diagnostic
+
+The transcript of the meeting with Professor Alexander surfaced three steers, two soft and one hard.
+
+**Soft (a)**: existence of equilibrium concepts under your proposed apparatus is the hard problem. If you cannot show existence or at least defensibly point at where existence would come from, the formalism reads as gestural.
+
+**Soft (b)**: ground in the established literature on value incommensurability before introducing your own machinery. Specifically Levi's *Hard Choices*, Elster, and the body of work on what philosophers have already said about value [in]commensurability.
+
+**Hard (c)**: do not lead with the formal apparatus. Lead with the philosophical problem the apparatus is meant to address.
+
+Alexander did not say "your Chang reading is wrong." He said, in effect, "you've read Chang, fine, but you have not yet shown me that you know the literature in which Chang sits." This was the first signal that the Chang-centric architecture was thinner than it looked.
+
+## The Analysis structural exemplar work
+
+The next move was to find out what a 4000-word *Analysis* paper actually looks like, structurally. Two papers became reference points.
+
+**Ben Bradley 2026, *Incommensurability, Conditional Value, and the Procreation Asymmetry***. Six sections, ~3700 words. Structural pattern:
+
+1. State the contribution in three sentences
+2. Warm-up: dispatch the weakest version of the opposing view
+3. Central move, presented formally
+4. Introduce the steelmanned opposition response
+5. Concede the steelman works (carefully)
+6. Kill the steelman with a decisive counter
+
+This was useful as a rhythm model but Bradley is doing single-agent population ethics, not multi-agent coordination. Different argumentative load. The structural template was useful, the topical relevance was not.
+
+**Tomi Francis and Johan Gustafsson 2025, *Stochastic Dominance for Incomplete Preferences***. Two numbered sections plus a long unnumbered introduction, ~5600 words (advance-online version, would be cut to ~4000 in print). Structural pattern:
+
+1. Long introduction (~1100 words) that sets up the conflict with a concrete worked example, derives the contradiction formally, and signals what each section does
+2. Section 1: rebut the strongest argument for the opposing view, with lowercase subsections handling sub-arguments
+3. Section 2: positive argument for own view, formal apparatus introduced in-section
+
+This is the correct structural model because Francis and Gustafsson are on incomplete preferences, the same conceptual terrain. The intro is itself a section doing argumentative work. Objections are handled inside each numbered section as they arise, not in a separate objections chapter.
+
+The diagnostic this produced for the existing draft: the current Introduction announces a topic rather than stating a contribution. It says "this essay treats parity as a tool with which to investigate a different problem." It does not say "I argue that X, against Y, and show that Z."
+
+## The harder diagnostic, the literature gap
+
+A second-order problem surfaced during the structural exemplar work. The current draft's Section 3 (the structural argument extending parity to collective settings) cannot be written competently without knowledge of how the existing literature encodes value relations into payoff structures in game-theoretic and decision-theoretic frameworks. That literature was not in the draft's bibliography or the author's working knowledge.
+
+Symptom: when asked to name the strongest objection a referee would raise against the central move, the honest answer was "I do not know yet." Objections are not generated by introspection. They are generated by reading the people who would object.
+
+This forced a reading list of five anchor texts:
+
+1. Levi, *Hard Choices* (1986), the canonical text on decision under unresolved value conflict
+2. Sen, *Maximization and the Act of Choice* and *Collective Choice and Social Welfare*, the canonical work on incomplete preferences in social choice
+3. Dorr, Nebel and Zuehl, *The Case for Comparability* (Noûs 2022), the strongest live argument against parity and incomparability
+4. Carlson and Risberg, *In Defense of Value Incomparability* (Noûs 2024), the defence
+5. Broome, *Weighing Lives* / *Weighing Goods*, the vagueness account that competes with parity
+
+Three of these (DNZ, Carlson/Risberg, and a Broome substitute *Is Incommensurability Vagueness?*) were tracked down as OA PDFs during this session.
+
+## The pivot moment
+
+The pivot was triggered by four self-identified problems with the Chang-centric architecture, articulated by the author once the alternatives became visible:
+
+**(a) The undistinguishedness problem.** Gustafsson 2019 proposes "undistinguishedness" as a different fourth value relation, with different formal properties (symmetric, transitive, does not survive small improvements the same way as parity). The Chang-centric draft postulates parity but has no answer to a referee asking "why parity rather than undistinguishedness?" The honest answer was "because I came across Chang first," which is not an answer.
+
+**(b) Rabinowicz versus Chang on generality.** Rabinowicz's fitting-attitudes apparatus (2008) derives a family of value relations from a single mechanism. Chang's parity is one specific point in Rabinowicz's space. For a 4000-word paper, Chang is more compact. For DPhil-scale work, Rabinowicz is a stronger foundation because the framework generates the family of relations rather than postulating one. If the writing sample is meant to signal research seriousness rather than just paper-shipping, Rabinowicz is the better choice despite the word cost.
+
+**(c) Chang's own response not yet read.** Chang 2016, *Parity, Imprecise Comparability and the Repugnant Conclusion*, is Chang's direct response to Rabinowicz and Broome. The author had not yet read it. Building a writing sample on Chang without having read her defence against the strongest objections is a referee gift.
+
+**(d) The Sen-route.** Sen's partial orderings and the maximal-set criterion were built for social choice from day one. The Chang-centric draft tries to lift single-agent machinery up to a collective problem. The Sen-route inverts that: start with collective machinery designed for incomplete orderings, and ask what value-relations vocabulary fits. This is the cleaner architecture, with one critical caveat: Sen's framework treats incompleteness as descriptive ("agents have not finished thinking"), but the writing sample's whole premise depends on incompleteness being ineliminable. So Sen alone is insufficient. Sen plus a commitment to ineliminable 4th-relation phenomena is what the project needs. That commitment can come from Chang, Gustafsson, or Rabinowicz; Rabinowicz is the safest bet because the framework does not require defending one specific relation as the fourth.
+
+The combined verdict: **Sen as the collective-choice foundation, Rabinowicz as the source of the 4th-relation commitment, Chang as a citation pointing to the origin of the parity move.**
+
+There is a side-benefit aligned with the application context. Christian List, co-author of Dietrich and List 2017 (*What Matters and How It Matters*, Philosophical Review), is the head of LSE Philosophy. The reason-based representation framework in that paper is closer to the writing sample's intended formal apparatus than anything in Chang's papers. Building on Sen + Rabinowicz + Dietrich/List signals "I know what is being done at the place I am applying to." This was not the reason for the pivot but it is a free benefit of it.
+
+## Risk profile
+
+The pivot accepts a real cost. Approximately 1100 words of Chang reconstruction in §1 are now scrap, or at best fold-in material. Section 2's paragraph-level plan needs to be re-thought against the new foundation. Sections 3 and 4 were stubs anyway, so the loss there is minimal.
+
+Reading load to support the new architecture: roughly 35 hours across 18 documents over 6-7 days, followed by 6-7 days of drafting, in a 14-day window.
+
+This is intense. Two factors mitigate the risk:
+
+1. **24 hours of uninterrupted flight time on 16 May.** This is a single block large enough to absorb the bulk of the framework reading in one pass, with the cognitive coherence benefits of doing it without interruption.
+2. **An external check-in around Day 8.** Send a draft to Jason for feedback if possible. If not possible, the alternative is to email Alexander or Campbell at the spine-sentence stage rather than at the polished-draft stage.
+
+Two factors compound the risk:
+
+1. **Jet-lag.** Day 5-6 are arrival days. Realistic productive output during jet-lag recovery is lower than baseline. The plan compensates by front-loading reading into the pre-flight window and the flight itself.
+2. **No slack.** If reading runs over by even one day, drafting time compresses to the point where the paper ships without a proper cuts pass.
+
+## The triage rules already committed to
+
+These are documented in `reading-plan.md` and are non-negotiable:
+
+1. **Day-7 stop trigger**: if no first draft by end of day 7, abandon all remaining reading and write
+2. **Day-8 spine test**: one load-bearing sentence per section by end of day 8 or escalate to Alexander/Campbell
+3. **Sacrifice order**: Andersson/Herlitz, then Elson, then Gustafsson 2019, then Schoenfield, then one of DNZ/Carlson-Risberg
+4. **Never cut**: Chang 2016, Sen 1997, Rabinowicz 2008, Levi ch. 5 and 11, Dietrich/List, Francis/Gustafsson structural re-read
+
+## Why this was the right call despite the timing
+
+The alternative was to ship a Chang-centric paper with a hole at (a) the undistinguishedness question, a hole at (b) the Rabinowicz/Broome live debate, and a hole at (c) Chang's own response to those critics. A referee at LSE encountering that paper would have three obvious counter-questions to fire back, none of which the paper could answer.
+
+Shipping with three holes is worse than shipping with one well-defended position. The well-defended position requires the rebuild. The rebuild requires 14 days of disciplined work.
+
+The choice was between a fast-finished thin paper and a slow-finished thicker paper. The slow-finished paper is the one Campbell and Alexander were both, in different language, asking for.
+
+## Frame decision (2026-05-13, late)
+
+After working through the SEP entry and the structural exemplar literature, two candidate frames emerged. Both are defensible. They differ in scope.
+
+**Frame A: limits-vs-middle re-framing.** The value-incommensurability literature is structured around the limits of trichotomy versus incomparability. The substantive territory is the structured middle ground, which becomes visible only when collective coordination is taken seriously. This is a meta-claim about how the field is organised.
+
+**Frame B: collective comparativism.** Chang's comparativism (2016) holds that comparative facts ground rational choice. The thesis is articulated single-agent. Extended to collective settings via Sen's maximisation criterion and Rabinowicz's value-relations framework, the resulting view (collective comparativism) is the right account of rational coordination among agents with structurally non-trichotomous evaluations. Defended against the Arrovian-aggregation objection.
+
+**The split.** Frame B is the writing sample. Frame A is the revised research proposal. The two reinforce each other: Frame B defends one tight version of the extension in 4000 words, demonstrating analytic capability at the level the LSE department expects. Frame A re-frames the field at proposal scope, demonstrating the broader research direction Frame B opens up.
+
+This split is what makes the 14-day timeline survivable. The sample is one bounded move. The bigger ambitions live in the proposal revision, where they belong.
+
+## Brown's challenge and what parity actually does
+
+The sharpest objection a competent referee will raise (specifically, Campbell Brown at LSE, who is now the strongest co-supervisor candidate — see below) is: **does parity do any work that Sen-style maximisation over a quasi-ordering does not already do?**
+
+The honest answer: Sen alone handles *descriptive* incompleteness perfectly well. An agent with an incomplete quasi-ordering can rationally choose via maximisation (pick anything not strictly dominated). If incompleteness is merely the agent's preferences not yet being formed, parity adds nothing.
+
+The work parity does is **normative**, not descriptive. The trichotomy-rejection commitment (whether via Chang's parity, Rabinowicz's fitting-attitudes framework, or Gustafsson's undistinguishedness) makes the claim that some value relations are *structurally non-trichotomous* — that the incompleteness is a feature of the value space, not a deficiency of the agent. Sen is neutral on this. Chang and Rabinowicz are not.
+
+This matters for the collective extension because the project's whole premise depends on incompleteness being ineliminable. If the incompleteness between agents' evaluations is merely epistemic, coordination problems dissolve as agents complete their orderings. The framework presupposes this completion is not possible. That presupposition needs a name and a defence. Pure Sen does not supply it.
+
+**Strategic implication for the sample.** Defend the broader trichotomy-rejection commitment rather than Chang's specific parity. Credit Chang for the most-developed instance, draw on Rabinowicz for the more general framework, avoid committing to parity *as the unique correct fourth relation*. This pre-empts the "why parity rather than undistinguishedness?" question and the Brown maximisation-vs-parity press, in one move.
+
+## The mission stake
+
+The trichotomy thesis is the philosophical foundation of "value convergence as the price of coordination." If the only positive value relations are better, worse, or equal, then agents whose values do not converge must either (a) pretend to converge via aggregation rules that smuggle in commensurability, (b) accept they cannot coordinate, or (c) one side dominates the other. That is the structure of agreement-or-conflict politics.
+
+Rejecting the trichotomy thesis is the philosophical foundation of "coordination without convergence." If some value relations are structurally non-trichotomous, agents can coordinate while preserving genuinely different evaluative commitments. Unity does not require sameness; division is not the necessary alternative to consensus.
+
+Pure Sen does not get there. Sen's maximisation permits choice between incomparable options but does not argue for the normative legitimacy of agents whose values are structurally non-aligned. The parity / Rabinowicz move does that work. Without it, the project is decision-procedure machinery. With it, the project is a philosophical defence of pluralism that is not relativism. That is the load-bearing connection between the academic work and the broader mission stake.
+
+## LSE Philosophy supervisor map (post-scan, 2026-05-13)
+
+After a systematic scan of the LSE Philosophy department roster, the supervisor configuration question is sharper than it initially looked.
+
+### Top candidates
+
+**1. J. McKenzie Alexander** (Professor) — already engaged. Coordination and evolutionary game theory. Primary supervisor on current trajectory.
+
+**2. Campbell Brown** (Associate Professor, PhD Director) — highest formal-core overlap of any LSE faculty. Just supervised Kangyu Wang (2021–2025) on hard choices, picking, and incommensurability — exactly the project's territory. Co-authored Wang's review of Andersson and Herlitz, *Value Incommensurability* (Econ & Phil 2024). Brown's own published corpus includes "Aggregation and Self-Sacrifice" (Ethics 2022), "Is close enough good enough?" (Econ & Phil 2019), "The Significance of Value Additivity" (Erkenntnis 2020). **Strongest co-supervisor candidate. As PhD Director, sees every application.**
+
+**3. Richard Bradley** (Professor) — decision theory, imprecise probabilities, social choice. Already assumed as secondary reader from his 2022 "Impartial Evaluation under Ambiguity" paper, which the original v3 proposal engages.
+
+### Useful but not supervisors
+
+- **Anna Mahtani** (Professor) — supervaluationist treatment of ex ante Pareto and aggregation. Third reader / Arrovian-objection chapter ally.
+- **Remco Heesen** (Associate Professor) — "The Necessity of Commensuration Bias in Grant Peer Review" (Ergo 2022) is a direct hit on aggregation under incommensurability, applied to science.
+- **Weng Kin San** (Assistant Professor) — formal aggregation specialist (Additivism). Defends the orthodoxy the project challenges. Useful adversarial reader.
+- **Jonathan Parry** (Associate Professor) — just war and acting-for-others. AUKUS-chapter consultant only.
+- **Roman Frigg** (Professor, Head of Department) — confidence approach in environmental decision-making, co-developed with Bradley. HoD ally to court, not direct supervisor.
+
+### Off the list
+
+Voorhoeve unavailable for new PhD supervision from September 2025 (took VP/PVC role). Vredenburgh, Rowe, Bright, Oberman, Lewis Ross, all others: no relevant overlap with the formal core.
+
+### Configuration recommendation
+
+The Wang precedent makes **Alexander (primary) + Brown (secondary/co-supervisor)** the strongest configuration. Both are already in the department's active research direction for the project's terrain. Brown brings the value-relations / aggregation expertise that pure Bradley+Alexander pairing lacks. Pitch this in the next Alexander conversation rather than waiting for it to emerge from the application process.
+
+## Ownership move: "collective comparativism"
+
+Comparativism as a meta-thesis ("comparative facts ground rational choice") has multiple occupants: Raz (with nuance), Regan (1997), Broome (via vagueness), DNZ (via trichotomy), Klocksiem (via trichotomy). Chang's specific contribution is the meta-thesis-independent-of-first-order-theory plus admission of parity as a legitimate grounder.
+
+The collective extension is unclaimed. Sen comes closest but stops short of the meta-claim (he provides maximisation as descriptive machinery, not as normative grounding of rational choice in comparison). List/Pettit on group agency ground collective rationality elsewhere. Bratman grounds it in shared intentions. Dietrich/List provide formal apparatus for reasons but not a comparativism-style thesis.
+
+"Collective comparativism" is therefore a name to be introduced, not appropriated. It appears in the spine sentence and the conclusion. Naming the position is half the ownership.
+
+## Assets carried forward from prior planning notes
+
+Three items from the now-deleted `work-sample-notes.md` are worth preserving.
+
+### Your LSE readers
+
+- **Primary reader: J. McKenzie Alexander.** Evolutionary game theory, coordination problems, structural evolution of social norms.
+- **Secondary reader: Richard Bradley** (LSE, not the Ben Bradley at Syracuse who wrote the procreation asymmetry paper used as a structural exemplar earlier in this work). Decision theory under uncertainty, imprecise probabilities, social choice.
+
+The pivot direction maps onto Richard Bradley's stated interests more directly than the Chang-centric plan did. Imprecise probabilities and social choice are the formal-decision-theoretic neighbourhood the pivot moves into. Sen, Levi, Rabinowicz and Dietrich/List are all in or adjacent to Bradley's subfield. Similarly for Alexander: coordination problems among agents with structurally incommensurable evaluations sit closer to his core interest than parity-applied-to-collectives did. The pivot is more LSE-aligned, not less. Re-read this section at Day 5 if second-guessing arrives with the jet-lag.
+
+### The Chang endorsement
+
+Chang has confirmed in personal communication (2026) that the structural extension of parity to collective coordination is "a paradigmatic case of parity." Even with Chang demoted from the spine, this quote belongs in a footnote in the new §2 to signal that the originator of parity herself considers the move well-formed. Do not throw it away in the rebuild.
+
+### Durable sanity check
+
+"Nobody expects you to have solved the problem. They expect you to have posed it well." Useful as a brake on overclaiming in §3 when the formal apparatus starts feeling like it should do more than gesture.
+
+---
+
+## Conversation transcript
+
+The full reasoning trail behind every decision documented above lives in this Claude Code session transcript:
+
+```
+/Users/sam_r/.claude/projects/-Users-sam-r-Developer-personal-uc/497b42df-9621-4d3d-b1b9-356ffc6ed3aa.jsonl
+```
+
+Recorded on 2026-05-13. ~4.2 MB JSONL of the conversation that produced the pivot, the supervisor scan, the 3D spine, the scope-tightening to the commensurability axis only, the verb-register shift from "defend/prove" to "make the case for", and the criterion-plus-illustration reframe for §4. Reference if any of the framing decisions need to be re-derived later.
